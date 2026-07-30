@@ -40,3 +40,30 @@ disable_overscan=1
 ---
 
 Huge thanks to Arya ([@CRImier](https://github.com/CRImier)) for her help during most phases of the design!
+
+---
+
+## Note on this copy (TensorFleet)
+
+This is a **modified copy** of [exentio/koyomi-lvds-hat](https://github.com/exentio/koyomi-lvds-hat),
+redistributed under CERN-OHL-S-2.0. It exists because GitHub would not let us fork the upstream
+repository (`403: You can't fork this repository at this time`), so we could not open a pull request.
+
+**Modification made** (CERN-OHL-S-2.0 §3.3 requires modifications to be identified):
+
+- `Add F.Mask to DLP2ADN121HL4L pads so FL1/FL2 are solderable` — the
+  `Murata_DLP2ADN121HL4L` footprint declared its pads as `(layers "F.Cu" "F.Paste")` with no
+  `"F.Mask"`, so no solder mask openings were generated for FL1/FL2 and all 16 pads were covered by
+  solder mask. Fixed in the library footprint and in both placed instances. Exporting the F.Mask layer
+  before and after gives 197 → 213 flashes: exactly 16 new openings, all at the FL1/FL2 pad
+  coordinates, nothing else changed.
+
+  Found when JLCPCB flagged it during production-file preparation for a batch of these boards. Note
+  that KiCad's DRC does **not** check for missing solder mask openings, so this passes a clean DRC.
+
+Everything else is unmodified upstream work by Exentio. `gerbers/` is upstream's snapshot and has
+**not** been regenerated, so it still reflects the pre-fix state — regenerate from source before
+fabricating.
+
+Upstream author: if you're reading this, the fix is a two-line change and we'd happily send it as a PR
+if forking becomes possible. Thanks for publishing the design.
