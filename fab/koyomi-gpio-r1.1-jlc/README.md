@@ -32,3 +32,25 @@ remain development-only.
 The FFC r1.2 and HDMI r0.1 folders are not alternate release packages and must
 not be uploaded.
 
+## JLCPCB quote audit — 2026-08-10
+
+The package was uploaded as a five-board, two-layer, 1.6 mm, ENIG, two-sided
+Standard PCBA quote with ordinary tented vias and **Confirm Production File**
+enabled.  JLC's Standard PCBA workflow added edge rails, so its quote view
+shows a 75 x 70.5 mm manufacturing panel around the actual 65 x 56.5 mm board.
+
+JLC matched 10 of 12 BOM groups.  The matched parts total USD 19.23 for five
+boards.  The pre-BOM PCB/assembly estimate was USD 20.14, so the incomplete
+quote is at least USD 39.37 before the two shortages and shipping.
+
+The two unresolved groups block the placement/final-quote stages:
+
+- FL1/FL2: `DLP2ADN121HL4L`, JLC `C710576`, 10 pieces required, zero stock.
+  This is an obsolete four-line common-mode choke array; do not substitute a
+  superficially similar four-pad/two-line choke without an electrical and
+  footprint revision.
+- J2: `20374-R30E-31`, JLC `C5311655`, 5 pieces required, zero stock.
+
+This upload is a sourcing/price probe only.  It is not in the shopping cart and
+must not be purchased until both shortages are resolved and JLC's component
+placement view has been checked.
