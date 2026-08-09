@@ -67,3 +67,21 @@ fabricating.
 
 Upstream author: if you're reading this, the fix is a two-line change and we'd happily send it as a PR
 if forking becomes possible. Thanks for publishing the design.
+
+## TensorFleet development variants
+
+This repository is the authoritative home for TensorFleet changes to the Koyomi LCD controller.
+The VAIO P system repository may contain research notes and historical fabrication snapshots, but
+new KiCad source revisions, release packages, renders, and component decisions belong here.
+
+- `variants/koyomi-lvds-hat-ffc-r1.2/` replaces the Raspberry Pi 2x20 header with the exact
+  Hirose FH41-40S-0.5SH(05) / JLCPCB C596805 flex connector used by the compact CM5 carrier.
+- `variants/koyomi-hdmi-lvds-r0.1/` is the imported Exentio HDMI/TFP401 reference at commit
+  `7faa32d`. It is intentionally fabrication-blocked because upstream labels it untested.
+- The planned selectable-input revision will isolate the GPIO/DPI and HDMI/TFP401 sources with
+  mutually exclusive stuffing options. The two buses must never be wired as parallel drivers.
+- The flex contract is straight-through: contact `n` maps to Raspberry Pi physical pin `n` for
+  contacts 1 through 40. Cable continuity must therefore verify 1-to-1 and 40-to-40.
+- r1.2 is a permanent mechanical/interface floorplan, not a fabrication release. Its tracked DRC
+  evidence and verification report keep fabrication blocked until the native four-layer r1.3
+  reroute is complete.
