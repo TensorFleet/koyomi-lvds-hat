@@ -76,6 +76,10 @@ new KiCad source revisions, release packages, renders, and component decisions b
 
 - `variants/koyomi-lvds-hat-ffc-r1.2/` replaces the Raspberry Pi 2x20 header with the exact
   Hirose FH41-40S-0.5SH(05) / JLCPCB C596805 flex connector used by the compact CM5 carrier.
+- `variants/koyomi-hdmi-lvds-r0.1/` is the imported Exentio HDMI/TFP401 reference at commit
+  `7faa32d`. It is intentionally fabrication-blocked because upstream labels it untested.
+- The planned selectable-input revision will isolate the GPIO/DPI and HDMI/TFP401 sources with
+  mutually exclusive stuffing options. The two buses must never be wired as parallel drivers.
 - The flex contract is straight-through: contact `n` maps to Raspberry Pi physical pin `n` for
   contacts 1 through 40. Cable continuity must therefore verify 1-to-1 and 40-to-40.
 - r1.2 is a permanent mechanical/interface floorplan, not a fabrication release. Its tracked DRC
