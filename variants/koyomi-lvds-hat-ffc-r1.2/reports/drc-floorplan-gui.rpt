@@ -1,0 +1,602 @@
+** Drc report for koyomi-lvds-hat.kicad_pcb **
+** Created on 2026-08-09T17:15:31 **
+** Report includes: Errors, Warnings **
+
+** Found 122 DRC violations **
+[shorting_items]: Items shorting two nets (nets GND and D7)
+    Local override; error
+    @(124.7500 mm, 28.0900 mm): Pad 45 [GND] of JFFC1 on F.Cu
+    @(127.2000 mm, 28.7000 mm): Track [D7] on F.Cu, length 3.7000 mm
+[shorting_items]: Items shorting two nets (nets GND and D7)
+    Local override; error
+    @(127.2500 mm, 28.0900 mm): Pad 46 [GND] of JFFC1 on F.Cu
+    @(128.1000 mm, 29.6000 mm): Track [D7] on F.Cu, length 1.2728 mm
+[shorting_items]: Items shorting two nets (nets B3 and GP25)
+    Local override; error
+    @(126.2500 mm, 22.3100 mm): Pad 26 [B3] of JFFC1 on F.Cu
+    @(125.8000 mm, 23.2000 mm): Track [GP25] on F.Cu, length 0.9899 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1650 mm)
+    Rule: netclass 'Default'; error
+    @(125.8000 mm, 23.2000 mm): Via [GP25] on F.Cu - B.Cu
+    @(125.7500 mm, 22.3100 mm): Pad 25 [GND] of JFFC1 on F.Cu
+[shorting_items]: Items shorting two nets (nets B3 and GP25)
+    Local override; error
+    @(126.2500 mm, 22.3100 mm): Pad 26 [B3] of JFFC1 on F.Cu
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(147.1250 mm, 31.2850 mm): Footprint J8
+    @(153.3200 mm, 46.8000 mm): Footprint J6
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(120.2500 mm, 22.3100 mm): Pad 14 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(118.7500 mm, 22.3100 mm): Pad 11 [R1] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(119.7500 mm, 22.3100 mm): Pad 13 [EN] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(116.7500 mm, 22.3100 mm): Pad 7 [B0] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(115.7500 mm, 22.3100 mm): Pad 5 [HSYNC] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(114.7500 mm, 22.3100 mm): Pad 3 [VSYNC] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(122.2500 mm, 22.3100 mm): Pad 18 [SCL] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(122.7500 mm, 22.3100 mm): Pad 19 [G0] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(116.2500 mm, 22.3100 mm): Pad 6 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(117.7500 mm, 22.3100 mm): Pad 9 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(126.2500 mm, 22.3100 mm): Pad 26 [B3] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(119.2500 mm, 22.3100 mm): Pad 12 [R2] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(123.7500 mm, 22.3100 mm): Pad 21 [B5] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(125.2500 mm, 22.3100 mm): Pad 24 [B4] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(124.7500 mm, 22.3100 mm): Pad 23 [G1] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(128.7500 mm, 22.3100 mm): Pad 31 [B2] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(125.7500 mm, 22.3100 mm): Pad 25 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(124.2500 mm, 22.3100 mm): Pad 22 [GP25] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(129.2500 mm, 22.3100 mm): Pad 32 [G2] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(118.2500 mm, 22.3100 mm): Pad 10 [G5] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(117.2500 mm, 22.3100 mm): Pad 8 [G4] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(115.2500 mm, 22.3100 mm): Pad 4 [+5V] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(132.7500 mm, 22.3100 mm): Pad 39 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(133.2500 mm, 22.3100 mm): Pad 40 [R5] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(129.7500 mm, 22.3100 mm): Pad 33 [G3] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(127.2500 mm, 22.3100 mm): Pad 28 [ENABLE] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(127.7500 mm, 22.3100 mm): Pad 29 [B1] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(128.2500 mm, 22.3100 mm): Pad 30 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(126.7500 mm, 22.3100 mm): Pad 27 [CLKIN] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(130.7500 mm, 22.3100 mm): Pad 35 [R3] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(120.7500 mm, 22.3100 mm): Pad 15 [GP22] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(121.2500 mm, 22.3100 mm): Pad 16 [SDA] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(114.2500 mm, 22.3100 mm): Pad 2 [+5V] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(131.7500 mm, 22.3100 mm): Pad 37 [PWM] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(132.2500 mm, 22.3100 mm): Pad 38 [R4] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(123.2500 mm, 22.3100 mm): Pad 20 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(131.2500 mm, 22.3100 mm): Pad 36 [R0] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(121.7500 mm, 22.3100 mm): Pad 17 [+3V3] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(130.2500 mm, 22.3100 mm): Pad 34 [GND] of JFFC1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: board setup constraints edge; error
+    @(94.0000 mm, 22.0000 mm): Segment on Edge.Cuts
+    @(113.7500 mm, 22.3100 mm): Pad 1 [+3V3] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(126.2500 mm, 22.3100 mm): Pad 26 [B3] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(126.7500 mm, 22.3100 mm): Pad 27 [CLKIN] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(127.2500 mm, 22.3100 mm): Pad 28 [ENABLE] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(127.7500 mm, 22.3100 mm): Pad 29 [B1] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(128.2500 mm, 22.3100 mm): Pad 30 [GND] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(128.7500 mm, 22.3100 mm): Pad 31 [B2] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(129.2500 mm, 22.3100 mm): Pad 32 [G2] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(129.7500 mm, 22.3100 mm): Pad 33 [G3] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(130.2500 mm, 22.3100 mm): Pad 34 [GND] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(130.7500 mm, 22.3100 mm): Pad 35 [R3] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(131.2500 mm, 22.3100 mm): Pad 36 [R0] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(131.7500 mm, 22.3100 mm): Pad 37 [PWM] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(132.2500 mm, 22.3100 mm): Pad 38 [R4] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(132.7500 mm, 22.3100 mm): Pad 39 [GND] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(126.5000 mm, 22.5000 mm): Track [GP25] on F.Cu, length 21.2000 mm
+    @(133.2500 mm, 22.3100 mm): Pad 40 [R5] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(125.8000 mm, 23.2000 mm): Track [GP25] on F.Cu, length 0.9899 mm
+    @(126.2500 mm, 22.3100 mm): Pad 26 [B3] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(125.8000 mm, 23.2000 mm): Track [GP25] on F.Cu, length 0.9899 mm
+    @(126.7500 mm, 22.3100 mm): Pad 27 [CLKIN] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(127.2000 mm, 28.7000 mm): Track [D7] on F.Cu, length 3.7000 mm
+    @(124.7500 mm, 28.0900 mm): Pad 45 [GND] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(127.2000 mm, 28.7000 mm): Track [D7] on F.Cu, length 3.7000 mm
+    @(127.2500 mm, 28.0900 mm): Pad 46 [GND] of JFFC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(128.1000 mm, 29.6000 mm): Track [D7] on F.Cu, length 1.2728 mm
+    @(127.2500 mm, 28.0900 mm): Pad 46 [GND] of JFFC1 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(99.3700 mm, 28.7178 mm): Track [+3V3] on B.Cu, length 1.3382 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(119.6900 mm, 28.7178 mm): Track [+3V3] on B.Cu, length 1.8722 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(117.1500 mm, 23.2822 mm): Track [SDA] on B.Cu, length 0.8322 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(119.6900 mm, 23.2822 mm): Track [SCL] on B.Cu, length 0.7922 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(125.8000 mm, 23.2000 mm): Track [GP25] on B.Cu, length 0.9478 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(117.1500 mm, 32.2500 mm): Track [GP22] on B.Cu, length 3.5322 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(99.3600 mm, 23.2822 mm): Track [+5V] on B.Cu, length 2.5400 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(145.0900 mm, 28.7178 mm): Track [PWM] on B.Cu, length 15.8422 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(114.8000 mm, 28.9078 mm): Track [EN] on B.Cu, length 0.2687 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.9000 mm, 29.8000 mm): Track [VSYNC] on B.Cu, length 1.0722 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(104.4500 mm, 32.9500 mm): Track [HSYNC] on B.Cu, length 4.2322 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(106.9900 mm, 30.0100 mm): Track [B0] on B.Cu, length 1.2922 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(106.9900 mm, 23.2822 mm): Track [G4] on B.Cu, length 0.6922 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(109.5300 mm, 23.2822 mm): Track [G5] on B.Cu, length 0.6522 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(112.0700 mm, 28.7178 mm): Track [R1] on B.Cu, length 2.1022 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(112.4822 mm, 23.2822 mm): Track [R2] on B.Cu, length 0.4122 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(122.2000 mm, 28.7478 mm): Track [G0] on B.Cu, length 0.0424 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(124.7700 mm, 31.1700 mm): Track [B5] on B.Cu, length 2.4522 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(127.3100 mm, 29.8600 mm): Track [G1] on B.Cu, length 1.1422 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(125.8000 mm, 24.7922 mm): Track [B4] on B.Cu, length 2.1355 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(126.4000 mm, 26.9000 mm): Track [B3] on B.Cu, length 4.8790 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(132.4000 mm, 28.7278 mm): Track [CLKIN] on B.Cu, length 0.0141 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(132.0178 mm, 23.2822 mm): Track [ENABLE] on B.Cu, length 0.3722 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(134.9300 mm, 28.7178 mm): Track [B1] on B.Cu, length 0.0990 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(137.4700 mm, 28.7178 mm): Track [B2] on B.Cu, length 1.9522 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(138.0822 mm, 23.2822 mm): Track [G2] on B.Cu, length 0.6122 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(140.0000 mm, 28.7278 mm): Track [G3] on B.Cu, length 1.4222 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(142.5000 mm, 38.1000 mm): Track [R3] on B.Cu, length 9.3322 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(141.8356 mm, 23.2822 mm): Track [R0] on B.Cu, length 0.7144 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(145.0900 mm, 23.2822 mm): Track [R4] on B.Cu, length 0.3722 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(146.6000 mm, 23.3000 mm): Track [R5] on B.Cu, length 1.0122 mm
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(113.2575 mm, 49.4000 mm): Footprint C2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(112.7000 mm, 64.7000 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning
+    @(100.5000 mm, 56.5000 mm): Footprint JP1
+[lib_footprint_mismatch]: Footprint 'PinSocket_1x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'
+    Local override; warning
+    @(101.9400 mm, 75.8800 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x06_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(137.9400 mm, 51.7600 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(115.8000 mm, 64.7000 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(113.2375 mm, 52.3000 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(101.6000 mm, 61.9000 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x06_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(153.3200 mm, 69.7000 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x06_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(147.1250 mm, 31.2850 mm): Footprint J8
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x06_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(153.3200 mm, 46.8000 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(105.9375 mm, 70.4000 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning
+    @(106.5000 mm, 56.6500 mm): Footprint JP2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(113.2575 mm, 46.4700 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(100.5000 mm, 48.9000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'
+    Local override; warning
+    @(152.7950 mm, 39.2600 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(118.9000 mm, 64.7000 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(106.5000 mm, 48.9000 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'R_Array_Convex_4x0603' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(104.8500 mm, 33.6000 mm): Footprint RN1
+[lib_footprint_mismatch]: Footprint 'R_Array_Convex_4x0603' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(140.5000 mm, 32.5500 mm): Footprint RN5
+[lib_footprint_mismatch]: Footprint 'R_Array_Convex_4x0603' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(132.0000 mm, 32.1000 mm): Footprint RN4
+[lib_footprint_mismatch]: Footprint 'R_Array_Convex_4x0603' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(113.6000 mm, 33.6000 mm): Footprint RN2
+[lib_footprint_mismatch]: Footprint 'R_Array_Convex_4x0603' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(142.4000 mm, 42.2500 mm): Footprint RN6
+[lib_footprint_mismatch]: Footprint 'R_Array_Convex_4x0603' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(125.2000 mm, 32.1000 mm): Footprint RN3
+[lib_footprint_mismatch]: Footprint 'exentio_blob' does not match copy in library 'exentio_art'
+    Local override; warning
+    @(106.8000 mm, 63.9000 mm): Footprint REF**
+
+** Found 37 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.7500 mm, 22.3100 mm): Pad 17 [+3V3] of JFFC1 on F.Cu
+    @(119.6900 mm, 28.7178 mm): Track [+3V3] on B.Cu, length 1.8722 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.7500 mm, 22.3100 mm): Pad 17 [+3V3] of JFFC1 on F.Cu
+    @(113.7500 mm, 22.3100 mm): Pad 1 [+3V3] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.7500 mm, 21.7500 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(125.7500 mm, 22.3100 mm): Pad 25 [GND] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.2500 mm, 22.3100 mm): Pad 30 [GND] of JFFC1 on F.Cu
+    @(125.7500 mm, 22.3100 mm): Pad 25 [GND] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.2500 mm, 22.3100 mm): Pad 34 [GND] of JFFC1 on F.Cu
+    @(128.2500 mm, 22.3100 mm): Pad 30 [GND] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.7500 mm, 22.3100 mm): Pad 39 [GND] of JFFC1 on F.Cu
+    @(130.2500 mm, 22.3100 mm): Pad 34 [GND] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(90.7500 mm, 21.7500 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(90.7500 mm, 21.7500 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.4000 mm, 23.7000 mm): Track [SDA] on B.Cu, length 1.0000 mm
+    @(121.2500 mm, 22.3100 mm): Pad 16 [SDA] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.2500 mm, 22.3100 mm): Pad 18 [SCL] of JFFC1 on F.Cu
+    @(121.0000 mm, 23.8000 mm): Track [SCL] on B.Cu, length 0.9000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.2500 mm, 22.3100 mm): Pad 22 [GP25] of JFFC1 on F.Cu
+    @(125.8000 mm, 23.2000 mm): Track [GP25] on B.Cu, length 0.9478 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.7500 mm, 22.3100 mm): Pad 15 [GP22] of JFFC1 on F.Cu
+    @(117.1500 mm, 32.2500 mm): Track [GP22] on B.Cu, length 3.5322 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.3600 mm, 23.2822 mm): Track [+5V] on B.Cu, length 2.5400 mm
+    @(114.2500 mm, 22.3100 mm): Pad 2 [+5V] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.2500 mm, 22.3100 mm): Pad 4 [+5V] of JFFC1 on F.Cu
+    @(114.2500 mm, 22.3100 mm): Pad 2 [+5V] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.0900 mm, 28.7178 mm): Track [PWM] on B.Cu, length 15.8422 mm
+    @(131.7500 mm, 22.3100 mm): Pad 37 [PWM] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.7500 mm, 22.3100 mm): Pad 13 [EN] of JFFC1 on F.Cu
+    @(116.5000 mm, 26.4000 mm): Track [EN] on F.Cu, length 0.8485 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.7500 mm, 22.3100 mm): Pad 3 [VSYNC] of JFFC1 on F.Cu
+    @(101.9000 mm, 29.8000 mm): Track [VSYNC] on B.Cu, length 1.0722 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.7500 mm, 22.3100 mm): Pad 5 [HSYNC] of JFFC1 on F.Cu
+    @(104.4500 mm, 32.9500 mm): Track [HSYNC] on B.Cu, length 4.2322 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.7500 mm, 22.3100 mm): Pad 7 [B0] of JFFC1 on F.Cu
+    @(106.9900 mm, 30.0100 mm): Track [B0] on B.Cu, length 1.2922 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(108.2000 mm, 23.8000 mm): Track [G4] on B.Cu, length 6.2000 mm
+    @(117.2500 mm, 22.3100 mm): Pad 8 [G4] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.2500 mm, 22.3100 mm): Pad 10 [G5] of JFFC1 on F.Cu
+    @(110.8000 mm, 23.9000 mm): Track [G5] on B.Cu, length 6.6000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(118.7500 mm, 22.3100 mm): Pad 11 [R1] of JFFC1 on F.Cu
+    @(112.0700 mm, 28.7178 mm): Track [R1] on B.Cu, length 2.1022 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2500 mm, 22.3100 mm): Pad 12 [R2] of JFFC1 on F.Cu
+    @(113.4000 mm, 31.1500 mm): Track [R2] on B.Cu, length 6.9500 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.2000 mm, 28.7478 mm): Track [G0] on B.Cu, length 0.0424 mm
+    @(122.7500 mm, 22.3100 mm): Pad 19 [G0] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.7700 mm, 31.1700 mm): Track [B5] on B.Cu, length 2.4522 mm
+    @(123.7500 mm, 22.3100 mm): Pad 21 [B5] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.3100 mm, 29.8600 mm): Track [G1] on B.Cu, length 1.1422 mm
+    @(124.7500 mm, 22.3100 mm): Pad 23 [G1] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.8000 mm, 24.7922 mm): Track [B4] on B.Cu, length 2.1355 mm
+    @(125.2500 mm, 22.3100 mm): Pad 24 [B4] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.4000 mm, 26.9000 mm): Track [B3] on B.Cu, length 4.8790 mm
+    @(126.2500 mm, 22.3100 mm): Pad 26 [B3] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.7500 mm, 22.3100 mm): Pad 27 [CLKIN] of JFFC1 on F.Cu
+    @(132.4000 mm, 28.7278 mm): Track [CLKIN] on B.Cu, length 0.0141 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.2500 mm, 22.3100 mm): Pad 28 [ENABLE] of JFFC1 on F.Cu
+    @(131.1000 mm, 29.6000 mm): Track [ENABLE] on B.Cu, length 5.4000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.9300 mm, 28.7178 mm): Track [B1] on B.Cu, length 0.0990 mm
+    @(127.7500 mm, 22.3100 mm): Pad 29 [B1] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.4700 mm, 28.7178 mm): Track [B2] on B.Cu, length 1.9522 mm
+    @(128.7500 mm, 22.3100 mm): Pad 31 [B2] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.0822 mm, 23.2822 mm): Track [G2] on B.Cu, length 0.6122 mm
+    @(129.2500 mm, 22.3100 mm): Pad 32 [G2] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.0000 mm, 28.7278 mm): Track [G3] on B.Cu, length 1.4222 mm
+    @(129.7500 mm, 22.3100 mm): Pad 33 [G3] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.5000 mm, 38.1000 mm): Track [R3] on B.Cu, length 9.3322 mm
+    @(130.7500 mm, 22.3100 mm): Pad 35 [R3] of JFFC1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.2500 mm, 22.3100 mm): Pad 36 [R0] of JFFC1 on F.Cu
+    @(141.3000 mm, 30.1500 mm): Track [R0] on B.Cu, length 6.3322 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.2500 mm, 22.3100 mm): Pad 38 [R4] of JFFC1 on F.Cu
+    @(143.8000 mm, 24.2000 mm): Track [R4] on B.Cu, length 6.0500 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.2500 mm, 22.3100 mm): Pad 40 [R5] of JFFC1 on F.Cu
+    @(143.8000 mm, 30.0000 mm): Track [R5] on F.Cu, length 5.8000 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **
