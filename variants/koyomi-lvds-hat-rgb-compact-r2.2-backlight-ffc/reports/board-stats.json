@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "date": "2026-08-11T15:54:34",
+    "generator": "KiCad 10.99.0-2191-g6e8e92d84a",
+    "project": "koyomi-lvds-hat",
+    "board_name": "koyomi-lvds-hat"
+  },
+  "board": {
+    "has_outline": true,
+    "width": "65.0000 mm",
+    "height": "28.2500 mm",
+    "area": "1836.25 mm²",
+    "front_component_density": "33.32",
+    "back_component_density": "6.55",
+    "front_copper_area": "136.612 mm²",
+    "back_copper_area": "23.488 mm²",
+    "min_track_clearance": "2147.4836 mm",
+    "min_track_width": "2147.4836 mm",
+    "min_drill_diameter": "2.7500 mm",
+    "board_thickness": "1.6000 mm",
+    "front_footprint_area": "611.749 mm²",
+    "back_footprint_area": "120.31 mm²",
+    "front_footprint_density": "33.32",
+    "back_footprint_density": "6.55"
+  },
+  "pads": {
+    "through_hole": 0,
+    "smd": 244,
+    "connector": 0,
+    "npth": 4,
+    "castellated": 0,
+    "press_fit": 0
+  },
+  "vias": {
+    "through": 0,
+    "blind": 0,
+    "buried": 0,
+    "micro": 0
+  },
+  "components": {
+    "tht": {
+      "front": 4,
+      "back": 0,
+      "total": 4
+    },
+    "smd": {
+      "front": 21,
+      "back": 0,
+      "total": 21
+    },
+    "unspecified": {
+      "front": 4,
+      "back": 0,
+      "total": 4
+    },
+    "total": {
+      "front": 29,
+      "back": 0,
+      "total": 29
+    }
+  },
+  "drill_holes": [
+    {
+      "count": 4,
+      "shape": "Round",
+      "x_size": "2.7500 mm",
+      "y_size": "2.7500 mm",
+      "plated": false,
+      "source": "Pad",
+      "start_layer": "F.Cu",
+      "stop_layer": "B.Cu"
+    }
+  ]
+}

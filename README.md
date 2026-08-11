@@ -80,3 +80,9 @@ variant README for its exact status and routing gate.
 and interface while moving every fitted SMD component to the front. It is the
 single-side-assembly successor and remains fabrication-closed until routing and
 release verification are complete.
+
+`variants/koyomi-lvds-hat-rgb-compact-r2.2-backlight-ffc/` adds one keyed
+12-contact FFC connector for the complete legacy J5/J6 LCD-backlight harness:
+VCD1–VCD6, VAD, 5 V, ground, PWM, enable, and the preserved unused contact.
+It remains a single-side, half-area floorplan and is still fabrication-closed
+pending native routing and release verification.
