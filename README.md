@@ -75,3 +75,8 @@ fork of the tested RGB/DPI design. It replaces the 2×20 Raspberry Pi header
 with the carrier's 40-contact FH41 FFC, consolidates the system connection into
 one harness, and demonstrates a 65.0 × 28.25 mm half-area floorplan. See the
 variant README for its exact status and routing gate.
+
+`variants/koyomi-lvds-hat-rgb-compact-r2.1-single-side/` preserves that outline
+and interface while moving every fitted SMD component to the front. It is the
+single-side-assembly successor and remains fabrication-closed until routing and
+release verification are complete.
