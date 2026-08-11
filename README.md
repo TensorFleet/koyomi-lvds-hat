@@ -67,3 +67,11 @@ fabricating.
 
 Upstream author: if you're reading this, the fix is a two-line change and we'd happily send it as a PR
 if forking becomes possible. Thanks for publishing the design.
+
+## TensorFleet compact RGB variant
+
+`variants/koyomi-lvds-hat-rgb-compact-r2.0/` is a fabrication-closed compact
+fork of the tested RGB/DPI design. It replaces the 2×20 Raspberry Pi header
+with the carrier's 40-contact FH41 FFC, consolidates the system connection into
+one harness, and demonstrates a 65.0 × 28.25 mm half-area floorplan. See the
+variant README for its exact status and routing gate.
