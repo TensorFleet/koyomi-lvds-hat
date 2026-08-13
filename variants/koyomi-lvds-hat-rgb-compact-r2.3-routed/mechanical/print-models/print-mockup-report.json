@@ -1,0 +1,288 @@
+{
+  "units": "mm",
+  "revision": "Koyomi RGB compact r2.3 routed",
+  "source_board": "koyomi-lvds-hat.kicad_pcb",
+  "source_board_sha256": "5c63f8bbc15275f2195302af7b0dca76c2b506e117f8d267aae32d1956c8aae7",
+  "source_step_warning": [
+    "FL1 and FL2 source STEP paths are unresolved; conservative 2.0 x 1.0 x 0.5 mm package proxies are included"
+  ],
+  "model_method": "exact KiCad PCB slab plus closed external occupancy envelopes for fitted component STEP groups",
+  "board_slab_mm": {
+    "x": 65.0,
+    "y": 28.25,
+    "z": 1.51
+  },
+  "populated_envelope_mm": {
+    "x": 65.0,
+    "y": 28.25,
+    "z": 4.095,
+    "z_min": 0.0,
+    "z_max": 4.095
+  },
+  "modeled_component_groups": [
+    {
+      "name": "20374-R30E-31",
+      "bounds": [
+        114.7,
+        132.3,
+        -48.125,
+        -45.525,
+        1.565,
+        2.895
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric001",
+      "bounds": [
+        113.4,
+        115.0,
+        -36.6,
+        -35.8,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric003",
+      "bounds": [
+        118.7,
+        120.3,
+        -42.6,
+        -41.8,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric005",
+      "bounds": [
+        115.2,
+        116.8,
+        -42.6,
+        -41.8,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric007",
+      "bounds": [
+        113.4,
+        115.0,
+        -39.8,
+        -39.0,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric009",
+      "bounds": [
+        100.1,
+        100.9,
+        -42.8,
+        -41.2,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric011",
+      "bounds": [
+        105.7,
+        107.3,
+        -45.4,
+        -44.6,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric013",
+      "bounds": [
+        113.4,
+        115.0,
+        -33.4,
+        -32.6,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "C_0603_1608Metric015",
+      "bounds": [
+        111.7,
+        113.3,
+        -42.6,
+        -41.8,
+        1.595,
+        2.395
+      ]
+    },
+    {
+      "name": "FPC-SMD_FH41-40S-0.5SH",
+      "bounds": [
+        111.5,
+        135.5001,
+        -28.625,
+        -22.375,
+        1.595,
+        4.095
+      ]
+    },
+    {
+      "name": "Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",
+      "bounds": [
+        136.95,
+        147.05,
+        -48.4,
+        -42.0,
+        1.595,
+        3.595
+      ]
+    },
+    {
+      "name": "R_0603_1608Metric001",
+      "bounds": [
+        99.1,
+        99.9,
+        -34.8,
+        -33.2,
+        1.595,
+        2.045
+      ]
+    },
+    {
+      "name": "R_0603_1608Metric003",
+      "bounds": [
+        99.1,
+        99.9,
+        -38.3,
+        -36.7,
+        1.595,
+        2.045
+      ]
+    },
+    {
+      "name": "R_Array_Convex_4x0604",
+      "bounds": [
+        138.2,
+        139.8,
+        -30.6,
+        -27.4,
+        1.595,
+        2.095
+      ]
+    },
+    {
+      "name": "R_Array_Convex_4x0606",
+      "bounds": [
+        142.2,
+        143.8,
+        -30.6,
+        -27.4,
+        1.595,
+        2.095
+      ]
+    },
+    {
+      "name": "R_Array_Convex_4x0608",
+      "bounds": [
+        107.2,
+        108.8,
+        -30.6,
+        -27.4,
+        1.595,
+        2.095
+      ]
+    },
+    {
+      "name": "R_Array_Convex_4x0610",
+      "bounds": [
+        99.2,
+        100.8,
+        -30.6,
+        -27.4,
+        1.595,
+        2.095
+      ]
+    },
+    {
+      "name": "R_Array_Convex_4x0612",
+      "bounds": [
+        103.2,
+        104.8,
+        -30.6,
+        -27.4,
+        1.595,
+        2.095
+      ]
+    },
+    {
+      "name": "R_Array_Convex_4x0614",
+      "bounds": [
+        146.2,
+        147.8,
+        -30.6,
+        -27.4,
+        1.595,
+        2.095
+      ]
+    },
+    {
+      "name": "SN75LVDS83B",
+      "bounds": [
+        116.4997,
+        130.5003,
+        -40.35,
+        -32.25,
+        1.595,
+        2.795
+      ]
+    },
+    {
+      "name": "SOT-224",
+      "bounds": [
+        102.75,
+        109.25,
+        -41.5,
+        -34.5,
+        1.595,
+        3.295
+      ]
+    }
+  ],
+  "missing_model_proxies": {
+    "FL1": {
+      "body_mm": [
+        2.0,
+        1.0,
+        0.5
+      ],
+      "center_xy_mm": [
+        128.6,
+        -43.5
+      ]
+    },
+    "FL2": {
+      "body_mm": [
+        2.0,
+        1.0,
+        0.5
+      ],
+      "center_xy_mm": [
+        125.8,
+        -43.5
+      ]
+    }
+  },
+  "mesh": {
+    "facets": 880,
+    "points": 480,
+    "solid": true
+  },
+  "limitations": [
+    "occupancy/fit gauge, not a cosmetic component rendering",
+    "does not prove cable bend radius, latch access, or chassis retention"
+  ]
+}
