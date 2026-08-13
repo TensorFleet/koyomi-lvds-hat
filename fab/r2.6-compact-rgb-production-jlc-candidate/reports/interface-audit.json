@@ -1,0 +1,185 @@
+{
+  "board": "/Users/hyper/projects/tensorfleet/vaio_p_modding/.worktrees/koyomi-lvds-compact-rgb/variants/koyomi-lvds-hat-rgb-compact-r2.6-production/koyomi-lvds-hat.kicad_pcb",
+  "result": "PASS",
+  "legacy_j3_j8_footprints": [],
+  "nets": {
+    "PANEL_ID0": {
+      "endpoints": [
+        {
+          "reference": "JFFC1",
+          "pin": "17",
+          "net": "PANEL_ID0"
+        },
+        {
+          "reference": "J2",
+          "pin": "10",
+          "net": "PANEL_ID0"
+        }
+      ],
+      "track_segments": 53,
+      "vias": 2
+    },
+    "PANEL_ID1": {
+      "endpoints": [
+        {
+          "reference": "JFFC1",
+          "pin": "34",
+          "net": "PANEL_ID1"
+        },
+        {
+          "reference": "J2",
+          "pin": "21",
+          "net": "PANEL_ID1"
+        }
+      ],
+      "track_segments": 109,
+      "vias": 6
+    },
+    "LCD_INS": {
+      "endpoints": [
+        {
+          "reference": "JFFC1",
+          "pin": "39",
+          "net": "LCD_INS"
+        },
+        {
+          "reference": "J2",
+          "pin": "30",
+          "net": "LCD_INS"
+        }
+      ],
+      "track_segments": 59,
+      "vias": 5
+    },
+    "EN": {
+      "endpoints": [
+        {
+          "reference": "JFFC1",
+          "pin": "13",
+          "net": "EN"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "12",
+          "net": "EN"
+        }
+      ],
+      "track_segments": 10,
+      "vias": 2
+    },
+    "PWM": {
+      "endpoints": [
+        {
+          "reference": "JFFC1",
+          "pin": "37",
+          "net": "PWM"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "11",
+          "net": "PWM"
+        }
+      ],
+      "track_segments": 6,
+      "vias": 2
+    },
+    "VCD1": {
+      "endpoints": [
+        {
+          "reference": "J2",
+          "pin": "18",
+          "net": "VCD1"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "6",
+          "net": "VCD1"
+        }
+      ],
+      "track_segments": 9,
+      "vias": 0
+    },
+    "VCD2": {
+      "endpoints": [
+        {
+          "reference": "J2",
+          "pin": "17",
+          "net": "VCD2"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "5",
+          "net": "VCD2"
+        }
+      ],
+      "track_segments": 7,
+      "vias": 2
+    },
+    "VCD3": {
+      "endpoints": [
+        {
+          "reference": "J2",
+          "pin": "16",
+          "net": "VCD3"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "4",
+          "net": "VCD3"
+        }
+      ],
+      "track_segments": 6,
+      "vias": 2
+    },
+    "VCD4": {
+      "endpoints": [
+        {
+          "reference": "J2",
+          "pin": "15",
+          "net": "VCD4"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "3",
+          "net": "VCD4"
+        }
+      ],
+      "track_segments": 6,
+      "vias": 2
+    },
+    "VCD5": {
+      "endpoints": [
+        {
+          "reference": "J2",
+          "pin": "14",
+          "net": "VCD5"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "2",
+          "net": "VCD5"
+        }
+      ],
+      "track_segments": 9,
+      "vias": 2
+    },
+    "VCD6": {
+      "endpoints": [
+        {
+          "reference": "J2",
+          "pin": "13",
+          "net": "VCD6"
+        },
+        {
+          "reference": "JBL1",
+          "pin": "1",
+          "net": "VCD6"
+        }
+      ],
+      "track_segments": 10,
+      "vias": 2
+    }
+  },
+  "failures": [],
+  "interpretation": "A matching net on both named pads plus the fresh KiCad DRC result of zero unconnected items demonstrates continuous routed copper."
+}
