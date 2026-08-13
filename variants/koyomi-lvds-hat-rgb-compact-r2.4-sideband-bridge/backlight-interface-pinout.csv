@@ -1,0 +1,13 @@
+ffc_pin,signal,legacy_source,role
+1,VCD6,J5.1,LCD backlight cathode/control channel 6
+2,VCD5,J5.2,LCD backlight cathode/control channel 5
+3,VCD4,J5.3,LCD backlight cathode/control channel 4
+4,VCD3,J5.4,LCD backlight cathode/control channel 3
+5,VCD2,J5.5,LCD backlight cathode/control channel 2
+6,VCD1,J5.6,LCD backlight cathode/control channel 1
+7,VAD,J6.1,LCD backlight anode supply
+8,NC,J6.2,legacy unused contact preserved as no-connect
+9,GND,J6.3,ground return
+10,+5V,J6.4,5 V supply
+11,PWM,J6.5,backlight brightness PWM
+12,EN,J6.6,backlight enable

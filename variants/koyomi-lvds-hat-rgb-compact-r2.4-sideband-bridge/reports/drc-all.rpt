@@ -1,0 +1,61 @@
+** Drc report for koyomi-lvds-hat.kicad_pcb **
+** Created on 2026-08-13T17:35:50 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 13 DRC violations **
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(114.2000 mm, 36.2000 mm): Footprint C2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(119.5000 mm, 42.2000 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning
+    @(145.0000 mm, 35.0000 mm): Footprint JP1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(116.0000 mm, 42.2000 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(114.2000 mm, 39.4000 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(100.5000 mm, 42.0000 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'SOT-223-3_TabPin2' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(106.0000 mm, 38.0000 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(106.5000 mm, 45.0000 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'
+    Local override; warning
+    @(149.0000 mm, 35.0000 mm): Footprint JP2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(114.2000 mm, 33.0000 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(99.5000 mm, 34.0000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(112.5000 mm, 42.2000 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(99.5000 mm, 37.5000 mm): Footprint R2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **
