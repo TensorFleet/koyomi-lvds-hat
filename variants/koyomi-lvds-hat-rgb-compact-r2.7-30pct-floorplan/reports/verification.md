@@ -6,11 +6,23 @@ Date: 2026-08-18
 
 - Source revision: R2.6 production candidate.
 - R2.6 outline: 65.0 × 28.25 mm = 1836.25 mm².
-- R2.7 outline: 58.0 × 22.2 mm = 1287.6 mm².
-- Area reduction: 29.88%.
+- R2.7 base rectangle: 58.0 × 22.2 mm = 1287.6 mm².
+- JFFC1 support tab: 20.0 × 0.5 mm = 10.0 mm².
+- Actual R2.7 area: 1297.6 mm²; area reduction: 29.33%.
 - Fitted parts: 23 front, 0 back.
 - Mechanical/configuration footprints: H1–H4 and JP1–JP2 remain front-side
   bare features and are excluded from the fitted count.
+
+## Edge connector orientation
+
+- Hirose's FH41 drawing places the cable opening opposite the 40 signal solder
+  pads. At `JFFC1` rotation 180°, that opening faces the top `Edge.Cuts` tab.
+- `J2` and `JBL1` open toward the bottom `Edge.Cuts` boundary.
+- The B2.2 carrier-to-LCD audit rechecked contacts 1 through 40 after the
+  rotation: all 40 pad numbers and assigned nets still match the straight-
+  through interface contract. Its only five reported failures are the expected
+  unrouted `PANEL_ID0`, `PANEL_ID1`, `LCD_INS`, `EN`, and `PWM` copper paths in
+  this floorplan phase.
 - System, panel, and backlight connector identities are unchanged.
 
 ## Fresh KiCad checks

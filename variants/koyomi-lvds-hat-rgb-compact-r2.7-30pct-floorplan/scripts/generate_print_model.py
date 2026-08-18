@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the compact Koyomi r2.3 populated 3D-print fit gauge.
+"""Generate the compact Koyomi r2.7 populated 3D-print fit gauge.
 
 Run with FreeCAD's command-line Python. The KiCad source is read-only. Vendor
 STEP assemblies are reduced to closed external occupancy envelopes so the STL
@@ -25,8 +25,8 @@ VARIANT = Path(__file__).resolve().parents[1]
 PCB = VARIANT / "koyomi-lvds-hat.kicad_pcb"
 OUT = VARIANT / "mechanical/print-models"
 WORK = OUT / ".work"
-RAW_STEP = WORK / "koyomi-rgb-compact-r2.3-populated.step"
-NAME = "koyomi-rgb-compact-r2.3-print-mockup"
+RAW_STEP = WORK / "koyomi-rgb-compact-r2.7-populated.step"
+NAME = "koyomi-rgb-compact-r2.7-print-mockup"
 
 MESH_LINEAR_DEFLECTION = 0.05
 MESH_ANGULAR_DEFLECTION = 0.35
@@ -125,7 +125,7 @@ subprocess.run(
     check=True,
 )
 
-doc = App.newDocument("koyomi_r23_source")
+doc = App.newDocument("koyomi_r27_source")
 Import.insert(str(RAW_STEP), doc.Name)
 
 board_shape = None
@@ -147,10 +147,10 @@ board_top_z = board_shape.BoundBox.ZMax
 # package filename and footprint define a 2.0 x 1.0 x 0.5 mm body.
 missing_model_proxies = {
     "FL1": Part.makeBox(
-        2.0, 1.0, 0.5, App.Vector(127.6, -44.0, board_top_z)
+        2.0, 1.0, 0.5, App.Vector(128.5, -38.5, board_top_z)
     ),
     "FL2": Part.makeBox(
-        2.0, 1.0, 0.5, App.Vector(124.8, -44.0, board_top_z)
+        2.0, 1.0, 0.5, App.Vector(125.2, -38.5, board_top_z)
     ),
 }
 
@@ -191,7 +191,7 @@ if not reloaded.isSolid():
 bb = reloaded.BoundBox
 report = {
     "units": "mm",
-    "revision": "Koyomi RGB compact r2.3 routed",
+    "revision": "Koyomi RGB compact r2.7 30-percent floorplan",
     "source_board": str(PCB.relative_to(VARIANT)),
     "source_board_sha256": sha256(PCB),
     "source_step_warning": [
@@ -222,8 +222,8 @@ report = {
         for group, bounds in sorted(group_bounds.items())
     ],
     "missing_model_proxies": {
-        "FL1": {"body_mm": [2.0, 1.0, 0.5], "center_xy_mm": [128.6, -43.5]},
-        "FL2": {"body_mm": [2.0, 1.0, 0.5], "center_xy_mm": [125.8, -43.5]},
+        "FL1": {"body_mm": [2.0, 1.0, 0.5], "center_xy_mm": [129.5, -38.0]},
+        "FL2": {"body_mm": [2.0, 1.0, 0.5], "center_xy_mm": [126.2, -38.0]},
     },
     "mesh": {
         "facets": reloaded.CountFacets,

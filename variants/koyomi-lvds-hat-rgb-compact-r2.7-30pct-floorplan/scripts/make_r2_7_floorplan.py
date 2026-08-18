@@ -18,9 +18,11 @@ from kipy.geometry import Angle, Vector2
 from kipy.proto.board.board_types_pb2 import BoardLayer
 
 
-# 58.0 x 22.2 mm = 1287.6 mm^2, versus 65.0 x 28.25 = 1836.25 mm^2.
-# This is a 29.88% area reduction. Coordinates retain the R2.x origin.
+# The 58.0 x 22.2 mm base rectangle is 1287.6 mm^2.  A 20 x 0.5 mm
+# connector-support tab adds 10 mm^2, for 1297.6 mm^2 total versus R2.6's
+# 1836.25 mm^2.  This is a 29.33% area reduction.
 OUTLINE = (91.0, 22.0, 149.0, 44.2)
+JFFC_TAB = (110.0, 21.5, 130.0, 22.0)
 
 # x, y, rotation in millimetres/degrees. All fitted parts remain on F.Cu.
 PLACEMENT = {
@@ -28,7 +30,9 @@ PLACEMENT = {
     "H2": (145.5, 25.5, 0.0),
     "H3": (94.5, 40.7, 0.0),
     "H4": (145.5, 40.7, 0.0),
-    "JFFC1": (120.0, 25.3, 0.0),
+    # Cable opening faces the top Edge.Cuts boundary.  Rotation 0 opened into
+    # the board interior and is prohibited by the repository edge policy.
+    "JFFC1": (120.0, 25.3, 180.0),
     "IC1": (118.5, 32.95, -90.0),
     "J2": (118.5, 41.2, 0.0),
     "JBL1": (135.5, 39.8, 0.0),
@@ -114,9 +118,14 @@ def main() -> None:
         # Rebuild only the board-level outline and compact phase markings.
         board.remove_items(list(board.get_shapes()) + list(board.get_text()))
         x0, y0, x1, y1 = OUTLINE
+        tab_x0, tab_y0, tab_x1, _ = JFFC_TAB
         board.create_items(
             [
-                edge((x0, y0), (x1, y0)),
+                edge((x0, y0), (tab_x0, y0)),
+                edge((tab_x0, y0), (tab_x0, tab_y0)),
+                edge((tab_x0, tab_y0), (tab_x1, tab_y0)),
+                edge((tab_x1, tab_y0), (tab_x1, y0)),
+                edge((tab_x1, y0), (x1, y0)),
                 edge((x1, y0), (x1, y1)),
                 edge((x1, y1), (x0, y1)),
                 edge((x0, y1), (x0, y0)),
