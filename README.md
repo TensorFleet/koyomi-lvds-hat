@@ -93,3 +93,9 @@ top side, passes zero-error DRC/ERC and the routed interface audit, and restores
 all panel-sideband and backlight endpoints through the consolidated cables. It
 must be paired with CM5 carrier B2.2; see the variant README and the checksumed
 `fab/r2.6-compact-rgb-production-jlc-candidate/` package before quoting.
+
+`variants/koyomi-lvds-hat-rgb-compact-r2.7-30pct-floorplan/` is an experimental
+58.0 × 22.2 mm successor that reduces R2.6 PCB area by 29.88% while retaining
+all 23 fitted parts on the top side, all three cable connectors, and four
+mounting holes. Its placement is physically DRC-clear, but its 138 connections
+are intentionally unrouted; it is a mechanical study and must not be fabricated.

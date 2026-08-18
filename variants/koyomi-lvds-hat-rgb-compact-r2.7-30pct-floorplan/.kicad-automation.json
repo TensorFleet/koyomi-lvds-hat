@@ -1,0 +1,5 @@
+{
+  "board": "koyomi-lvds-hat.kicad_pcb",
+  "schematic": "koyomi-lvds-hat.kicad_sch",
+  "kicad_cli": "/Users/hyper/projects/tensorfleet/vaio_p_modding/tools/kicad11-nightly-20260722/KiCad/KiCad.app/Contents/MacOS/kicad-cli"
+}
