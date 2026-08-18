@@ -566,7 +566,7 @@
       "netlist": "../../../../../tmp/koyomi-r12.net",
       "plot": "gerbers/",
       "pos_files": "",
-      "specctra_dsn": "koyomi-lvds-hat-r2.3-complete.dsn",
+      "specctra_dsn": "../../../../../tmp/koyomi_lcd_r27_shrink/variants/koyomi-lvds-hat-rgb-compact-r2.7-30pct-floorplan/koyomi-lvds-hat-r2.7-two-open.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

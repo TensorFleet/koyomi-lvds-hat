@@ -24,11 +24,12 @@ opening toward the board interior blocks routing and fabrication.
 
 ## Status
 
-This is a **placement and mechanical study**, not a fabrication revision. The
-R2.6 routing and zones were deliberately removed because they are invalid after
-moving components. Do not generate or upload fabrication files from R2.7 until
-native routing, DRC/ERC, interface, signal-integrity, and assembly audits are
-complete.
+This is a **routed work in progress**, not a fabrication revision. The first
+full route is clean for copper clearance but still has two open connections.
+Do not generate or upload fabrication files from R2.7 until native routing,
+DRC/ERC, interface, signal-integrity, and assembly audits are complete. The
+current fail-closed gate and exact open-net list are in
+`FABRICATION_STATUS.md`.
 
 `scripts/make_r2_7_floorplan.py` records the layout mutation through KiCad's
 official IPC API. Major-phase renders and fresh reports live in `renders/` and

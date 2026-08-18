@@ -69,13 +69,13 @@ def edge(start: tuple[float, float], end: tuple[float, float]) -> BoardSegment:
     return item
 
 
-def label(value: str, position: tuple[float, float], size: float = 0.65) -> BoardText:
+def label(value: str, position: tuple[float, float], size: float = 1.0) -> BoardText:
     item = BoardText()
     item.layer = BoardLayer.BL_F_SilkS
     item.position = Vector2.from_xy_mm(*position)
     item.value = value
     item.attributes.size = Vector2.from_xy_mm(size, size)
-    item.attributes.stroke_width = 110_000
+    item.attributes.stroke_width = 150_000
     return item
 
 
@@ -129,8 +129,8 @@ def main() -> None:
                 edge((x1, y0), (x1, y1)),
                 edge((x1, y1), (x0, y1)),
                 edge((x0, y1), (x0, y0)),
-                label("R2.7", (145.0, 33.0), 0.50),
-                label("JBL1", (143.8, 36.3), 0.50),
+                label("R2.7", (145.0, 33.0)),
+                label("JBL1", (143.8, 36.3)),
             ]
         )
         board.save()
