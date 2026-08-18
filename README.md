@@ -86,3 +86,10 @@ release verification are complete.
 VCD1–VCD6, VAD, 5 V, ground, PWM, enable, and the preserved unused contact.
 It remains a single-side, half-area floorplan and is still fabrication-closed
 pending native routing and release verification.
+
+`variants/koyomi-lvds-hat-rgb-compact-r2.6-production/` is the current compact
+RGB fabrication candidate. It is fully routed, keeps all 23 fitted parts on the
+top side, passes zero-error DRC/ERC and the routed interface audit, and restores
+all panel-sideband and backlight endpoints through the consolidated cables. It
+must be paired with CM5 carrier B2.2; see the variant README and the checksumed
+`fab/r2.6-compact-rgb-production-jlc-candidate/` package before quoting.
