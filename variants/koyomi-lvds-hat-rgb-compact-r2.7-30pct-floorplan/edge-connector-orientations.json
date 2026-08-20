@@ -18,18 +18,27 @@
     {
       "reference": "JFFC1",
       "edge": "top",
+      "x_mm": 120.0,
+      "y_mm": 25.3,
+      "layer": "F.Cu",
       "rotation_degrees": 180.0,
       "opening": "outward"
     },
     {
       "reference": "J2",
       "edge": "bottom",
+      "x_mm": 118.5,
+      "y_mm": 41.2,
+      "layer": "F.Cu",
       "rotation_degrees": 0.0,
       "opening": "outward"
     },
     {
       "reference": "JBL1",
       "edge": "bottom",
+      "x_mm": 135.5,
+      "y_mm": 39.8,
+      "layer": "F.Cu",
       "rotation_degrees": 0.0,
       "opening": "outward"
     }

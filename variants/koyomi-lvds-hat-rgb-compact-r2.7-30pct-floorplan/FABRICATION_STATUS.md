@@ -1,58 +1,57 @@
 # R2.7 fabrication status
 
-Updated: 2026-08-18
+Updated: 2026-08-20
 
-R2.7 is **not fabrication-ready**. Do not generate or upload Gerbers, drill
-files, BOM, or CPL files from this directory until the two remaining copper
-opens are fixed and every release gate is rerun.
+R2.7 is **fabrication-ready as a prototype**. The Gerber, drill, BOM, CPL,
+STEP, render, and checksum package is
+`../../fab/r2.7-compact-rgb-production-jlc-candidate/`.
 
-## Completed
+## Release gates
 
-- The print mock-up was regenerated after correcting the outward-facing
-  JFFC1 orientation.
-- The checked STL is
-  `mechanical/print-models/koyomi-rgb-compact-r2.7-print-mockup.stl`.
-- The print validation reports a 58.0000 x 22.7000 x 4.0950 mm solid with
-  896 facets; checksums are recorded beside the model.
-- KiCad ERC, errors only: 0 violations.
-- The repository interconnect release gate passes for `lcd`.
-- JFFC1 and JBL1 edge openings face out of the board.
-- The board-level `R2.7` and `JBL1` silkscreen text now meets the 1.0 mm
-  height and 0.15 mm stroke rules.
+- Native KiCad errors-only DRC: **0 violations, 0 unconnected pads**.
+- Native KiCad all-severity DRC: 13 inherited footprint-library mismatch
+  warnings, 0 unconnected pads, and no electrical/clearance errors.
+- Errors-only schematic ERC: **0 errors, 0 warnings**.
+- Routed board interface audit: **PASS** for all eleven named cross-connector
+  nets.
+- System interconnect gate:
+  `python3 scripts/check_interconnect_release.py --board lcd`: **PASS**.
+- Exact connector X/Y, rotation, F.Cu side, assigned edge, and outward-opening
+  audit for `JFFC1`, `J2`, and `JBL1`: **PASS**.
+- Fitted assembly: **23 top, 0 bottom**.
+- Stack: four copper layers; minimum finished drill in the package: 0.20 mm.
+- Package checksum manifest: generated and self-consistent.
 
-## Blocking PCB result
+The reproducible release command is:
 
-The native KiCad DRC report is `reports/drc-routed-working.rpt`:
+```sh
+python3 scripts/build_r2_7_jlc_candidate.py
+```
 
-- 0 DRC copper/clearance violations,
-- 14 reviewed warnings,
-- 2 unconnected items,
-- 0 exclusions.
+from the repository root. The builder runs fail-closed and invokes the
+external LCD interconnect gate before producing any output.
 
-The two opens are:
+## Mechanical and visual evidence
 
-1. `G1`: JFFC1 pad 23 to the existing G1 via at 128.5886, 34.5000 mm.
-2. `+2V5`: C5 pad 1 to the existing +2V5 branch near
-   119.3441, 38.7641 mm.
+- Actual outline area: 1297.6 mm², 29.33% below R2.6.
+- Print mock-up validation: 58.0000 × 22.7000 × 4.0950 mm, 896 facets.
+- Fresh actual KiCad top, bottom, side, and perspective renders were generated
+  from the released PCB and reviewed. The top face contains all fitted parts,
+  the bottom face contains none, and all three cable openings face outward.
+- Render hashes are recorded in `reports/verification.md` and the fabrication
+  package `SHA256SUMS` file.
 
-The 14 warnings are one dangling G1 via plus 13 inherited/local footprint
-library mismatches. The earlier four silkscreen dimension warnings are fixed.
+## PCBA procurement boundary
 
-Several isolated routing experiments reached zero opens but failed native
-KiCad clearance checks, so none were retained. The saved board remains the
-clean two-open result; reports produced by a routing experiment must never be
-used as release evidence.
+The PCB is ready to fabricate, but JLCPCB cannot assemble every line directly
+from warehouse stock as of 2026-08-20:
 
-## Required next gate
+- `J2`, I-PEX `20374-R30E-31`, `C5311655`: stock 0; pre-order minimum 442.
+- `FL1`/`FL2`, Murata `DLP2ADN121HL4L`, `C710576`: stock 0; consignment
+  minimum 23.
 
-Route both opens natively, refill zones, and rerun:
-
-1. all-severity PCB DRC with 0 violations, 0 unconnected items, and 0
-   exclusions;
-2. errors-only ERC;
-3. the LCD/carrier pin-order audit;
-4. `python3 scripts/check_interconnect_release.py --board lcd` from the
-   `vaio_p_modding` repository;
-5. the fabrication-package checksum and assembly-file checks.
-
-Only after all five pass may a fabrication package be created or uploaded.
+Keep these exact BOM identities unless a new revision performs a datasheet,
+footprint, pin-order, and signal-integrity review. `J2` mates with the panel
+cable, and the filters sit directly in the LVDS path. Fabrication may proceed
+without assembly, or PCBA may proceed after pre-order/consignment is received;
+do not mark the two placements as silently substituted.

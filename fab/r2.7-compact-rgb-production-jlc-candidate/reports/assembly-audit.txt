@@ -1,0 +1,10 @@
+fitted placements: 23
+top placements: 23
+bottom placements: 0
+assembly: single-sided Economic PCBA
+copper stack: four layers
+minimum via drill: 0.20 mm (fine-hole quote required)
+H1-H4 and JP1-JP2: excluded from BOM/CPL
+J2: C5311655; JBL1: C88360; JFFC1: C596805
+sourcing: J2 C5311655 stock 0/pre-order min 442; FL1-FL2 C710576 stock 0/consign min 23 (checked 2026-08-20)
+upload: Confirm Production File must be enabled

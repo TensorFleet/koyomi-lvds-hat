@@ -1,0 +1,4 @@
+JLCPCB live parts-library check: 2026-08-20
+J2 C5311655 / I-PEX 20374-R30E-31: stock 0; pre-order minimum 442
+FL1,FL2 C710576 / Murata DLP2ADN121HL4L: stock 0; consignment minimum 23
+Do not substitute without a new footprint, pin-order, mating, and signal-integrity review.
