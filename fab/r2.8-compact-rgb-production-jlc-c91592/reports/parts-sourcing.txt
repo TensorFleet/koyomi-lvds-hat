@@ -1,0 +1,4 @@
+JLCPCB live parts-library check: 2026-08-20
+J2 C5311655 / I-PEX 20374-R30E-31: stock 0; pre-order minimum 442
+FL1,FL2 C91592 / Murata DLP2ADN900HL4L: stock 3874; minimum 1
+C91592 is the approved same-series 90-ohm substitution previously fitted on the five-board 2026-07-30 JLCPCB build.

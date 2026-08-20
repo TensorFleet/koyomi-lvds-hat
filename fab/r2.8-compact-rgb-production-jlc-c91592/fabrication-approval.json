@@ -1,0 +1,46 @@
+{
+  "revision": "R2.8",
+  "approved_for_fabrication": true,
+  "purchase_authorized": false,
+  "electrical_gate": {
+    "drc_errors": 0,
+    "unconnected_pads": 0,
+    "drc_exclusions": 0,
+    "erc_errors": 0,
+    "interface_audit": "PASS"
+  },
+  "manufacturing": {
+    "layers": 4,
+    "assembly_sides": [
+      "top"
+    ],
+    "minimum_via_hole_mm": 0.2,
+    "via_covering": "tented",
+    "confirm_production_file": true,
+    "confirm_parts_placement": true
+  },
+  "external_gates": {
+    "mating_carrier": "B2.2",
+    "live_part_inventory_reviewed": true,
+    "pcba_ready_after_sourcing": true,
+    "zero_stock_parts": {
+      "C5311655": {
+        "method": "pre-order",
+        "minimum": 442
+      }
+    },
+    "approved_filter_substitution": {
+      "designators": [
+        "FL1",
+        "FL2"
+      ],
+      "part": "DLP2ADN900HL4L",
+      "jlcpcb_part": "C91592",
+      "stock_checked": 3874,
+      "previous_jlcpcb_build": "2026-07-30 five-board v1.1 batch"
+    },
+    "placement_reviewed": true,
+    "backlight_interlock_on_mating_system": false,
+    "measured_chassis_fit_completed": false
+  }
+}

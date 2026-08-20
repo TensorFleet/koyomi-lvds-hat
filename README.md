@@ -94,8 +94,13 @@ all panel-sideband and backlight endpoints through the consolidated cables. It
 must be paired with CM5 carrier B2.2; see the variant README and the checksumed
 `fab/r2.6-compact-rgb-production-jlc-candidate/` package before quoting.
 
-`variants/koyomi-lvds-hat-rgb-compact-r2.7-30pct-floorplan/` is an experimental
-58.0 × 22.2 mm-base successor that reduces R2.6 PCB area by 29.33% while retaining
-all 23 fitted parts on the top side, all three cable connectors, and four
-mounting holes. Its placement is physically DRC-clear, but its 138 connections
-are intentionally unrouted; it is a mechanical study and must not be fabricated.
+`variants/koyomi-lvds-hat-rgb-compact-r2.7-30pct-floorplan/` is the immutable,
+fully routed 58.0 × 22.2 mm-base successor. It reduces R2.6 PCB area by 29.33%,
+retains all 23 fitted parts on the top side, and passes DRC, ERC, routed-interface,
+interconnect, and edge-orientation release gates.
+
+`variants/koyomi-lvds-hat-rgb-compact-r2.8-c91592/` preserves the complete R2.7
+geometry and routing while changing FL1/FL2 to the in-stock Murata
+`DLP2ADN900HL4L` / JLCPCB `C91592` substitution previously fitted by JLCPCB.
+Its checksumed manufacturing package is
+`fab/r2.8-compact-rgb-production-jlc-c91592/`.
