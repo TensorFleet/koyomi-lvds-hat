@@ -3930,17 +3930,6 @@
 			)
 		)
 	)
-	(gr_text "FFC contacts face DOWN"
-		(at 81 51.2 0)
-		(layer "F.SilkS")
-		(uuid "c3ae619b-2d12-4d44-822d-2bc628b3b0c2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "FFC to carrier / LCD"
 		(at 81 58.3 0)
 		(layer "F.SilkS")

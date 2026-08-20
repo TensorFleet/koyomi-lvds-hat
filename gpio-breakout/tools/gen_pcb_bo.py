@@ -63,7 +63,6 @@ SILK_LABELS = [
     ('INS', 53.4, 26.6, 'F'),
     ('jumpers open = safe', 15.0, 26.6, 'F'),
     ('1', 5.4, 24.6, 'F'),
-    ('FFC contacts face DOWN', 31.0, 1.2, 'F'),
     ('cut 5V/3V3 links if chain', 16.0, 10.2, 'B'),
     ('is externally powered', 16.0, 11.8, 'B'),
     ('GND', 61.0, 26.2, 'F'),
