@@ -20,7 +20,7 @@ FPBASE = '/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints'
 
 # Board origin (page coords) and size
 OX, OY = 50.0, 50.0
-BW, BH = 63.5, 30.0
+BW, BH = 63.5, 32.0
 
 
 def mm(x, y):
@@ -30,16 +30,19 @@ def mm(x, y):
 # ref: (x, y, rot_deg, side)
 PLACEMENT = {
     'J1':  (31.0, 3.9, 180, 'F'),
-    'J2':  (6.9, 19.2, 90, 'F'),
-    'JP1': (46.0, 24.5, 0, 'F'),
-    'JP2': (51.0, 24.5, 0, 'F'),
-    'JP3': (56.0, 24.5, 0, 'F'),
-    'TP1': (46.0, 28.0, 0, 'F'),
-    'TP2': (51.0, 28.0, 0, 'F'),
-    'TP3': (56.0, 28.0, 0, 'F'),
-    'TP4': (61.0, 28.0, 0, 'F'),
-    'TP5': (61.0, 24.5, 0, 'F'),
-    'H1':  (3.0, 8.5, 0, 'F'),
+    'J2':  (6.9, 21.2, 90, 'F'),
+    'JP1': (46.0, 26.6, 0, 'F'),
+    'JP2': (51.0, 26.6, 0, 'F'),
+    'JP3': (56.0, 26.6, 0, 'F'),
+    'TP1': (46.0, 30.0, 0, 'F'),
+    'TP2': (51.0, 30.0, 0, 'F'),
+    'TP3': (56.0, 30.0, 0, 'F'),
+    'TP4': (61.0, 30.0, 0, 'F'),
+    'TP5': (61.0, 26.6, 0, 'F'),
+    'H1':  (3.0, 3.2, 0, 'F'),
+    'F1':  (3.3, 12.6, 90, 'F'),
+    'JP4': (3.3, 8.2, 90, 'F'),
+    'JP5': (3.3, 17.0, 90, 'F'),
     'H2':  (60.3, 3.2, 0, 'F'),
 }
 
@@ -54,14 +57,18 @@ MODEL_SUBS = {}
 # human-readable silkscreen labels: (text, x, y, layer)
 SILK_LABELS = [
     ('FFC to carrier / LCD', 31.0, 8.3, 'F'),
-    ('Pi GPIO', 30.0, 22.3, 'F'),
-    ('ID0', 42.8, 24.5, 'F'),
-    ('ID1', 48.4, 24.5, 'F'),
-    ('INS', 53.4, 24.5, 'F'),
-    ('jumpers open = safe', 15.0, 24.5, 'F'),
+    ('Pi GPIO', 30.0, 24.4, 'F'),
+    ('ID0', 42.8, 26.6, 'F'),
+    ('ID1', 48.4, 26.6, 'F'),
+    ('INS', 53.4, 26.6, 'F'),
+    ('jumpers open = safe', 15.0, 26.6, 'F'),
+    ('1', 5.4, 24.6, 'F'),
+    ('FFC contacts face DOWN', 31.0, 1.2, 'F'),
+    ('cut 5V/3V3 links if chain', 3.2, 23.5, 'B'),
+    ('is externally powered', 3.2, 25.0, 'B'),
     ('GND', 61.0, 26.2, 'F'),
     ('3V3', 58.6, 23.2, 'F'),
-    ('koyomi gpio-breakout A0', 26.0, 13.5, 'B'),
+    ('koyomi gpio-breakout A1', 26.0, 14.5, 'B'),
 ]
 
 
@@ -149,6 +156,27 @@ def build():
             model.m_Filename = MODEL_SUBS[ref]
             fp.Models().push_back(model)
         fps[ref] = fp
+
+    # J1 pad 50 (mechanical tab) to GND per shield treatment
+    for pad in fps['J1'].Pads():
+        if str(pad.GetNumber()) == '50' and 'GND' in netmap:
+            pad.SetNet(netmap['GND'])
+
+    # --- 4-layer stack + GND zones on all copper layers ---
+    board.GetDesignSettings().SetCopperLayerCount(4)
+    gnd = netmap.get('GND')
+    for layer in (pcbnew.F_Cu, pcbnew.In1_Cu, pcbnew.In2_Cu, pcbnew.B_Cu):
+        z = pcbnew.ZONE(board)
+        z.SetLayer(layer)
+        z.SetNet(gnd)
+        pts = [mm(-0.5, -0.5), mm(BW+0.5, -0.5), mm(BW+0.5, BH+0.5), mm(-0.5, BH+0.5)]
+        z.Outline().NewOutline()
+        for pt in pts:
+            z.Outline().Append(pt.x, pt.y)
+        z.SetLocalClearance(FromMM(0.25))
+        z.SetMinThickness(FromMM(0.25))
+        z.SetPadConnection(pcbnew.ZONE_CONNECTION_FULL)
+        board.Add(z)
 
     # --- silkscreen labels ---
     for text, x, y, layer in SILK_LABELS:

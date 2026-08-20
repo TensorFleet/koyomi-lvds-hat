@@ -23,6 +23,9 @@ SPECIAL = {17: 'PANEL_ID0', 34: 'PANEL_ID1', 39: 'LCD_INS'}
 ffc_map = {}
 for n in range(1, 41):
     ffc_map[str(n)] = SPECIAL.get(n, PI[n])
+ffc_map['1'] = '+3V3_FFC'
+ffc_map['2'] = '+5V_FFC'
+ffc_map['4'] = '+5V_FFC'
 for n in range(41, 50):          # shield / mounting pins
     ffc_map[str(n)] = 'GND'
 
@@ -44,6 +47,15 @@ COMPONENTS = [
     ('JP3', 'Jumper:SolderJumper_2_Open', 'INS-GND',
      'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm',
      {'1': 'LCD_INS', '2': 'GND'}, {'desc': 'close = FFC39 to GND (report inserted)'}),
+    ('F1', 'Device:Polyfuse', '0.5A polyfuse 1206',
+     'Fuse:Fuse_1206_3216Metric', {'1': '+5V_LNK', '2': '+5V_FFC'},
+     {'desc': 'PTC resettable, 0.5 A hold — FFC contact rating'}),
+    ('JP4', 'Jumper:SolderJumper_2_Bridged', '5V LINK',
+     'Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm',
+     {'1': '+5V', '2': '+5V_LNK'}, {'desc': 'CUT when LCD chain is powered externally'}),
+    ('JP5', 'Jumper:SolderJumper_2_Bridged', '3V3 LINK',
+     'Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm',
+     {'1': '+3V3', '2': '+3V3_FFC'}, {'desc': 'CUT when LCD chain is powered externally'}),
     ('TP1', 'Connector:TestPoint', 'PANEL_ID0',
      'TestPoint:TestPoint_Pad_1.5x1.5mm', {'1': 'PANEL_ID0'}, {}),
     ('TP2', 'Connector:TestPoint', 'PANEL_ID1',

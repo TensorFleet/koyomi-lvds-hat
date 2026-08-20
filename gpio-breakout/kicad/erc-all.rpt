@@ -1,0 +1,105 @@
+ERC report (2026-08-20T20:43:05, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(39.37 mm, 379.73 mm): Symbol #FLG1 [PWR_FLAG]
+[footprint_link_issues]: The current configuration does not include the footprint library 'MountingHole'
+    ; warning
+    @(59.69 mm, 199.39 mm): Symbol H1 [MountingHole]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Mechanical'
+    ; warning
+    @(59.69 mm, 199.39 mm): Symbol H1 [MountingHole]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(69.85 mm, 379.73 mm): Symbol #FLG2 [PWR_FLAG]
+[footprint_link_issues]: The current configuration does not include the footprint library 'MountingHole'
+    ; warning
+    @(90.17 mm, 199.39 mm): Symbol H2 [MountingHole]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Mechanical'
+    ; warning
+    @(90.17 mm, 199.39 mm): Symbol H2 [MountingHole]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'power'
+    ; warning
+    @(100.33 mm, 379.73 mm): Symbol #FLG3 [PWR_FLAG]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Connector_PinHeader_2.54mm'
+    ; warning
+    @(199.39 mm, 80.01 mm): Symbol J2 [Conn_02x20_Odd_Even]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector_Generic'
+    ; warning
+    @(199.39 mm, 80.01 mm): Symbol J2 [Conn_02x20_Odd_Even]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Jumper'
+    ; warning
+    @(199.39 mm, 139.70 mm): Symbol JP4 [SolderJumper_2_Bridged]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Jumper'
+    ; warning
+    @(199.39 mm, 139.70 mm): Symbol JP4 [SolderJumper_2_Bridged]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Jumper'
+    ; warning
+    @(199.39 mm, 170.18 mm): Symbol JP5 [SolderJumper_2_Bridged]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Jumper'
+    ; warning
+    @(199.39 mm, 170.18 mm): Symbol JP5 [SolderJumper_2_Bridged]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Fuse'
+    ; warning
+    @(240.03 mm, 139.70 mm): Symbol F1 [Polyfuse]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Device'
+    ; warning
+    @(240.03 mm, 139.70 mm): Symbol F1 [Polyfuse]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Jumper'
+    ; warning
+    @(299.72 mm, 49.53 mm): Symbol JP1 [SolderJumper_2_Open]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Jumper'
+    ; warning
+    @(299.72 mm, 49.53 mm): Symbol JP1 [SolderJumper_2_Open]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Jumper'
+    ; warning
+    @(299.72 mm, 80.01 mm): Symbol JP2 [SolderJumper_2_Open]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Jumper'
+    ; warning
+    @(299.72 mm, 80.01 mm): Symbol JP2 [SolderJumper_2_Open]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Jumper'
+    ; warning
+    @(299.72 mm, 110.49 mm): Symbol JP3 [SolderJumper_2_Open]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Jumper'
+    ; warning
+    @(299.72 mm, 110.49 mm): Symbol JP3 [SolderJumper_2_Open]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TestPoint'
+    ; warning
+    @(299.72 mm, 139.70 mm): Symbol TP5 [TestPoint]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(299.72 mm, 139.70 mm): Symbol TP5 [TestPoint]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TestPoint'
+    ; warning
+    @(340.36 mm, 49.53 mm): Symbol TP1 [TestPoint]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(340.36 mm, 49.53 mm): Symbol TP1 [TestPoint]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TestPoint'
+    ; warning
+    @(340.36 mm, 80.01 mm): Symbol TP2 [TestPoint]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(340.36 mm, 80.01 mm): Symbol TP2 [TestPoint]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TestPoint'
+    ; warning
+    @(340.36 mm, 110.49 mm): Symbol TP3 [TestPoint]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(340.36 mm, 110.49 mm): Symbol TP3 [TestPoint]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TestPoint'
+    ; warning
+    @(340.36 mm, 139.70 mm): Symbol TP4 [TestPoint]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Connector'
+    ; warning
+    @(340.36 mm, 139.70 mm): Symbol TP4 [TestPoint]
+
+ ** ERC messages: 31  Errors 0  Warnings 31
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

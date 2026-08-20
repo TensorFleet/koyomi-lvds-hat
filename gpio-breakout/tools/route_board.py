@@ -32,8 +32,8 @@ JAR = os.environ.get(
 )
 JAVA = "/opt/homebrew/opt/openjdk@25/bin/java"
 
-POWER_NET = re.compile(r'^"?(VBUS[A-Z0-9_]*|\+3V3|SD_VDD|AU_VBUS|AU_VDD|HDMI_5V)"?$')
-POWER_WIDTH_UM = 600
+POWER_NET = re.compile(r"^NEVER_MATCH$")
+POWER_WIDTH_UM = 300
 POWER_CLEARANCE_UM = 200
 
 
@@ -148,7 +148,7 @@ def main() -> int:
         dsn, n_dropped = drop_nets_from_network(dsn, keep)
         print(f"DSN: {n_dropped} pre-routed nets excluded from routing")
     # In1 stays a solid GND plane; the router may still use In2.
-    dsn = dsn.replace("(layer In1.Cu\n      (type signal)",
+    dsn = dsn if os.environ.get("OPEN_IN1") else dsn.replace("(layer In1.Cu\n      (type signal)",
                       "(layer In1.Cu\n      (type power)")
     dsn_path.write_text(dsn)
     print(f"DSN: boundary inset 0.5 mm; {n_power} power nets at "

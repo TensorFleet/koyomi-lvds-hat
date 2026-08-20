@@ -15,7 +15,7 @@ kicad_libs._lib_cache['B2_INTERCONNECT'] = sexpr.loads(
     open(_os.path.join(_here, '..', 'B2_INTERCONNECT.kicad_sym')).read())
 
 
-OUT = '/private/tmp/claude-501/-Users-hyper-projects-tensorfleet-vaio-p-modding/2f5c30d3-28a2-4e2f-a4f0-197163398436/scratchpad/bo-wt/gpio-breakout/kicad/gpio_breakout.kicad_sch'
+OUT = '/private/tmp/claude-501/-Users-hyper-projects-tensorfleet-vaio-p-modding/2f5c30d3-28a2-4e2f-a4f0-197163398436/scratchpad/bo2/gpio-breakout/kicad/gpio_breakout.kicad_sch'
 PROJECT = 'gpio_breakout'
 
 # Stable UUIDs: derive from a fixed namespace so regeneration is deterministic.
@@ -36,6 +36,7 @@ POS = {
     'TP1': (340, 50), 'TP2': (340, 80), 'TP3': (340, 110),
     'TP4': (340, 140), 'TP5': (300, 140),
     'H1': (60, 200), 'H2': (90, 200),
+    'F1': (240, 140), 'JP4': (200, 140), 'JP5': (200, 170),
 }
 FLAG_X0, FLAG_Y = 40, 380  # PWR_FLAG row
 
@@ -149,10 +150,10 @@ def main():
            [S('uuid'), ROOT_UUID],
            [S('paper'), 'A2'],
            [S('title_block'),
-            [S('title'), 'koyomi gpio-breakout A0'],
+            [S('title'), 'koyomi gpio-breakout A1'],
             [S('date'), '2026-08-02'],
-            [S('rev'), 'A'],
-            [S('comment'), 1, 'USB2 hub + microSD breakout, carrier-fed']],
+            [S('rev'), 'A1'],
+            [S('comment'), 1, 'FH41 40P FFC to Pi GPIO bench adapter']],
            [S('lib_symbols')] + list(used_syms.values()),
            ]
     doc += body

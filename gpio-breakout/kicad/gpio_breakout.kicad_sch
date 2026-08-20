@@ -5,10 +5,10 @@
 	(uuid "99255c93-d462-57a7-84d8-8a7e16fc8b43")
 	(paper "A2")
 	(title_block
-		(title "koyomi gpio-breakout A0")
+		(title "koyomi gpio-breakout A1")
 		(date "2026-08-02")
-		(rev "A")
-		(comment 1 "USB2 hub + microSD breakout, carrier-fed")
+		(rev "A1")
+		(comment 1 "FH41 40P FFC to Pi GPIO bench adapter")
 	)
 	(lib_symbols
 		(symbol "B2_INTERCONNECT:FH41-40S-0.5SH"
@@ -115,7 +115,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 46.99 0)
 					(length 2.54)
 					(name "1"
@@ -133,7 +133,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 44.45 0)
 					(length 2.54)
 					(name "2"
@@ -151,7 +151,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 41.91 0)
 					(length 2.54)
 					(name "3"
@@ -169,7 +169,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 39.37 0)
 					(length 2.54)
 					(name "4"
@@ -187,7 +187,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 36.83 0)
 					(length 2.54)
 					(name "5"
@@ -205,7 +205,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 34.29 0)
 					(length 2.54)
 					(name "6"
@@ -223,7 +223,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 31.75 0)
 					(length 2.54)
 					(name "7"
@@ -241,7 +241,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 29.21 0)
 					(length 2.54)
 					(name "8"
@@ -259,7 +259,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 26.67 0)
 					(length 2.54)
 					(name "9"
@@ -277,7 +277,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 24.13 0)
 					(length 2.54)
 					(name "10"
@@ -295,7 +295,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 21.59 0)
 					(length 2.54)
 					(name "11"
@@ -313,7 +313,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 19.05 0)
 					(length 2.54)
 					(name "12"
@@ -331,7 +331,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 16.51 0)
 					(length 2.54)
 					(name "13"
@@ -349,7 +349,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 13.97 0)
 					(length 2.54)
 					(name "14"
@@ -367,7 +367,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 11.43 0)
 					(length 2.54)
 					(name "15"
@@ -385,7 +385,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 8.89 0)
 					(length 2.54)
 					(name "16"
@@ -403,7 +403,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 6.35 0)
 					(length 2.54)
 					(name "17"
@@ -421,7 +421,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 3.81 0)
 					(length 2.54)
 					(name "18"
@@ -439,7 +439,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 1.27 0)
 					(length 2.54)
 					(name "19"
@@ -457,7 +457,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -1.27 0)
 					(length 2.54)
 					(name "20"
@@ -475,7 +475,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -3.81 0)
 					(length 2.54)
 					(name "21"
@@ -493,7 +493,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -6.35 0)
 					(length 2.54)
 					(name "22"
@@ -511,7 +511,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -8.89 0)
 					(length 2.54)
 					(name "23"
@@ -529,7 +529,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -11.43 0)
 					(length 2.54)
 					(name "24"
@@ -547,7 +547,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -13.97 0)
 					(length 2.54)
 					(name "25"
@@ -565,7 +565,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -16.51 0)
 					(length 2.54)
 					(name "26"
@@ -583,7 +583,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -19.05 0)
 					(length 2.54)
 					(name "27"
@@ -601,7 +601,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -21.59 0)
 					(length 2.54)
 					(name "28"
@@ -619,7 +619,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -24.13 0)
 					(length 2.54)
 					(name "29"
@@ -637,7 +637,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -26.67 0)
 					(length 2.54)
 					(name "30"
@@ -655,7 +655,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -29.21 0)
 					(length 2.54)
 					(name "31"
@@ -673,7 +673,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -31.75 0)
 					(length 2.54)
 					(name "32"
@@ -691,7 +691,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -34.29 0)
 					(length 2.54)
 					(name "33"
@@ -709,7 +709,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -36.83 0)
 					(length 2.54)
 					(name "34"
@@ -727,7 +727,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -39.37 0)
 					(length 2.54)
 					(name "35"
@@ -745,7 +745,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -41.91 0)
 					(length 2.54)
 					(name "36"
@@ -763,7 +763,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -44.45 0)
 					(length 2.54)
 					(name "37"
@@ -781,7 +781,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -46.99 0)
 					(length 2.54)
 					(name "38"
@@ -799,7 +799,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -49.53 0)
 					(length 2.54)
 					(name "39"
@@ -817,7 +817,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -52.07 0)
 					(length 2.54)
 					(name "40"
@@ -835,7 +835,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 6.35 180)
 					(length 5.08)
 					(name "41"
@@ -853,7 +853,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 3.81 180)
 					(length 5.08)
 					(name "42"
@@ -871,7 +871,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 1.27 180)
 					(length 5.08)
 					(name "43"
@@ -889,7 +889,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -1.27 180)
 					(length 5.08)
 					(name "44"
@@ -907,7 +907,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -3.81 180)
 					(length 5.08)
 					(name "45"
@@ -925,7 +925,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -6.35 180)
 					(length 5.08)
 					(name "46"
@@ -943,7 +943,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -8.89 180)
 					(length 5.08)
 					(name "47"
@@ -961,7 +961,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -11.43 180)
 					(length 5.08)
 					(name "48"
@@ -979,7 +979,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0.00 57.15 270)
 					(length 5.08)
 					(name "49"
@@ -2439,6 +2439,366 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54)
+						(xy -1.524 1.524)
+						(xy 1.524 -1.524)
+						(xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016)
+						(xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016)
+						(xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2999,7 +3359,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3V3_FFC"
 		(shape passive)
 		(at 60.96 33.02 180)
 		(effects
@@ -3018,7 +3378,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_FFC"
 		(shape passive)
 		(at 60.96 35.56 180)
 		(effects
@@ -3056,7 +3416,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+5V_FFC"
 		(shape passive)
 		(at 60.96 40.64 180)
 		(effects
@@ -5178,6 +5538,321 @@
 		(uuid "688f32c9-2f17-55e0-b474-10df4442595a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 304.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 240.03 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c7d89fa-e43e-5b1f-a66b-db24687128a8")
+		(property "Reference" "F1"
+			(at 240.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5A polyfuse 1206"
+			(at 240.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC resettable, 0.5 A hold — FFC contact rating"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfab5db5-66a8-5906-827a-f4893fe538c0")
+		)
+		(pin "2"
+			(uuid "ea8b1d27-76d2-5dcc-85b4-bbe2662e2c34")
+		)
+		(instances
+			(project "gpio_breakout"
+				(path "/99255c93-d462-57a7-84d8-8a7e16fc8b43"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+5V_LNK"
+		(shape passive)
+		(at 240.03 135.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f49ddd5b-73fd-5b6a-8b6d-4f4d547b6f90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_FFC"
+		(shape passive)
+		(at 240.03 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32b0c107-5365-5f70-9142-02c20da327b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 199.39 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcb1fa50-8344-5edb-a72c-3b1e03f40fc9")
+		(property "Reference" "JP4"
+			(at 199.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V LINK"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CUT when LCD chain is powered externally"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45099992-804d-5d28-8a2e-ff40eff6f639")
+		)
+		(pin "2"
+			(uuid "7aca29fc-9492-565d-b80a-ef353737dac8")
+		)
+		(instances
+			(project "gpio_breakout"
+				(path "/99255c93-d462-57a7-84d8-8a7e16fc8b43"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape passive)
+		(at 194.31 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b9bbee6-4a2f-5ced-93e8-d5852ff5a002")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_LNK"
+		(shape passive)
+		(at 204.47 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4848379-b917-5bee-a31f-58706773bf04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 199.39 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68510cbd-6a47-5e8a-867d-b3f38ad3b6d2")
+		(property "Reference" "JP5"
+			(at 199.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3 LINK"
+			(at 199.39 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 199.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CUT when LCD chain is powered externally"
+			(at 199.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0351eec-51be-5cff-a013-38db91784e55")
+		)
+		(pin "2"
+			(uuid "a4a3b04f-e98f-5e40-b6d1-608354f8178b")
+		)
+		(instances
+			(project "gpio_breakout"
+				(path "/99255c93-d462-57a7-84d8-8a7e16fc8b43"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape passive)
+		(at 194.31 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b6a7304-a951-5918-9f48-0d0e62af33e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3_FFC"
+		(shape passive)
+		(at 204.47 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29b7148f-9a23-511c-8af3-af7928414847")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
