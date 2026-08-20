@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "board": "variants/koyomi-lvds-hat-rgb-compact-r2.9-silkscreen-clearance/koyomi-lvds-hat.kicad_pcb",
+  "connectors": {
+    "JFFC1": {
+      "x": 120.0,
+      "y": 25.3,
+      "rotation": 180.0,
+      "layer": "F.Cu",
+      "edge": "top",
+      "opening": "outward"
+    },
+    "J2": {
+      "x": 118.5,
+      "y": 41.2,
+      "rotation": 0.0,
+      "layer": "F.Cu",
+      "edge": "bottom",
+      "opening": "outward"
+    },
+    "JBL1": {
+      "x": 135.5,
+      "y": 39.8,
+      "rotation": 0.0,
+      "layer": "F.Cu",
+      "edge": "bottom",
+      "opening": "outward"
+    }
+  },
+  "interpretation": "Exact X/Y, rotation, F.Cu placement, assigned edge, and outward opening agree with the R2.9 record inherited from immutable R2.8."
+}

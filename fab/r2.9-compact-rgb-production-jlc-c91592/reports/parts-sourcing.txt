@@ -1,0 +1,7 @@
+JLCPCB assembly upload check: 2026-08-21
+Cart item: Y47-13044587A; Economic PCBA SMT026082063285-13044587A; quantity 5
+Matched: 11 of 12 BOM lines
+J2 C5311655 / I-PEX 20374-R30E-31: five-piece shortfall; intentionally not placed; hand-solder pre-ordered stock
+FL1,FL2 C91592 / Murata DLP2ADN900HL4L: matched for assembly
+C91592 is the approved same-series 90-ohm substitution previously fitted on the five-board 2026-07-30 JLCPCB build.
+Saved quote: PCB $61.04; PCBA $72.21; total $133.25 before shipping and tax
