@@ -4008,7 +4008,7 @@
 		)
 	)
 	(gr_text "cut 5V/3V3 links if chain"
-		(at 53.2 73.5 0)
+		(at 66 60.2 0)
 		(layer "B.SilkS")
 		(uuid "7dfcad40-b340-4cc3-8e2d-a60de25cbd9e")
 		(effects
@@ -4020,7 +4020,7 @@
 		)
 	)
 	(gr_text "is externally powered"
-		(at 53.2 75 0)
+		(at 66 61.8 0)
 		(layer "B.SilkS")
 		(uuid "0598cb11-1218-4b87-bae9-2d621d5e0a74")
 		(effects
