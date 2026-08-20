@@ -1,0 +1,51 @@
+{
+  "revision": "R2.9 silkscreen-clearance production candidate",
+  "board_file": "koyomi-lvds-hat.kicad_pcb",
+  "outline_mm": {
+    "left": 91.0,
+    "top_base": 22.0,
+    "top_jffc_tab": 21.5,
+    "right": 149.0,
+    "bottom": 44.2
+  },
+  "jffc_support_tab_mm": {
+    "left": 110.0,
+    "top": 21.5,
+    "right": 130.0,
+    "bottom": 22.0
+  },
+  "connectors": [
+    {
+      "reference": "JFFC1",
+      "edge": "top",
+      "x_mm": 120.0,
+      "y_mm": 25.3,
+      "layer": "F.Cu",
+      "rotation_degrees": 180.0,
+      "opening": "outward"
+    },
+    {
+      "reference": "J2",
+      "edge": "bottom",
+      "x_mm": 118.5,
+      "y_mm": 41.2,
+      "layer": "F.Cu",
+      "rotation_degrees": 0.0,
+      "opening": "outward"
+    },
+    {
+      "reference": "JBL1",
+      "edge": "bottom",
+      "x_mm": 135.5,
+      "y_mm": 39.8,
+      "layer": "F.Cu",
+      "rotation_degrees": 0.0,
+      "opening": "outward"
+    }
+  ],
+  "release_requirements": {
+    "top_render_review": true,
+    "side_render_review": true,
+    "straight_through_pin_order_recheck_after_rotation": true
+  }
+}
