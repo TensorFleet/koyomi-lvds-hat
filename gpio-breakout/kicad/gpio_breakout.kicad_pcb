@@ -2092,7 +2092,7 @@
 			(uuid "33ab3b0f-21cd-4d35-8c1e-645b3251e0a1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/B2_INTERCONNECT.3dshapes/FPC-SMD_FH41-40S-0.5SH.step"
+		(model "${KIPRJMOD}/../B2_INTERCONNECT.3dshapes/FPC-SMD_FH41-40S-0.5SH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3214,28 +3214,6 @@
 		(at 103.4 74.5 0)
 		(layer "F.SilkS")
 		(uuid "51682394-76ef-4018-8ba2-4930d223c55d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "3V3"
-		(at 108.2 72.6 0)
-		(layer "F.SilkS")
-		(uuid "8ef076af-f72a-4327-a379-fbf924983f92")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "GND"
-		(at 108.2 78 0)
-		(layer "F.SilkS")
-		(uuid "b05e0dcd-fae9-4248-a774-6f7466326748")
 		(effects
 			(font
 				(size 1 1)
