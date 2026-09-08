@@ -104,8 +104,9 @@ native editor and rerun source/model/reference audits before fabrication.
 
 **Not fabrication released.** The `gpio-breakout-a2` interconnect entry in
 [contract PR34](https://github.com/TensorFleet/vaio_p_modding/pull/34) remains
-blocked until the native stackup is updated, the separate LCD endpoint exists, an exact catalog cable assembly
-and one-to-one pin order are audited, and mechanical/model qualification closes.
+blocked until the native stackup is updated, C1 routing/release checks close, and the catalog cable assembly and mechanical/model qualification are verified.
+
+The user selected **Combined peripheral C1 J401** as the endpoint on 2026-09-09. Fresh schematic exports confirm the same Samtec ZF5S-40-01-T-WT-K-TR connector value and all 40 numbered functions match GPIO A2 without repinning. A further native C1 PCB load timed out; no fresh two-board PCB pass is claimed. The inherited cable candidate is [Samtec FJH-40-R-03.00-4](https://www.samtec.com/products/fjh-40-r-03.00-4), 76.2 mm. Installed length, contact-face/fold arrangement and clearance remain to be verified.
 Physical cable continuity is a TODO after the cable choice; it is not the sole
 release blocker. A clean PCB DRC is not proof of assembled LCD compatibility.
 
