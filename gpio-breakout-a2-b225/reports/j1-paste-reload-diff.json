@@ -1,0 +1,3849 @@
+{
+  "footprints": {
+    "4f6a6607-673e-4e32-8df9-93071ac754ea": {
+      "before": {
+        "id": {
+          "value": "4f6a6607-673e-4e32-8df9-93071ac754ea"
+        },
+        "position": {
+          "x_nm": "53300000",
+          "y_nm": "67000000"
+        },
+        "orientation": {
+          "value_degrees": 90.0
+        },
+        "layer": "BL_F_Cu",
+        "locked": "LS_UNLOCKED",
+        "definition": {
+          "id": {
+            "entry_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+          },
+          "attributes": {
+            "description": "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open",
+            "keywords": "solder jumper open"
+          },
+          "items": [
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "b2d81515-73fb-4ee9-b171-9885cd517303"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "1",
+              "net": {
+                "name": "+3V3"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "73a030d0-420f-4a68-94ed-568417555f65"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "40cfc49b-bf28-41e7-a175-f34fbe7ef693"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "fe21f720-0c40-4474-9ce6-fbd8b000ff02"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "67650000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "a08831a6-d248-45db-afcd-9c7b93b64f98"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "2",
+              "net": {
+                "name": "+3V3_FFC"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "7f9d2f52-0e9a-4e8e-b17d-ddf7a583e4a6"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "6e09efb7-79da-4441-b4e1-51e2538b7078"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "eca1ffe0-568a-45b1-b34b-d0a285d40932"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "66350000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {},
+                    "style": "SLS_DEFAULT"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_FILLED"
+                  }
+                },
+                "rectangle": {
+                  "top_left": {
+                    "x_nm": "52550000",
+                    "y_nm": "66850001"
+                  },
+                  "bottom_right": {
+                    "x_nm": "54050000",
+                    "y_nm": "67149999"
+                  },
+                  "corner_radius": {}
+                }
+              },
+              "layer": "BL_F_Mask",
+              "net": {},
+              "id": {
+                "value": "8b167dea-2c4b-4c0b-8267-5013a41ff555"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53599999",
+                    "y_nm": "68400000"
+                  },
+                  "end": {
+                    "x_nm": "53000000",
+                    "y_nm": "68400000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "efee8deb-53cb-42cb-a22f-61bd1326182e"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52300000",
+                    "y_nm": "67699999"
+                  },
+                  "end": {
+                    "x_nm": "52300000",
+                    "y_nm": "66300000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "e5cd134a-e9df-4423-a53c-3dde8ed48513"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54300000",
+                    "y_nm": "66300001"
+                  },
+                  "end": {
+                    "x_nm": "54300000",
+                    "y_nm": "67700000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "2d6e71b8-2249-4721-9ef7-f5f9d505ce1a"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53000001",
+                    "y_nm": "65600000"
+                  },
+                  "end": {
+                    "x_nm": "53600000",
+                    "y_nm": "65600000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "cd2e4115-d668-4532-92d4-edc96b85105f"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "04e5f9be-9564-4189-8c6c-33ababe9bf9e"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "63c28a2f-2c73-4d2c-8534-d2313c4075c1"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "7932751e-2b6c-4b47-ba0c-afb0ecf19530"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "7c868f98-2620-43f8-b0a1-a5112d38a739"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "68650000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "68650000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "9512c0db-dc5e-4f13-b62d-80ac96f03c29"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "68650000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "65350000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "5a8f38f1-2e2b-43ad-8c07-b9ddaa60f3d8"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "65350000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "68650000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "756e81de-098e-4392-ba54-0bc6a04eb314"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "65350000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "65350000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "ab79e997-c807-4322-865d-df6bdddf523b"
+              },
+              "locked": "LS_UNLOCKED"
+            }
+          ],
+          "jumpers": {}
+        },
+        "reference_field": {
+          "id": {
+            "id": 1
+          },
+          "name": "Reference",
+          "text": {
+            "id": {
+              "value": "f8c1b712-ce03-49b1-8526-05f4b3f100b2"
+            },
+            "text": {
+              "position": {
+                "x_nm": "51500000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP5"
+            },
+            "layer": "BL_F_SilkS",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "value_field": {
+          "id": {
+            "id": 2
+          },
+          "name": "Value",
+          "text": {
+            "id": {
+              "value": "84d672df-1bb2-492d-83aa-60c96f7eb1bc"
+            },
+            "text": {
+              "position": {
+                "x_nm": "55200000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP5 OPEN"
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "datasheet_field": {
+          "id": {
+            "id": 4
+          },
+          "name": "Datasheet",
+          "text": {
+            "id": {
+              "value": "b0316ec4-15e7-4b42-a074-d28777ae0e6a"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "description_field": {
+          "id": {
+            "id": 5
+          },
+          "name": "Description",
+          "text": {
+            "id": {
+              "value": "7a92540f-0275-447d-a7d9-c169da0cb155"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "attributes": {
+          "exclude_from_position_files": true,
+          "exclude_from_bill_of_materials": true,
+          "mounting_style": "FMS_UNSPECIFIED",
+          "allow_soldermask_bridges": true
+        },
+        "overrides": {
+          "zone_connection": "ZCS_THERMAL"
+        },
+        "symbol_path": {
+          "path": [
+            {
+              "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+            },
+            {
+              "value": "4d53d781-d6b8-4f01-bee1-940bcfd00d2d"
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": {
+          "value": "4f6a6607-673e-4e32-8df9-93071ac754ea"
+        },
+        "position": {
+          "x_nm": "53300000",
+          "y_nm": "67000000"
+        },
+        "orientation": {
+          "value_degrees": 90.0
+        },
+        "layer": "BL_F_Cu",
+        "locked": "LS_UNLOCKED",
+        "definition": {
+          "id": {
+            "entry_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+          },
+          "attributes": {
+            "description": "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open",
+            "keywords": "solder jumper open"
+          },
+          "items": [
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "b2d81515-73fb-4ee9-b171-9885cd517303"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "1",
+              "net": {
+                "name": "+3V3"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "49e4a07e-3bdf-4391-9c2c-a0a23f3e1ebd"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "837d6ac0-ac58-465d-a353-57ae2619b5f2"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "0f689528-ac46-4e41-9a4f-b03bc6677d8c"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "67650000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "a08831a6-d248-45db-afcd-9c7b93b64f98"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "2",
+              "net": {
+                "name": "+3V3_FFC"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "c5367e1a-2aa2-49df-91be-87c2b299667e"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "4f1463a4-f597-494a-bce6-e4bba3c507a5"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "056f6ce4-e4a0-45b7-991f-e54a0663bea3"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "66350000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {},
+                    "style": "SLS_DEFAULT"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_FILLED"
+                  }
+                },
+                "rectangle": {
+                  "top_left": {
+                    "x_nm": "52550000",
+                    "y_nm": "66850001"
+                  },
+                  "bottom_right": {
+                    "x_nm": "54050000",
+                    "y_nm": "67149999"
+                  },
+                  "corner_radius": {}
+                }
+              },
+              "layer": "BL_F_Mask",
+              "net": {},
+              "id": {
+                "value": "8b167dea-2c4b-4c0b-8267-5013a41ff555"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53599999",
+                    "y_nm": "68400000"
+                  },
+                  "end": {
+                    "x_nm": "53000000",
+                    "y_nm": "68400000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "efee8deb-53cb-42cb-a22f-61bd1326182e"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52300000",
+                    "y_nm": "67699999"
+                  },
+                  "end": {
+                    "x_nm": "52300000",
+                    "y_nm": "66300000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "e5cd134a-e9df-4423-a53c-3dde8ed48513"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54300000",
+                    "y_nm": "66300001"
+                  },
+                  "end": {
+                    "x_nm": "54300000",
+                    "y_nm": "67700000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "2d6e71b8-2249-4721-9ef7-f5f9d505ce1a"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53000001",
+                    "y_nm": "65600000"
+                  },
+                  "end": {
+                    "x_nm": "53600000",
+                    "y_nm": "65600000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "cd2e4115-d668-4532-92d4-edc96b85105f"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "04e5f9be-9564-4189-8c6c-33ababe9bf9e"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "63c28a2f-2c73-4d2c-8534-d2313c4075c1"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "7932751e-2b6c-4b47-ba0c-afb0ecf19530"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "67000000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "7c868f98-2620-43f8-b0a1-a5112d38a739"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "68650000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "68650000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "9512c0db-dc5e-4f13-b62d-80ac96f03c29"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "68650000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "65350000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "5a8f38f1-2e2b-43ad-8c07-b9ddaa60f3d8"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "65350000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "68650000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "756e81de-098e-4392-ba54-0bc6a04eb314"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "65350000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "65350000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "ab79e997-c807-4322-865d-df6bdddf523b"
+              },
+              "locked": "LS_UNLOCKED"
+            }
+          ],
+          "jumpers": {}
+        },
+        "reference_field": {
+          "id": {
+            "id": 1
+          },
+          "name": "Reference",
+          "text": {
+            "id": {
+              "value": "f8c1b712-ce03-49b1-8526-05f4b3f100b2"
+            },
+            "text": {
+              "position": {
+                "x_nm": "51500000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP5"
+            },
+            "layer": "BL_F_SilkS",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "value_field": {
+          "id": {
+            "id": 2
+          },
+          "name": "Value",
+          "text": {
+            "id": {
+              "value": "84d672df-1bb2-492d-83aa-60c96f7eb1bc"
+            },
+            "text": {
+              "position": {
+                "x_nm": "55200000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP5 OPEN"
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "datasheet_field": {
+          "id": {
+            "id": 4
+          },
+          "name": "Datasheet",
+          "text": {
+            "id": {
+              "value": "b0316ec4-15e7-4b42-a074-d28777ae0e6a"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "description_field": {
+          "id": {
+            "id": 5
+          },
+          "name": "Description",
+          "text": {
+            "id": {
+              "value": "7a92540f-0275-447d-a7d9-c169da0cb155"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "67000000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "attributes": {
+          "exclude_from_position_files": true,
+          "exclude_from_bill_of_materials": true,
+          "mounting_style": "FMS_UNSPECIFIED",
+          "allow_soldermask_bridges": true
+        },
+        "overrides": {
+          "zone_connection": "ZCS_THERMAL"
+        },
+        "symbol_path": {
+          "path": [
+            {
+              "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+            },
+            {
+              "value": "4d53d781-d6b8-4f01-bee1-940bcfd00d2d"
+            }
+          ]
+        }
+      }
+    },
+    "74da763d-e2ec-40ff-9095-5955563f662c": {
+      "before": {
+        "id": {
+          "value": "74da763d-e2ec-40ff-9095-5955563f662c"
+        },
+        "position": {
+          "x_nm": "53300000",
+          "y_nm": "58200000"
+        },
+        "orientation": {
+          "value_degrees": 90.0
+        },
+        "layer": "BL_F_Cu",
+        "locked": "LS_UNLOCKED",
+        "definition": {
+          "id": {
+            "entry_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+          },
+          "attributes": {
+            "description": "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open",
+            "keywords": "solder jumper open"
+          },
+          "items": [
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "f6b65d72-4210-4214-a40d-8e54673fa41f"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "1",
+              "net": {
+                "name": "+5V"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "f077597d-200e-41a3-b8d6-e4d9ff24050e"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "912eb1b3-7f51-4718-bf9e-dd622b28fea1"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "f1340e58-76f7-45af-a57a-f96a80ac03a6"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "58850000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "d022ce2f-0446-4758-9ae7-bfa316d1fd23"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "2",
+              "net": {
+                "name": "+5V_LNK"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "6166e9e7-c46b-4798-8d78-ece93f8e54ad"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "8aff250e-6bab-4d4f-aa84-c615af10af4e"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "730d9e4e-4a3c-4b6b-9511-70c969dae669"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "57550000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {},
+                    "style": "SLS_DEFAULT"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_FILLED"
+                  }
+                },
+                "rectangle": {
+                  "top_left": {
+                    "x_nm": "52550000",
+                    "y_nm": "58050001"
+                  },
+                  "bottom_right": {
+                    "x_nm": "54050000",
+                    "y_nm": "58349999"
+                  },
+                  "corner_radius": {}
+                }
+              },
+              "layer": "BL_F_Mask",
+              "net": {},
+              "id": {
+                "value": "33fff17d-08a9-489b-b4ee-a813c075c4f4"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53599999",
+                    "y_nm": "59600000"
+                  },
+                  "end": {
+                    "x_nm": "53000000",
+                    "y_nm": "59600000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "4bcb3ffb-1b1b-4534-a61e-e35d3ff33be6"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52300000",
+                    "y_nm": "58899999"
+                  },
+                  "end": {
+                    "x_nm": "52300000",
+                    "y_nm": "57500000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "e83d7d1d-5eba-4a2e-a399-12111ffc3bfc"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54300000",
+                    "y_nm": "57500001"
+                  },
+                  "end": {
+                    "x_nm": "54300000",
+                    "y_nm": "58900000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "455e6708-db0a-463d-ae02-18ccdbeb61a2"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53000001",
+                    "y_nm": "56800000"
+                  },
+                  "end": {
+                    "x_nm": "53600000",
+                    "y_nm": "56800000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "3074d7e2-eab4-4ce0-8404-ce71cf464be5"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "04bc3f1e-3997-4991-9348-3a54ea5a4804"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "a481284c-25fa-41ba-b537-414e5f946a79"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "c937e643-1e85-4d10-9475-523990d62725"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "ece2675e-1369-4f55-b759-3968266014f2"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "59850000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "59850000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "e2b37815-a249-49ae-a970-72de964142ad"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "59850000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "56550000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "b01f4acd-70cd-4bba-8b73-15eb56a99238"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "56550000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "59850000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "5b9789b7-a0af-4305-ab4d-93d1842243d2"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "56550000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "56550000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "c5b4b096-d53e-4862-b827-e1fc79d58c4f"
+              },
+              "locked": "LS_UNLOCKED"
+            }
+          ],
+          "jumpers": {}
+        },
+        "reference_field": {
+          "id": {
+            "id": 1
+          },
+          "name": "Reference",
+          "text": {
+            "id": {
+              "value": "caee4842-2a20-47c2-b4b3-6fa9ad5a2878"
+            },
+            "text": {
+              "position": {
+                "x_nm": "51500000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP4"
+            },
+            "layer": "BL_F_SilkS",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "value_field": {
+          "id": {
+            "id": 2
+          },
+          "name": "Value",
+          "text": {
+            "id": {
+              "value": "cd1ce67b-46c8-4482-ac08-de861f22c172"
+            },
+            "text": {
+              "position": {
+                "x_nm": "55200000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP4 OPEN"
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "datasheet_field": {
+          "id": {
+            "id": 4
+          },
+          "name": "Datasheet",
+          "text": {
+            "id": {
+              "value": "4a818d5f-e228-4022-9634-662146d16b7f"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "description_field": {
+          "id": {
+            "id": 5
+          },
+          "name": "Description",
+          "text": {
+            "id": {
+              "value": "7d915f00-13f5-4e3a-901c-e83ae04e04a8"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "attributes": {
+          "exclude_from_position_files": true,
+          "exclude_from_bill_of_materials": true,
+          "mounting_style": "FMS_UNSPECIFIED",
+          "allow_soldermask_bridges": true
+        },
+        "overrides": {
+          "zone_connection": "ZCS_THERMAL"
+        },
+        "symbol_path": {
+          "path": [
+            {
+              "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+            },
+            {
+              "value": "d2b7bf2a-c0d2-44a1-8c45-c9f673e09ba7"
+            }
+          ]
+        }
+      },
+      "after": {
+        "id": {
+          "value": "74da763d-e2ec-40ff-9095-5955563f662c"
+        },
+        "position": {
+          "x_nm": "53300000",
+          "y_nm": "58200000"
+        },
+        "orientation": {
+          "value_degrees": 90.0
+        },
+        "layer": "BL_F_Cu",
+        "locked": "LS_UNLOCKED",
+        "definition": {
+          "id": {
+            "entry_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+          },
+          "attributes": {
+            "description": "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open",
+            "keywords": "solder jumper open"
+          },
+          "items": [
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "f6b65d72-4210-4214-a40d-8e54673fa41f"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "1",
+              "net": {
+                "name": "+5V"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "5519b18a-6ecc-4ef8-988d-0068509a1988"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "14f467b6-c2c2-46c7-b8e9-3fc09bc6fd1d"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "cd388912-44e9-48c6-8059-0eff8023af8a"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "58850000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.Pad",
+              "id": {
+                "value": "d022ce2f-0446-4758-9ae7-bfa316d1fd23"
+              },
+              "locked": "LS_UNLOCKED",
+              "number": "2",
+              "net": {
+                "name": "+5V_LNK"
+              },
+              "type": "PT_SMD",
+              "pad_stack": {
+                "type": "PST_NORMAL",
+                "layers": [
+                  "BL_F_Cu",
+                  "BL_F_Mask"
+                ],
+                "drill": {
+                  "start_layer": "BL_F_Cu",
+                  "end_layer": "BL_B_Cu",
+                  "diameter": {},
+                  "shape": "DS_CIRCLE"
+                },
+                "unconnected_layer_removal": "ULR_KEEP",
+                "copper_layers": [
+                  {
+                    "layer": "BL_F_Cu",
+                    "shape": "PSS_CUSTOM",
+                    "size": {
+                      "x_nm": "1000000",
+                      "y_nm": "500000"
+                    },
+                    "corner_rounding_ratio": 0.25,
+                    "chamfer_ratio": 0.2,
+                    "custom_shapes": [
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "a0beba76-65f8-402b-b464-feb1a4d88470"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "circle": {
+                            "center": {
+                              "y_nm": "-250000"
+                            },
+                            "radius_point": {
+                              "x_nm": "500000",
+                              "y_nm": "-250000"
+                            }
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "617954fe-6789-4791-854c-1beff66f9f5f"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      },
+                      {
+                        "shape": {
+                          "attributes": {
+                            "stroke": {
+                              "width": {},
+                              "style": "SLS_SOLID"
+                            },
+                            "fill": {
+                              "fill_type": "GFT_FILLED"
+                            }
+                          },
+                          "polygon": {
+                            "polygons": [
+                              {
+                                "outline": {
+                                  "nodes": [
+                                    {
+                                      "point": {
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "x_nm": "-500000",
+                                        "y_nm": "-750000"
+                                      }
+                                    },
+                                    {
+                                      "point": {
+                                        "y_nm": "-750000"
+                                      }
+                                    }
+                                  ],
+                                  "closed": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "layer": "BL_F_Cu",
+                        "net": {},
+                        "id": {
+                          "value": "e9fead2e-f8f7-4938-b70d-6cec1b29c600"
+                        },
+                        "locked": "LS_UNLOCKED"
+                      }
+                    ],
+                    "custom_anchor_shape": "PSS_RECTANGLE",
+                    "offset": {}
+                  }
+                ],
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "zone_settings": {
+                  "zone_connection": "ZCS_FULL",
+                  "thermal_spokes": {
+                    "angle": {
+                      "value_degrees": 45.0
+                    }
+                  }
+                }
+              },
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "57550000"
+              },
+              "pad_to_die_length": {},
+              "symbol_pin": {},
+              "pad_to_die_delay": {}
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {},
+                    "style": "SLS_DEFAULT"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_FILLED"
+                  }
+                },
+                "rectangle": {
+                  "top_left": {
+                    "x_nm": "52550000",
+                    "y_nm": "58050001"
+                  },
+                  "bottom_right": {
+                    "x_nm": "54050000",
+                    "y_nm": "58349999"
+                  },
+                  "corner_radius": {}
+                }
+              },
+              "layer": "BL_F_Mask",
+              "net": {},
+              "id": {
+                "value": "33fff17d-08a9-489b-b4ee-a813c075c4f4"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53599999",
+                    "y_nm": "59600000"
+                  },
+                  "end": {
+                    "x_nm": "53000000",
+                    "y_nm": "59600000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "4bcb3ffb-1b1b-4534-a61e-e35d3ff33be6"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52300000",
+                    "y_nm": "58899999"
+                  },
+                  "end": {
+                    "x_nm": "52300000",
+                    "y_nm": "57500000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "e83d7d1d-5eba-4a2e-a399-12111ffc3bfc"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54300000",
+                    "y_nm": "57500001"
+                  },
+                  "end": {
+                    "x_nm": "54300000",
+                    "y_nm": "58900000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "455e6708-db0a-463d-ae02-18ccdbeb61a2"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "53000001",
+                    "y_nm": "56800000"
+                  },
+                  "end": {
+                    "x_nm": "53600000",
+                    "y_nm": "56800000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "3074d7e2-eab4-4ce0-8404-ce71cf464be5"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "04bc3f1e-3997-4991-9348-3a54ea5a4804"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "a481284c-25fa-41ba-b537-414e5f946a79"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "c937e643-1e85-4d10-9475-523990d62725"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "120000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "arc": {
+                  "start": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "mid": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  },
+                  "end": {
+                    "x_nm": "53300000",
+                    "y_nm": "58200000"
+                  }
+                }
+              },
+              "layer": "BL_F_SilkS",
+              "net": {},
+              "id": {
+                "value": "ece2675e-1369-4f55-b759-3968266014f2"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "59850000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "59850000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "e2b37815-a249-49ae-a970-72de964142ad"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "52050000",
+                    "y_nm": "59850000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "56550000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "b01f4acd-70cd-4bba-8b73-15eb56a99238"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "56550000"
+                  },
+                  "end": {
+                    "x_nm": "54550000",
+                    "y_nm": "59850000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "5b9789b7-a0af-4305-ab4d-93d1842243d2"
+              },
+              "locked": "LS_UNLOCKED"
+            },
+            {
+              "@type": "type.googleapis.com/kiapi.board.types.BoardGraphicShape",
+              "shape": {
+                "attributes": {
+                  "stroke": {
+                    "width": {
+                      "value_nm": "50000"
+                    },
+                    "style": "SLS_SOLID"
+                  },
+                  "fill": {
+                    "fill_type": "GFT_UNFILLED"
+                  }
+                },
+                "segment": {
+                  "start": {
+                    "x_nm": "54550000",
+                    "y_nm": "56550000"
+                  },
+                  "end": {
+                    "x_nm": "52050000",
+                    "y_nm": "56550000"
+                  }
+                }
+              },
+              "layer": "BL_F_CrtYd",
+              "net": {},
+              "id": {
+                "value": "c5b4b096-d53e-4862-b827-e1fc79d58c4f"
+              },
+              "locked": "LS_UNLOCKED"
+            }
+          ],
+          "jumpers": {}
+        },
+        "reference_field": {
+          "id": {
+            "id": 1
+          },
+          "name": "Reference",
+          "text": {
+            "id": {
+              "value": "caee4842-2a20-47c2-b4b3-6fa9ad5a2878"
+            },
+            "text": {
+              "position": {
+                "x_nm": "51500000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP4"
+            },
+            "layer": "BL_F_SilkS",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "value_field": {
+          "id": {
+            "id": 2
+          },
+          "name": "Value",
+          "text": {
+            "id": {
+              "value": "cd1ce67b-46c8-4482-ac08-de861f22c172"
+            },
+            "text": {
+              "position": {
+                "x_nm": "55200000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "keep_upright": true,
+                "size": {
+                  "x_nm": "1000000",
+                  "y_nm": "1000000"
+                }
+              },
+              "text": "JP4 OPEN"
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "datasheet_field": {
+          "id": {
+            "id": 4
+          },
+          "name": "Datasheet",
+          "text": {
+            "id": {
+              "value": "4a818d5f-e228-4022-9634-662146d16b7f"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "description_field": {
+          "id": {
+            "id": 5
+          },
+          "name": "Description",
+          "text": {
+            "id": {
+              "value": "7d915f00-13f5-4e3a-901c-e83ae04e04a8"
+            },
+            "text": {
+              "position": {
+                "x_nm": "53300000",
+                "y_nm": "58200000"
+              },
+              "attributes": {
+                "horizontal_alignment": "HA_CENTER",
+                "vertical_alignment": "VA_CENTER",
+                "angle": {
+                  "value_degrees": 90.0
+                },
+                "line_spacing": 1.0,
+                "stroke_width": {
+                  "value_nm": "150000"
+                },
+                "visible": true,
+                "multiline": true,
+                "size": {
+                  "x_nm": "1270000",
+                  "y_nm": "1270000"
+                }
+              }
+            },
+            "layer": "BL_F_Fab",
+            "locked": "LS_UNLOCKED"
+          }
+        },
+        "attributes": {
+          "exclude_from_position_files": true,
+          "exclude_from_bill_of_materials": true,
+          "mounting_style": "FMS_UNSPECIFIED",
+          "allow_soldermask_bridges": true
+        },
+        "overrides": {
+          "zone_connection": "ZCS_THERMAL"
+        },
+        "symbol_path": {
+          "path": [
+            {
+              "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+            },
+            {
+              "value": "d2b7bf2a-c0d2-44a1-8c45-c9f673e09ba7"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "tracks": {}
+}

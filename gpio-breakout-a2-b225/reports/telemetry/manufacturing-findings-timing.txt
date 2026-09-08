@@ -1,0 +1,24 @@
+    5.069 s  verify-paste-repair-against-published-board
+    3.482 s  diagnose-saved-footprint-comparison
+    3.473 s  verify-j1-paste-across-native-sessions
+    3.380 s  repair-j1-paste-verified-normalization
+    3.030 s  inspect-manufacturing-findings
+    2.855 s  inspect-manufacturing-findings-corrected-report
+    2.594 s  verify-paste-repair-drc
+    2.067 s  verify-paste-repair-drc-native-runtime
+    1.837 s  diagnose-j1-native-roundtrip
+    1.803 s  restore-j1-paste-native-corrected-wrapper
+    1.593 s  restore-j1-paste-native
+    0.348 s  repair-samtec-native-library-layer-set
+    0.289 s  discover-native-footprint-export
+    0.287 s  probe-native-library-parser
+    0.221 s  serialize-samtec-to-isolated-library
+    0.210 s  repair-samtec-native-library
+    0.183 s  repair-samtec-native-library-fields
+    0.131 s  verify-shared-library-and-c1-power-evidence
+    0.038 s  review-bench-scope-release-gate
+   32.890 s  measured phases
+  972.554 s  intent-to-finish
+  939.664 s  unmeasured coordination/analysis
+identified: 2026-09-08T18:35:53.138+00:00
+finished:   2026-09-08T18:52:05.681+00:00

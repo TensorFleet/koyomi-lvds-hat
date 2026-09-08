@@ -110,6 +110,12 @@ The user selected **Combined peripheral C1 J401** as the endpoint on 2026-09-09.
 Physical cable continuity is a TODO after the cable choice; it is not the sole
 release blocker. A clean PCB DRC is not proof of assembled LCD compatibility.
 
+## Manufacturing findings follow-up
+
+The selected scope is **low-power USB2 bench use**. F2 remains 0.5 A; the combined board's full downstream USB-A load is outside this scope. Hold current is not a precise current limit, and assembled current/voltage drop and inrush remain unqualified.
+
+J1's missing paste layer is repaired on all 42 pads in the board and local library, and its description now names Samtec. Copper and all numbered connections are unchanged; DRC remains zero errors/zero opens with six existing library warnings. See [the eight-finding review](reports/manufacturing-findings-review.md) for the source evidence, stencil-thickness discrepancy, shared-footprint propagation work, and remaining power, termination, USB and stackup issues. These repairs do not authorize fabrication.
+
 ## Renders and model limits
 
 [Top](renders/top.png), [USB-entry side](renders/right.png) and [FFC-entry side](renders/back.png) come from the authoritative

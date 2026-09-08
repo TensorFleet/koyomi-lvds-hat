@@ -1,0 +1,83 @@
+{
+  "created": "2026-09-08T18:51:31.421+00:00",
+  "run_id": "20260909T013553-f6f7155a",
+  "revision": "GPIO A2 manufacturing findings",
+  "scope": "GPIO source, repair scripts and reports only; private project inventory omitted. No fabrication release.",
+  "artifacts": [
+    {
+      "path": "gpio-breakout-a2-b225/gpio_breakout.kicad_pcb",
+      "sha256": "ac01c10b6111671b5be9ca815dd4377d71d8ef58b1dec01e57321e0b5d0f4986",
+      "bytes": 694387
+    },
+    {
+      "path": "gpio-breakout-a2-b225/gpio_breakout.kicad_sch",
+      "sha256": "7d6f4f5814031e3394d59b90022250afa140a6cd729119d2978a34c2cbb0e7e7",
+      "bytes": 179184
+    },
+    {
+      "path": "gpio-breakout-a2-b225/gpio_breakout.kicad_pro",
+      "sha256": "21102559b37f082d0af455aac7bd7552e5e2dbe3f2dedbe5244b52bf3f2a5119",
+      "bytes": 21632
+    },
+    {
+      "path": "gpio-breakout-a2-b225/README.md",
+      "sha256": "55af21eeb47e9e0eba5a5f5654115d31e3a3b3f59213deba86262fa54efa4bca",
+      "bytes": 11232
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/j1-paste-repair.json",
+      "sha256": "02ea1ec634c13ea26ce4f621bef7e8e277e4af086567ac8c95de3b25851ad9e1",
+      "bytes": 828
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/j1-library-repair.json",
+      "sha256": "7c2e40731c90bbb79e6370744c7ccb0960bbcdbb16efa3a63ccea9b3454aab61",
+      "bytes": 354
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/j1-paste-drc.json",
+      "sha256": "eef9ac4aba3a9376a3360cb6e6f93f1d459497f6a9901bd718c78835ba88e70f",
+      "bytes": 4208
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/manufacturing-findings-native.json",
+      "sha256": "141bb4a313c32d070fc0b64ba1f2846cd76c0726a3665ce146cb2fe976b6f510",
+      "bytes": 184693
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/manufacturing-findings-review.md",
+      "sha256": "9a27e88969ec9586297db417ef15e3e898a2765c2eeb9b9c15c0559e61599629",
+      "bytes": 6203
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/repair_j1_paste_ipc.py",
+      "sha256": "7a5cca25f932912e9c04ff32ac15c7ca3483c8581e0cab6ee3b2e3a1a836a271",
+      "bytes": 3712
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/build_samtec_library_native.py",
+      "sha256": "03057dc6dd17422f906f1680cb336984ab9e299a454d944f6c072c1d8601577a",
+      "bytes": 3843
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/review_manufacturing_findings_ipc.py",
+      "sha256": "c180e0b9e7d0422d76e6555c8857f74a1834197cb4eda941f1c16a916e7833d9",
+      "bytes": 1559
+    },
+    {
+      "path": "gpio-breakout-a2-b225/VAIO_CM5.pretty/Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm.kicad_mod",
+      "sha256": "71d6941f33a68a2a9ce1efe67d7a08c29b2aa864d2f80b9004aa6a5f74d27ca2",
+      "bytes": 9954
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/j1-paste-reload-diff.json",
+      "sha256": "0c744fc59c9f2407b838698db9f31ecd3edf6a83f206641d444b03a098816dea",
+      "bytes": 125862
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/j1-paste-candidate-diff.json",
+      "sha256": "204210256736d1adab8e85fe91aca80eff6521d41f29ca860de9edbab967dbe4",
+      "bytes": 204179
+    }
+  ]
+}
