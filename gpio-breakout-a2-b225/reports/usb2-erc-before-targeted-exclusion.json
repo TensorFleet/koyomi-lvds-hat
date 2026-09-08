@@ -1,0 +1,330 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-09T00:02:08",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.99.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/99255c93-d462-57a7-84d8-8a7e16fc8b43",
+            "violations": [
+                {
+                    "description": "Pins of type Open collector and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 5 [ST, Open collector, Line]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 3.3274
+                            },
+                            "uuid": "e23ef283-48f9-4420-9fef-84e07b4702f2"
+                        },
+                        {
+                            "description": "Symbol #FLG3 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 3.7973
+                            },
+                            "uuid": "7c3690c4-b5bc-54b8-a444-d4230d1c3e6a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Symbol 'USB_C_Receptacle' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [USB_C_Receptacle]",
+                            "pos": {
+                                "x": 0.6096,
+                                "y": 2.6035
+                            },
+                            "uuid": "05022c5e-4e46-4e8e-a88d-3c41f2e6612d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'J401' doesn't match copy in library 'Combined_A2'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [J401]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.8001
+                            },
+                            "uuid": "bce3a937-678e-4698-a995-6d4162a63202"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG4 [PWR_FLAG]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 3.5052
+                            },
+                            "uuid": "3e3c9c68-4ab8-4726-895b-e836d4145f14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'TPD2EUSB30' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [TPD2EUSB30]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 2.5146
+                            },
+                            "uuid": "13b856d6-90a8-42ec-8cc0-ace5f27ba232"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'TPD2EUSB30' doesn't match copy in library 'Power_Protection'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [TPD2EUSB30]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 2.9083
+                            },
+                            "uuid": "c828ceb0-16e2-498a-8989-b14e09bf86f8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Polyfuse' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol F2 [Polyfuse]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 3.302
+                            },
+                            "uuid": "10d9e816-b7fe-4cd5-b965-df486ae40025"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'PWR_FLAG' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG5 [PWR_FLAG]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 3.5052
+                            },
+                            "uuid": "c880e34b-c5c2-4289-ab45-341609e66e5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'C' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 3.5052
+                            },
+                            "uuid": "3cb6465f-6ab0-4a94-8745-2e73a85f7856"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 2.8194
+                            },
+                            "uuid": "b4ffeb22-783d-4b96-99f1-7c920335a933"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LM66100DCK' doesn't match copy in library 'Power_Management'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LM66100DCK]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 3.302
+                            },
+                            "uuid": "4050aa3f-982b-4e85-922c-2b9c69350b5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'R' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 2.8194
+                            },
+                            "uuid": "7919a231-e80d-46cb-b5bd-d775d5b4332b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO27'",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7239
+                            },
+                            "uuid": "03b67fde-9385-43db-b0fd-3b47aa8bb356"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO22'",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7493
+                            },
+                            "uuid": "25ca38f3-d7db-4fa6-8737-f58bda25c02e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO26'",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 1.0287
+                            },
+                            "uuid": "94ee66ee-8e5b-4eee-84eb-01e11178d16c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP4 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.397
+                            },
+                            "uuid": "d2b7bf2a-c0d2-44a1-8c45-c9f673e09ba7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP5 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.7018
+                            },
+                            "uuid": "4d53d781-d6b8-4f01-bee1-940bcfd00d2d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO25'",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.8255
+                            },
+                            "uuid": "10fc90a2-b82f-4585-9c61-422dd2bea5b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol 'C' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 3.5052
+                            },
+                            "uuid": "9207878e-bd43-4718-a756-2cc4a74876c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        }
+    ],
+    "source": "gpio_breakout.kicad_sch"
+}

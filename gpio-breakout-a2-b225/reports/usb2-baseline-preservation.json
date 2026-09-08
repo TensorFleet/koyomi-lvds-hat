@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "original_footprints_checked": 9,
+  "original_copper_checked": 1137,
+  "allowed_metadata_differences": [
+    "native item child IDs",
+    "native parent session ID"
+  ],
+  "allowed_electrical_changes": [
+    "J1 USB pins1-4,6,7 per USB extension"
+  ],
+  "unexpected_differences": {}
+}

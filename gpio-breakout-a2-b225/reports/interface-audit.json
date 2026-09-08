@@ -2,18 +2,11 @@
   "passed": true,
   "errors": [],
   "contacts_checked": 40,
-  "used_contacts": 34,
-  "unused_usb_contacts": [
-    1,
-    2,
-    3,
-    4,
-    6,
-    7
-  ],
+  "used_contacts": 40,
+  "unused_usb_contacts": [],
   "connector_mpn": "ZF5S-40-01-T-WT-K-TR",
-  "board_sha256": "92044baf68ae01452c9a38a8bf7a62b8766b052830b0f8f0ff28c8c10bbe8b91",
-  "schematic_sha256": "f2659f4ef293024e94776d6916ef79e2e7ca3925b6fa6a06355644befe3b9da8",
+  "board_sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+  "schematic_sha256": "7d6f4f5814031e3394d59b90022250afa140a6cd729119d2978a34c2cbb0e7e7",
   "minimum_track_mm": 0.2,
   "via_drills_mm": [
     0.3
@@ -21,27 +14,27 @@
   "pin_map": [
     {
       "ffc_pin": 1,
-      "signal": "UNUSED_USB",
+      "signal": "USB_VBUS",
       "pi_physical_pins": "",
-      "power_path": "NC"
+      "power_path": "USB cable / F2 / LM66100"
     },
     {
       "ffc_pin": 2,
-      "signal": "UNUSED_USB",
+      "signal": "USB_VBUS",
       "pi_physical_pins": "",
-      "power_path": "NC"
+      "power_path": "USB cable / F2 / LM66100"
     },
     {
       "ffc_pin": 3,
-      "signal": "UNUSED_USB",
+      "signal": "USB_VBUS",
       "pi_physical_pins": "",
-      "power_path": "NC"
+      "power_path": "USB cable / F2 / LM66100"
     },
     {
       "ffc_pin": 4,
-      "signal": "UNUSED_USB",
+      "signal": "USB_VBUS",
       "pi_physical_pins": "",
-      "power_path": "NC"
+      "power_path": "USB cable / F2 / LM66100"
     },
     {
       "ffc_pin": 5,
@@ -51,15 +44,15 @@
     },
     {
       "ffc_pin": 6,
-      "signal": "UNUSED_USB",
+      "signal": "USB_D_N",
       "pi_physical_pins": "",
-      "power_path": "NC"
+      "power_path": "USB cable / ESD"
     },
     {
       "ffc_pin": 7,
-      "signal": "UNUSED_USB",
+      "signal": "USB_D_P",
       "pi_physical_pins": "",
-      "power_path": "NC"
+      "power_path": "USB cable / ESD"
     },
     {
       "ffc_pin": 8,
@@ -262,6 +255,7 @@
   ],
   "release_ready": false,
   "release_blockers": [
+    "Native physical stackup still generic; selected JLC04161H-7628 must be applied in a supported native editor and verified.",
     "Matching new LCD endpoint is a separate user task.",
     "Exact catalog cable assembly and orientation require numbered one-to-one mating audit.",
     "Real Samtec 3D model and assembly clearance are not yet verified; envelope only."

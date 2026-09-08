@@ -1,11 +1,11 @@
 ffc_pin,signal,pi_physical_pins,power_path
-1,UNUSED_USB,,NC
-2,UNUSED_USB,,NC
-3,UNUSED_USB,,NC
-4,UNUSED_USB,,NC
+1,USB_VBUS,,USB cable / F2 / LM66100
+2,USB_VBUS,,USB cable / F2 / LM66100
+3,USB_VBUS,,USB cable / F2 / LM66100
+4,USB_VBUS,,USB cable / F2 / LM66100
 5,GND,6/9/14/20/25/30/34/39,direct
-6,UNUSED_USB,,NC
-7,UNUSED_USB,,NC
+6,USB_D_N,,USB cable / ESD
+7,USB_D_P,,USB cable / ESD
 8,GND,6/9/14/20/25/30/34/39,direct
 9,+5V_FFC,2/4,JP4 (open) + F1
 10,+5V_FFC,2/4,JP4 (open) + F1

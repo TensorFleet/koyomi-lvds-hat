@@ -333,7 +333,7 @@
       "mpn": "",
       "net_names": "",
       "ref_des": "",
-      "sch_revision": "A2 / B2.25 interface",
+      "sch_revision": "A2 / B2.25 + USB2",
       "sections": ""
     },
     "layer_pairs": [],
@@ -354,7 +354,47 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      {
+        "comment": "U1 LM66100DCKR ST (pin 5) is unused and tied to GND as specified by TI LM66100 datasheet, Pin Functions table: https://www.ti.com/lit/ds/symlink/lm66100.pdf . #FLG3 marks this same GND net. This exception applies only to this grounded open-drain status pin and GND flag; no ERC conflict-map rule is changed.",
+        "marker": {
+          "aux_item_sheet_path": {
+            "path": [
+              {
+                "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+              }
+            ]
+          },
+          "error_type": "ERCET_PIN_TO_PIN_ERROR",
+          "items": [
+            {
+              "value": "e23ef283-48f9-4420-9fef-84e07b4702f2"
+            },
+            {
+              "value": "7c3690c4-b5bc-54b8-a444-d4230d1c3e6a"
+            }
+          ],
+          "main_item_sheet_path": {
+            "path": [
+              {
+                "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+              }
+            ]
+          },
+          "position": {
+            "x_nm": "187960000",
+            "y_nm": "332740000"
+          },
+          "sheet_specific_path": {
+            "path": [
+              {
+                "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+              }
+            ]
+          }
+        }
+      }
+    ],
     "meta": {
       "version": 1
     },
@@ -786,7 +826,7 @@
         "uuid": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1,R1,J3,U1-2",
     "variants": []
   },
   "sheets": [

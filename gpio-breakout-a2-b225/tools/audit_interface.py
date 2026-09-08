@@ -1,6 +1,7 @@
 """Compare independent native schematic netlist, PCB pads, and B2.25 contract."""
 import csv,hashlib,json,xml.etree.ElementTree as E
-from update_addon_ipc import session,D,FFC,MAP,PI
+from update_addon_ipc import session,D
+from usb2_interface import FFC,MAP,PI
 r=E.parse(D/'reports/netlist.xml');sch={}
 for n in r.findall('.//nets/net'):
  for p in n.findall('node'):sch[p.attrib['ref'],p.attrib['pin']]=n.attrib['name']
@@ -15,13 +16,14 @@ with session(D/'gpio_breakout.kicad_pcb') as k:
   pi=[p for p,v in PI.items() if v==net]
   if net=='+5V_FFC':pi=[2,4]
   if net=='+3V3_FFC':pi=[1,17]
-  rows.append(dict(ffc_pin=int(n),signal=net or 'UNUSED_USB',pi_physical_pins='/'.join(map(str,pi)),power_path='JP4 (open) + F1' if net=='+5V_FFC' else 'JP5 (open)' if net=='+3V3_FFC' else 'direct' if net else 'NC'))
- for ref in ['J2','JP4','JP5','F1','TP4','TP5']:
+  rows.append(dict(ffc_pin=int(n),signal=net or 'UNUSED_USB',pi_physical_pins='/'.join(map(str,pi)),power_path='JP4 (open) + F1' if net=='+5V_FFC' else 'JP5 (open)' if net=='+3V3_FFC' else 'USB cable / F2 / LM66100' if net=='USB_VBUS' else 'USB cable / ESD' if net.startswith('USB_D_') else 'direct' if net else 'NC'))
+ for ref in MAP:
   for n,net in MAP[ref].items():
+   if ref.startswith('#') or net is None:continue
    if pcb.get((ref,n))!=net or sch.get((ref,n))!=net:errors.append(dict(ref=ref,pin=n,expected=net,pcb=pcb.get((ref,n)),schematic=sch.get((ref,n))))
  for ref in ['JP4','JP5']:
   if 'Open' not in str(fps[ref].definition.id):errors.append({'not_open_footprint':ref})
- result=dict(passed=not errors,errors=errors,contacts_checked=40,used_contacts=34,unused_usb_contacts=[1,2,3,4,6,7],connector_mpn=fps['J1'].value_field.text.value,board_sha256=hashlib.sha256((D/'gpio_breakout.kicad_pcb').read_bytes()).hexdigest(),schematic_sha256=hashlib.sha256((D/'gpio_breakout.kicad_sch').read_bytes()).hexdigest(),minimum_track_mm=min(t.width for t in b.get_tracks())/1e6,via_drills_mm=sorted(set(v.drill_diameter/1e6 for v in b.get_vias())),pin_map=rows,release_ready=False,release_blockers=['Matching new LCD endpoint is a separate user task.','Exact catalog cable assembly and orientation require numbered one-to-one mating audit.','Real Samtec 3D model and assembly clearance are not yet verified; envelope only.'])
+ result=dict(passed=not errors,errors=errors,contacts_checked=40,used_contacts=40,unused_usb_contacts=[],connector_mpn=fps['J1'].value_field.text.value,board_sha256=hashlib.sha256((D/'gpio_breakout.kicad_pcb').read_bytes()).hexdigest(),schematic_sha256=hashlib.sha256((D/'gpio_breakout.kicad_sch').read_bytes()).hexdigest(),minimum_track_mm=min(t.width for t in b.get_tracks())/1e6,via_drills_mm=sorted(set(v.drill_diameter/1e6 for v in b.get_vias())),pin_map=rows,release_ready=False,release_blockers=['Native physical stackup still generic; selected JLC04161H-7628 must be applied in a supported native editor and verified.','Matching new LCD endpoint is a separate user task.','Exact catalog cable assembly and orientation require numbered one-to-one mating audit.','Real Samtec 3D model and assembly clearance are not yet verified; envelope only.'])
 (D/'reports/interface-audit.json').write_text(json.dumps(result,indent=2)+'\n')
 with (D/'interface-pinout.csv').open('w') as f:
  w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)

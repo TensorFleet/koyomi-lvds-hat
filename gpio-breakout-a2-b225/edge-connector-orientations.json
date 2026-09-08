@@ -1,6 +1,33 @@
 {
-  "revision": "GPIO LCD A2 / B2.25 interface",
-  "connectors": [{"reference":"J1","mpn":"ZF5S-40-01-T-WT-K-TR","lcsc":"C3169111","intended_edge":"top, board Y=50mm","rotation_degrees":180,"tail_row_y_mm":55.23,"nominal_aperture_edge_y_mm":50.0,"source":"Samtec ZF5S footprint Rev E used by B2.25","model":"Inherited conservative envelope; not a vendor detailed model","visual_mating_approval":false}],
+  "revision": "GPIO LCD A2 / B2.25 interface + USB2",
+  "connectors": [
+    {
+      "reference": "J1",
+      "mpn": "ZF5S-40-01-T-WT-K-TR",
+      "lcsc": "C3169111",
+      "intended_edge": "top, board Y=50mm",
+      "rotation_degrees": 180,
+      "tail_row_y_mm": 55.23,
+      "nominal_aperture_edge_y_mm": 50.0,
+      "source": "Samtec ZF5S footprint Rev E used by B2.25",
+      "model": "Inherited conservative envelope; not a vendor detailed model",
+      "visual_mating_approval": false
+    },
+    {
+      "reference": "J3",
+      "mpn": "1054500101",
+      "lcsc": "C134092",
+      "intended_edge": "right, board X=113.50mm",
+      "rotation_degrees": 90,
+      "mating_plane_x_mm": 113.55,
+      "mouth_overhang_mm": 0.05,
+      "model": "Official Molex STEP, unmodified; feet and shell slots independently registered",
+      "model_registration_verified": true,
+      "visual_mating_approval": false,
+      "remaining_mechanical_check": "Plug shroud and enclosure clearance; near-flush .05mm mouth overhang",
+      "evidence": "reports/usb2-model-audit.json"
+    }
+  ],
   "release_ready": false,
-  "reason":"Future LCD endpoint and exact catalog cable assembly are separate; full manufacturer model review pending"
+  "reason": "Future LCD endpoint and exact catalog cable assembly are separate; full manufacturer model review pending"
 }

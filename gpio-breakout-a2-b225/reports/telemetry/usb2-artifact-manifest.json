@@ -1,0 +1,502 @@
+{
+  "created": "2026-09-08T17:36:05.762+00:00",
+  "run_id": "20260908T231349-8d8dcf94",
+  "revision": "GPIO-A2-USB2",
+  "source": {
+    "board_sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+    "schematic_sha256": "7d6f4f5814031e3394d59b90022250afa140a6cd729119d2978a34c2cbb0e7e7",
+    "board_generator": {
+      "format_version": "20260728",
+      "generator": "pcbnew",
+      "generator_version": "10.99"
+    }
+  },
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "sha256": "f9466873507b64b63a5eca6bf5a371f8730bfd62cb38cf1507bfdf8cfebabcab",
+      "bytes": 58
+    },
+    {
+      "path": "3dmodels/Molex_1054500101_official.stp",
+      "sha256": "c70f02e35f4d3711f1b93e4e19d07a87fd4d6e9f06c242bb5558372dcba5b0ad",
+      "bytes": 586951
+    },
+    {
+      "path": "3dmodels/README.md",
+      "sha256": "daca99bcb5848a5d41d63d85d3cb2516d4aa93e8d48b3567a3ca8cd8d499d473",
+      "bytes": 910
+    },
+    {
+      "path": "3dmodels/ZF5S-40-01-nominal-envelope.wrl",
+      "sha256": "dac3c4146c83988ca89b61487ab3ac79a8c95181309af4dc37b3d83d45cd9282",
+      "bytes": 280
+    },
+    {
+      "path": "3dmodels/standard/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "bytes": 43450
+    },
+    {
+      "path": "3dmodels/standard/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "bytes": 40618
+    },
+    {
+      "path": "3dmodels/standard/SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+      "bytes": 101545
+    },
+    {
+      "path": "3dmodels/standard/Texas_DRT-3.step",
+      "sha256": "826a53de4a90e738d560e4a906235ba95541b3da40b62f22d8f9e30fd9f39744",
+      "bytes": 49485
+    },
+    {
+      "path": "Combined_A2.kicad_sym",
+      "sha256": "e5338c2f9b0059bec6e58cd17943ad69736cf203e922c202d9d4f7f659a37b24",
+      "bytes": 13397
+    },
+    {
+      "path": "README.md",
+      "sha256": "e0dba1c3e1cc79970cd330fca0ee7c698f766a59740a2f1752848c211603782f",
+      "bytes": 9951
+    },
+    {
+      "path": "USB_A2.pretty/USB_C_Receptacle_Molex_105450-0101.kicad_mod",
+      "sha256": "515d59f79b22319504ba2e87e87bfbf688f255d5352f990560ba1de2c75d4c4c",
+      "bytes": 14123
+    },
+    {
+      "path": "VAIO_CM5.pretty/Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm.kicad_mod",
+      "sha256": "37c356231f0582ef20d0afeee595038ce9529a6f30a55b3eeb62b7185fcedf14",
+      "bytes": 9043
+    },
+    {
+      "path": "edge-connector-orientations.json",
+      "sha256": "3bf5fcf789a2e5914d166ae4447db323b81738bf1c7ad616502cf9ba4dd3514d",
+      "bytes": 1227
+    },
+    {
+      "path": "fp-lib-table",
+      "sha256": "98ab69d44d8798ec87b766955bc53855f2715f79d764e106d316c66803643753",
+      "bytes": 279
+    },
+    {
+      "path": "gpio_breakout.kicad_pcb",
+      "sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+      "bytes": 693935
+    },
+    {
+      "path": "gpio_breakout.kicad_pro",
+      "sha256": "21102559b37f082d0af455aac7bd7552e5e2dbe3f2dedbe5244b52bf3f2a5119",
+      "bytes": 21632
+    },
+    {
+      "path": "gpio_breakout.kicad_sch",
+      "sha256": "7d6f4f5814031e3394d59b90022250afa140a6cd729119d2978a34c2cbb0e7e7",
+      "bytes": 179184
+    },
+    {
+      "path": "interface-pinout.csv",
+      "sha256": "a5345b134177f3615e685900d363e34e63a4d681d2037a99b1de1c81a65d21bf",
+      "bytes": 1050
+    },
+    {
+      "path": "renders/back.png",
+      "sha256": "d45d0a273aa675a6cfc37c1380c8c0473765f844d37eb4f5bebe4e6b1e28b15a",
+      "bytes": 94098
+    },
+    {
+      "path": "renders/right.png",
+      "sha256": "b926ee70bb13ca40d3ff22fa47e1c64a0a8677482afa55f1558bad760df9111a",
+      "bytes": 38424
+    },
+    {
+      "path": "renders/schematic/gpio_breakout.png",
+      "sha256": "2b84fa21d3515d992730015f769d9f5a7b21ad258d2d4579be0df0a8880728eb",
+      "bytes": 356673
+    },
+    {
+      "path": "renders/schematic/gpio_breakout.svg",
+      "sha256": "98c483073a6abcd2f4e007d7fc8b9ff1d4e655a085af9f271b4194af7b4ddf5e",
+      "bytes": 1106206
+    },
+    {
+      "path": "renders/top.png",
+      "sha256": "36814cc7b3a2d5b5c074bbbffd1a8a8e05eac7a08501c2595728ba48de452845",
+      "bytes": 236507
+    },
+    {
+      "path": "reports/carrier-interface-source.json",
+      "sha256": "56163c10a8bd6a79a4b4781b513536b93b387eea30c0532fbbbc0f5f7d073ab6",
+      "bytes": 3719
+    },
+    {
+      "path": "reports/closure.json",
+      "sha256": "692f0f41abc425b539b907415877e9747759d6e7d1e4e700d44d902dd065f4d5",
+      "bytes": 251
+    },
+    {
+      "path": "reports/drc-first.json",
+      "sha256": "66d9a6b6c9ffff8f21b46a79cb33ac6d1d9ea554f3419f05d26c6c514c9a9a79",
+      "bytes": 136785
+    },
+    {
+      "path": "reports/drc-second.json",
+      "sha256": "e273f4771ea417c710e858536d2112e570a9700c59efbb7e96e8a87372cb7ced",
+      "bytes": 11418
+    },
+    {
+      "path": "reports/drc.json",
+      "sha256": "09818c2254ca0b33bc73cddfff206e49f44db28fa7da6cb58c2e75b2daa5989f",
+      "bytes": 4208
+    },
+    {
+      "path": "reports/erc.json",
+      "sha256": "2f9fe44b81251794cbfa24c090fd730c65de00cc513fc4e60dbaab0c6033fab9",
+      "bytes": 14168
+    },
+    {
+      "path": "reports/interface-audit.json",
+      "sha256": "55c186eefea397668cf8da4cb7a0ae887f89427542826afe2f9768b30380f895",
+      "bytes": 5884
+    },
+    {
+      "path": "reports/native-migration.json",
+      "sha256": "ad989a42f7dd5e87f9dd3f5b32e952c3bc0080b5c7d834e7323b1650214e75c1",
+      "bytes": 14462
+    },
+    {
+      "path": "reports/netlist.xml",
+      "sha256": "677ee0e81bd9d5272ee3a1053a08a6ea4bf6b5532111e2843f699e6063b54f07",
+      "bytes": 53043
+    },
+    {
+      "path": "reports/route-pass.json",
+      "sha256": "52c5316f20a20eec13123ecaf2d8c8b3f2a41a014919f89ed0e55b5a90ee7b12",
+      "bytes": 3908
+    },
+    {
+      "path": "reports/runtime-and-review.md",
+      "sha256": "12e59f1a344eebe3e8f8caae5d69b546ef5768cac60183e4312eed56011e5f7d",
+      "bytes": 4597
+    },
+    {
+      "path": "reports/usb2-baseline-preservation.json",
+      "sha256": "30618e910586cc6bcda1c972d34b44e8abd9f4ffed8c32abed79af16c0de75aa",
+      "bytes": 307
+    },
+    {
+      "path": "reports/usb2-baseline.json",
+      "sha256": "ae57a2690a33c49b29ad5c0475e37615e64bbe0bff02e2c9b51bfa4eb9490727",
+      "bytes": 25991
+    },
+    {
+      "path": "reports/usb2-board-import-dry.txt",
+      "sha256": "a509fb4df0f567a83b75fe11a5b564401065b70c87a46e901da56824794ad2d1",
+      "bytes": 3756
+    },
+    {
+      "path": "reports/usb2-board-import.txt",
+      "sha256": "84a9bf145214b310c5083e92c6632cc91723a4cf7b7ca86f0bf9b1421c6563e2",
+      "bytes": 4043
+    },
+    {
+      "path": "reports/usb2-clearance-repair.json",
+      "sha256": "10ec20daae9ae77670ea133ca38ab15f66b4d318673d2ee84bdc3dc7aac05a07",
+      "bytes": 2977
+    },
+    {
+      "path": "reports/usb2-closure-drc.json",
+      "sha256": "07da4a40bfac21e6d4c09e54214598b47acce8741b31ca8f9106a1937bc4b202",
+      "bytes": 23910
+    },
+    {
+      "path": "reports/usb2-closure.json",
+      "sha256": "4284b2c61059ff932e80e7d961830179a5134e13b9284592212d9a0e5aa45338",
+      "bytes": 7568
+    },
+    {
+      "path": "reports/usb2-coupled-candidate.json",
+      "sha256": "7696ee676980fd6f3c45d792de19d6a27ef6816197c41b2b72f81d3ca7e1d597",
+      "bytes": 21836
+    },
+    {
+      "path": "reports/usb2-custom-footprint-restoration.json",
+      "sha256": "c461d1a6072f07e59271234cf985056cff9254d2abcc9a602e86f3906f46b3a6",
+      "bytes": 1797
+    },
+    {
+      "path": "reports/usb2-erc-before-targeted-exclusion.json",
+      "sha256": "fee3aa687a017916085fca87c83b815d702d992d1973086566d01b8679bd8681",
+      "bytes": 13300
+    },
+    {
+      "path": "reports/usb2-escape-drc.json",
+      "sha256": "bfc000716dfc09113fa212c7efc993fc016ac987202d3fe1bafdd5ed58156fe2",
+      "bytes": 11623
+    },
+    {
+      "path": "reports/usb2-final-routing-drc.json",
+      "sha256": "fb306f5fe90195ccacc031a69903f451c7da8e2fdd87cd0de6bd8fa688f71eac",
+      "bytes": 13279
+    },
+    {
+      "path": "reports/usb2-impedance-calculator.md",
+      "sha256": "29d7fff090de276cd8f16f406754cdcf026aec1dcccc04ac5384d9de384b8318",
+      "bytes": 2566
+    },
+    {
+      "path": "reports/usb2-impedance-route.json",
+      "sha256": "f02ab2f0e39aa1b0495df8ceccd5b440a9c457b7630ffc70a4ffb860d185acdd",
+      "bytes": 2148
+    },
+    {
+      "path": "reports/usb2-independent-netlist.json",
+      "sha256": "fa59691a8a5fd4918a649a457fba4e9b7a5c0c894615f74d0466b89ef3f16b6b",
+      "bytes": 296
+    },
+    {
+      "path": "reports/usb2-initial-drc.json",
+      "sha256": "dacb4325f4e4c89fae3caf5a9df2c2bb88f2a5633821d9c96e364e81b4106831",
+      "bytes": 223089
+    },
+    {
+      "path": "reports/usb2-model-audit.json",
+      "sha256": "0d1789f468ff6fae5b3295d118e7c0a9b69858468b2c65d30e5ec2340e451c87",
+      "bytes": 877
+    },
+    {
+      "path": "reports/usb2-native.net",
+      "sha256": "32235d6c57192a3f46d6311224f00aa1ab0c13cb4ad26ea1eb51e7e864ffb8fc",
+      "bytes": 58709
+    },
+    {
+      "path": "reports/usb2-pad-geometry.json",
+      "sha256": "7b5ef0b530f9ae2d9d2768a58617f68c631b0e72f297b07848c877fece3ea122",
+      "bytes": 12092
+    },
+    {
+      "path": "reports/usb2-path-audit.json",
+      "sha256": "241b01913d058e536237da13b7c03cc6ce3d95c3bfa3f61f0c7727fe91c039c6",
+      "bytes": 15950
+    },
+    {
+      "path": "reports/usb2-placement.json",
+      "sha256": "331d3a065e57b0c427507bca0ae5ced3400a9accdf7aa3dace91e805c7eee0aa",
+      "bytes": 16507
+    },
+    {
+      "path": "reports/usb2-preservation-differences.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "bytes": 3
+    },
+    {
+      "path": "reports/usb2-render-manifest.json",
+      "sha256": "890c19b44f9fa1a0129398458cf0b060eeb7ea7fdb5e43f58c1a21e5635a058f",
+      "bytes": 1246
+    },
+    {
+      "path": "reports/usb2-repaired-drc.json",
+      "sha256": "ef5a0ae1450e7061bfb7dca8f0c3cde0d8574477c0224d1a45ff48e28acb7dd9",
+      "bytes": 51741
+    },
+    {
+      "path": "reports/usb2-standard-models.json",
+      "sha256": "1419321ab9a36ea6d30425fc5264956e535f417f00d9170c179b5fb5158fdc6b",
+      "bytes": 1516
+    },
+    {
+      "path": "reports/usb2-symbol-graphics-repair.json",
+      "sha256": "e72efc524690ac6af91714d9fe26f5d9b280236cf880fb84faa3a0d9e8214c27",
+      "bytes": 2448
+    },
+    {
+      "path": "reports/usb2-symbols.json",
+      "sha256": "0225aadad7a41077ba9407884ffa5697b4e9abc773934e0de5f687790c54c8e5",
+      "bytes": 6900
+    },
+    {
+      "path": "reports/usb2-vbus-reference-routing.json",
+      "sha256": "422aff830141d864913937b268ef6328427667902194a8b5a42c69a8e2bd7c16",
+      "bytes": 5409
+    },
+    {
+      "path": "sym-lib-table",
+      "sha256": "3157e6cf214457560249f6dfb34a712b508e555367fc1292b0b1648ccb18f440",
+      "bytes": 168
+    },
+    {
+      "path": "tools/add_usb2_schematic_ipc.py",
+      "sha256": "6fd85b675250c8acd5a9c3457516246c69a01f680a06d3760e03a1a6b16911a1",
+      "bytes": 3049
+    },
+    {
+      "path": "tools/align_usb2_schematic_labels_ipc.py",
+      "sha256": "f989a8ff9f1fcc7983eb3f420a46debbbccd99cda855a03b3efcb0809484c9a5",
+      "bytes": 682
+    },
+    {
+      "path": "tools/attach_envelope_ipc.py",
+      "sha256": "7f14d2e5ccfe8ce554620e52332575ac81012bb6cd1357ddb2401a68c13f9268",
+      "bytes": 767
+    },
+    {
+      "path": "tools/attach_usb2_standard_models_ipc.py",
+      "sha256": "6de5a10a4380dda95c212c5d5ef0e87920461bbcde0d7c823146ade0a77ac1e3",
+      "bytes": 1738
+    },
+    {
+      "path": "tools/audit_interface.py",
+      "sha256": "c6d05bb2dc4c4f1af4e2279240a0c852f10bffff85a8d84a8591e6187e68d1ac",
+      "bytes": 2878
+    },
+    {
+      "path": "tools/audit_usb2_paths_ipc.py",
+      "sha256": "934f37a6714f38d0ccee7c71569b1526719849ad6b99307160d6fdc74d13c567",
+      "bytes": 5813
+    },
+    {
+      "path": "tools/audit_usb2_preservation_ipc.py",
+      "sha256": "b6c098a4c0c9b01b5b3c69ff7f56859e39c67450c7bc401982c5d52acf6fec2a",
+      "bytes": 1795
+    },
+    {
+      "path": "tools/close_remaining_ipc.py",
+      "sha256": "97d1988bb56b997ed110005cf82fb2552111c4494d193942d35b1add463ce897",
+      "bytes": 1401
+    },
+    {
+      "path": "tools/close_usb2_ipc.py",
+      "sha256": "38e2da5da672a7f57de3a72a026fd4e24dbceeb0e19cb2682c6bfea580310b5f",
+      "bytes": 1836
+    },
+    {
+      "path": "tools/finish_addon_ipc.py",
+      "sha256": "0ffaa48f7b58f7c82e92b846b7fcbda2f6552b820ab4d209a8003d6d29911f4f",
+      "bytes": 1690
+    },
+    {
+      "path": "tools/finish_usb2_board_ipc.py",
+      "sha256": "3d24fda4dcfe808cfe495d6dfd373f6b33a59902f2ed7c8880684610190831dd",
+      "bytes": 2746
+    },
+    {
+      "path": "tools/finish_usb2_returns_ipc.py",
+      "sha256": "a6ff1310e976fa1bb6a4ab9f80362cecdedca3982d48bacb88e995f899f25c48",
+      "bytes": 1740
+    },
+    {
+      "path": "tools/finish_usb2_schematic_ipc.py",
+      "sha256": "108f20370d62566d2816abce4501add6684c13e6aa17e1f24e97e49afd86f568",
+      "bytes": 1220
+    },
+    {
+      "path": "tools/import_usb2_board_ipc.py",
+      "sha256": "c20a272633eec5c37f5ed2c482392780b50ae91a40eabc132c2aa06bad64651f",
+      "bytes": 3239
+    },
+    {
+      "path": "tools/inspect_escape_ipc.py",
+      "sha256": "5c5c793a7201190583f6388c55fc3bc8f65a0b0427aaa0071e2d5c7af7a212aa",
+      "bytes": 519
+    },
+    {
+      "path": "tools/inspect_usb2_ipc.py",
+      "sha256": "25cb721eb05aadc4633d81e164be45fd45eea10517c7b177f173aeefe1e792db",
+      "bytes": 587
+    },
+    {
+      "path": "tools/inspect_usb2_symbol_graphics_ipc.py",
+      "sha256": "be42361c6856d69f649288ec3ec9d2d37f39c00efdb1986833bfb5d0ca99c032",
+      "bytes": 442
+    },
+    {
+      "path": "tools/label_board_ipc.py",
+      "sha256": "ad7c77d4a9841c03a9b3658601ee76d82501bf9f0378cd3944adff03c07891cd",
+      "bytes": 600
+    },
+    {
+      "path": "tools/native_astar.py",
+      "sha256": "987a60442a72c6b3251dd94203c57a424c28f27ae9a9d861a2687f70443bf95b",
+      "bytes": 16739
+    },
+    {
+      "path": "tools/remove_unused_vias_ipc.py",
+      "sha256": "07cb902e6406512343e704f1258b01dd7afee6d14f89056b90ad3570f04cf453",
+      "bytes": 491
+    },
+    {
+      "path": "tools/repair_escape_ipc.py",
+      "sha256": "4516eaf54b16d42d9e3cc64351cb900ccc91f37ec12e39e6590ed2a4d42e1d90",
+      "bytes": 1506
+    },
+    {
+      "path": "tools/repair_usb2_clearances_ipc.py",
+      "sha256": "68beee45ff5df58730b07e6d47098e496d79c3659ffa6e4282d17618eea49950",
+      "bytes": 1597
+    },
+    {
+      "path": "tools/repair_usb2_symbol_graphics_ipc.py",
+      "sha256": "f647a4a388c2188dfa21ced75ca3901bcb7509850d01adc5bdfe05602a8f794f",
+      "bytes": 2896
+    },
+    {
+      "path": "tools/restore_usb2_baseline_footprints_ipc.py",
+      "sha256": "24f6626e2d005e00d57ff417e47fbffb701c6f38be5bbbfa4cb42412b17d821c",
+      "bytes": 1030
+    },
+    {
+      "path": "tools/route_addon_ipc.py",
+      "sha256": "2c416236094466d957710f49785b70ab205d88e5c1c42131d32d72077ccdeb49",
+      "bytes": 3960
+    },
+    {
+      "path": "tools/route_usb2_impedance_pair_ipc.py",
+      "sha256": "b7c45270e049142e9ecdad201a7ead81a033fd98c8fe23f27d319326ae34f57a",
+      "bytes": 1556
+    },
+    {
+      "path": "tools/route_usb2_ipc.py",
+      "sha256": "da02df491bd726dd956ae702b569aab10ac3f2c6857988be245de0468dff5b72",
+      "bytes": 4803
+    },
+    {
+      "path": "tools/route_usb2_vbus_reference_safe_ipc.py",
+      "sha256": "0d8a0e868442e64051f2c835fc806793da4b0110b22b36a629942445815b3dc5",
+      "bytes": 1836
+    },
+    {
+      "path": "tools/tidy_usb2_fanout_ipc.py",
+      "sha256": "f28b2038419778add4258bda9741de323d42a3000bcf1cb4e52313571fcaddbb",
+      "bytes": 1009
+    },
+    {
+      "path": "tools/update_addon_ipc.py",
+      "sha256": "78f40fb010266f5a6e57eeb41631872edf1ccca970860ae322a160debb3b29e4",
+      "bytes": 8508
+    },
+    {
+      "path": "tools/usb2_interface.py",
+      "sha256": "1f95685ec7ee9278261167a9925be4b3e9adb7339b4cfa316e1fb0dfa411a6b4",
+      "bytes": 1579
+    },
+    {
+      "path": "tools/usb2_probe_ipc.py",
+      "sha256": "44a7fb5920f1662cd8087ec5b3c40635a3d23c80ba753ebec1b91d0a3e71401f",
+      "bytes": 1118
+    },
+    {
+      "path": "reports/telemetry/iterations.jsonl",
+      "bytes": 73869,
+      "sha256": "8981fb3ed454dd797ad47a45a4b2c8dd9db06de1bda6d385be011e3ab0b6ce8d"
+    },
+    {
+      "path": "reports/telemetry/usb2-summary.json",
+      "bytes": 1775,
+      "sha256": "9b6c1805938c08f93d1b5bd15376d661e8d76a0e150682c0de0756f2284e6b6a"
+    }
+  ],
+  "note": "Editable source, reports and final renders frozen before finish. Historical pre-USB front render excluded. Telemetry trace/summary finalized after the completion event. Ignored local GUI history is omitted from this public manifest."
+}

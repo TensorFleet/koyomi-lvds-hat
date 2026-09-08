@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "errors": [],
+  "board_sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+  "reference": "J3",
+  "model_sha256": "c70f02e35f4d3711f1b93e4e19d07a87fd4d6e9f06c242bb5558372dcba5b0ad",
+  "footprint_rotation_degrees": 90,
+  "model_offset_mm": [
+    0,
+    0.195,
+    1.63
+  ],
+  "model_rotation_degrees": [
+    0,
+    0,
+    180
+  ],
+  "right_edge_x_mm": 113.5,
+  "mating_plane_x_mm": 113.55,
+  "mouth_overhang_mm": 0.04999999999999716,
+  "feet_checked": 26,
+  "distinct_signal_pads_checked": 24,
+  "shell_legs_checked": 4,
+  "minimum_solder_foot_margin_mm": 0.049998999999999905,
+  "source_unchanged": true,
+  "scope": "Native J3 pads and manufacturer model features after inverse rigid rotation. Actual addon right edge checked independently. This does not qualify the nominal Samtec envelope or complete cable/chassis assembly."
+}

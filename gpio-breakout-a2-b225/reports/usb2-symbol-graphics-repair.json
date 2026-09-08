@@ -1,0 +1,138 @@
+[
+  {
+    "ref": "JP4",
+    "graphic_translation_nm": [
+      -199390000,
+      -139700000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "F1",
+    "graphic_translation_nm": [
+      -240030000,
+      -139700000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "F2",
+    "graphic_translation_nm": [
+      -130810000,
+      -330200000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "C2",
+    "graphic_translation_nm": [
+      -215900000,
+      -350520000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "#FLG4",
+    "graphic_translation_nm": [
+      -109220000,
+      -350520000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "#FLG1",
+    "graphic_translation_nm": [
+      -39370000,
+      -379730000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "#FLG2",
+    "graphic_translation_nm": [
+      -69850000,
+      -379730000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "#FLG3",
+    "graphic_translation_nm": [
+      -100330000,
+      -379730000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "JP5",
+    "graphic_translation_nm": [
+      -199390000,
+      -170180000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "J3",
+    "graphic_translation_nm": [
+      -60960000,
+      -260350000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "U2",
+    "graphic_translation_nm": [
+      -130810000,
+      -251460000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "R1",
+    "graphic_translation_nm": [
+      -165100000,
+      -281940000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "R2",
+    "graphic_translation_nm": [
+      -185420000,
+      -281940000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "U3",
+    "graphic_translation_nm": [
+      -130810000,
+      -290830000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "U1",
+    "graphic_translation_nm": [
+      -180340000,
+      -330200000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "C1",
+    "graphic_translation_nm": [
+      -154940000,
+      -350520000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  },
+  {
+    "ref": "#FLG5",
+    "graphic_translation_nm": [
+      -130810000,
+      -350520000
+    ],
+    "pins_and_symbol_uuid_preserved": true
+  }
+]

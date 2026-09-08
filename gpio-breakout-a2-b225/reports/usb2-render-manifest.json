@@ -1,0 +1,32 @@
+{
+  "board": "gpio_breakout.kicad_pcb",
+  "board_sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+  "native_renderer": "kicad11-b2231-parity kicad-cli pcb render",
+  "dimensions": [
+    1600,
+    1000
+  ],
+  "quality": "high",
+  "projection": "orthographic",
+  "views": {
+    "top": {
+      "path": "renders/top.png",
+      "sha256": "36814cc7b3a2d5b5c074bbbffd1a8a8e05eac7a08501c2595728ba48de452845"
+    },
+    "right": {
+      "path": "renders/right.png",
+      "sha256": "b926ee70bb13ca40d3ff22fa47e1c64a0a8677482afa55f1558bad760df9111a"
+    },
+    "back": {
+      "path": "renders/back.png",
+      "sha256": "d45d0a273aa675a6cfc37c1380c8c0473765f844d37eb4f5bebe4e6b1e28b15a"
+    }
+  },
+  "visual_review": "Addon and parent reviewers inspected all three views; USB mouth outward, protection bodies present, no duplicate floating footprint artifact.",
+  "model_limits": [
+    "J1 is a nominal envelope, not a qualified Samtec model.",
+    "F2 has no body model; native footprint pads/placement are present.",
+    "J2 header model does not qualify a particular Pi stacking socket."
+  ],
+  "physical_stackup": "Saved generic dielectric remains; selected JLC04161H-7628 not yet applied in native editor. See README."
+}

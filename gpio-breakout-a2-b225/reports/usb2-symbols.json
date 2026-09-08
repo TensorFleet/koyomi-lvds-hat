@@ -1,0 +1,370 @@
+{
+  "J3": {
+    "uuid": "05022c5e-4e46-4e8e-a88d-3c41f2e6612d",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "1054500101",
+    "footprint": "USB_A2:USB_C_Receptacle_Molex_105450-0101",
+    "pins": [
+      "B11",
+      "B9",
+      "A12",
+      "B2",
+      "B3",
+      "A1",
+      "B6",
+      "A5",
+      "B10",
+      "B4",
+      "B5",
+      "B7",
+      "B12",
+      "A7",
+      "A9",
+      "A2",
+      "A11",
+      "A10",
+      "A4",
+      "B1",
+      "A8",
+      "B8",
+      "SH",
+      "A3",
+      "A6"
+    ]
+  },
+  "U2": {
+    "uuid": "13b856d6-90a8-42ec-8cc0-ace5f27ba232",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "TPD2EUSB30DRTR",
+    "footprint": "Package_TO_SOT_SMD:Texas_DRT-3",
+    "pins": [
+      "3",
+      "1",
+      "2"
+    ]
+  },
+  "R1": {
+    "uuid": "b4ffeb22-783d-4b96-99f1-7c920335a933",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "5.1k 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": [
+      "1",
+      "2"
+    ]
+  },
+  "R2": {
+    "uuid": "7919a231-e80d-46cb-b5bd-d775d5b4332b",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "5.1k 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "pins": [
+      "1",
+      "2"
+    ]
+  },
+  "U3": {
+    "uuid": "c828ceb0-16e2-498a-8989-b14e09bf86f8",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "TPD2EUSB30DRTR",
+    "footprint": "Package_TO_SOT_SMD:Texas_DRT-3",
+    "pins": [
+      "3",
+      "1",
+      "2"
+    ]
+  },
+  "#FLG4": {
+    "uuid": "3e3c9c68-4ab8-4726-895b-e836d4145f14",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "pins": [
+      "1"
+    ]
+  },
+  "C2": {
+    "uuid": "9207878e-bd43-4718-a756-2cc4a74876c8",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "100n 16V X7R",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": [
+      "2",
+      "1"
+    ]
+  },
+  "U1": {
+    "uuid": "4050aa3f-982b-4e85-922c-2b9c69350b5b",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "LM66100DCKR",
+    "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+    "pins": [
+      "4",
+      "1",
+      "3",
+      "2",
+      "5",
+      "6"
+    ]
+  },
+  "F2": {
+    "uuid": "10d9e816-b7fe-4cd5-b965-df486ae40025",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "SMD1206P050TF/15",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "pins": [
+      "1",
+      "2"
+    ]
+  },
+  "C1": {
+    "uuid": "3cb6465f-6ab0-4a94-8745-2e73a85f7856",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "1u 16V X7R",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "pins": [
+      "2",
+      "1"
+    ]
+  },
+  "#FLG3": {
+    "uuid": "09cd6525-a749-563c-bdea-a985ea533da9",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "pins": [
+      "1"
+    ]
+  },
+  "#FLG1": {
+    "uuid": "5a1c8274-4b50-5bfa-802d-3c3a7fa17e16",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "pins": [
+      "1"
+    ]
+  },
+  "#FLG2": {
+    "uuid": "a08f195f-a00d-598e-9864-a464510d906e",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "pins": [
+      "1"
+    ]
+  },
+  "J1": {
+    "uuid": "bce3a937-678e-4698-a995-6d4162a63202",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "ZF5S-40-01-T-WT-K-TR",
+    "footprint": "VAIO_CM5:Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm",
+    "pins": [
+      "37",
+      "25",
+      "11",
+      "21",
+      "20",
+      "3",
+      "33",
+      "24",
+      "17",
+      "28",
+      "34",
+      "29",
+      "36",
+      "22",
+      "12",
+      "7",
+      "1",
+      "35",
+      "4",
+      "14",
+      "13",
+      "40",
+      "26",
+      "2",
+      "5",
+      "30",
+      "27",
+      "6",
+      "31",
+      "16",
+      "9",
+      "19",
+      "18",
+      "39",
+      "32",
+      "15",
+      "10",
+      "38",
+      "8",
+      "23"
+    ]
+  },
+  "H2": {
+    "uuid": "26e4712b-f224-5b46-9345-9edf6f3229d8",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "M2.5",
+    "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+    "pins": []
+  },
+  "H1": {
+    "uuid": "3dca6235-c3cd-596b-add6-d1648a610609",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "M2.5",
+    "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+    "pins": []
+  },
+  "J2": {
+    "uuid": "ff7e35a9-1fe1-5ca2-af8d-a24710dcd101",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "Pi GPIO 2x20",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical",
+    "pins": [
+      "27",
+      "35",
+      "19",
+      "11",
+      "16",
+      "12",
+      "39",
+      "1",
+      "7",
+      "26",
+      "37",
+      "34",
+      "6",
+      "5",
+      "3",
+      "10",
+      "15",
+      "36",
+      "13",
+      "23",
+      "25",
+      "24",
+      "20",
+      "22",
+      "18",
+      "9",
+      "28",
+      "40",
+      "33",
+      "31",
+      "32",
+      "2",
+      "8",
+      "30",
+      "29",
+      "17",
+      "38",
+      "21",
+      "14",
+      "4"
+    ]
+  },
+  "F1": {
+    "uuid": "7c7d89fa-e43e-5b1f-a66b-db24687128a8",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "0.5A polyfuse 1206",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "pins": [
+      "1",
+      "2"
+    ]
+  },
+  "TP5": {
+    "uuid": "2a8577bd-5560-54c1-9b1f-6f0bdd47ce19",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "3V3",
+    "footprint": "TestPoint:TestPoint_Pad_1.5x1.5mm",
+    "pins": [
+      "1"
+    ]
+  },
+  "TP4": {
+    "uuid": "080cec94-f0b3-58b5-8637-2c22ab5c0997",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "GND",
+    "footprint": "TestPoint:TestPoint_Pad_1.5x1.5mm",
+    "pins": [
+      "1"
+    ]
+  },
+  "JP4": {
+    "uuid": "d2b7bf2a-c0d2-44a1-8c45-c9f673e09ba7",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "5V LINK OPEN",
+    "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+    "pins": [
+      "2",
+      "1"
+    ]
+  },
+  "JP5": {
+    "uuid": "4d53d781-d6b8-4f01-bee1-940bcfd00d2d",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "3V3 LINK OPEN",
+    "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+    "pins": [
+      "2",
+      "1"
+    ]
+  },
+  "#FLG5": {
+    "uuid": "c880e34b-c5c2-4289-ab45-341609e66e5b",
+    "path": [
+      "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+    ],
+    "value": "PWR_FLAG",
+    "footprint": "",
+    "pins": [
+      "1"
+    ]
+  }
+}

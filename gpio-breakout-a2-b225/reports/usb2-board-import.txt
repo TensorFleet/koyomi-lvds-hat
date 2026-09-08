@@ -1,0 +1,83 @@
+Footprint of TP4 changed: board footprint 'TestPoint_Pad_1.5x1.5mm', netlist footprint 'TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Footprint of TP5 changed: board footprint 'TestPoint_Pad_1.5x1.5mm', netlist footprint 'TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Footprint of H1 changed: board footprint 'MountingHole_2.7mm_M2.5', netlist footprint 'MountingHole:MountingHole_2.7mm_M2.5'.
+Footprint of H2 changed: board footprint 'MountingHole_2.7mm_M2.5', netlist footprint 'MountingHole:MountingHole_2.7mm_M2.5'.
+Footprint of F1 changed: board footprint 'Fuse_1206_3216Metric', netlist footprint 'Fuse:Fuse_1206_3216Metric'.
+Footprint of J2 changed: board footprint 'PinHeader_2x20_P2.54mm_Vertical', netlist footprint 'Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Processing symbol 'J1:VAIO_CM5:Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm'.
+Updated J1 unit metadata.
+Processing symbol 'J3:USB_A2:USB_C_Receptacle_Molex_105450-0101'.
+Add net unconnected-(J3-RX2--PadA10).
+Connected J3 pin A10 to unconnected-(J3-RX2--PadA10).
+Add net unconnected-(J3-TX2+-PadB2).
+Connected J3 pin B2 to unconnected-(J3-TX2+-PadB2).
+Add net unconnected-(J3-RX1+-PadB11).
+Connected J3 pin B11 to unconnected-(J3-RX1+-PadB11).
+Connected J3 pin SH to GND.
+Connected J3 pin SH to GND.
+Add net unconnected-(J3-RX1--PadB10).
+Connected J3 pin B10 to unconnected-(J3-RX1--PadB10).
+Add net unconnected-(J3-SBU2-PadB8).
+Connected J3 pin B8 to unconnected-(J3-SBU2-PadB8).
+Add net unconnected-(J3-TX2--PadB3).
+Connected J3 pin B3 to unconnected-(J3-TX2--PadB3).
+Connected J3 pin SH to GND.
+Add net unconnected-(J3-TX1+-PadA2).
+Connected J3 pin A2 to unconnected-(J3-TX1+-PadA2).
+Add net unconnected-(J3-SBU1-PadA8).
+Connected J3 pin A8 to unconnected-(J3-SBU1-PadA8).
+Add net unconnected-(J3-TX1--PadA3).
+Connected J3 pin A3 to unconnected-(J3-TX1--PadA3).
+Connected J3 pin SH to GND.
+Add net unconnected-(J3-RX2+-PadA11).
+Connected J3 pin A11 to unconnected-(J3-RX2+-PadA11).
+Updated J3 unit metadata.
+Processing symbol 'TP4:TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Removed TP4 'Do not place' fabrication attribute.
+Updated TP4 unit metadata.
+Added TP4 'Do not place' fabrication attribute.
+Processing symbol 'TP5:TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Removed TP5 'Do not place' fabrication attribute.
+Updated TP5 unit metadata.
+Added TP5 'Do not place' fabrication attribute.
+Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Updated R1 unit metadata.
+Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Updated R2 unit metadata.
+Processing symbol 'U2:Package_TO_SOT_SMD:Texas_DRT-3'.
+Updated U2 unit metadata.
+Processing symbol 'U3:Package_TO_SOT_SMD:Texas_DRT-3'.
+Updated U3 unit metadata.
+Processing symbol 'U1:Package_TO_SOT_SMD:SOT-363_SC-70-6'.
+Add net unconnected-(U1-NC-Pad4).
+Connected U1 pin 4 to unconnected-(U1-NC-Pad4).
+Updated U1 unit metadata.
+Processing symbol 'H1:MountingHole:MountingHole_2.7mm_M2.5'.
+Removed H1 'Do not place' fabrication attribute.
+Added H1 'Do not place' fabrication attribute.
+Processing symbol 'H2:MountingHole:MountingHole_2.7mm_M2.5'.
+Removed H2 'Do not place' fabrication attribute.
+Added H2 'Do not place' fabrication attribute.
+Processing symbol 'JP4:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Updated JP4 fields.
+Updated JP4 unit metadata.
+Processing symbol 'JP5:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Updated JP5 fields.
+Updated JP5 unit metadata.
+Processing symbol 'F1:Fuse:Fuse_1206_3216Metric'.
+Removed F1 'Do not place' fabrication attribute.
+Updated F1 unit metadata.
+Added F1 'Do not place' fabrication attribute.
+Processing symbol 'F2:Fuse:Fuse_1206_3216Metric'.
+Updated F2 unit metadata.
+Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Removed J2 'Do not place' fabrication attribute.
+Updated J2 unit metadata.
+Added J2 'Do not place' fabrication attribute.
+Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Updated C1 unit metadata.
+Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Updated C2 unit metadata.
+
+
+Total warnings: 0, errors: 0.

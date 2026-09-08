@@ -33,8 +33,9 @@ The initial route candidates exposed insufficient router clearance, an
 underestimated custom solder-jumper shape, and blocked 0.5mm pitch fanout.
 Native DRC rejected these attempts. The accepted route uses a reserved widening
 fanout and ordinary through vias; remaining connections were closed using the
-available via layers. The final DRC has zero findings and zero unconnected
-items. The final source hash is recorded in interface-audit.json.
+available via layers. The initial LCD-only A2 DRC had zero findings and zero unconnected
+items. The later USB extension results supersede that state; see README and
+current drc.json/erc.json. The final source hash is recorded in interface-audit.json.
 
 Top and cable-entry-side images were visually reviewed. The gray rectangular
 J1 body is a nominal envelope only. It contains no contact, latch, or aperture
@@ -46,3 +47,31 @@ endpoint, exact catalog cable assembly and detailed model remain release gates.
 Published telemetry contains this run's phase times, failures, script hashes,
 and a source/artifact manifest. Unrelated parent-workspace inventory and its
 private repository details are omitted from the public addon repository.
+
+
+## USB input extension
+
+The USB extension used the same isolated native IPC runtime and explicit
+telemetry run 20260908T231349-8d8dcf94. It adds a protected upstream USB-C
+input while preserving original LCD pad geometry and copper. Native netlist
+import duplicated three custom footprints; restoring the original native
+footprints and comparing every original footprint/copper item caught and
+removed that regression. Symbol body graphics were also registered in local
+coordinates after native schematic visual review exposed displaced graphics;
+all electrical pin positions and IDs were preserved. Raw failed DRC/ERC
+reports and revision scripts are retained as evidence, not accepted results.
+
+The native GUI applied one narrow, commented ERC exclusion: the datasheet's
+unused LM66100 ST-to-ground connection versus the existing GND power flag.
+No global electrical rule or copper clearance was relaxed. Standard USB
+protection body models were attached explicitly after checking that the
+netlist import had omitted them. J3 uses the independently checked official
+Molex model; J1 remains an explicitly unqualified nominal envelope.
+
+Native physical stackup editing remains blocked. The saved generic dielectric
+stack is not the selected JLC04161H-7628 process reference. Native IPC has no
+implemented setter; GUI selection could not isolate this addon from another
+unsaved design. That other design was not changed. Native launcher process
+lifetimes overlap some separately recorded GUI action/selection phases; the
+measured phase total is aggregated elapsed time, not exclusive runtime or CPU
+time. Failed attempts remain visible in the telemetry.
