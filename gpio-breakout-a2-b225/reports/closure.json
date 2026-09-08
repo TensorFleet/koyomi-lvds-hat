@@ -1,0 +1,22 @@
+[
+  {
+    "net": "GPIO3",
+    "items": 50,
+    "layer": 34
+  },
+  {
+    "net": "GPIO5",
+    "items": 83,
+    "layer": 3
+  },
+  {
+    "net": "GPIO16",
+    "items": 66,
+    "layer": 3
+  },
+  {
+    "net": "GPIO19",
+    "items": 78,
+    "layer": 34
+  }
+]

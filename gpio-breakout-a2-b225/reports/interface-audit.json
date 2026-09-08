@@ -1,0 +1,263 @@
+{
+  "passed": true,
+  "errors": [],
+  "contacts_checked": 40,
+  "used_contacts": 40,
+  "unused_usb_contacts": [],
+  "connector_mpn": "ZF5S-40-01-T-WT-K-TR",
+  "board_sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+  "schematic_sha256": "7d6f4f5814031e3394d59b90022250afa140a6cd729119d2978a34c2cbb0e7e7",
+  "minimum_track_mm": 0.2,
+  "via_drills_mm": [
+    0.3
+  ],
+  "pin_map": [
+    {
+      "ffc_pin": 1,
+      "signal": "USB_VBUS",
+      "pi_physical_pins": "",
+      "power_path": "USB cable / F2 / LM66100"
+    },
+    {
+      "ffc_pin": 2,
+      "signal": "USB_VBUS",
+      "pi_physical_pins": "",
+      "power_path": "USB cable / F2 / LM66100"
+    },
+    {
+      "ffc_pin": 3,
+      "signal": "USB_VBUS",
+      "pi_physical_pins": "",
+      "power_path": "USB cable / F2 / LM66100"
+    },
+    {
+      "ffc_pin": 4,
+      "signal": "USB_VBUS",
+      "pi_physical_pins": "",
+      "power_path": "USB cable / F2 / LM66100"
+    },
+    {
+      "ffc_pin": 5,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 6,
+      "signal": "USB_D_N",
+      "pi_physical_pins": "",
+      "power_path": "USB cable / ESD"
+    },
+    {
+      "ffc_pin": 7,
+      "signal": "USB_D_P",
+      "pi_physical_pins": "",
+      "power_path": "USB cable / ESD"
+    },
+    {
+      "ffc_pin": 8,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 9,
+      "signal": "+5V_FFC",
+      "pi_physical_pins": "2/4",
+      "power_path": "JP4 (open) + F1"
+    },
+    {
+      "ffc_pin": 10,
+      "signal": "+5V_FFC",
+      "pi_physical_pins": "2/4",
+      "power_path": "JP4 (open) + F1"
+    },
+    {
+      "ffc_pin": 11,
+      "signal": "+3V3_FFC",
+      "pi_physical_pins": "1/17",
+      "power_path": "JP5 (open)"
+    },
+    {
+      "ffc_pin": 12,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 13,
+      "signal": "GPIO23",
+      "pi_physical_pins": "16",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 14,
+      "signal": "GPIO24",
+      "pi_physical_pins": "18",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 15,
+      "signal": "ID_SC",
+      "pi_physical_pins": "28",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 16,
+      "signal": "GPIO2",
+      "pi_physical_pins": "3",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 17,
+      "signal": "GPIO3",
+      "pi_physical_pins": "5",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 18,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 19,
+      "signal": "ID_SD",
+      "pi_physical_pins": "27",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 20,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 21,
+      "signal": "GPIO4",
+      "pi_physical_pins": "7",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 22,
+      "signal": "GPIO5",
+      "pi_physical_pins": "29",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 23,
+      "signal": "GPIO6",
+      "pi_physical_pins": "31",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 24,
+      "signal": "GPIO7",
+      "pi_physical_pins": "26",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 25,
+      "signal": "GPIO8",
+      "pi_physical_pins": "24",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 26,
+      "signal": "GPIO9",
+      "pi_physical_pins": "21",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 27,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 28,
+      "signal": "GPIO10",
+      "pi_physical_pins": "19",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 29,
+      "signal": "GPIO11",
+      "pi_physical_pins": "23",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 30,
+      "signal": "GPIO12",
+      "pi_physical_pins": "32",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 31,
+      "signal": "GPIO13",
+      "pi_physical_pins": "33",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 32,
+      "signal": "GPIO14",
+      "pi_physical_pins": "8",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 33,
+      "signal": "GPIO15",
+      "pi_physical_pins": "10",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 34,
+      "signal": "GND",
+      "pi_physical_pins": "6/9/14/20/25/30/34/39",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 35,
+      "signal": "GPIO16",
+      "pi_physical_pins": "36",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 36,
+      "signal": "GPIO17",
+      "pi_physical_pins": "11",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 37,
+      "signal": "GPIO18",
+      "pi_physical_pins": "12",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 38,
+      "signal": "GPIO19",
+      "pi_physical_pins": "35",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 39,
+      "signal": "GPIO20",
+      "pi_physical_pins": "38",
+      "power_path": "direct"
+    },
+    {
+      "ffc_pin": 40,
+      "signal": "GPIO21",
+      "pi_physical_pins": "40",
+      "power_path": "direct"
+    }
+  ],
+  "release_ready": false,
+  "release_blockers": [
+    "Native physical stackup still generic; selected JLC04161H-7628 must be applied in a supported native editor and verified.",
+    "Matching new LCD endpoint is a separate user task.",
+    "Exact catalog cable assembly and orientation require numbered one-to-one mating audit.",
+    "Real Samtec 3D model and assembly clearance are not yet verified; envelope only."
+  ]
+}

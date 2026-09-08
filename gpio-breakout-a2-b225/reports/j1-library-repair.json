@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "native_serializer": "10.0.4",
+  "pads": 42,
+  "graphics": 9,
+  "pad_geometry_matches_native_snapshot": true,
+  "paste_apertures": "1:1, default local paste margins",
+  "library_sha256": "71d6941f33a68a2a9ce1efe67d7a08c29b2aa864d2f80b9004aa6a5f74d27ca2",
+  "model": "Preserved nominal envelope; still not a detailed mating model"
+}

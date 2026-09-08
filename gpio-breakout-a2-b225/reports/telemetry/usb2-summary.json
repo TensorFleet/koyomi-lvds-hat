@@ -1,0 +1,47 @@
+{
+  "run_id": "20260908T231349-8d8dcf94",
+  "outcome": "blocked",
+  "reason": "Protected USB2 circuit, routing, native source audits and final visual verification complete. Native physical stackup update remains pending: saved generic dielectric is not the selected JLC04161H-7628 process. Matching LCD endpoint, exact catalog cable and model/mechanical qualifications also remain release gates. No fabrication outputs generated.",
+  "intent_at": "2026-09-08T16:13:49.802+00:00",
+  "finished_at": "2026-09-08T17:36:35.452+00:00",
+  "intent_to_finish_seconds": 4965.719736,
+  "measured_phase_seconds": 1542.9999890000001,
+  "phase_count": 89,
+  "failed_phase_count": 8,
+  "slowest_phases": [
+    {
+      "phase": "schematic-erc-marker-review",
+      "seconds": 255.476587
+    },
+    {
+      "phase": "native-stackup-isolated-editor",
+      "seconds": 228.36742800000002
+    },
+    {
+      "phase": "native-gui-usb-library-symbols",
+      "seconds": 185.857392
+    },
+    {
+      "phase": "launch-native-stackup-direct",
+      "seconds": 151.45154300000002
+    },
+    {
+      "phase": "launch-isolated-stackup-editor",
+      "seconds": 143.61064499999998
+    },
+    {
+      "phase": "schematic-usb2-page-settings",
+      "seconds": 127.651815
+    },
+    {
+      "phase": "native-stackup-editor-selection",
+      "seconds": 95.05762399999999
+    },
+    {
+      "phase": "native-stackup-editor-selection",
+      "seconds": 76.769085
+    }
+  ],
+  "timing_note": "Aggregate elapsed phase time; some native launcher lifetimes overlap separately recorded GUI actions. This is not exclusive runtime or CPU time.",
+  "privacy_note": "Only addon run events, script fingerprints and source hashes published; unrelated workspace inventories, commands and private review paths omitted."
+}

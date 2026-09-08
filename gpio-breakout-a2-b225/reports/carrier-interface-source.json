@@ -1,0 +1,220 @@
+{
+  "board_sha256": "bcf4851ee4f700e81c545b782db679303367d181594bed593017520ba222d17b",
+  "carrier_revision": "B2.25 compact 90x52",
+  "connector": {
+    "value": "ZF5S-40-01-T-WT-K-TR",
+    "footprint": "VAIO_CM5:Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm",
+    "pad_count": 40,
+    "pin1_mm": [
+      113.4,
+      12.25
+    ],
+    "pin40_mm": [
+      113.4,
+      31.75
+    ]
+  },
+  "pin_map": [
+    {
+      "pin": 1,
+      "carrier": "KB_VBUS",
+      "a2": "IO_VBUS_IN"
+    },
+    {
+      "pin": 2,
+      "carrier": "KB_VBUS",
+      "a2": "IO_VBUS_IN"
+    },
+    {
+      "pin": 3,
+      "carrier": "KB_VBUS",
+      "a2": "IO_VBUS_IN"
+    },
+    {
+      "pin": 4,
+      "carrier": "KB_VBUS",
+      "a2": "IO_VBUS_IN"
+    },
+    {
+      "pin": 5,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 6,
+      "carrier": "USB3-1-D_N",
+      "a2": "IO_USB_C_DN"
+    },
+    {
+      "pin": 7,
+      "carrier": "USB3-1-D_P",
+      "a2": "IO_USB_C_DP"
+    },
+    {
+      "pin": 8,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 9,
+      "carrier": "+5V",
+      "a2": "LCD_+5V"
+    },
+    {
+      "pin": 10,
+      "carrier": "+5V",
+      "a2": "LCD_+5V"
+    },
+    {
+      "pin": 11,
+      "carrier": "+3V3_PI",
+      "a2": "LCD_+3V3"
+    },
+    {
+      "pin": 12,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 13,
+      "carrier": "GPIO23",
+      "a2": "LCD_SDA"
+    },
+    {
+      "pin": 14,
+      "carrier": "CS_GPIO24",
+      "a2": "LCD_SCL"
+    },
+    {
+      "pin": 15,
+      "carrier": "ID_SC",
+      "a2": "LCD_ENABLE"
+    },
+    {
+      "pin": 16,
+      "carrier": "GPIO2",
+      "a2": "LCD_VSYNC"
+    },
+    {
+      "pin": 17,
+      "carrier": "GPIO3",
+      "a2": "LCD_HSYNC"
+    },
+    {
+      "pin": 18,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 19,
+      "carrier": "ID_SD",
+      "a2": "LCD_CLKIN"
+    },
+    {
+      "pin": 20,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 21,
+      "carrier": "GPIO4",
+      "a2": "LCD_B0"
+    },
+    {
+      "pin": 22,
+      "carrier": "GPIO5",
+      "a2": "LCD_B1"
+    },
+    {
+      "pin": 23,
+      "carrier": "GPIO6",
+      "a2": "LCD_B2"
+    },
+    {
+      "pin": 24,
+      "carrier": "GPIO7",
+      "a2": "LCD_B3"
+    },
+    {
+      "pin": 25,
+      "carrier": "GPIO8",
+      "a2": "LCD_B4"
+    },
+    {
+      "pin": 26,
+      "carrier": "GPIO9",
+      "a2": "LCD_B5"
+    },
+    {
+      "pin": 27,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 28,
+      "carrier": "GPIO10",
+      "a2": "LCD_G0"
+    },
+    {
+      "pin": 29,
+      "carrier": "GPIO11",
+      "a2": "LCD_G1"
+    },
+    {
+      "pin": 30,
+      "carrier": "GPIO12",
+      "a2": "LCD_G2"
+    },
+    {
+      "pin": 31,
+      "carrier": "GPIO13",
+      "a2": "LCD_G3"
+    },
+    {
+      "pin": 32,
+      "carrier": "GPIO14",
+      "a2": "LCD_G4"
+    },
+    {
+      "pin": 33,
+      "carrier": "GPIO15",
+      "a2": "LCD_G5"
+    },
+    {
+      "pin": 34,
+      "carrier": "GND",
+      "a2": "GND"
+    },
+    {
+      "pin": 35,
+      "carrier": "GPIO16",
+      "a2": "LCD_R0"
+    },
+    {
+      "pin": 36,
+      "carrier": "GPIO17",
+      "a2": "LCD_R1"
+    },
+    {
+      "pin": 37,
+      "carrier": "BL_GPIO18",
+      "a2": "LCD_R2"
+    },
+    {
+      "pin": 38,
+      "carrier": "MISO_GPIO19",
+      "a2": "LCD_R3"
+    },
+    {
+      "pin": 39,
+      "carrier": "MOSI_GPIO20",
+      "a2": "LCD_R4"
+    },
+    {
+      "pin": 40,
+      "carrier": "SCLK_GPIO21",
+      "a2": "LCD_R5"
+    }
+  ],
+  "provenance": "Historical B2.25 interface-verification.json; numbered interface unchanged by subsequent USB correction PR82/965d389. Only interface data is included, not carrier sources."
+}

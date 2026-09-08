@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "before_sha256": "a121a12c2923fc5e7e25370b239cb69aef1f93ec143258cc454ab7b7c46569c5",
+  "after_sha256": "ac01c10b6111671b5be9ca815dd4377d71d8ef58b1dec01e57321e0b5d0f4986",
+  "paste_pad_count": 42,
+  "signal_pads": 40,
+  "mounting_pads": 2,
+  "all_tracks_vias_and_normalized_footprints_unchanged": true,
+  "normalization": "Exclude intended J1 paste/description, session document parent IDs and generated IDs of custom-pad primitive shapes; retain geometry and pad/item IDs.",
+  "description": "Samtec ZF5S-40-01-T-WT-K-TR, 40-position 0.5 mm bottom-contact FFC; manufacturer land/stencil drawing Rev E, 1:1 paste apertures",
+  "stencil_thickness": "Samtec drawing Rev E specifies 0.15 mm; product specification 6.3 says 0.13 mm. Reconcile with assembler before release.",
+  "fabrication_generated": false
+}

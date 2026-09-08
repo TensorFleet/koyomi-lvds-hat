@@ -1,0 +1,30 @@
+[
+  {
+    "source_library": "Package_TO_SOT_SMD.3dshapes/Texas_DRT-3.step",
+    "local": "3dmodels/standard/Texas_DRT-3.step",
+    "sha256": "826a53de4a90e738d560e4a906235ba95541b3da40b62f22d8f9e30fd9f39744",
+    "registration": "KiCad library default:offset0,rotation0,scale1",
+    "qualification": "Standard-library visualization; not manufacturer package metrology."
+  },
+  {
+    "source_library": "Package_TO_SOT_SMD.3dshapes/SOT-363_SC-70-6.step",
+    "local": "3dmodels/standard/SOT-363_SC-70-6.step",
+    "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+    "registration": "KiCad library default:offset0,rotation0,scale1",
+    "qualification": "Standard-library visualization; not manufacturer package metrology."
+  },
+  {
+    "source_library": "Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+    "local": "3dmodels/standard/R_0603_1608Metric.step",
+    "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "registration": "KiCad library default:offset0,rotation0,scale1",
+    "qualification": "Standard-library visualization; not manufacturer package metrology."
+  },
+  {
+    "source_library": "Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+    "local": "3dmodels/standard/C_0603_1608Metric.step",
+    "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "registration": "KiCad library default:offset0,rotation0,scale1",
+    "qualification": "Standard-library visualization; not manufacturer package metrology."
+  }
+]

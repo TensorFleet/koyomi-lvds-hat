@@ -1,0 +1,929 @@
+{
+  "stackup": {
+    "finish": {
+      "type_name": "None"
+    },
+    "impedance": {},
+    "edge": {
+      "connector": {
+        "type": "BECT_NONE"
+      },
+      "plating": {}
+    },
+    "layers": [
+      {
+        "thickness": {},
+        "layer": "BL_F_SilkS",
+        "enabled": true,
+        "type": "BSLT_SILKSCREEN",
+        "user_name": "F.Silkscreen",
+        "silkscreen": {
+          "material_name": "Not specified"
+        }
+      },
+      {
+        "thickness": {},
+        "layer": "BL_F_Paste",
+        "enabled": true,
+        "type": "BSLT_SOLDERPASTE",
+        "user_name": "F.Paste"
+      },
+      {
+        "thickness": {
+          "value_nm": "10000"
+        },
+        "layer": "BL_F_Mask",
+        "enabled": true,
+        "type": "BSLT_SOLDERMASK",
+        "user_name": "F.Mask",
+        "soldermask": {
+          "epsilon_r": 3.3,
+          "material_name": "Not specified",
+          "thickness": {
+            "value_nm": "10000"
+          }
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "35000"
+        },
+        "layer": "BL_F_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "F.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "480000"
+        },
+        "layer": "BL_UNDEFINED",
+        "enabled": true,
+        "type": "BSLT_DIELECTRIC",
+        "dielectric": {
+          "layer": [
+            {
+              "epsilon_r": 4.5,
+              "loss_tangent": 0.02,
+              "material_name": "FR4",
+              "thickness": {
+                "value_nm": "480000"
+              },
+              "spec_frequency": 1000000000.0,
+              "dielectric_model": "DM_CONSTANT"
+            }
+          ],
+          "type": "BSDT_CORE"
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "35000"
+        },
+        "layer": "BL_In1_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "In1.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "480000"
+        },
+        "layer": "BL_UNDEFINED",
+        "enabled": true,
+        "type": "BSLT_DIELECTRIC",
+        "dielectric": {
+          "layer": [
+            {
+              "epsilon_r": 4.5,
+              "loss_tangent": 0.02,
+              "material_name": "FR4",
+              "thickness": {
+                "value_nm": "480000"
+              },
+              "spec_frequency": 1000000000.0,
+              "dielectric_model": "DM_CONSTANT"
+            }
+          ],
+          "type": "BSDT_PREPREG"
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "35000"
+        },
+        "layer": "BL_In2_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "In2.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "480000"
+        },
+        "layer": "BL_UNDEFINED",
+        "enabled": true,
+        "type": "BSLT_DIELECTRIC",
+        "dielectric": {
+          "layer": [
+            {
+              "epsilon_r": 4.5,
+              "loss_tangent": 0.02,
+              "material_name": "FR4",
+              "thickness": {
+                "value_nm": "480000"
+              },
+              "spec_frequency": 1000000000.0,
+              "dielectric_model": "DM_CONSTANT"
+            }
+          ],
+          "type": "BSDT_CORE"
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "35000"
+        },
+        "layer": "BL_B_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "B.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "10000"
+        },
+        "layer": "BL_B_Mask",
+        "enabled": true,
+        "type": "BSLT_SOLDERMASK",
+        "user_name": "B.Mask",
+        "soldermask": {
+          "epsilon_r": 3.3,
+          "material_name": "Not specified",
+          "thickness": {
+            "value_nm": "10000"
+          }
+        }
+      },
+      {
+        "thickness": {},
+        "layer": "BL_B_Paste",
+        "enabled": true,
+        "type": "BSLT_SOLDERPASTE",
+        "user_name": "B.Paste"
+      },
+      {
+        "thickness": {},
+        "layer": "BL_B_SilkS",
+        "enabled": true,
+        "type": "BSLT_SILKSCREEN",
+        "user_name": "B.Silkscreen",
+        "silkscreen": {
+          "material_name": "Not specified"
+        }
+      }
+    ]
+  },
+  "paths": [
+    {
+      "net": "USB_D_P",
+      "from": [
+        "J1",
+        "7"
+      ],
+      "to": [
+        "J3",
+        "A6"
+      ],
+      "planar_length_mm": 22.441309179436438,
+      "layers": [
+        3
+      ],
+      "routed_copper_layers": [
+        3
+      ],
+      "used_through_vias": 0,
+      "path": [
+        [
+          87.75,
+          55.23,
+          3
+        ],
+        [
+          87.7613,
+          55.23,
+          3
+        ],
+        [
+          87.7613,
+          56.898872,
+          3
+        ],
+        [
+          91.101127,
+          60.2387,
+          3
+        ],
+        [
+          99.401127,
+          60.2387,
+          3
+        ],
+        [
+          100.401127,
+          61.2387,
+          3
+        ],
+        [
+          100.8,
+          61.2387,
+          3
+        ],
+        [
+          101.1,
+          62.15,
+          3
+        ],
+        [
+          102.9,
+          62.15,
+          3
+        ],
+        [
+          103.025,
+          61.85,
+          3
+        ],
+        [
+          104.5,
+          61.85,
+          3
+        ],
+        [
+          104.8,
+          62.0,
+          3
+        ],
+        [
+          105.83,
+          62.0,
+          3
+        ],
+        [
+          105.83,
+          61.999999,
+          3
+        ]
+      ]
+    },
+    {
+      "net": "USB_D_P",
+      "from": [
+        "J1",
+        "7"
+      ],
+      "to": [
+        "J3",
+        "B6"
+      ],
+      "planar_length_mm": 28.08951058219719,
+      "layers": [
+        3,
+        4,
+        5
+      ],
+      "routed_copper_layers": [
+        3,
+        5
+      ],
+      "used_through_vias": 2,
+      "path": [
+        [
+          87.75,
+          55.23,
+          3
+        ],
+        [
+          87.7613,
+          55.23,
+          3
+        ],
+        [
+          87.7613,
+          56.898872,
+          3
+        ],
+        [
+          91.101127,
+          60.2387,
+          3
+        ],
+        [
+          99.401127,
+          60.2387,
+          3
+        ],
+        [
+          100.401127,
+          61.2387,
+          3
+        ],
+        [
+          100.8,
+          61.2387,
+          3
+        ],
+        [
+          101.1,
+          62.15,
+          3
+        ],
+        [
+          102.9,
+          62.15,
+          3
+        ],
+        [
+          103.025,
+          61.85,
+          3
+        ],
+        [
+          104.5,
+          61.85,
+          3
+        ],
+        [
+          104.8,
+          62.0,
+          3
+        ],
+        [
+          103.8,
+          62.0,
+          3
+        ],
+        [
+          103.8,
+          62.0,
+          4
+        ],
+        [
+          103.8,
+          62.0,
+          5
+        ],
+        [
+          105.8,
+          62.0,
+          5
+        ],
+        [
+          106.7,
+          61.1,
+          5
+        ],
+        [
+          108.1,
+          61.1,
+          5
+        ],
+        [
+          108.1,
+          61.1,
+          4
+        ],
+        [
+          108.1,
+          61.1,
+          3
+        ],
+        [
+          107.8,
+          61.25,
+          3
+        ],
+        [
+          107.13,
+          61.25,
+          3
+        ]
+      ]
+    },
+    {
+      "net": "USB_D_N",
+      "from": [
+        "J1",
+        "6"
+      ],
+      "to": [
+        "J3",
+        "A7"
+      ],
+      "planar_length_mm": 21.139153529313848,
+      "layers": [
+        3
+      ],
+      "routed_copper_layers": [
+        3
+      ],
+      "used_through_vias": 0,
+      "path": [
+        [
+          88.25,
+          55.23,
+          3
+        ],
+        [
+          88.2387,
+          55.23,
+          3
+        ],
+        [
+          88.2387,
+          56.701127,
+          3
+        ],
+        [
+          91.298872,
+          59.7613,
+          3
+        ],
+        [
+          99.598872,
+          59.7613,
+          3
+        ],
+        [
+          100.598872,
+          60.7613,
+          3
+        ],
+        [
+          100.8,
+          60.7613,
+          3
+        ],
+        [
+          101.1,
+          60.7,
+          3
+        ],
+        [
+          102.9,
+          60.7,
+          3
+        ],
+        [
+          103.025,
+          61.15,
+          3
+        ],
+        [
+          104.5,
+          61.15,
+          3
+        ],
+        [
+          104.8,
+          61.0,
+          3
+        ],
+        [
+          105.83,
+          61.0,
+          3
+        ]
+      ]
+    },
+    {
+      "net": "USB_D_N",
+      "from": [
+        "J1",
+        "6"
+      ],
+      "to": [
+        "J3",
+        "B7"
+      ],
+      "planar_length_mm": 29.884788447924585,
+      "layers": [
+        3,
+        4,
+        5
+      ],
+      "routed_copper_layers": [
+        3,
+        5
+      ],
+      "used_through_vias": 2,
+      "path": [
+        [
+          88.25,
+          55.23,
+          3
+        ],
+        [
+          88.2387,
+          55.23,
+          3
+        ],
+        [
+          88.2387,
+          56.701127,
+          3
+        ],
+        [
+          91.298872,
+          59.7613,
+          3
+        ],
+        [
+          99.598872,
+          59.7613,
+          3
+        ],
+        [
+          100.598872,
+          60.7613,
+          3
+        ],
+        [
+          100.8,
+          60.7613,
+          3
+        ],
+        [
+          101.1,
+          60.7,
+          3
+        ],
+        [
+          102.9,
+          60.7,
+          3
+        ],
+        [
+          103.025,
+          61.15,
+          3
+        ],
+        [
+          104.5,
+          61.15,
+          3
+        ],
+        [
+          104.8,
+          61.0,
+          3
+        ],
+        [
+          103.8,
+          61.0,
+          3
+        ],
+        [
+          103.8,
+          61.0,
+          4
+        ],
+        [
+          103.8,
+          61.0,
+          5
+        ],
+        [
+          104.9,
+          59.9,
+          5
+        ],
+        [
+          108.7,
+          59.9,
+          5
+        ],
+        [
+          108.7,
+          61.75,
+          5
+        ],
+        [
+          108.7,
+          61.75,
+          4
+        ],
+        [
+          108.7,
+          61.75,
+          3
+        ],
+        [
+          107.13,
+          61.749999,
+          3
+        ]
+      ]
+    }
+  ],
+  "data_vias": [
+    {
+      "net": "USB_D_P",
+      "xy": [
+        108.1,
+        61.1
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3,
+      "nearest_gnd_via_mm": 1.649242250247072
+    },
+    {
+      "net": "USB_D_P",
+      "xy": [
+        103.8,
+        62.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3,
+      "nearest_gnd_via_mm": 1.131370849898472
+    },
+    {
+      "net": "USB_D_N",
+      "xy": [
+        103.8,
+        61.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3,
+      "nearest_gnd_via_mm": 1.2419742348374223
+    },
+    {
+      "net": "USB_D_N",
+      "xy": [
+        108.7,
+        61.75
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3,
+      "nearest_gnd_via_mm": 1.0307764064044151
+    }
+  ],
+  "qualification": "Saved native stack is still generic0.48/0.48/0.48mm dielectric. JLC04161H-7628 is a future process-reference choice; physical stackup update pending. Coplanar ground is interrupted at breakouts/bends; narrow contact joins remain. Uniform impedance, USB enumeration/current and assembled-link signal integrity are not qualified.",
+  "reference_samples_by_routing_layer": {
+    "3": {
+      "reference_layer": 4,
+      "total": 698,
+      "covered": 698,
+      "transition_samples_excluded": 43,
+      "misses": [],
+      "all_covered": true,
+      "antipad_radius_basis_mm": 0.5,
+      "numerical_polygon_margin_mm": 0.001
+    },
+    "5": {
+      "reference_layer": 34,
+      "total": 102,
+      "covered": 102,
+      "transition_samples_excluded": 24,
+      "misses": [],
+      "all_covered": true,
+      "antipad_radius_basis_mm": 0.5,
+      "numerical_polygon_margin_mm": 0.001
+    }
+  },
+  "main_pair_coplanar_ground_samples": {
+    "total": 337,
+    "covered": 283,
+    "missing_samples": [
+      [
+        100.60056349999999,
+        61.6374
+      ],
+      [
+        100.70028175,
+        61.6374
+      ],
+      [
+        100.8,
+        61.6374
+      ],
+      [
+        99.11920352634093,
+        60.52062347365908
+      ],
+      [
+        99.18587019300759,
+        60.58729014032575
+      ],
+      [
+        99.30112700000001,
+        60.6374
+      ],
+      [
+        99.401127,
+        60.6374
+      ],
+      [
+        87.3626,
+        55.23
+      ],
+      [
+        87.3626,
+        55.328168941176465
+      ],
+      [
+        87.3626,
+        55.42633788235294
+      ],
+      [
+        87.3626,
+        55.52450682352941
+      ],
+      [
+        87.3626,
+        55.62267576470588
+      ],
+      [
+        87.3626,
+        55.72084470588235
+      ],
+      [
+        87.3626,
+        55.81901364705882
+      ],
+      [
+        87.3626,
+        55.91718258823529
+      ],
+      [
+        87.3626,
+        56.01535152941176
+      ],
+      [
+        87.3626,
+        56.113520470588234
+      ],
+      [
+        87.3626,
+        56.2116894117647
+      ],
+      [
+        87.3626,
+        56.30985835294118
+      ],
+      [
+        87.3626,
+        56.408027294117645
+      ],
+      [
+        87.3626,
+        56.50619623529411
+      ],
+      [
+        87.3626,
+        56.60436517647059
+      ],
+      [
+        87.3626,
+        56.702534117647055
+      ],
+      [
+        87.3626,
+        56.80070305882353
+      ],
+      [
+        87.3626,
+        56.898872
+      ],
+      [
+        87.47937648413463,
+        57.18079543145278
+      ],
+      [
+        87.5489562133013,
+        57.25037518145278
+      ],
+      [
+        87.61853594246797,
+        57.31995493145278
+      ],
+      [
+        87.68811567163463,
+        57.38953468145278
+      ],
+      [
+        87.7576954008013,
+        57.45911443145278
+      ],
+      [
+        87.82727512996797,
+        57.52869418145278
+      ],
+      [
+        88.52062351972239,
+        56.41920357240426
+      ],
+      [
+        88.59017288335876,
+        56.48875295876789
+      ],
+      [
+        91.51124615608603,
+        59.40982718604062
+      ],
+      [
+        91.5807955197224,
+        59.479376572404256
+      ],
+      [
+        100.598872,
+        60.3626
+      ],
+      [
+        100.66591466666667,
+        60.3626
+      ],
+      [
+        100.73295733333333,
+        60.3626
+      ],
+      [
+        91.298872,
+        59.3626
+      ],
+      [
+        91.398872,
+        59.3626
+      ],
+      [
+        100.81412880699241,
+        60.41270985967425
+      ],
+      [
+        100.88079547365908,
+        60.47937652634092
+      ],
+      [
+        88.6374,
+        55.23
+      ],
+      [
+        88.6374,
+        55.32807513333333
+      ],
+      [
+        88.6374,
+        55.42615026666667
+      ],
+      [
+        88.6374,
+        55.5242254
+      ],
+      [
+        88.6374,
+        55.62230053333333
+      ],
+      [
+        88.6374,
+        55.72037566666666
+      ],
+      [
+        88.6374,
+        55.8184508
+      ],
+      [
+        88.6374,
+        55.91652593333333
+      ],
+      [
+        88.6374,
+        56.014601066666664
+      ],
+      [
+        88.6374,
+        56.112676199999996
+      ],
+      [
+        88.6374,
+        56.60305186666667
+      ],
+      [
+        88.6374,
+        56.701127
+      ]
+    ],
+    "sample_offset_beyond_trace_edge_mm": 0.26
+  },
+  "A_contact_pair": {
+    "planar_skew_mm": 1.3021556501225895,
+    "via_parity": true
+  },
+  "B_contact_pair": {
+    "planar_skew_mm": 1.795277865727396,
+    "via_parity": true
+  }
+}

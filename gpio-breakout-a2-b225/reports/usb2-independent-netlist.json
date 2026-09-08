@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "errors": [],
+  "preserved_baseline_pins": 82,
+  "new_expected_pins_checked": 42,
+  "netlist_sha256": "677ee0e81bd9d5272ee3a1053a08a6ea4bf6b5532111e2843f699e6063b54f07",
+  "scope": "Native schematic netlist only; PCB routing and power/channel qualification are separate."
+}

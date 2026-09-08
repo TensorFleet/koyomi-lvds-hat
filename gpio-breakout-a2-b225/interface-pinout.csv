@@ -1,0 +1,41 @@
+ffc_pin,signal,pi_physical_pins,power_path
+1,USB_VBUS,,USB cable / F2 / LM66100
+2,USB_VBUS,,USB cable / F2 / LM66100
+3,USB_VBUS,,USB cable / F2 / LM66100
+4,USB_VBUS,,USB cable / F2 / LM66100
+5,GND,6/9/14/20/25/30/34/39,direct
+6,USB_D_N,,USB cable / ESD
+7,USB_D_P,,USB cable / ESD
+8,GND,6/9/14/20/25/30/34/39,direct
+9,+5V_FFC,2/4,JP4 (open) + F1
+10,+5V_FFC,2/4,JP4 (open) + F1
+11,+3V3_FFC,1/17,JP5 (open)
+12,GND,6/9/14/20/25/30/34/39,direct
+13,GPIO23,16,direct
+14,GPIO24,18,direct
+15,ID_SC,28,direct
+16,GPIO2,3,direct
+17,GPIO3,5,direct
+18,GND,6/9/14/20/25/30/34/39,direct
+19,ID_SD,27,direct
+20,GND,6/9/14/20/25/30/34/39,direct
+21,GPIO4,7,direct
+22,GPIO5,29,direct
+23,GPIO6,31,direct
+24,GPIO7,26,direct
+25,GPIO8,24,direct
+26,GPIO9,21,direct
+27,GND,6/9/14/20/25/30/34/39,direct
+28,GPIO10,19,direct
+29,GPIO11,23,direct
+30,GPIO12,32,direct
+31,GPIO13,33,direct
+32,GPIO14,8,direct
+33,GPIO15,10,direct
+34,GND,6/9/14/20/25/30/34/39,direct
+35,GPIO16,36,direct
+36,GPIO17,11,direct
+37,GPIO18,12,direct
+38,GPIO19,35,direct
+39,GPIO20,38,direct
+40,GPIO21,40,direct

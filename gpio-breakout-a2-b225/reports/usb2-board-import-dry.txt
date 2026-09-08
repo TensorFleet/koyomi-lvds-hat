@@ -1,0 +1,80 @@
+Footprint of TP4 changed: board footprint 'TestPoint_Pad_1.5x1.5mm', netlist footprint 'TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Footprint of TP5 changed: board footprint 'TestPoint_Pad_1.5x1.5mm', netlist footprint 'TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Footprint of H1 changed: board footprint 'MountingHole_2.7mm_M2.5', netlist footprint 'MountingHole:MountingHole_2.7mm_M2.5'.
+Footprint of H2 changed: board footprint 'MountingHole_2.7mm_M2.5', netlist footprint 'MountingHole:MountingHole_2.7mm_M2.5'.
+Footprint of F1 changed: board footprint 'Fuse_1206_3216Metric', netlist footprint 'Fuse:Fuse_1206_3216Metric'.
+Footprint of J2 changed: board footprint 'PinHeader_2x20_P2.54mm_Vertical', netlist footprint 'Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Processing symbol 'J1:VAIO_CM5:Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm'.
+Update J1 unit metadata.
+Processing symbol 'J3:USB_A2:USB_C_Receptacle_Molex_105450-0101'.
+Add net unconnected-(J3-RX2--PadA10).
+Connect J3 pin A10 to unconnected-(J3-RX2--PadA10).
+Add net unconnected-(J3-TX2+-PadB2).
+Connect J3 pin B2 to unconnected-(J3-TX2+-PadB2).
+Add net unconnected-(J3-RX1+-PadB11).
+Connect J3 pin B11 to unconnected-(J3-RX1+-PadB11).
+Connect J3 pin SH to GND.
+Add net GND_1.
+Connect J3 pin SH to GND_1.
+Add net unconnected-(J3-RX1--PadB10).
+Connect J3 pin B10 to unconnected-(J3-RX1--PadB10).
+Add net unconnected-(J3-SBU2-PadB8).
+Connect J3 pin B8 to unconnected-(J3-SBU2-PadB8).
+Add net unconnected-(J3-TX2--PadB3).
+Connect J3 pin B3 to unconnected-(J3-TX2--PadB3).
+Add net GND_2.
+Connect J3 pin SH to GND_2.
+Add net unconnected-(J3-TX1+-PadA2).
+Connect J3 pin A2 to unconnected-(J3-TX1+-PadA2).
+Add net unconnected-(J3-SBU1-PadA8).
+Connect J3 pin A8 to unconnected-(J3-SBU1-PadA8).
+Add net unconnected-(J3-TX1--PadA3).
+Connect J3 pin A3 to unconnected-(J3-TX1--PadA3).
+Add net GND_3.
+Connect J3 pin SH to GND_3.
+Add net unconnected-(J3-RX2+-PadA11).
+Connect J3 pin A11 to unconnected-(J3-RX2+-PadA11).
+Update J3 unit metadata.
+Processing symbol 'TP4:TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Remove TP4 'Do not place' fabrication attribute.
+Update TP4 unit metadata.
+Processing symbol 'TP5:TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Remove TP5 'Do not place' fabrication attribute.
+Update TP5 unit metadata.
+Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Update R1 unit metadata.
+Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Update R2 unit metadata.
+Processing symbol 'U2:Package_TO_SOT_SMD:Texas_DRT-3'.
+Update U2 unit metadata.
+Processing symbol 'U3:Package_TO_SOT_SMD:Texas_DRT-3'.
+Update U3 unit metadata.
+Processing symbol 'U1:Package_TO_SOT_SMD:SOT-363_SC-70-6'.
+Add net unconnected-(U1-NC-Pad4).
+Connect U1 pin 4 to unconnected-(U1-NC-Pad4).
+Update U1 unit metadata.
+Processing symbol 'H1:MountingHole:MountingHole_2.7mm_M2.5'.
+Remove H1 'Do not place' fabrication attribute.
+Processing symbol 'H2:MountingHole:MountingHole_2.7mm_M2.5'.
+Remove H2 'Do not place' fabrication attribute.
+Processing symbol 'JP4:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Update JP4 fields.
+Update JP4 unit metadata.
+Processing symbol 'JP5:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Update JP5 fields.
+Update JP5 unit metadata.
+Processing symbol 'F1:Fuse:Fuse_1206_3216Metric'.
+Remove F1 'Do not place' fabrication attribute.
+Update F1 unit metadata.
+Processing symbol 'F2:Fuse:Fuse_1206_3216Metric'.
+Update F2 unit metadata.
+Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Remove J2 'Do not place' fabrication attribute.
+Update J2 unit metadata.
+Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Update C1 unit metadata.
+Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Update C2 unit metadata.
+
+
+Total warnings: 0, errors: 0.

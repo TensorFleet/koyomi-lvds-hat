@@ -1,0 +1,695 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T23:50:44",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "gpio_breakout.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 49.5,
+                        "y": 49.5
+                    },
+                    "uuid": "abbe4c05-f2e3-4170-8e03-766454d52b47"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 49.5,
+                        "y": 49.5
+                    },
+                    "uuid": "abbe4c05-f2e3-4170-8e03-766454d52b47"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.2000 mm",
+                    "pos": {
+                        "x": 108.1,
+                        "y": 63.05
+                    },
+                    "uuid": "d4b2b815-631b-4db4-ba87-2f2d8c8d3a3e"
+                },
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.5657 mm",
+                    "pos": {
+                        "x": 108.229999,
+                        "y": 62.35
+                    },
+                    "uuid": "ac294686-70fd-4578-9faa-0cde979fd263"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 1.0000 mm",
+                    "pos": {
+                        "x": 103.8,
+                        "y": 62.0
+                    },
+                    "uuid": "75141428-a9e5-41c0-9650-2bec8d1c1e20"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1599 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 1.0300 mm",
+                    "pos": {
+                        "x": 104.8,
+                        "y": 62.0
+                    },
+                    "uuid": "10f53dd6-d134-46e1-801b-2dbb0b5b5b25"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0531 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 1.4750 mm",
+                    "pos": {
+                        "x": 103.025,
+                        "y": 61.85
+                    },
+                    "uuid": "7ea07d4b-15ab-49d8-b098-8f976b9fd607"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1815 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 108.1,
+                        "y": 61.1
+                    },
+                    "uuid": "1e481e5c-4f0e-4a97-9fc4-a0819a018530"
+                },
+                {
+                    "description": "Track [USB_CC2] on F.Cu, length 0.6021 mm",
+                    "pos": {
+                        "x": 107.7,
+                        "y": 60.75
+                    },
+                    "uuid": "22688d9e-b985-4599-92b3-9edb5ca8c2ba"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on In2.Cu, length 2.0000 mm",
+                    "pos": {
+                        "x": 105.8,
+                        "y": 62.0
+                    },
+                    "uuid": "572cf4cc-d398-45bb-953f-825fdb04327c"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0525 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 0.3354 mm",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 61.15
+                    },
+                    "uuid": "98496261-d494-4b7b-9e67-71b7d9ed9f35"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1599 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 1.0300 mm",
+                    "pos": {
+                        "x": 104.8,
+                        "y": 61.0
+                    },
+                    "uuid": "2db461d4-2de8-4edb-b2ec-92b6922e9537"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 1.0000 mm",
+                    "pos": {
+                        "x": 103.8,
+                        "y": 61.0
+                    },
+                    "uuid": "ae15e68c-9bf8-483e-b1a0-d803f9457a92"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0525 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 104.7,
+                        "y": 61.5
+                    },
+                    "uuid": "b2bb35c0-40bc-4a24-97df-7fb04cbbc8b0"
+                },
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 0.3354 mm",
+                    "pos": {
+                        "x": 104.5,
+                        "y": 61.85
+                    },
+                    "uuid": "e110f463-5c30-4484-8f5c-7c8f45e8b361"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 108.43,
+                        "y": 60.55
+                    },
+                    "uuid": "0f520c3e-307b-4c87-94f0-f56e4e402d61"
+                },
+                {
+                    "description": "Track [USB_CC2] on F.Cu, length 1.6000 mm",
+                    "pos": {
+                        "x": 108.1,
+                        "y": 60.3
+                    },
+                    "uuid": "221c14b4-893d-4d21-9c58-c34534484ed4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.7000 mm",
+                    "pos": {
+                        "x": 104.8,
+                        "y": 63.0
+                    },
+                    "uuid": "50cc66ae-d320-444b-aa2a-6a5aad296097"
+                },
+                {
+                    "description": "Track [USB_CC1] on F.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 104.8,
+                        "y": 62.5
+                    },
+                    "uuid": "7bdec978-73d8-44e5-80ca-ebf98c9b1597"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_CC1] on F.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 104.8,
+                        "y": 62.5
+                    },
+                    "uuid": "7bdec978-73d8-44e5-80ca-ebf98c9b1597"
+                },
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 1.0300 mm",
+                    "pos": {
+                        "x": 105.83,
+                        "y": 63.0
+                    },
+                    "uuid": "edf9c738-84bd-46f4-8692-16501a7d3424"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0500 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_CC2] on F.Cu, length 1.6000 mm",
+                    "pos": {
+                        "x": 108.1,
+                        "y": 60.3
+                    },
+                    "uuid": "221c14b4-893d-4d21-9c58-c34534484ed4"
+                },
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.2000 mm",
+                    "pos": {
+                        "x": 108.229999,
+                        "y": 60.55
+                    },
+                    "uuid": "91f9ecbf-456d-4691-9eed-7235beb51c66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0633 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_CC2] on F.Cu, length 0.6021 mm",
+                    "pos": {
+                        "x": 107.7,
+                        "y": 60.75
+                    },
+                    "uuid": "22688d9e-b985-4599-92b3-9edb5ca8c2ba"
+                },
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.2000 mm",
+                    "pos": {
+                        "x": 108.229999,
+                        "y": 60.55
+                    },
+                    "uuid": "91f9ecbf-456d-4691-9eed-7235beb51c66"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_RAW] on F.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 108.1,
+                        "y": 62.85
+                    },
+                    "uuid": "6a49b290-f9a2-4ed2-a63f-963d9ae61048"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "c61658ca-103f-4276-aebc-c0914d6c2c93"
+                },
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 96.0,
+                        "y": 50.6
+                    },
+                    "uuid": "1dbcd15e-1ed1-42a9-9d24-31e26336f249"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'Texas_DRT-3' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 61.5
+                    },
+                    "uuid": "04081eca-fbfc-403b-94b7-a2de550fd0e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'USB_C_Receptacle_Molex_105450-0101' does not match copy in library 'USB_A2'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 109.045,
+                        "y": 61.5
+                    },
+                    "uuid": "21399413-c0a5-4beb-b3da-398d38023df4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Fuse_1206_3216Metric' does not match copy in library 'Fuse'",
+            "items": [
+                {
+                    "description": "Footprint F2",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 52.4
+                    },
+                    "uuid": "3717d040-6d0c-4da8-bdb4-3708ba3752ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 65.5
+                    },
+                    "uuid": "3c5329e4-75a9-40e8-8efa-bfe57df903ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 66.0
+                    },
+                    "uuid": "8e76edf2-421d-4926-bedc-5bd0388a12d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Texas_DRT-3' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 64.3
+                    },
+                    "uuid": "a374a768-0ddf-4506-8d36-9d0149426125"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 62.8
+                    },
+                    "uuid": "3a0eea63-3d96-48bb-93c2-c8aa132a8647"
+                },
+                {
+                    "description": "Segment of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 62.15
+                    },
+                    "uuid": "e52d468d-1053-4750-b124-3b37e1080f56"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 62.8
+                    },
+                    "uuid": "3a0eea63-3d96-48bb-93c2-c8aa132a8647"
+                },
+                {
+                    "description": "Segment of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.05,
+                        "y": 62.15
+                    },
+                    "uuid": "e2b31980-cbcc-49f5-9229-d2a6381f1030"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.029999,
+                        "y": 62.26
+                    },
+                    "uuid": "2dfda54c-79ce-473c-bcdf-f03ae2a8aa04"
+                },
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 62.8
+                    },
+                    "uuid": "3a0eea63-3d96-48bb-93c2-c8aa132a8647"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U3 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.15,
+                        "y": 64.3
+                    },
+                    "uuid": "0cd99f97-37e6-4187-89e4-a9d9172f2648"
+                },
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 64.57
+                    },
+                    "uuid": "84ab1c43-aab3-460c-a7d2-6704c527a821"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 64.57
+                    },
+                    "uuid": "84ab1c43-aab3-460c-a7d2-6704c527a821"
+                },
+                {
+                    "description": "Polygon of U3 on F.Silkscreen",
+                    "pos": {
+                        "x": 102.04,
+                        "y": 64.73
+                    },
+                    "uuid": "cd193802-d396-4eb8-b2a0-281d79ceb41f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 64.57
+                    },
+                    "uuid": "84ab1c43-aab3-460c-a7d2-6704c527a821"
+                },
+                {
+                    "description": "Pad 3 [GND] of U3 on F.Cu",
+                    "pos": {
+                        "x": 102.8,
+                        "y": 63.875
+                    },
+                    "uuid": "f807652e-1ff5-4d93-be85-341176dfbbfa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 64.57
+                    },
+                    "uuid": "84ab1c43-aab3-460c-a7d2-6704c527a821"
+                },
+                {
+                    "description": "Pad 1 [USB_CC1] of U3 on F.Cu",
+                    "pos": {
+                        "x": 102.45,
+                        "y": 64.725
+                    },
+                    "uuid": "6e92cc6b-0da6-4756-b607-fea898dc23d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

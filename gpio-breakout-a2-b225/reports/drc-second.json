@@ -1,0 +1,336 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T21:21:35",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "gpio_breakout.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 7 [GPIO4] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 71.2
+                    },
+                    "uuid": "6e6dde52-05db-449a-a470-a721a15366a0"
+                },
+                {
+                    "description": "Track [GPIO4] on F.Cu, length 1.0500 mm",
+                    "pos": {
+                        "x": 80.75,
+                        "y": 55.23
+                    },
+                    "uuid": "c1cc4c17-eb54-4c50-aee3-9f05f2e04bc6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on F.Cu, length 1.0500 mm",
+                    "pos": {
+                        "x": 80.75,
+                        "y": 55.23
+                    },
+                    "uuid": "c1cc4c17-eb54-4c50-aee3-9f05f2e04bc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "c61658ca-103f-4276-aebc-c0914d6c2c93"
+                },
+                {
+                    "description": "Reference field of H2",
+                    "pos": {
+                        "x": 110.3,
+                        "y": 49.55
+                    },
+                    "uuid": "f86f63af-6b1a-4ebc-aa86-fbf432c84d2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "c61658ca-103f-4276-aebc-c0914d6c2c93"
+                },
+                {
+                    "description": "Reference field of H1",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 49.55
+                    },
+                    "uuid": "7e88c3e8-4c5a-4285-93bd-77cb7be264c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 14 [GND] of J2",
+                    "pos": {
+                        "x": 72.14,
+                        "y": 68.66
+                    },
+                    "uuid": "c3962c8e-868d-492c-9427-2788a137b910"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 16 [GPIO23] of J2",
+                    "pos": {
+                        "x": 74.68,
+                        "y": 68.66
+                    },
+                    "uuid": "d97886e6-d1ee-49ae-91c2-1f4e6a04e4db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 18 [GPIO24] of J2",
+                    "pos": {
+                        "x": 77.22,
+                        "y": 68.66
+                    },
+                    "uuid": "b8891e96-8016-4c10-8fca-d1929edd7c11"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 20 [GND] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 68.66
+                    },
+                    "uuid": "30614381-d248-4ed6-9916-a3bf8b417a3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 22 [GPIO25] of J2",
+                    "pos": {
+                        "x": 82.3,
+                        "y": 68.66
+                    },
+                    "uuid": "04f37142-167c-4b77-b800-4046108d34c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 24 [GPIO8] of J2",
+                    "pos": {
+                        "x": 84.84,
+                        "y": 68.66
+                    },
+                    "uuid": "cc2b3e42-ee73-4d62-af8e-b467f412fd24"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 26 [GPIO7] of J2",
+                    "pos": {
+                        "x": 87.38,
+                        "y": 68.66
+                    },
+                    "uuid": "f18edcc0-01f3-4285-a353-289b9858c468"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 28 [ID_SC] of J2",
+                    "pos": {
+                        "x": 89.92,
+                        "y": 68.66
+                    },
+                    "uuid": "5fe13b9e-81b1-45dc-b40d-f0b0c13c89c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text '5V/3V3 OPEN: close only for Pi-powered LCD' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 66.0
+                    },
+                    "uuid": "a810de7c-5687-4782-95d2-a1aecabf471e"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}
