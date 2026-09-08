@@ -85,28 +85,27 @@ or impedance certification; see [USB path audit](reports/usb2-path-audit.json).
 Tracks remain at least 0.20mm; regular through-vias use 0.50mm copper/0.30mm
 drills. There are no via-in-pad requirements and no fabrication files here.
 
-**Native stackup update is pending.** The saved PCB still contains the inherited
-generic 0.48/0.48/0.48mm dielectric stack. The selected future manufacturing
-stack is **JLC04161H-7628**, four layers, nominal
-1.6mm: outer 35 µm/inner 15.2 µm copper, 0.2104 mm outer dielectrics (Er 4.4),
-1.065mm central core (Er 4.6). The official JLC coplanar differential calculator
-returns 0.2774mm width for 90Ω with 0.20mm pair gap and 0.25mm side-ground gap.
-See [calculator inputs and limits](reports/usb2-impedance-calculator.md).
-Actual same-layer ground is present at 283/337 sampled locations beside the
-main pair; connector breakouts and bends interrupt it. The short ESD/contact
-escapes remain 0.20mm wide. The 0.2774mm geometry was selected for that future stack; it does not make
-the currently saved generic stack 90Ω. The calculator is process-reference
-evidence only, not a claim of uniform 90Ω or a qualified assembled USB link.
-The pinned native IPC stackup setter is unimplemented, and the available
-GUI selector could not isolate this addon from an unrelated unsaved board.
-That other board was not modified. Apply the selected stack in a supported
-native editor and rerun source/model/reference audits before fabrication.
+**Native stackup corrected and verified (2026-09-09).** The editable PCB now
+uses JLC04161H-7628: four layers, nominal 1.6 mm, outer 35 µm/inner 15.2 µm
+copper, 0.2104 mm outer prepregs (Er 4.4) and a 1.065 mm core (Er 4.6).
+The mask approximation uses JLC's Er 3.8 and 15.24 µm above traces.
+See [saved construction and preservation audit](reports/stackup-qualification.json).
+293 power segments were widened, up to 0.50 mm where clearance allows. Signal
+routes and all numbered connections are preserved; all 135 numbered board
+pads and all 40 interface functions match the independent schematic export.
+
+The main-pair calculator inputs now match the saved construction. This does
+not qualify uniform 90 Ω: coplanar ground is interrupted, and actual B6/B7
+junction-to-contact branches measure 6.678/9.776 mm. Inrush, assembled voltage
+drop and DPI source termination/timing remain unresolved. See the
+[complete qualification results](reports/stackup-and-qualification.md) and
+[calculator assumptions](reports/usb2-impedance-calculator.md).
 
 **Not fabrication released.** The `gpio-breakout-a2` interconnect entry in
 [contract PR34](https://github.com/TensorFleet/vaio_p_modding/pull/34) remains
-blocked until the native stackup is updated, C1 routing/release checks close, and the catalog cable assembly and mechanical/model qualification are verified.
+blocked until USB branch/channel, inrush, DPI, C1 assembly/routing and catalog cable/mechanical qualification are resolved. The stackup blocker itself is closed.
 
-The user selected **Combined peripheral C1 J401** as the endpoint on 2026-09-09. Fresh schematic exports confirm the same Samtec ZF5S-40-01-T-WT-K-TR connector value and all 40 numbered functions match GPIO A2 without repinning. A further native C1 PCB load timed out; no fresh two-board PCB pass is claimed. The inherited cable candidate is [Samtec FJH-40-R-03.00-4](https://www.samtec.com/products/fjh-40-r-03.00-4), 76.2 mm. Installed length, contact-face/fold arrangement and clearance remain to be verified.
+The user selected **Combined peripheral C1 J401** as the endpoint on 2026-09-09. Fresh schematic exports confirm the same Samtec ZF5S-40-01-T-WT-K-TR connector value and all 40 numbered functions match GPIO A2 without repinning. The latest C1 J401 was read natively at commit ce6f1d0d, and all 40 contacts still match. Its zero paste-enabled pads remain an assembly blocker on C1; its full routing is not approved by this interface check. The inherited cable candidate is [Samtec FJH-40-R-03.00-4](https://www.samtec.com/products/fjh-40-r-03.00-4), 76.2 mm. Installed length, contact-face/fold arrangement and clearance remain to be verified.
 Physical cable continuity is a TODO after the cable choice; it is not the sole
 release blocker. A clean PCB DRC is not proof of assembled LCD compatibility.
 
@@ -114,13 +113,12 @@ release blocker. A clean PCB DRC is not proof of assembled LCD compatibility.
 
 The selected scope is **low-power USB2 bench use**. F2 remains 0.5 A; the combined board's full downstream USB-A load is outside this scope. Hold current is not a precise current limit, and assembled current/voltage drop and inrush remain unqualified.
 
-J1's missing paste layer is repaired on all 42 pads in the board and local library, and its description now names Samtec. Copper and all numbered connections are unchanged; DRC remains zero errors/zero opens with six existing library warnings. See [the eight-finding review](reports/manufacturing-findings-review.md) for the source evidence, stencil-thickness discrepancy, shared-footprint propagation work, and remaining power, termination, USB and stackup issues. These repairs do not authorize fabrication.
+J1's missing paste layer is repaired on all 42 pads in the board and local library, and its description now names Samtec. The later stackup/power correction widens only the recorded power segments; all numbered connections remain unchanged. Pinned native DRC is zero errors/zero opens with six library warnings. See [the eight-finding review](reports/manufacturing-findings-review.md) for the source evidence, stencil-thickness discrepancy, shared-footprint propagation work, and remaining power, termination, USB and stackup issues. These repairs do not authorize fabrication.
 
 ## Renders and model limits
 
-[Top](renders/top.png), [USB-entry side](renders/right.png) and [FFC-entry side](renders/back.png) come from the authoritative
-KiCad PCB. **J1 is only the inherited conservative envelope, not a detailed
-Samtec model.** F2 has no 3D body in these renders; its pads and placement are present in the PCB. U1/U2/U3 use standard package models. J1’s intended cable-entry edge is the top board edge, Y50 mm,
+[Current top](renders/qualification-top.png) and [current USB-entry side](renders/qualification-right.png) come from the corrected authoritative KiCad PCB. The older top/right/back renders are historical. **J1 is only the inherited conservative envelope, not a detailed
+Samtec model.** F1/F2 have no 3D body in the current top render; its pads and placement are present in the PCB. U1/U2/U3 use standard package models. J1’s intended cable-entry edge is the top board edge, Y50 mm,
 with the tail row at Y55.23 mm and footprint rotation 180°. The envelope cannot
 prove latch, contact, cable or housing alignment. See
 [edge-connector-orientations.json](edge-connector-orientations.json).
@@ -159,3 +157,16 @@ The USB extension scripts under `tools/` are recorded native revision steps.
 The netlist importer duplicated three custom footprints; the original native
 footprints were restored from commit 07f30a4 and all nine originals compared.
 Do not rerun the import or historical routing steps on a finished board.
+
+### Stackup qualification reproduction
+
+Use the pinned September 5 KiCad CLI through `KICAD_CLI` for native reads,
+DRC/ERC and renders. The stackup was changed in native Board Setup; the
+solder-mask parameters were completed with a development build implementing
+`UpdateBoardStackup`. `complete_stackup_materials_ipc.py` requires that API;
+the old parity build does not implement it. Do not bypass native editing by
+rewriting the board file. The qualification scripts consume native objects
+or their exported JSON/XML and are instrumented in the telemetry record.
+`qualify_stackup_ipc.py` takes the unchanged pre-correction board as its
+argument and permits only recorded power widths, refill polygons, and the
+four checked nonfunctional jumper thermal defaults.

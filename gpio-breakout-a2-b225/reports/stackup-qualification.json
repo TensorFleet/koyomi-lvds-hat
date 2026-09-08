@@ -1,0 +1,267 @@
+{
+  "passed": true,
+  "checks": {
+    "copper_thicknesses_match": true,
+    "dielectric_thicknesses_match": true,
+    "dielectric_constants_match": true,
+    "prepreg_core_prepeg": true,
+    "mask_parameters_match": true,
+    "impedance_control_enabled": true,
+    "all_geometry_matches_except_documented_power_widths": true
+  },
+  "board_sha256": "6df373e8b229327e0325547ae18f7e711fa34f61f5d1cccadf840d49595d9113",
+  "baseline_sha256": "ac01c10b6111671b5be9ca815dd4377d71d8ef58b1dec01e57321e0b5d0f4986",
+  "stackup": {
+    "finish": {
+      "type_name": "None"
+    },
+    "impedance": {
+      "is_controlled": true
+    },
+    "edge": {
+      "connector": {
+        "type": "BECT_NONE"
+      },
+      "plating": {}
+    },
+    "layers": [
+      {
+        "thickness": {},
+        "layer": "BL_F_SilkS",
+        "enabled": true,
+        "type": "BSLT_SILKSCREEN",
+        "user_name": "F.Silkscreen",
+        "silkscreen": {
+          "material_name": "Not specified"
+        }
+      },
+      {
+        "thickness": {},
+        "layer": "BL_F_Paste",
+        "enabled": true,
+        "type": "BSLT_SOLDERPASTE",
+        "user_name": "F.Paste"
+      },
+      {
+        "thickness": {
+          "value_nm": "15240"
+        },
+        "layer": "BL_F_Mask",
+        "enabled": true,
+        "type": "BSLT_SOLDERMASK",
+        "user_name": "F.Mask",
+        "soldermask": {
+          "epsilon_r": 3.8,
+          "material_name": "JLC soldermask; 15.24 um above trace; substrate/gap 30.48 um",
+          "thickness": {
+            "value_nm": "15240"
+          }
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "35000"
+        },
+        "layer": "BL_F_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "F.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "210400"
+        },
+        "layer": "BL_UNDEFINED",
+        "enabled": true,
+        "type": "BSLT_DIELECTRIC",
+        "dielectric": {
+          "layer": [
+            {
+              "epsilon_r": 4.4,
+              "loss_tangent": 0.02,
+              "material_name": "FR4 7628",
+              "thickness": {
+                "value_nm": "210400"
+              },
+              "spec_frequency": 1000000000.0,
+              "dielectric_model": "DM_CONSTANT"
+            }
+          ],
+          "type": "BSDT_PREPREG"
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "15200"
+        },
+        "layer": "BL_In1_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "In1.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "1065000"
+        },
+        "layer": "BL_UNDEFINED",
+        "enabled": true,
+        "type": "BSLT_DIELECTRIC",
+        "dielectric": {
+          "layer": [
+            {
+              "epsilon_r": 4.6,
+              "loss_tangent": 0.02,
+              "material_name": "FR4",
+              "thickness": {
+                "value_nm": "1065000"
+              },
+              "spec_frequency": 1000000000.0,
+              "dielectric_model": "DM_CONSTANT"
+            }
+          ],
+          "type": "BSDT_CORE"
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "15200"
+        },
+        "layer": "BL_In2_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "In2.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "210400"
+        },
+        "layer": "BL_UNDEFINED",
+        "enabled": true,
+        "type": "BSLT_DIELECTRIC",
+        "dielectric": {
+          "layer": [
+            {
+              "epsilon_r": 4.4,
+              "loss_tangent": 0.02,
+              "material_name": "FR4 7628",
+              "thickness": {
+                "value_nm": "210400"
+              },
+              "spec_frequency": 1000000000.0,
+              "dielectric_model": "DM_CONSTANT"
+            }
+          ],
+          "type": "BSDT_PREPREG"
+        }
+      },
+      {
+        "thickness": {
+          "value_nm": "35000"
+        },
+        "layer": "BL_B_Cu",
+        "enabled": true,
+        "type": "BSLT_COPPER",
+        "material_name": "copper",
+        "user_name": "B.Cu"
+      },
+      {
+        "thickness": {
+          "value_nm": "15240"
+        },
+        "layer": "BL_B_Mask",
+        "enabled": true,
+        "type": "BSLT_SOLDERMASK",
+        "user_name": "B.Mask",
+        "soldermask": {
+          "epsilon_r": 3.8,
+          "material_name": "JLC soldermask; 15.24 um above trace; substrate/gap 30.48 um",
+          "thickness": {
+            "value_nm": "15240"
+          }
+        }
+      },
+      {
+        "thickness": {},
+        "layer": "BL_B_Paste",
+        "enabled": true,
+        "type": "BSLT_SOLDERPASTE",
+        "user_name": "B.Paste"
+      },
+      {
+        "thickness": {},
+        "layer": "BL_B_SilkS",
+        "enabled": true,
+        "type": "BSLT_SILKSCREEN",
+        "user_name": "B.Silkscreen",
+        "silkscreen": {
+          "material_name": "Not specified"
+        }
+      }
+    ]
+  },
+  "counts": {
+    "footprints": [
+      18,
+      18
+    ],
+    "tracks": [
+      1353,
+      1353
+    ],
+    "vias": [
+      74,
+      74
+    ],
+    "zones": [
+      4,
+      4
+    ]
+  },
+  "allowed_nonfunctional_thermal_normalization": [
+    {
+      "ref": "JP5",
+      "pad": "1",
+      "before_degrees": 45,
+      "after_degrees": 90,
+      "same_net_zones": false
+    },
+    {
+      "ref": "JP5",
+      "pad": "2",
+      "before_degrees": 45,
+      "after_degrees": 90,
+      "same_net_zones": false
+    },
+    {
+      "ref": "JP4",
+      "pad": "1",
+      "before_degrees": 45,
+      "after_degrees": 90,
+      "same_net_zones": false
+    },
+    {
+      "ref": "JP4",
+      "pad": "2",
+      "before_degrees": 45,
+      "after_degrees": 90,
+      "same_net_zones": false
+    }
+  ],
+  "power_segments_widened": 293,
+  "refilled_zone_count": 3,
+  "zone_validation": "Zone boundaries/settings preserved; fill polygons regenerated for wider trace clearances and verified by native DRC and USB reference-plane audit",
+  "copper_dielectric_total_mm": 1.5862,
+  "with_flat_mask_approximation_mm": 1.61668,
+  "order_nominal_thickness_mm": 1.6,
+  "source": "https://jlcpcb.com/impedance",
+  "note": "Native flat mask uses published thickness above traces. JLC also specifies 30.48 um above substrate/between traces; use the manufacturer calculator for its nonuniform mask model. Loss tangent 0.02 remains an unqualified inherited placeholder; no broadband SI model is claimed.",
+  "differences": {
+    "footprints": {},
+    "tracks": {},
+    "vias": {},
+    "zones": {}
+  }
+}

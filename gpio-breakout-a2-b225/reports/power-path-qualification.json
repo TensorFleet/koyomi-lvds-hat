@@ -1,0 +1,174 @@
+{
+  "source_board_sha256": "6df373e8b229327e0325547ae18f7e711fa34f61f5d1cccadf840d49595d9113",
+  "method": "Shortest-resistance continuous conductor path, using saved copper thicknesses; ignoring parallel copper gives a conservative bound for the modeled positive path. Not a bound on complete assembled loop loss.",
+  "assumptions": {
+    "copper_resistivity_ohm_mm": 1.7241e-05,
+    "via_wall_mm_assumed_unverified": 0.02,
+    "temperature_C": 60,
+    "PTC_resistance_ohm_screen": 0.75
+  },
+  "paths": [
+    {
+      "from": [
+        "J3",
+        "A4"
+      ],
+      "to": [
+        "F2",
+        "1"
+      ],
+      "net": "USB_VBUS_RAW",
+      "single_path_resistance_ohm_20C": 0.023755938432429815,
+      "single_path_resistance_ohm_60C": 0.027490371954007782,
+      "path_length_mm": 18.467946404880365,
+      "through_vias": 2,
+      "drop_V_at_100mA_60C": 0.002749037195400778,
+      "drop_V_at_500mA_60C": 0.013745185977003891
+    },
+    {
+      "from": [
+        "F2",
+        "2"
+      ],
+      "to": [
+        "U1",
+        "1"
+      ],
+      "net": "USB_VBUS_IN",
+      "single_path_resistance_ohm_20C": 0.010439232736148042,
+      "single_path_resistance_ohm_60C": 0.012080280122270514,
+      "path_length_mm": 5.650470988773035,
+      "through_vias": 0,
+      "drop_V_at_100mA_60C": 0.0012080280122270515,
+      "drop_V_at_500mA_60C": 0.006040140061135257
+    },
+    {
+      "from": [
+        "U1",
+        "6"
+      ],
+      "to": [
+        "J1",
+        "1"
+      ],
+      "net": "USB_VBUS",
+      "single_path_resistance_ohm_20C": 0.019945144847100915,
+      "single_path_resistance_ohm_60C": 0.02308052161706518,
+      "path_length_mm": 13.352639172847704,
+      "through_vias": 0,
+      "drop_V_at_100mA_60C": 0.002308052161706518,
+      "drop_V_at_500mA_60C": 0.01154026080853259
+    },
+    {
+      "from": [
+        "J2",
+        "2"
+      ],
+      "to": [
+        "JP4",
+        "1"
+      ],
+      "net": "+5V",
+      "single_path_resistance_ohm_20C": 0.013987655710538411,
+      "single_path_resistance_ohm_60C": 0.016186515188235048,
+      "path_length_mm": 11.27387169411626,
+      "through_vias": 1,
+      "drop_V_at_100mA_60C": 0.0016186515188235048,
+      "drop_V_at_500mA_60C": 0.008093257594117524
+    },
+    {
+      "from": [
+        "JP4",
+        "2"
+      ],
+      "to": [
+        "F1",
+        "1"
+      ],
+      "net": "+5V_LNK",
+      "single_path_resistance_ohm_20C": 0.012768984927746259,
+      "single_path_resistance_ohm_60C": 0.01477626935838797,
+      "path_length_mm": 7.841566316718451,
+      "through_vias": 0,
+      "drop_V_at_100mA_60C": 0.0014776269358387972,
+      "drop_V_at_500mA_60C": 0.007388134679193985
+    },
+    {
+      "from": [
+        "F1",
+        "2"
+      ],
+      "to": [
+        "J1",
+        "9"
+      ],
+      "net": "+5V_FFC",
+      "single_path_resistance_ohm_20C": 0.16383506659974859,
+      "single_path_resistance_ohm_60C": 0.18958993906922905,
+      "path_length_mm": 52.653164824608744,
+      "through_vias": 2,
+      "drop_V_at_100mA_60C": 0.018958993906922905,
+      "drop_V_at_500mA_60C": 0.09479496953461453
+    },
+    {
+      "from": [
+        "J2",
+        "1"
+      ],
+      "to": [
+        "JP5",
+        "1"
+      ],
+      "net": "+3V3",
+      "single_path_resistance_ohm_20C": 0.004981109234899391,
+      "single_path_resistance_ohm_60C": 0.005764139606625575,
+      "path_length_mm": 5.05593710403917,
+      "through_vias": 0,
+      "drop_V_at_100mA_60C": 0.0005764139606625575,
+      "drop_V_at_500mA_60C": 0.0028820698033127875
+    },
+    {
+      "from": [
+        "JP5",
+        "2"
+      ],
+      "to": [
+        "J1",
+        "11"
+      ],
+      "net": "+3V3_FFC",
+      "single_path_resistance_ohm_20C": 0.09889241492673537,
+      "single_path_resistance_ohm_60C": 0.11443830255321817,
+      "path_length_mm": 51.592607717489535,
+      "through_vias": 4,
+      "drop_V_at_100mA_60C": 0.011443830255321818,
+      "drop_V_at_500mA_60C": 0.057219151276609086
+    }
+  ],
+  "USB_positive_copper_bound_ohm_60C": 0.06265117369334347,
+  "USB_positive_copper_plus_PTC_drop_V": {
+    "0.1": 0.08126511736933435,
+    "0.25": 0.20316279342333587,
+    "0.5": 0.40632558684667175
+  },
+  "excluded_losses": [
+    "LM66100",
+    "USB cable",
+    "FFC cable and connector contacts",
+    "PTH terminal resistance",
+    "ground return",
+    "downstream board"
+  ],
+  "scope": "Low-power bench only. F2 is a PTC, not a regulated current limiter. No full USB-A load or host enumeration/inrush qualification.",
+  "inrush": {
+    "C1_direct_downstream_nominal_uF": 120.2,
+    "charge_at_5V_uC": 601,
+    "mean_capacitive_current_A_by_rise_ms": {
+      "0.1": 6.01,
+      "1": 0.601,
+      "5": 0.12019999999999999,
+      "10": 0.060099999999999994
+    },
+    "result": "NOT QUALIFIED; LM66100 does not set a controlled charging ramp. Add controlled inrush or demonstrate compliant plug-in current and host voltage with the actual C1 load."
+  }
+}
