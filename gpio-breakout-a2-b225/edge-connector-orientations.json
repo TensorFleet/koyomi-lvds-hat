@@ -1,0 +1,6 @@
+{
+  "revision": "GPIO LCD A2 / B2.25 interface",
+  "connectors": [{"reference":"J1","mpn":"ZF5S-40-01-T-WT-K-TR","lcsc":"C3169111","intended_edge":"top, board Y=50mm","rotation_degrees":180,"tail_row_y_mm":55.23,"nominal_aperture_edge_y_mm":50.0,"source":"Samtec ZF5S footprint Rev E used by B2.25","model":"Inherited conservative envelope; not a vendor detailed model","visual_mating_approval":false}],
+  "release_ready": false,
+  "reason":"Future LCD endpoint and exact catalog cable assembly are separate; full manufacturer model review pending"
+}

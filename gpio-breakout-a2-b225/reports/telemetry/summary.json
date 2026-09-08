@@ -1,0 +1,35 @@
+{
+  "run_id": "20260908T210708-aba44427",
+  "outcome": "success",
+  "intent_to_finish_ms": 2251102.257,
+  "measured_phase_ms": 368500.789,
+  "phases": 39,
+  "slowest_phases": [
+    {
+      "name": "addon-native-migration-compatible-api",
+      "duration_ms": 121067.575,
+      "exit_code": -2
+    },
+    {
+      "name": "addon-gui-title",
+      "duration_ms": 54665.755,
+      "exit_code": 0
+    },
+    {
+      "name": "addon-native-route-clearance",
+      "duration_ms": 32276.357,
+      "exit_code": 0
+    },
+    {
+      "name": "addon-native-route-reserved-escape",
+      "duration_ms": 30867.534,
+      "exit_code": 0
+    },
+    {
+      "name": "addon-native-route",
+      "duration_ms": 28113.148,
+      "exit_code": 0
+    }
+  ],
+  "privacy_note": "Only addon run events published; unrelated parent-workspace source inventory/tool-health data omitted."
+}

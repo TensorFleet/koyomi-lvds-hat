@@ -1,0 +1,142 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T21:33:16",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.99.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/99255c93-d462-57a7-84d8-8a7e16fc8b43",
+            "violations": [
+                {
+                    "description": "Symbol 'J401' doesn't match copy in library 'Combined_A2'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [J401]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.8001
+                            },
+                            "uuid": "bce3a937-678e-4698-a995-6d4162a63202"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO27'",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7239
+                            },
+                            "uuid": "03b67fde-9385-43db-b0fd-3b47aa8bb356"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO22'",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7493
+                            },
+                            "uuid": "25ca38f3-d7db-4fa6-8737-f58bda25c02e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO26'",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 1.0287
+                            },
+                            "uuid": "94ee66ee-8e5b-4eee-84eb-01e11178d16c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP4 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.397
+                            },
+                            "uuid": "d2b7bf2a-c0d2-44a1-8c45-c9f673e09ba7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP5 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 1.9939,
+                                "y": 1.7018
+                            },
+                            "uuid": "4d53d781-d6b8-4f01-bee1-940bcfd00d2d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'GPIO25'",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 0.8255
+                            },
+                            "uuid": "10fc90a2-b82f-4585-9c61-422dd2bea5b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "gpio_breakout.kicad_sch"
+}

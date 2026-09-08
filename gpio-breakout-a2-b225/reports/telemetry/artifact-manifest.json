@@ -1,0 +1,204 @@
+{
+  "run_id": "20260908T210708-aba44427",
+  "source": {
+    "board_sha256": "92044baf68ae01452c9a38a8bf7a62b8766b052830b0f8f0ff28c8c10bbe8b91",
+    "schematic_sha256": "f2659f4ef293024e94776d6916ef79e2e7ca3925b6fa6a06355644befe3b9da8"
+  },
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "bytes": 58,
+      "sha256": "f9466873507b64b63a5eca6bf5a371f8730bfd62cb38cf1507bfdf8cfebabcab"
+    },
+    {
+      "path": "3dmodels/ZF5S-40-01-nominal-envelope.wrl",
+      "bytes": 280,
+      "sha256": "dac3c4146c83988ca89b61487ab3ac79a8c95181309af4dc37b3d83d45cd9282"
+    },
+    {
+      "path": "Combined_A2.kicad_sym",
+      "bytes": 13397,
+      "sha256": "e5338c2f9b0059bec6e58cd17943ad69736cf203e922c202d9d4f7f659a37b24"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5049,
+      "sha256": "a37bd6f6539244e8039fa4e77d963a6e0ef945d2f317d4acad9f965074e9f6b3"
+    },
+    {
+      "path": "VAIO_CM5.pretty/Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm.kicad_mod",
+      "bytes": 9043,
+      "sha256": "37c356231f0582ef20d0afeee595038ce9529a6f30a55b3eeb62b7185fcedf14"
+    },
+    {
+      "path": "edge-connector-orientations.json",
+      "bytes": 551,
+      "sha256": "1e59974ee4c6465a4089ac6237cb70ba51fab7d854313ea99b04ea5a8b49ddbe"
+    },
+    {
+      "path": "fp-lib-table",
+      "bytes": 145,
+      "sha256": "ef9893cafad938a3a5f33751743c1e02a471c3180811c0cdbd14572662f16b85"
+    },
+    {
+      "path": "gpio_breakout.kicad_pcb",
+      "bytes": 519810,
+      "sha256": "92044baf68ae01452c9a38a8bf7a62b8766b052830b0f8f0ff28c8c10bbe8b91"
+    },
+    {
+      "path": "gpio_breakout.kicad_pro",
+      "bytes": 20334,
+      "sha256": "34bf7a1b321c54cfa79f1e599daf606b0f282d80c0808725f13a7958513209d8"
+    },
+    {
+      "path": "gpio_breakout.kicad_sch",
+      "bytes": 98192,
+      "sha256": "f2659f4ef293024e94776d6916ef79e2e7ca3925b6fa6a06355644befe3b9da8"
+    },
+    {
+      "path": "interface-pinout.csv",
+      "bytes": 950,
+      "sha256": "29b3118d905e771521f04787cdf5518d5500207d21839f8218f9bf9f673bef4f"
+    },
+    {
+      "path": "renders/back.png",
+      "bytes": 93299,
+      "sha256": "bc5add8aa4077bcd09494eac273d22d7336858b7de99815c5b2008f3c6ac2238"
+    },
+    {
+      "path": "renders/front.png",
+      "bytes": 80007,
+      "sha256": "2eaa36c5ce4885149e1d6453b578d0e954f004a2caa9dc6d3dc9a100657e1b76"
+    },
+    {
+      "path": "renders/top.png",
+      "bytes": 203352,
+      "sha256": "5fe895b13eb342e4d755e790e5c34d02fc39b8dea23cab2683c1b41650a52ef5"
+    },
+    {
+      "path": "reports/carrier-interface-source.json",
+      "bytes": 3719,
+      "sha256": "56163c10a8bd6a79a4b4781b513536b93b387eea30c0532fbbbc0f5f7d073ab6"
+    },
+    {
+      "path": "reports/closure.json",
+      "bytes": 251,
+      "sha256": "692f0f41abc425b539b907415877e9747759d6e7d1e4e700d44d902dd065f4d5"
+    },
+    {
+      "path": "reports/drc-first.json",
+      "bytes": 136785,
+      "sha256": "66d9a6b6c9ffff8f21b46a79cb33ac6d1d9ea554f3419f05d26c6c514c9a9a79"
+    },
+    {
+      "path": "reports/drc-second.json",
+      "bytes": 11418,
+      "sha256": "e273f4771ea417c710e858536d2112e570a9700c59efbb7e96e8a87372cb7ced"
+    },
+    {
+      "path": "reports/drc.json",
+      "bytes": 1071,
+      "sha256": "8149f7cd44c4e971c48bee8757ccd6b5435e658d1831d005ce50d6407af394bc"
+    },
+    {
+      "path": "reports/erc.json",
+      "bytes": 5351,
+      "sha256": "da3af320be92d25279461595afe37efed139a5db99e9f3008f5baa89a5ad9aad"
+    },
+    {
+      "path": "reports/interface-audit.json",
+      "bytes": 5699,
+      "sha256": "e6ecc4ebb542f2bdce446723af619d3a0d778209444cf3e6e36b7d4a7159f91a"
+    },
+    {
+      "path": "reports/native-migration.json",
+      "bytes": 14462,
+      "sha256": "ad989a42f7dd5e87f9dd3f5b32e952c3bc0080b5c7d834e7323b1650214e75c1"
+    },
+    {
+      "path": "reports/netlist.xml",
+      "bytes": 29965,
+      "sha256": "d1d7ae73c9813fb2eb4a4ce6e28ffc0ac17581fd37d43ba316bbb6e3c14c92a3"
+    },
+    {
+      "path": "reports/route-pass.json",
+      "bytes": 3908,
+      "sha256": "52c5316f20a20eec13123ecaf2d8c8b3f2a41a014919f89ed0e55b5a90ee7b12"
+    },
+    {
+      "path": "reports/runtime-and-review.md",
+      "bytes": 2832,
+      "sha256": "3694bb9d27cb86fa4f6913645ce6419b233bd1b468826e930cce2ba5c5f2b194"
+    },
+    {
+      "path": "reports/telemetry/iterations.jsonl",
+      "bytes": 31123,
+      "sha256": "1aa103caf5c96e5f64815080f24ee375e8d297e946cd3bcdca8dc91345ac2009"
+    },
+    {
+      "path": "reports/telemetry/summary.json",
+      "bytes": 860,
+      "sha256": "538b38d7b849da9d857f6579e1002d3af620bc205e2e0eeb00da2551ac7fe366"
+    },
+    {
+      "path": "sym-lib-table",
+      "bytes": 168,
+      "sha256": "3157e6cf214457560249f6dfb34a712b508e555367fc1292b0b1648ccb18f440"
+    },
+    {
+      "path": "tools/attach_envelope_ipc.py",
+      "bytes": 767,
+      "sha256": "7f14d2e5ccfe8ce554620e52332575ac81012bb6cd1357ddb2401a68c13f9268"
+    },
+    {
+      "path": "tools/audit_interface.py",
+      "bytes": 2618,
+      "sha256": "b8820afd650814a933c0ff7bfcb31a909138851197b86ae8a6acc9d04063f357"
+    },
+    {
+      "path": "tools/close_remaining_ipc.py",
+      "bytes": 1401,
+      "sha256": "97d1988bb56b997ed110005cf82fb2552111c4494d193942d35b1add463ce897"
+    },
+    {
+      "path": "tools/finish_addon_ipc.py",
+      "bytes": 1690,
+      "sha256": "0ffaa48f7b58f7c82e92b846b7fcbda2f6552b820ab4d209a8003d6d29911f4f"
+    },
+    {
+      "path": "tools/inspect_escape_ipc.py",
+      "bytes": 519,
+      "sha256": "5c5c793a7201190583f6388c55fc3bc8f65a0b0427aaa0071e2d5c7af7a212aa"
+    },
+    {
+      "path": "tools/label_board_ipc.py",
+      "bytes": 600,
+      "sha256": "ad7c77d4a9841c03a9b3658601ee76d82501bf9f0378cd3944adff03c07891cd"
+    },
+    {
+      "path": "tools/native_astar.py",
+      "bytes": 16739,
+      "sha256": "987a60442a72c6b3251dd94203c57a424c28f27ae9a9d861a2687f70443bf95b"
+    },
+    {
+      "path": "tools/remove_unused_vias_ipc.py",
+      "bytes": 491,
+      "sha256": "07cb902e6406512343e704f1258b01dd7afee6d14f89056b90ad3570f04cf453"
+    },
+    {
+      "path": "tools/repair_escape_ipc.py",
+      "bytes": 1506,
+      "sha256": "4516eaf54b16d42d9e3cc64351cb900ccc91f37ec12e39e6590ed2a4d42e1d90"
+    },
+    {
+      "path": "tools/route_addon_ipc.py",
+      "bytes": 3960,
+      "sha256": "2c416236094466d957710f49785b70ab205d88e5c1c42131d32d72077ccdeb49"
+    },
+    {
+      "path": "tools/update_addon_ipc.py",
+      "bytes": 8508,
+      "sha256": "78f40fb010266f5a6e57eeb41631872edf1ccca970860ae322a160debb3b29e4"
+    }
+  ]
+}

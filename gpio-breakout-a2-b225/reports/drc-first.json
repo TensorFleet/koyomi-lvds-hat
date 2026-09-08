@@ -1,0 +1,3878 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-08T21:19:25",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.99.0",
+    "schematic_parity": [],
+    "source": "gpio_breakout.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTH pad 7 [GPIO4] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 71.2
+                    },
+                    "uuid": "6e6dde52-05db-449a-a470-a721a15366a0"
+                },
+                {
+                    "description": "Pad 21 [GPIO4] of J1 on F.Cu",
+                    "pos": {
+                        "x": 80.75,
+                        "y": 55.23
+                    },
+                    "uuid": "89063647-e386-4ebe-8b77-22524ff0a7a3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Items shorting two nets (nets +5V_LNK and +5V)",
+            "items": [
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 53.949999,
+                        "y": 58.75
+                    },
+                    "uuid": "84e8f562-b2e9-4a8d-bfc4-3545e9030d45"
+                },
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 53.8,
+                        "y": 58.15
+                    },
+                    "uuid": "3278659e-8c56-4545-a598-ad521a29b967"
+                },
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V_LNK and +5V)",
+            "items": [
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 54.1,
+                        "y": 59.05
+                    },
+                    "uuid": "a7fd2821-f5ee-4428-ad33-876c55ef6d2e"
+                },
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1433 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 54.25,
+                        "y": 59.5
+                    },
+                    "uuid": "949bc625-6460-44a4-9142-149ec0939d89"
+                },
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and +5V_LNK)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                },
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 53.949999,
+                        "y": 58.9
+                    },
+                    "uuid": "d1227a6e-059c-47e8-a6d1-690fc674395a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V_LNK and +5V)",
+            "items": [
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.4500 mm",
+                    "pos": {
+                        "x": 53.8,
+                        "y": 58.599999
+                    },
+                    "uuid": "a8a56232-b496-4d7d-8fc7-c54b46ed4158"
+                },
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and +5V_LNK)",
+            "items": [
+                {
+                    "description": "Pad 1 [+5V] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 53.3,
+                        "y": 58.85
+                    },
+                    "uuid": "c6114276-ba96-4e68-bba5-c8bfc27ba41a"
+                },
+                {
+                    "description": "Track [+5V_LNK] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 54.1,
+                        "y": 59.349999
+                    },
+                    "uuid": "e341f6a8-6273-476e-92c2-e29f18152785"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 79.32,
+                        "y": 72.25
+                    },
+                    "uuid": "1f59fd17-1993-46a7-a50b-799f49bdaeea"
+                },
+                {
+                    "description": "PTH pad 19 [GPIO10] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 71.2
+                    },
+                    "uuid": "dde60056-7f0e-4dd1-b3da-27c344da0516"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1809 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 74.95,
+                        "y": 70.0
+                    },
+                    "uuid": "212c6b94-11ba-479e-8c53-8ebe4d841851"
+                },
+                {
+                    "description": "PTH pad 15 [GPIO22] of J2",
+                    "pos": {
+                        "x": 74.68,
+                        "y": 71.2
+                    },
+                    "uuid": "ebbdd5cb-028a-4c11-9bb1-a4a37e6eea35"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1701 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 58.9,
+                        "y": 70.15
+                    },
+                    "uuid": "4a49690f-2968-42d0-a6fb-fe9e4fbf2449"
+                },
+                {
+                    "description": "PTH pad 3 [GPIO2] of J2",
+                    "pos": {
+                        "x": 59.44,
+                        "y": 71.2
+                    },
+                    "uuid": "58347017-1a56-4c5e-a919-8a737677f76b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 79.17,
+                        "y": 72.25
+                    },
+                    "uuid": "9ffd9de7-33a2-4723-a905-2a1ddcb8e56f"
+                },
+                {
+                    "description": "PTH pad 19 [GPIO10] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 71.2
+                    },
+                    "uuid": "dde60056-7f0e-4dd1-b3da-27c344da0516"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1987 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 75.55,
+                        "y": 70.45
+                    },
+                    "uuid": "ac997b59-bba5-4c2f-bf5b-5ba0104d7687"
+                },
+                {
+                    "description": "PTH pad 15 [GPIO22] of J2",
+                    "pos": {
+                        "x": 74.68,
+                        "y": 71.2
+                    },
+                    "uuid": "ebbdd5cb-028a-4c11-9bb1-a4a37e6eea35"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1809 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 75.1,
+                        "y": 70.15
+                    },
+                    "uuid": "d0ecd639-749c-4f8b-b381-5cbf0bec2890"
+                },
+                {
+                    "description": "PTH pad 15 [GPIO22] of J2",
+                    "pos": {
+                        "x": 74.68,
+                        "y": 71.2
+                    },
+                    "uuid": "ebbdd5cb-028a-4c11-9bb1-a4a37e6eea35"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1743 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [GPIO2] of J2",
+                    "pos": {
+                        "x": 59.44,
+                        "y": 71.2
+                    },
+                    "uuid": "58347017-1a56-4c5e-a919-8a737677f76b"
+                },
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 58.3,
+                        "y": 70.75
+                    },
+                    "uuid": "c06436fe-c18f-4f1c-8ff0-3b1d17a0aebb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1955 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 75.25,
+                        "y": 70.15
+                    },
+                    "uuid": "de8949a8-0736-4cea-ad7b-14d834c7438d"
+                },
+                {
+                    "description": "PTH pad 15 [GPIO22] of J2",
+                    "pos": {
+                        "x": 74.68,
+                        "y": 71.2
+                    },
+                    "uuid": "ebbdd5cb-028a-4c11-9bb1-a4a37e6eea35"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1701 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [GPIO2] of J2",
+                    "pos": {
+                        "x": 59.44,
+                        "y": 71.2
+                    },
+                    "uuid": "58347017-1a56-4c5e-a919-8a737677f76b"
+                },
+                {
+                    "description": "Track [+3V3] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 59.05,
+                        "y": 70.15
+                    },
+                    "uuid": "e5231cee-4959-492b-ae84-a24a748ac344"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1900 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of J1 on F.Cu",
+                    "pos": {
+                        "x": 69.603,
+                        "y": 53.25
+                    },
+                    "uuid": "ab4d7b79-91ff-4486-97e3-3e3425b3793c"
+                },
+                {
+                    "description": "Track [+3V3_FFC] on F.Cu, length 6.7500 mm",
+                    "pos": {
+                        "x": 68.2,
+                        "y": 51.4
+                    },
+                    "uuid": "f4afe605-3ab8-4cd1-bdfd-65312b625244"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1945 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.75,
+                        "y": 56.58
+                    },
+                    "uuid": "29d6b51d-cc47-42c8-94cd-73eca79efada"
+                },
+                {
+                    "description": "Track [GPIO21] on In2.Cu, length 11.8794 mm",
+                    "pos": {
+                        "x": 87.45,
+                        "y": 56.05
+                    },
+                    "uuid": "99795911-ee7c-4fc4-8177-8fb5cbac39c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.25,
+                        "y": 56.58
+                    },
+                    "uuid": "09299556-758b-45e2-a95a-c95da1253125"
+                },
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.5200 mm",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 56.279999
+                    },
+                    "uuid": "83926357-ea01-4b6d-acee-b9d64921101a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1803 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.25,
+                        "y": 56.58
+                    },
+                    "uuid": "09299556-758b-45e2-a95a-c95da1253125"
+                },
+                {
+                    "description": "Track [GPIO23] on B.Cu, length 2.3335 mm",
+                    "pos": {
+                        "x": 82.78,
+                        "y": 56.8
+                    },
+                    "uuid": "3fc57368-aba9-4a00-a469-3f56476ea5c2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1824 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.25,
+                        "y": 56.58
+                    },
+                    "uuid": "09299556-758b-45e2-a95a-c95da1253125"
+                },
+                {
+                    "description": "Track [GPIO6] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 82.3,
+                        "y": 56.05
+                    },
+                    "uuid": "d417e5ab-6ba6-4800-a643-1d0fb00cf23a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1662 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 87.25,
+                        "y": 56.58
+                    },
+                    "uuid": "986bac52-19b7-4786-8b98-daff2fbdd853"
+                },
+                {
+                    "description": "Track [GPIO21] on In2.Cu, length 11.8794 mm",
+                    "pos": {
+                        "x": 87.45,
+                        "y": 56.05
+                    },
+                    "uuid": "99795911-ee7c-4fc4-8177-8fb5cbac39c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.75,
+                        "y": 56.58
+                    },
+                    "uuid": "8357ab47-b271-440e-800f-eace98f380b9"
+                },
+                {
+                    "description": "Track [GPIO10] on F.Cu, length 9.3700 mm",
+                    "pos": {
+                        "x": 77.25,
+                        "y": 56.279999
+                    },
+                    "uuid": "b85769dd-e5ff-43c1-baae-b00a08e9b17d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.75,
+                        "y": 56.58
+                    },
+                    "uuid": "8357ab47-b271-440e-800f-eace98f380b9"
+                },
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 1.5000 mm",
+                    "pos": {
+                        "x": 76.45,
+                        "y": 56.05
+                    },
+                    "uuid": "b5379f87-9f3f-4df0-8d03-0ca4e8a3bb20"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 85.25,
+                        "y": 56.58
+                    },
+                    "uuid": "3e2948c0-bbe3-48ad-ba15-e64c85361d53"
+                },
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 84.35,
+                        "y": 56.05
+                    },
+                    "uuid": "4c9b9014-0b20-44c5-87ab-66d6e0127c62"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 53.35,
+                        "y": 60.849999
+                    },
+                    "uuid": "20df1201-5df9-4819-aab6-fde278e30d2b"
+                },
+                {
+                    "description": "Via [+5V_FFC] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 53.949999,
+                        "y": 60.699999
+                    },
+                    "uuid": "7044f961-0fa1-4a61-b4e4-cd2cc17c304b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 1.5000 mm",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 61.0
+                    },
+                    "uuid": "59acf7bd-4233-4a12-b654-0e699ad42a22"
+                },
+                {
+                    "description": "Via [+5V_FFC] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 53.949999,
+                        "y": 60.699999
+                    },
+                    "uuid": "7044f961-0fa1-4a61-b4e4-cd2cc17c304b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1591 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO23] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 84.43,
+                        "y": 53.949999
+                    },
+                    "uuid": "6556d721-2cbf-4704-8f59-8276dd3bb0f3"
+                },
+                {
+                    "description": "Track [+3V3_FFC] on F.Cu, length 1.0607 mm",
+                    "pos": {
+                        "x": 84.55,
+                        "y": 53.35
+                    },
+                    "uuid": "b9e82ad5-54ac-4aac-8d40-b9f7d00f75ed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1591 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO23] on B.Cu, length 2.3335 mm",
+                    "pos": {
+                        "x": 82.78,
+                        "y": 56.8
+                    },
+                    "uuid": "3fc57368-aba9-4a00-a469-3f56476ea5c2"
+                },
+                {
+                    "description": "Via [GPIO3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.75,
+                        "y": 57.55
+                    },
+                    "uuid": "895ff536-2319-4669-b8fe-f5876b870b02"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1591 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO23] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 84.43,
+                        "y": 53.949999
+                    },
+                    "uuid": "6556d721-2cbf-4704-8f59-8276dd3bb0f3"
+                },
+                {
+                    "description": "Track [+5V_FFC] on B.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 84.55,
+                        "y": 53.35
+                    },
+                    "uuid": "d534062f-c991-4e5c-948e-7d15aef30be4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SC] on F.Cu, length 3.9000 mm",
+                    "pos": {
+                        "x": 84.2,
+                        "y": 56.949999
+                    },
+                    "uuid": "00b7dcf8-3a09-4995-874f-2420d54e75a5"
+                },
+                {
+                    "description": "Via [GPIO24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 84.72,
+                        "y": 59.65
+                    },
+                    "uuid": "5b1936dc-77b9-498a-96bd-cdd1235165d0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SC] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 83.9,
+                        "y": 56.65
+                    },
+                    "uuid": "581b3b33-640a-4895-8ad8-e8ef0a7254c3"
+                },
+                {
+                    "description": "Track [GPIO24] on F.Cu, length 1.8000 mm",
+                    "pos": {
+                        "x": 84.57,
+                        "y": 56.8
+                    },
+                    "uuid": "fad4317e-df3c-4500-899c-53760a2db66f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SC] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 66.7
+                    },
+                    "uuid": "8e5d0358-cf6b-4e15-a700-3c9296298dd1"
+                },
+                {
+                    "description": "Via [GPIO12] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.55,
+                        "y": 67.0
+                    },
+                    "uuid": "c86a25ae-899b-4665-903c-f1460b39e340"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 83.199999,
+                        "y": 57.25
+                    },
+                    "uuid": "58ce8efd-411b-49e9-8aa7-f5160a70ac85"
+                },
+                {
+                    "description": "Via [GPIO3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.75,
+                        "y": 57.55
+                    },
+                    "uuid": "895ff536-2319-4669-b8fe-f5876b870b02"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1666 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 61.75,
+                        "y": 70.0
+                    },
+                    "uuid": "0107944e-d792-4f48-a749-1a67d28f7a5b"
+                },
+                {
+                    "description": "PTH pad 5 [GPIO3] of J2",
+                    "pos": {
+                        "x": 61.98,
+                        "y": 71.2
+                    },
+                    "uuid": "a3411a36-2af6-4ff7-af76-bef5a0d0d559"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1727 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 64.15,
+                        "y": 67.6
+                    },
+                    "uuid": "28e2cfd1-9234-45ae-beb1-048ae97a0a20"
+                },
+                {
+                    "description": "PTH pad 8 [GPIO14] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 68.66
+                    },
+                    "uuid": "d403cf63-598f-4a40-acb3-5cb4e4bd0e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1672 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 61.449999,
+                        "y": 70.15
+                    },
+                    "uuid": "3101078b-efd3-494a-9b71-0aa0360c4401"
+                },
+                {
+                    "description": "PTH pad 5 [GPIO3] of J2",
+                    "pos": {
+                        "x": 61.98,
+                        "y": 71.2
+                    },
+                    "uuid": "a3411a36-2af6-4ff7-af76-bef5a0d0d559"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.6000 mm",
+                    "pos": {
+                        "x": 63.099999,
+                        "y": 68.5
+                    },
+                    "uuid": "2d0e4cc5-489c-4f35-8495-8fa64a9cb8dc"
+                },
+                {
+                    "description": "PTH pad 6 [GND] of J2",
+                    "pos": {
+                        "x": 61.98,
+                        "y": 68.66
+                    },
+                    "uuid": "cac2a352-83a2-46c9-91d5-feea7fb8a1a8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1687 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 61.15,
+                        "y": 70.45
+                    },
+                    "uuid": "6a5f7d88-911e-4b14-89b5-401aff0bb89d"
+                },
+                {
+                    "description": "PTH pad 5 [GPIO3] of J2",
+                    "pos": {
+                        "x": 61.98,
+                        "y": 71.2
+                    },
+                    "uuid": "a3411a36-2af6-4ff7-af76-bef5a0d0d559"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1672 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 1.2728 mm",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 67.6
+                    },
+                    "uuid": "9c493b4a-a14c-41a9-9919-f7beca3c80b6"
+                },
+                {
+                    "description": "PTH pad 8 [GPIO14] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 68.66
+                    },
+                    "uuid": "d403cf63-598f-4a40-acb3-5cb4e4bd0e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1727 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 64.3,
+                        "y": 67.45
+                    },
+                    "uuid": "a64506f8-10d1-4da4-83a0-9c0d26b83f70"
+                },
+                {
+                    "description": "PTH pad 8 [GPIO14] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 68.66
+                    },
+                    "uuid": "d403cf63-598f-4a40-acb3-5cb4e4bd0e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1666 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 5 [GPIO3] of J2",
+                    "pos": {
+                        "x": 61.98,
+                        "y": 71.2
+                    },
+                    "uuid": "a3411a36-2af6-4ff7-af76-bef5a0d0d559"
+                },
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 61.599999,
+                        "y": 70.15
+                    },
+                    "uuid": "c1afea57-dcb2-4f73-b0a4-5d07b0fa2126"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1531 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 6 [GND] of J2",
+                    "pos": {
+                        "x": 61.98,
+                        "y": 68.66
+                    },
+                    "uuid": "cac2a352-83a2-46c9-91d5-feea7fb8a1a8"
+                },
+                {
+                    "description": "Track [GPIO2] on In2.Cu, length 1.2728 mm",
+                    "pos": {
+                        "x": 63.099999,
+                        "y": 69.1
+                    },
+                    "uuid": "e4d2bb69-f32d-4f96-ac84-f949d761de52"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.75,
+                        "y": 57.55
+                    },
+                    "uuid": "895ff536-2319-4669-b8fe-f5876b870b02"
+                },
+                {
+                    "description": "Track [GPIO2] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 83.05,
+                        "y": 58.0
+                    },
+                    "uuid": "bdec24eb-2e50-4cd6-94bb-192f17246dba"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1591 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.7,
+                        "y": 65.05
+                    },
+                    "uuid": "73a5e0ca-6748-4d77-8573-40dc6026fcad"
+                },
+                {
+                    "description": "Track [GPIO23] on B.Cu, length 4.0305 mm",
+                    "pos": {
+                        "x": 77.53,
+                        "y": 62.5
+                    },
+                    "uuid": "aa0999dc-1861-4e25-aa48-c80ac7e7e276"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1607 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 67.45,
+                        "y": 69.7
+                    },
+                    "uuid": "14196a05-ed4f-4374-8da3-66fc26e9dc27"
+                },
+                {
+                    "description": "PTH pad 10 [GPIO15] of J2",
+                    "pos": {
+                        "x": 67.06,
+                        "y": 68.66
+                    },
+                    "uuid": "939444f6-baa1-4438-9242-85d48d977505"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1613 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 63.699999,
+                        "y": 70.45
+                    },
+                    "uuid": "1b014160-4499-4d44-9e31-93c94004e0c0"
+                },
+                {
+                    "description": "PTH pad 7 [GPIO4] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 71.2
+                    },
+                    "uuid": "6e6dde52-05db-449a-a470-a721a15366a0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1663 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 69.4,
+                        "y": 67.45
+                    },
+                    "uuid": "200264d0-fd99-4322-8068-aed7f6b9153b"
+                },
+                {
+                    "description": "PTH pad 12 [GPIO18] of J2",
+                    "pos": {
+                        "x": 69.6,
+                        "y": 68.66
+                    },
+                    "uuid": "f7b7ad68-43b9-45f3-8f81-72764ee2767c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1672 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 68.2,
+                        "y": 69.1
+                    },
+                    "uuid": "540a2e98-f400-4343-8cc0-fe279731f03b"
+                },
+                {
+                    "description": "PTH pad 10 [GPIO15] of J2",
+                    "pos": {
+                        "x": 67.06,
+                        "y": 68.66
+                    },
+                    "uuid": "939444f6-baa1-4438-9242-85d48d977505"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1531 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 1.2728 mm",
+                    "pos": {
+                        "x": 69.1,
+                        "y": 67.6
+                    },
+                    "uuid": "5f53be7e-5875-4109-afe2-9f7bd12426e6"
+                },
+                {
+                    "description": "PTH pad 12 [GPIO18] of J2",
+                    "pos": {
+                        "x": 69.6,
+                        "y": 68.66
+                    },
+                    "uuid": "f7b7ad68-43b9-45f3-8f81-72764ee2767c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1602 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 7 [GPIO4] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 71.2
+                    },
+                    "uuid": "6e6dde52-05db-449a-a470-a721a15366a0"
+                },
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 70.15
+                    },
+                    "uuid": "6f3b72a2-241a-4a02-b703-4c30ce9fbeb2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1633 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 7 [GPIO4] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 71.2
+                    },
+                    "uuid": "6e6dde52-05db-449a-a470-a721a15366a0"
+                },
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 64.15,
+                        "y": 70.15
+                    },
+                    "uuid": "72378c54-90a1-421d-9377-fc5cea630feb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1900 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 10 [GPIO15] of J2",
+                    "pos": {
+                        "x": 67.06,
+                        "y": 68.66
+                    },
+                    "uuid": "939444f6-baa1-4438-9242-85d48d977505"
+                },
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.6000 mm",
+                    "pos": {
+                        "x": 68.2,
+                        "y": 68.5
+                    },
+                    "uuid": "c953e030-b096-43c8-a9fb-d7a6ea1c7df2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1633 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 7 [GPIO4] of J2",
+                    "pos": {
+                        "x": 64.52,
+                        "y": 71.2
+                    },
+                    "uuid": "6e6dde52-05db-449a-a470-a721a15366a0"
+                },
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 64.3,
+                        "y": 70.0
+                    },
+                    "uuid": "d0de9e92-0521-4c3f-868e-ae0a9633b99b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1663 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 69.25,
+                        "y": 67.6
+                    },
+                    "uuid": "d9b5fb4b-9943-4594-b7b5-e0a58754479e"
+                },
+                {
+                    "description": "PTH pad 12 [GPIO18] of J2",
+                    "pos": {
+                        "x": 69.6,
+                        "y": 68.66
+                    },
+                    "uuid": "f7b7ad68-43b9-45f3-8f81-72764ee2767c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1607 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 10 [GPIO15] of J2",
+                    "pos": {
+                        "x": 67.06,
+                        "y": 68.66
+                    },
+                    "uuid": "939444f6-baa1-4438-9242-85d48d977505"
+                },
+                {
+                    "description": "Track [GPIO3] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 67.6,
+                        "y": 69.7
+                    },
+                    "uuid": "ea114ce4-913f-43bf-bb56-df76c2cc4df0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1720 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 87.9,
+                        "y": 67.0
+                    },
+                    "uuid": "079bddcf-739e-4282-ad3d-fa6c62a2938c"
+                },
+                {
+                    "description": "Via [GPIO12] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.55,
+                        "y": 67.0
+                    },
+                    "uuid": "c86a25ae-899b-4665-903c-f1460b39e340"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1545 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 88.8,
+                        "y": 69.1
+                    },
+                    "uuid": "204eb2d9-528b-4d75-8ab7-ea8795554910"
+                },
+                {
+                    "description": "PTH pad 28 [ID_SC] of J2",
+                    "pos": {
+                        "x": 89.92,
+                        "y": 68.66
+                    },
+                    "uuid": "5fe13b9e-81b1-45dc-b40d-f0b0c13c89c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1720 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 88.05,
+                        "y": 67.15
+                    },
+                    "uuid": "2343124a-d284-4122-a94a-0a155b256007"
+                },
+                {
+                    "description": "Via [GPIO12] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.55,
+                        "y": 67.0
+                    },
+                    "uuid": "c86a25ae-899b-4665-903c-f1460b39e340"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1545 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 89.1,
+                        "y": 69.4
+                    },
+                    "uuid": "3a6a8da1-609f-42e9-877f-19dad2717475"
+                },
+                {
+                    "description": "PTH pad 28 [ID_SC] of J2",
+                    "pos": {
+                        "x": 89.92,
+                        "y": 68.66
+                    },
+                    "uuid": "5fe13b9e-81b1-45dc-b40d-f0b0c13c89c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1963 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 56.8
+                    },
+                    "uuid": "5a7a59bc-750e-4920-af56-622df91d357f"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.25,
+                        "y": 56.58
+                    },
+                    "uuid": "e1d424b4-11e9-4e65-ab59-8680eaf882b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1787 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 28 [ID_SC] of J2",
+                    "pos": {
+                        "x": 89.92,
+                        "y": 68.66
+                    },
+                    "uuid": "5fe13b9e-81b1-45dc-b40d-f0b0c13c89c3"
+                },
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 88.65,
+                        "y": 68.65
+                    },
+                    "uuid": "6f43337c-04ee-470a-bec8-8a2dc159b366"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.5200 mm",
+                    "pos": {
+                        "x": 81.75,
+                        "y": 56.279999
+                    },
+                    "uuid": "83926357-ea01-4b6d-acee-b9d64921101a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.25,
+                        "y": 56.58
+                    },
+                    "uuid": "e1d424b4-11e9-4e65-ab59-8680eaf882b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1959 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 88.35,
+                        "y": 68.05
+                    },
+                    "uuid": "aa7727c8-fef6-4cd3-b3d9-e7fe10445243"
+                },
+                {
+                    "description": "PTH pad 26 [GPIO7] of J2",
+                    "pos": {
+                        "x": 87.38,
+                        "y": 68.66
+                    },
+                    "uuid": "f18edcc0-01f3-4285-a353-289b9858c468"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1787 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 28 [ID_SC] of J2",
+                    "pos": {
+                        "x": 89.92,
+                        "y": 68.66
+                    },
+                    "uuid": "5fe13b9e-81b1-45dc-b40d-f0b0c13c89c3"
+                },
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 88.8,
+                        "y": 68.8
+                    },
+                    "uuid": "c65b722a-d222-4ab0-91b9-096e2ef6e448"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1959 mm)",
+            "items": [
+                {
+                    "description": "Track [ID_SD] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 88.35,
+                        "y": 67.75
+                    },
+                    "uuid": "d4667243-199f-421c-9a58-b37f9d06ec9c"
+                },
+                {
+                    "description": "PTH pad 26 [GPIO7] of J2",
+                    "pos": {
+                        "x": 87.38,
+                        "y": 68.66
+                    },
+                    "uuid": "f18edcc0-01f3-4285-a353-289b9858c468"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1688 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 30 [GND] of J2",
+                    "pos": {
+                        "x": 92.46,
+                        "y": 68.66
+                    },
+                    "uuid": "2e0229e2-4239-4a31-b08b-37e9e8cec0cc"
+                },
+                {
+                    "description": "Track [GPIO5] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 91.2,
+                        "y": 68.65
+                    },
+                    "uuid": "4dba6c24-7378-4b4f-8d92-4b9027c8daa6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1744 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO5] on F.Cu, length 1.5352 mm",
+                    "pos": {
+                        "x": 80.25,
+                        "y": 56.279999
+                    },
+                    "uuid": "0c35637c-a861-4ad8-9e7a-3b647551e3c8"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.25,
+                        "y": 56.58
+                    },
+                    "uuid": "e1d424b4-11e9-4e65-ab59-8680eaf882b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1768 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 30 [GND] of J2",
+                    "pos": {
+                        "x": 92.46,
+                        "y": 68.66
+                    },
+                    "uuid": "2e0229e2-4239-4a31-b08b-37e9e8cec0cc"
+                },
+                {
+                    "description": "Track [GPIO5] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 91.35,
+                        "y": 69.1
+                    },
+                    "uuid": "848b96ac-13e1-4f86-83a4-3483dfcc0ef7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1688 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 30 [GND] of J2",
+                    "pos": {
+                        "x": 92.46,
+                        "y": 68.66
+                    },
+                    "uuid": "2e0229e2-4239-4a31-b08b-37e9e8cec0cc"
+                },
+                {
+                    "description": "Track [GPIO5] on In2.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 91.35,
+                        "y": 68.8
+                    },
+                    "uuid": "a633ec65-bbbe-4dd2-9656-48ee75ab095e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1768 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 30 [GND] of J2",
+                    "pos": {
+                        "x": 92.46,
+                        "y": 68.66
+                    },
+                    "uuid": "2e0229e2-4239-4a31-b08b-37e9e8cec0cc"
+                },
+                {
+                    "description": "Track [GPIO5] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 91.5,
+                        "y": 69.25
+                    },
+                    "uuid": "f73575fc-186f-45d2-8ab0-fe72aef69c96"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO6] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 80.05,
+                        "y": 53.949999
+                    },
+                    "uuid": "015ceea7-b232-4ea0-af2c-492ddbbca6ed"
+                },
+                {
+                    "description": "Track [GPIO13] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 79.65,
+                        "y": 53.5
+                    },
+                    "uuid": "80be1268-fde1-4c52-9230-f718043b880c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO6] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 80.05,
+                        "y": 53.949999
+                    },
+                    "uuid": "015ceea7-b232-4ea0-af2c-492ddbbca6ed"
+                },
+                {
+                    "description": "Track [+5V_FFC] on B.Cu, length 11.7000 mm",
+                    "pos": {
+                        "x": 68.05,
+                        "y": 53.5
+                    },
+                    "uuid": "f710ae94-ffa9-463d-8d06-acdae449a656"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1824 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO6] on In2.Cu, length 2.1213 mm",
+                    "pos": {
+                        "x": 80.8,
+                        "y": 54.55
+                    },
+                    "uuid": "028c901e-61f2-40e7-b0f1-07dee96c2d16"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 82.25,
+                        "y": 56.58
+                    },
+                    "uuid": "09299556-758b-45e2-a95a-c95da1253125"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO6] on F.Cu, length 2.0300 mm",
+                    "pos": {
+                        "x": 79.75,
+                        "y": 56.279999
+                    },
+                    "uuid": "02044943-d868-4878-896f-0d2c918471e2"
+                },
+                {
+                    "description": "Track [GPIO7] on F.Cu, length 1.5352 mm",
+                    "pos": {
+                        "x": 79.25,
+                        "y": 56.279999
+                    },
+                    "uuid": "4ee75614-75dc-4aed-97d9-e4ed16583f5f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1803 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO6] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 80.05,
+                        "y": 53.949999
+                    },
+                    "uuid": "015ceea7-b232-4ea0-af2c-492ddbbca6ed"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 3.1820 mm",
+                    "pos": {
+                        "x": 77.65,
+                        "y": 55.6
+                    },
+                    "uuid": "b19fd856-7512-4d0e-83a0-7cd99e99b833"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO6] on In2.Cu, length 14.8492 mm",
+                    "pos": {
+                        "x": 82.45,
+                        "y": 56.05
+                    },
+                    "uuid": "73dff713-946d-46dd-9cde-ea5d082d5550"
+                },
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 19.0919 mm",
+                    "pos": {
+                        "x": 80.85,
+                        "y": 53.949999
+                    },
+                    "uuid": "791749e5-cfc6-444b-b8f8-6589b080d1d1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1743 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 32 [GPIO12] of J2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 68.66
+                    },
+                    "uuid": "a64e25fb-6465-4389-aa05-968372144bb0"
+                },
+                {
+                    "description": "Track [GPIO6] on In2.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 93.85,
+                        "y": 69.1
+                    },
+                    "uuid": "bbca2767-4bfb-4182-98b8-1bcf3b24ef9f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1823 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 32 [GPIO12] of J2",
+                    "pos": {
+                        "x": 95.0,
+                        "y": 68.66
+                    },
+                    "uuid": "a64e25fb-6465-4389-aa05-968372144bb0"
+                },
+                {
+                    "description": "Track [GPIO6] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 94.3,
+                        "y": 69.55
+                    },
+                    "uuid": "c6b53219-1265-44e4-9aa8-348071e0553a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO7] on F.Cu, length 1.5352 mm",
+                    "pos": {
+                        "x": 79.25,
+                        "y": 56.279999
+                    },
+                    "uuid": "4ee75614-75dc-4aed-97d9-e4ed16583f5f"
+                },
+                {
+                    "description": "Track [GPIO6] on F.Cu, length 1.0500 mm",
+                    "pos": {
+                        "x": 79.75,
+                        "y": 55.23
+                    },
+                    "uuid": "668279ef-f68a-4d35-88d7-0cf1824846e4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO9] on F.Cu, length 6.0700 mm",
+                    "pos": {
+                        "x": 78.25,
+                        "y": 56.279999
+                    },
+                    "uuid": "1891f795-d8cc-48b1-b5ec-3657dceabe9c"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.75,
+                        "y": 56.58
+                    },
+                    "uuid": "8357ab47-b271-440e-800f-eace98f380b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 22 [GPIO25] of J2",
+                    "pos": {
+                        "x": 82.3,
+                        "y": 68.66
+                    },
+                    "uuid": "04f37142-167c-4b77-b800-4046108d34c4"
+                },
+                {
+                    "description": "Track [GPIO9] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 81.25,
+                        "y": 69.1
+                    },
+                    "uuid": "7834884e-87b8-440a-a10a-4986a4036bdc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 22 [GPIO25] of J2",
+                    "pos": {
+                        "x": 82.3,
+                        "y": 68.66
+                    },
+                    "uuid": "04f37142-167c-4b77-b800-4046108d34c4"
+                },
+                {
+                    "description": "Track [GPIO9] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 81.1,
+                        "y": 68.95
+                    },
+                    "uuid": "bf475a8b-1660-419b-bd6d-fe31cf630512"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1517 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO10] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 78.75,
+                        "y": 69.1
+                    },
+                    "uuid": "28041b67-0a7d-4ca3-a25f-28432b88c839"
+                },
+                {
+                    "description": "PTH pad 20 [GND] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 68.66
+                    },
+                    "uuid": "30614381-d248-4ed6-9916-a3bf8b417a3e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1517 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 20 [GND] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 68.66
+                    },
+                    "uuid": "30614381-d248-4ed6-9916-a3bf8b417a3e"
+                },
+                {
+                    "description": "Track [GPIO10] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 78.6,
+                        "y": 68.95
+                    },
+                    "uuid": "55a3e2db-847a-414d-867d-ce6ae87e248d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 20 [GND] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 68.66
+                    },
+                    "uuid": "30614381-d248-4ed6-9916-a3bf8b417a3e"
+                },
+                {
+                    "description": "Track [GPIO10] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 79.05,
+                        "y": 69.55
+                    },
+                    "uuid": "6a30059b-8adb-4b23-abf7-7fa319f5419c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1814 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 20 [GND] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 68.66
+                    },
+                    "uuid": "30614381-d248-4ed6-9916-a3bf8b417a3e"
+                },
+                {
+                    "description": "Track [GPIO10] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 78.75,
+                        "y": 69.25
+                    },
+                    "uuid": "92aa3ae3-f15c-4f5c-b252-211f3bd64aea"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO10] on F.Cu, length 9.3700 mm",
+                    "pos": {
+                        "x": 77.25,
+                        "y": 56.279999
+                    },
+                    "uuid": "b85769dd-e5ff-43c1-baae-b00a08e9b17d"
+                },
+                {
+                    "description": "Via [GPIO11] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 76.75,
+                        "y": 57.1
+                    },
+                    "uuid": "d3f2a47c-2705-4124-af95-d6daf309cd31"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1792 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO11] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 83.65,
+                        "y": 68.95
+                    },
+                    "uuid": "0562524a-6a52-4d70-bcbd-bedc02e34954"
+                },
+                {
+                    "description": "PTH pad 24 [GPIO8] of J2",
+                    "pos": {
+                        "x": 84.84,
+                        "y": 68.66
+                    },
+                    "uuid": "cc2b3e42-ee73-4d62-af8e-b467f412fd24"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1803 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO11] on In2.Cu, length 4.6669 mm",
+                    "pos": {
+                        "x": 77.05,
+                        "y": 59.65
+                    },
+                    "uuid": "360bc4e4-a214-45d0-8bfc-41f7d9eb2d97"
+                },
+                {
+                    "description": "Via [GPIO2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 62.349999
+                    },
+                    "uuid": "f4204208-567b-4946-abc1-28a96517466f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1792 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO11] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 69.1
+                    },
+                    "uuid": "90bae8ba-3f2b-4f04-9bdc-747c6144333c"
+                },
+                {
+                    "description": "PTH pad 24 [GPIO8] of J2",
+                    "pos": {
+                        "x": 84.84,
+                        "y": 68.66
+                    },
+                    "uuid": "cc2b3e42-ee73-4d62-af8e-b467f412fd24"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1977 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 30 [GND] of J2",
+                    "pos": {
+                        "x": 92.46,
+                        "y": 68.66
+                    },
+                    "uuid": "2e0229e2-4239-4a31-b08b-37e9e8cec0cc"
+                },
+                {
+                    "description": "Track [GPIO12] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 92.9,
+                        "y": 67.6
+                    },
+                    "uuid": "3b428433-8e1a-4be3-bd8c-03fb317250c9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1908 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO12] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 88.55,
+                        "y": 67.0
+                    },
+                    "uuid": "c86a25ae-899b-4665-903c-f1460b39e340"
+                },
+                {
+                    "description": "Track [ID_SC] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 66.55
+                    },
+                    "uuid": "de6b9fc9-a03b-495d-834a-e15c214cd65b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1977 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 30 [GND] of J2",
+                    "pos": {
+                        "x": 92.46,
+                        "y": 68.66
+                    },
+                    "uuid": "2e0229e2-4239-4a31-b08b-37e9e8cec0cc"
+                },
+                {
+                    "description": "Track [GPIO12] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 92.75,
+                        "y": 67.45
+                    },
+                    "uuid": "7733bb3b-807c-4480-b427-285caed06ad6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO12] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.95,
+                        "y": 56.949999
+                    },
+                    "uuid": "7515f596-d3c4-4647-b87a-2373aa2a9844"
+                },
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 75.55,
+                        "y": 56.5
+                    },
+                    "uuid": "e5e90dd6-111f-4c7d-a67d-fd4f59932bfc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1509 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 77.15,
+                        "y": 56.65
+                    },
+                    "uuid": "2b8a6251-9b0a-4a3b-8ec7-47988dbf550c"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 77.75,
+                        "y": 56.58
+                    },
+                    "uuid": "8357ab47-b271-440e-800f-eace98f380b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 76.1,
+                        "y": 56.949999
+                    },
+                    "uuid": "3c96e4ea-b0d3-454d-b942-3f2f8f884306"
+                },
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 76.15,
+                        "y": 56.35
+                    },
+                    "uuid": "b4b2e8b7-c96d-4278-b2bf-354831369067"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 3.3941 mm",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 64.599999
+                    },
+                    "uuid": "49fa2b5f-eebe-4226-a797-53ed5b1c97cb"
+                },
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 86.95,
+                        "y": 64.9
+                    },
+                    "uuid": "baf641f7-11ec-4fed-9370-0bbce261c08c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 56.65
+                    },
+                    "uuid": "7c5feeaa-513a-458b-b75f-b7e52b4c2470"
+                },
+                {
+                    "description": "Via [GPIO11] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 76.75,
+                        "y": 57.1
+                    },
+                    "uuid": "d3f2a47c-2705-4124-af95-d6daf309cd31"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 76.85,
+                        "y": 56.5
+                    },
+                    "uuid": "9e65799a-3f1a-467d-8d45-16dda585698b"
+                },
+                {
+                    "description": "Via [GPIO11] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 76.75,
+                        "y": 57.1
+                    },
+                    "uuid": "d3f2a47c-2705-4124-af95-d6daf309cd31"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on F.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 80.25,
+                        "y": 53.35
+                    },
+                    "uuid": "0df75f20-2a4f-4541-b4a3-6b341675133e"
+                },
+                {
+                    "description": "Track [+3V3_FFC] on F.Cu, length 1.4849 mm",
+                    "pos": {
+                        "x": 79.75,
+                        "y": 52.3
+                    },
+                    "uuid": "e7a832e9-0c29-41d3-a60f-88ba20a147d8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on F.Cu, length 3.1500 mm",
+                    "pos": {
+                        "x": 75.9,
+                        "y": 54.1
+                    },
+                    "uuid": "645633ce-fbce-44ac-8bfe-f412be5637bb"
+                },
+                {
+                    "description": "Track [GPIO20] on F.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 75.35,
+                        "y": 54.1
+                    },
+                    "uuid": "b8c2ad9c-cf59-4608-b4a9-9400f4c0c047"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on F.Cu, length 2.0300 mm",
+                    "pos": {
+                        "x": 75.75,
+                        "y": 56.279999
+                    },
+                    "uuid": "416a71f7-db27-4b15-8daf-398c9e753156"
+                },
+                {
+                    "description": "Track [GPIO20] on F.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 75.35,
+                        "y": 54.1
+                    },
+                    "uuid": "b8c2ad9c-cf59-4608-b4a9-9400f4c0c047"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 95.55,
+                        "y": 67.6
+                    },
+                    "uuid": "0f5c8d93-67dd-40c8-886b-d1b4c4f9dddc"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 95.65,
+                        "y": 67.15
+                    },
+                    "uuid": "fe6e5e6a-4948-44e4-9d70-b72739be2623"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 79.95,
+                        "y": 53.35
+                    },
+                    "uuid": "447cbd0a-edb2-45e5-ba61-cd2a4f36a752"
+                },
+                {
+                    "description": "Track [+3V3_FFC] on F.Cu, length 1.4849 mm",
+                    "pos": {
+                        "x": 79.75,
+                        "y": 52.3
+                    },
+                    "uuid": "e7a832e9-0c29-41d3-a60f-88ba20a147d8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 75.75,
+                        "y": 54.25
+                    },
+                    "uuid": "a461bf03-d107-451d-abf2-44ec58712de7"
+                },
+                {
+                    "description": "Track [GPIO20] on F.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 75.35,
+                        "y": 54.1
+                    },
+                    "uuid": "b8c2ad9c-cf59-4608-b4a9-9400f4c0c047"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1905 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.9000 mm",
+                    "pos": {
+                        "x": 94.35,
+                        "y": 67.45
+                    },
+                    "uuid": "3211c2d6-8a9b-4814-bdcf-fb097497a099"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 95.35,
+                        "y": 67.0
+                    },
+                    "uuid": "7d859e49-1e69-4217-9ff4-4324875e0192"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1905 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 95.25,
+                        "y": 67.45
+                    },
+                    "uuid": "3fbdc5ed-402a-481c-aff0-80cc1d1a9c4f"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 95.35,
+                        "y": 67.0
+                    },
+                    "uuid": "7d859e49-1e69-4217-9ff4-4324875e0192"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1598 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 96.6,
+                        "y": 69.25
+                    },
+                    "uuid": "48b60aaf-1e27-444f-a065-f3960b06532f"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1779 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 96.3,
+                        "y": 68.8
+                    },
+                    "uuid": "704daf6e-1e24-4946-8539-0b294fa6602d"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 95.4,
+                        "y": 67.6
+                    },
+                    "uuid": "653cd9ed-4685-4fd5-8f84-df227ee376f7"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 95.65,
+                        "y": 67.15
+                    },
+                    "uuid": "fe6e5e6a-4948-44e4-9d70-b72739be2623"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 19.0919 mm",
+                    "pos": {
+                        "x": 80.85,
+                        "y": 53.949999
+                    },
+                    "uuid": "791749e5-cfc6-444b-b8f8-6589b080d1d1"
+                },
+                {
+                    "description": "Track [GPIO6] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 82.3,
+                        "y": 56.05
+                    },
+                    "uuid": "d417e5ab-6ba6-4800-a643-1d0fb00cf23a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1779 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 96.449999,
+                        "y": 68.95
+                    },
+                    "uuid": "99ce3428-178c-4588-84bd-b9bd84879e01"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1598 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                },
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 96.449999,
+                        "y": 69.1
+                    },
+                    "uuid": "c733246a-f229-4bd6-ac53-f39b7a82dbbd"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1992 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO14] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.169999,
+                        "y": 57.25
+                    },
+                    "uuid": "276e0e63-5fe2-4301-8d71-666314ca4271"
+                },
+                {
+                    "description": "Track [GPIO15] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 74.71,
+                        "y": 56.949999
+                    },
+                    "uuid": "744c2827-2404-41f5-818a-70f94876f832"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1509 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO14] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.169999,
+                        "y": 57.25
+                    },
+                    "uuid": "276e0e63-5fe2-4301-8d71-666314ca4271"
+                },
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 74.95,
+                        "y": 56.8
+                    },
+                    "uuid": "b2a0c7e5-e974-4ebe-8b31-919edef43c82"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1599 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO15] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 74.86,
+                        "y": 56.65
+                    },
+                    "uuid": "0e639f7e-29bb-4af5-9e2c-4e27c38da984"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1599 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO15] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 74.71,
+                        "y": 56.8
+                    },
+                    "uuid": "c85f02ef-d887-4a9f-a82d-736b3279f077"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1593 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on F.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 73.9,
+                        "y": 56.949999
+                    },
+                    "uuid": "2ad58bdd-8b20-4207-866e-49489699857a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1591 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 73.75,
+                        "y": 56.8
+                    },
+                    "uuid": "2bbc3e4e-c40f-42b2-b8f2-45e4c89d545c"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on F.Cu, length 0.5200 mm",
+                    "pos": {
+                        "x": 73.75,
+                        "y": 56.279999
+                    },
+                    "uuid": "5cc4719b-175a-4549-a24e-e2de83f4cf6a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1695 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on B.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 97.75,
+                        "y": 67.45
+                    },
+                    "uuid": "01706dfb-f410-48f4-bece-55cde104227a"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1695 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on B.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 97.9,
+                        "y": 67.6
+                    },
+                    "uuid": "3527ed00-6861-43e4-ad5b-7781f13d8b8d"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1607 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on B.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 98.35,
+                        "y": 67.9
+                    },
+                    "uuid": "902cf472-7ffc-4e87-9ca8-37b2b4c1f5ee"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1602 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                },
+                {
+                    "description": "Track [GPIO16] on B.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 98.05,
+                        "y": 67.6
+                    },
+                    "uuid": "ddf8f4f8-f392-4264-aabf-746a335e64da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 5.9397 mm",
+                    "pos": {
+                        "x": 82.75,
+                        "y": 60.699999
+                    },
+                    "uuid": "08d415ff-0a51-4b37-9964-53440f8c1a1e"
+                },
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 3.3941 mm",
+                    "pos": {
+                        "x": 86.15,
+                        "y": 64.599999
+                    },
+                    "uuid": "49fa2b5f-eebe-4226-a797-53ed5b1c97cb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1509 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 74.8,
+                        "y": 56.8
+                    },
+                    "uuid": "210f0e2a-1609-4ed0-b34f-4f9f3d9a5d63"
+                },
+                {
+                    "description": "Via [GPIO14] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 75.169999,
+                        "y": 57.25
+                    },
+                    "uuid": "276e0e63-5fe2-4301-8d71-666314ca4271"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 76.15,
+                        "y": 56.35
+                    },
+                    "uuid": "b4b2e8b7-c96d-4278-b2bf-354831369067"
+                },
+                {
+                    "description": "Track [GPIO12] on In2.Cu, length 0.3000 mm",
+                    "pos": {
+                        "x": 76.55,
+                        "y": 56.5
+                    },
+                    "uuid": "bda54b36-28a5-4f6c-97a8-983edc4027e9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1945 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO16] on In2.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 74.35,
+                        "y": 57.25
+                    },
+                    "uuid": "fcb65c1f-4010-401c-88f1-81a9c0cfb7c4"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO17] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 70.649999,
+                        "y": 69.1
+                    },
+                    "uuid": "1ee4b741-dba4-488c-b0e6-d71fa7ef8721"
+                },
+                {
+                    "description": "PTH pad 12 [GPIO18] of J2",
+                    "pos": {
+                        "x": 69.6,
+                        "y": 68.66
+                    },
+                    "uuid": "f7b7ad68-43b9-45f3-8f81-72764ee2767c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1885 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO17] on F.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 70.8,
+                        "y": 68.95
+                    },
+                    "uuid": "a19a6946-7f0f-4c19-a57e-1b74562b8fd2"
+                },
+                {
+                    "description": "PTH pad 12 [GPIO18] of J2",
+                    "pos": {
+                        "x": 69.6,
+                        "y": 68.66
+                    },
+                    "uuid": "f7b7ad68-43b9-45f3-8f81-72764ee2767c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Via [GPIO19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 72.25,
+                        "y": 57.1
+                    },
+                    "uuid": "97ebac19-8e1e-4043-893e-07c570d3975e"
+                },
+                {
+                    "description": "Track [GPIO18] on F.Cu, length 5.4700 mm",
+                    "pos": {
+                        "x": 72.75,
+                        "y": 56.279999
+                    },
+                    "uuid": "fb0cc14e-1af2-42a5-923b-b2e2cc3577b4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 1.8000 mm",
+                    "pos": {
+                        "x": 95.949999,
+                        "y": 67.45
+                    },
+                    "uuid": "0b0a4275-9394-4b97-a0f0-53559cbbef7f"
+                },
+                {
+                    "description": "Track [GPIO13] on In2.Cu, length 0.8485 mm",
+                    "pos": {
+                        "x": 95.55,
+                        "y": 67.6
+                    },
+                    "uuid": "0f5c8d93-67dd-40c8-886b-d1b4c4f9dddc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1648 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 81.1,
+                        "y": 53.5
+                    },
+                    "uuid": "0c43d796-80da-49e3-9dab-c7cf8e61c40f"
+                },
+                {
+                    "description": "Via [GPIO13] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 80.85,
+                        "y": 53.949999
+                    },
+                    "uuid": "96644ed5-a516-45b0-9bf9-1eb6f8d05df2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1602 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 1.2728 mm",
+                    "pos": {
+                        "x": 98.05,
+                        "y": 67.6
+                    },
+                    "uuid": "29022f33-ffc5-410b-8d34-dc8b4ef75988"
+                },
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 1.5000 mm",
+                    "pos": {
+                        "x": 74.05,
+                        "y": 56.05
+                    },
+                    "uuid": "29c37003-e33d-4105-a5ad-9ef690f902ae"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1905 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 80.95,
+                        "y": 53.35
+                    },
+                    "uuid": "604a3bcc-bb63-4f77-8afd-59e524f21afc"
+                },
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 81.05,
+                        "y": 52.9
+                    },
+                    "uuid": "6a663f41-4bee-4022-a40a-38d01414f62e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1662 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 1.4849 mm",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 57.1
+                    },
+                    "uuid": "8b8fbf62-6cac-4abe-8c8d-ef833f17dd47"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 74.25,
+                        "y": 56.58
+                    },
+                    "uuid": "ffcb0654-f972-4459-8d06-e8ee90e0796f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 19.0919 mm",
+                    "pos": {
+                        "x": 81.25,
+                        "y": 53.5
+                    },
+                    "uuid": "4d50cab6-f566-4ae5-a143-df14daedb11e"
+                },
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 4.2426 mm",
+                    "pos": {
+                        "x": 81.35,
+                        "y": 53.05
+                    },
+                    "uuid": "d6efe0e6-7946-49ab-b497-89f52732192f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 99.4,
+                        "y": 69.55
+                    },
+                    "uuid": "b0672d3e-ee06-4323-a175-6c00d724fe95"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1602 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.6364 mm",
+                    "pos": {
+                        "x": 98.949999,
+                        "y": 69.1
+                    },
+                    "uuid": "b73c385a-f480-45bf-8252-cd6fd233aa84"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1695 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 97.9,
+                        "y": 67.6
+                    },
+                    "uuid": "dbd90a74-aeda-448d-9f74-5be1664d53ed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.6000 mm",
+                    "pos": {
+                        "x": 98.949999,
+                        "y": 68.5
+                    },
+                    "uuid": "dcf60b3c-31c4-49e9-9ae5-4204d56c5c2f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1695 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 34 [GND] of J2",
+                    "pos": {
+                        "x": 97.54,
+                        "y": 68.66
+                    },
+                    "uuid": "c4342ae4-26e3-45b8-bb23-8b4e378469c8"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 97.75,
+                        "y": 67.45
+                    },
+                    "uuid": "e34d1202-afbf-485a-a380-1c7823029e17"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1511 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 100.55,
+                        "y": 67.6
+                    },
+                    "uuid": "07ab3e48-9f80-4811-940a-f1e1fb31d8a8"
+                },
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1572 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 100.25,
+                        "y": 67.45
+                    },
+                    "uuid": "08d437d0-ee18-4fc7-b99e-c9a94d0a2622"
+                },
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 12.5158 mm",
+                    "pos": {
+                        "x": 85.55,
+                        "y": 56.05
+                    },
+                    "uuid": "218a136f-b800-4017-af02-71edc9f03e2a"
+                },
+                {
+                    "description": "Track [GPIO21] on In2.Cu, length 1.3500 mm",
+                    "pos": {
+                        "x": 86.1,
+                        "y": 56.05
+                    },
+                    "uuid": "9dfabda2-4afe-4e7f-b2a0-cd9add389ed9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1905 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 81.2,
+                        "y": 53.05
+                    },
+                    "uuid": "3b06e030-e990-4909-a722-cd191f784c2b"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 1.0500 mm",
+                    "pos": {
+                        "x": 79.9,
+                        "y": 53.35
+                    },
+                    "uuid": "8a3a77ac-faac-4261-9277-d90173fb2efe"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1889 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 84.35,
+                        "y": 56.05
+                    },
+                    "uuid": "4c9b9014-0b20-44c5-87ab-66d6e0127c62"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 19.0919 mm",
+                    "pos": {
+                        "x": 81.25,
+                        "y": 53.5
+                    },
+                    "uuid": "4d50cab6-f566-4ae5-a143-df14daedb11e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1572 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 100.4,
+                        "y": 67.6
+                    },
+                    "uuid": "6145895c-4e62-497c-aaf9-b73f36ad4d4e"
+                },
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1905 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 81.05,
+                        "y": 52.9
+                    },
+                    "uuid": "6a663f41-4bee-4022-a40a-38d01414f62e"
+                },
+                {
+                    "description": "Track [GPIO19] on In2.Cu, length 1.0500 mm",
+                    "pos": {
+                        "x": 79.9,
+                        "y": 53.35
+                    },
+                    "uuid": "8a3a77ac-faac-4261-9277-d90173fb2efe"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1511 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 36 [GPIO16] of J2",
+                    "pos": {
+                        "x": 100.08,
+                        "y": 68.66
+                    },
+                    "uuid": "621be778-68eb-4024-9b2b-2344c476b0f4"
+                },
+                {
+                    "description": "Track [GPIO20] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 100.699999,
+                        "y": 67.75
+                    },
+                    "uuid": "f191e987-18f3-4549-9e80-233273a01f12"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1939 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 38 [GPIO20] of J2",
+                    "pos": {
+                        "x": 102.62,
+                        "y": 68.66
+                    },
+                    "uuid": "1a3eef72-f63a-47dd-be85-16047ce3d14c"
+                },
+                {
+                    "description": "Track [GPIO21] on In2.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 103.05,
+                        "y": 67.6
+                    },
+                    "uuid": "7de22749-6f54-44d6-9976-d60b6929f157"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1939 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 38 [GPIO20] of J2",
+                    "pos": {
+                        "x": 102.62,
+                        "y": 68.66
+                    },
+                    "uuid": "1a3eef72-f63a-47dd-be85-16047ce3d14c"
+                },
+                {
+                    "description": "Track [GPIO21] on In2.Cu, length 0.2121 mm",
+                    "pos": {
+                        "x": 102.9,
+                        "y": 67.45
+                    },
+                    "uuid": "ae085153-0bf9-47af-8027-c51c8d2f3584"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "c61658ca-103f-4276-aebc-c0914d6c2c93"
+                },
+                {
+                    "description": "Reference field of H2",
+                    "pos": {
+                        "x": 110.3,
+                        "y": 49.55
+                    },
+                    "uuid": "f86f63af-6b1a-4ebc-aa86-fbf432c84d2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "c61658ca-103f-4276-aebc-c0914d6c2c93"
+                },
+                {
+                    "description": "Reference field of H1",
+                    "pos": {
+                        "x": 53.0,
+                        "y": 49.55
+                    },
+                    "uuid": "7e88c3e8-4c5a-4285-93bd-77cb7be264c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'VAIO_CM5'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 55.23
+                    },
+                    "uuid": "99586878-f27b-4c5c-b647-7081f6eb8d60"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 14 [GND] of J2",
+                    "pos": {
+                        "x": 72.14,
+                        "y": 68.66
+                    },
+                    "uuid": "c3962c8e-868d-492c-9427-2788a137b910"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 16 [GPIO23] of J2",
+                    "pos": {
+                        "x": 74.68,
+                        "y": 68.66
+                    },
+                    "uuid": "d97886e6-d1ee-49ae-91c2-1f4e6a04e4db"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 18 [GPIO24] of J2",
+                    "pos": {
+                        "x": 77.22,
+                        "y": 68.66
+                    },
+                    "uuid": "b8891e96-8016-4c10-8fca-d1929edd7c11"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 20 [GND] of J2",
+                    "pos": {
+                        "x": 79.76,
+                        "y": 68.66
+                    },
+                    "uuid": "30614381-d248-4ed6-9916-a3bf8b417a3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 22 [GPIO25] of J2",
+                    "pos": {
+                        "x": 82.3,
+                        "y": 68.66
+                    },
+                    "uuid": "04f37142-167c-4b77-b800-4046108d34c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 24 [GPIO8] of J2",
+                    "pos": {
+                        "x": 84.84,
+                        "y": 68.66
+                    },
+                    "uuid": "cc2b3e42-ee73-4d62-af8e-b467f412fd24"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 26 [GPIO7] of J2",
+                    "pos": {
+                        "x": 87.38,
+                        "y": 68.66
+                    },
+                    "uuid": "f18edcc0-01f3-4285-a353-289b9858c468"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                },
+                {
+                    "description": "PTH pad 28 [ID_SC] of J2",
+                    "pos": {
+                        "x": 89.92,
+                        "y": 68.66
+                    },
+                    "uuid": "5fe13b9e-81b1-45dc-b40d-f0b0c13c89c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text '5V/3V3 OPEN: close only for Pi-powered LCD' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 66.0
+                    },
+                    "uuid": "a810de7c-5687-4782-95d2-a1aecabf471e"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text 'USB pins 1-4,6,7 not connected' on B.Silkscreen",
+                    "pos": {
+                        "x": 81.0,
+                        "y": 68.0
+                    },
+                    "uuid": "461c6ac3-4d29-4c73-8f3e-809058e7c063"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}

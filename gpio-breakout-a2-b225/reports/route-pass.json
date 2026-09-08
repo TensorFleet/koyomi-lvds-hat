@@ -1,0 +1,225 @@
+[
+  {
+    "net": "+5V_FFC",
+    "from_ref": "J1",
+    "to_ref": "J1",
+    "status": "routed",
+    "items": 5
+  },
+  {
+    "net": "+5V",
+    "from_ref": "J2",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 1
+  },
+  {
+    "net": "+3V3",
+    "from_ref": "JP5",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 1
+  },
+  {
+    "net": "+5V_LNK",
+    "from_ref": "F1",
+    "to_ref": "JP4",
+    "status": "routed",
+    "items": 14
+  },
+  {
+    "net": "+5V",
+    "from_ref": "JP4",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 37
+  },
+  {
+    "net": "GPIO18",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 3
+  },
+  {
+    "net": "GPIO8",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 16
+  },
+  {
+    "net": "ID_SC",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 8
+  },
+  {
+    "net": "GPIO24",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 23
+  },
+  {
+    "net": "GPIO15",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 12
+  },
+  {
+    "net": "GPIO7",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 14
+  },
+  {
+    "net": "GPIO10",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 19
+  },
+  {
+    "net": "GPIO17",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 18
+  },
+  {
+    "net": "GPIO9",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 26
+  },
+  {
+    "net": "GPIO23",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 23
+  },
+  {
+    "net": "GPIO14",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 18
+  },
+  {
+    "net": "GPIO11",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 30
+  },
+  {
+    "net": "ID_SD",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 27
+  },
+  {
+    "net": "GPIO5",
+    "status": "pending",
+    "reason": "no multilayer path for GPIO5; reached=30; bounds=(79.5, 82.8, 66.05, 66.35000000000001); via_sites=[]"
+  },
+  {
+    "net": "+3V3",
+    "from_ref": "J2",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 18
+  },
+  {
+    "net": "GPIO6",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 30
+  },
+  {
+    "net": "GPIO4",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 44
+  },
+  {
+    "net": "GPIO12",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 42
+  },
+  {
+    "net": "GPIO3",
+    "status": "pending",
+    "reason": "no multilayer path for GPIO3; reached=23; bounds=(83.65, 84.85, 67.05, 67.65); via_sites=[]"
+  },
+  {
+    "net": "GPIO13",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 38
+  },
+  {
+    "net": "GPIO2",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 35
+  },
+  {
+    "net": "GPIO16",
+    "status": "pending",
+    "reason": "no multilayer path for GPIO16; reached=32; bounds=(68.65, 70.60000000000001, 67.05, 67.8); via_sites=[]"
+  },
+  {
+    "net": "GPIO19",
+    "status": "pending",
+    "reason": "no multilayer path for GPIO19; reached=37; bounds=(66.55, 68.05, 65.45, 66.8); via_sites=[]"
+  },
+  {
+    "net": "+5V_FFC",
+    "from_ref": "F1",
+    "to_ref": "J1",
+    "status": "routed",
+    "items": 40
+  },
+  {
+    "net": "GPIO20",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 73
+  },
+  {
+    "net": "+3V3",
+    "from_ref": "J2",
+    "to_ref": "TP5",
+    "status": "routed",
+    "items": 13
+  },
+  {
+    "net": "+3V3_FFC",
+    "from_ref": "JP5",
+    "to_ref": "J1",
+    "status": "routed",
+    "items": 27
+  },
+  {
+    "net": "GPIO21",
+    "from_ref": "J1",
+    "to_ref": "J2",
+    "status": "routed",
+    "items": 83
+  }
+]
