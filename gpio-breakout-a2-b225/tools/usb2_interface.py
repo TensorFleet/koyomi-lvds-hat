@@ -21,3 +21,9 @@ FOOTPRINTS={'J3':'USB_A2:USB_C_Receptacle_Molex_105450-0101',
  'F2':'Fuse:Fuse_1206_3216Metric'}
 VALUES={'J3':'1054500101','U1':'LM66100DCKR','U2':'TPD2EUSB30DRTR','U3':'TPD2EUSB30DRTR',
  'R1':'5.1k 1%','R2':'5.1k 1%','C1':'1u 16V X7R','C2':'100n 16V X7R','F2':'SMD1206P050TF/15'}
+
+# Qualification revision: source-series provisions and controlled startup.
+from qualification_design import DRIVEN, EXTRA_MAP
+MAP={**MAP,**EXTRA_MAP}
+MAP['J2']={pin:(net+'_PI' if net in DRIVEN else net) for pin,net in MAP['J2'].items()}
+MAP['U1']={**MAP['U1'],'1':'USB_VBUS_SOFT'}

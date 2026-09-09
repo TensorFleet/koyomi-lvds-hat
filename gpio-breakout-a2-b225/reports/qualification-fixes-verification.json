@@ -1,0 +1,44 @@
+{
+  "desktop_checks_passed": true,
+  "fabrication_released": false,
+  "board_sha256": "fc25e04aed25fc0094d64c32bc30104b626fe1165ffbb7e90a8c57916ff2e60d",
+  "schematic_sha256": "318696ff14d9f45b238c8337d1508b61577e4c56837971118e5ead9886f4fc65",
+  "numbered_pads_checked": 193,
+  "FFC_functions_preserved": 40,
+  "C1_numbered_functions_match": 40,
+  "C1_paste_pads": 42,
+  "C1_source_sha256": "1bbc9a6f8cb5cf28cb54341c03c1d5cdff20cfe000a83fd909f164c52de66f84",
+  "native_checks": {
+    "drc": {
+      "errors": 0,
+      "warnings": 13,
+      "warning_types": [
+        "lib_footprint_mismatch"
+      ],
+      "opens": 0
+    },
+    "erc": {
+      "errors": 0,
+      "warnings": 29,
+      "warning_types": [
+        "isolated_pin_label",
+        "lib_symbol_mismatch"
+      ]
+    }
+  },
+  "models_reviewed": [
+    "renders/qualification-fixes-top.png",
+    "renders/qualification-fixes-right.png"
+  ],
+  "model_limits": [
+    "J1 is a nominal envelope",
+    "J2 stacking socket is not selected"
+  ],
+  "remaining": [
+    "Measure assembled USB channel in both Type-C orientations",
+    "Measure startup current, host droop and load voltage",
+    "Confirm Pi/panel timing and qualify source resistor population",
+    "Confirm installed catalog cable contact faces, length and latch/fold clearance"
+  ],
+  "no_fabrication_generated": true
+}

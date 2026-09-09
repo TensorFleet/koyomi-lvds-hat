@@ -1,3 +1,5 @@
+> Historical stackup-stage record. The [later qualification corrections](qualification-fixes.md) supersede its USB, startup, display-array and C1 paste status.
+
 # GPIO A2 stackup correction and qualification
 
 2026-09-09. **Stackup correction and power-width improvements verified; manufacturing qualification remains blocked.** Scope: low-power USB2 bench use, with C1 as the LCD/USB peer. No fabrication files or JLCPCB upload were produced.

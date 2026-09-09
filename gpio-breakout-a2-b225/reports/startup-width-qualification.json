@@ -1,0 +1,1339 @@
+{
+  "before_sha256": "9bc3be116c93649ee3c950d40704c7cbca7354bd03424f9259e55fc6944e0022",
+  "after_sha256": "26f457246fbb0580f10dcc167c88d2c13dd18031a54001582bb698d12c411032",
+  "target_mm": 0.5,
+  "clearance_screen_mm": 0.205,
+  "widened": [
+    {
+      "id": "3ada7f02-7a9c-4558-ba10-399a9e8121a5",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.4242640687119245,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.0,
+        53.25
+      ],
+      "end": [
+        104.3,
+        53.55
+      ]
+    },
+    {
+      "id": "47501ff2-927e-4c6e-b950-16dcb188830c",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.15051926787292572,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.6,
+        53.6375
+      ],
+      "end": [
+        104.699999,
+        53.75
+      ]
+    },
+    {
+      "id": "5359a057-342d-48af-9c16-89599ed36a05",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.6000000000000014,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.699999,
+        53.75
+      ],
+      "end": [
+        104.699999,
+        54.35
+      ]
+    },
+    {
+      "id": "684329a3-9f82-4018-b66d-1de46e39c68d",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.10000099999999179,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.425,
+        55.45
+      ],
+      "end": [
+        100.324999,
+        55.45
+      ]
+    },
+    {
+      "id": "7f05c796-a4c9-4311-96ad-e50c6b329c9f",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.12562444030123782,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        106.499999,
+        53.6375
+      ],
+      "end": [
+        106.625,
+        53.65
+      ]
+    },
+    {
+      "id": "b8b28c70-297f-4750-a59c-15af69675e64",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.6000000000000014,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        106.6,
+        54.35
+      ],
+      "end": [
+        106.6,
+        53.75
+      ]
+    },
+    {
+      "id": "b9c66441-a032-450c-97ec-f4b879fbc04f",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.11180205723510717,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.1,
+        52.4
+      ],
+      "end": [
+        100.199999,
+        52.449999
+      ]
+    },
+    {
+      "id": "c4c4f507-9929-438e-8a1b-389ac0b2b4dd",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.11180250444870153,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.324999,
+        55.45
+      ],
+      "end": [
+        100.225,
+        55.5
+      ]
+    },
+    {
+      "id": "d81773cd-b306-4831-ac3b-ae441792c99f",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.13287682265918258,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.5,
+        53.55
+      ],
+      "end": [
+        104.6,
+        53.6375
+      ]
+    },
+    {
+      "id": "d8e15723-1b97-40bc-80de-9b834a2c7755",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.3,
+        53.55
+      ],
+      "end": [
+        104.5,
+        53.55
+      ]
+    },
+    {
+      "id": "dd765ff1-8842-43ad-b637-827a75a83049",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.15052059660059058,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        106.6,
+        53.75
+      ],
+      "end": [
+        106.499999,
+        53.6375
+      ]
+    },
+    {
+      "id": "f4d182a2-2548-449f-9e33-f0e54845c5dd",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.5656847178429086,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.824999,
+        55.05
+      ],
+      "end": [
+        100.425,
+        55.45
+      ]
+    },
+    {
+      "id": "f4db6c67-9183-4317-b0b9-927db98e0582",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.5999999999999943,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        106.625,
+        53.65
+      ],
+      "end": [
+        107.225,
+        53.65
+      ]
+    },
+    {
+      "id": "f97574d8-2ec7-4139-9e73-978839ee3c57",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 1.6000009999999918,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.199999,
+        52.449999
+      ],
+      "end": [
+        101.8,
+        52.449999
+      ]
+    },
+    {
+      "id": "0cefd8b5-bb18-4762-b3e1-2ddd867456fd",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.30000099999999463,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.699999,
+        53.25
+      ],
+      "end": [
+        104.0,
+        53.25
+      ]
+    },
+    {
+      "id": "1cea7d84-d5e0-4056-9f85-23078f8cace9",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.4242640687119295,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.5,
+        52.55
+      ],
+      "end": [
+        102.8,
+        52.85
+      ]
+    },
+    {
+      "id": "2d7bccac-c233-4395-a523-0d1923509b5c",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.1414213562443826,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.899999,
+        52.85
+      ],
+      "end": [
+        103.0,
+        52.949999
+      ]
+    },
+    {
+      "id": "41ff8427-a5ef-4472-953a-7931b7463efb",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.14142064913229485,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.3,
+        53.05
+      ],
+      "end": [
+        103.399999,
+        53.15
+      ]
+    },
+    {
+      "id": "43217441-1afe-44ca-b269-70505f94116b",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.8,
+        52.449999
+      ],
+      "end": [
+        102.0,
+        52.449999
+      ]
+    },
+    {
+      "id": "4869df84-8cc5-437b-b85b-a616524a295e",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.0,
+        52.949999
+      ],
+      "end": [
+        103.1,
+        52.949999
+      ]
+    },
+    {
+      "id": "96b1f946-ed70-4bea-ae58-662bb8f875eb",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.4000000000000057,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.1,
+        52.55
+      ],
+      "end": [
+        102.5,
+        52.55
+      ]
+    },
+    {
+      "id": "b3639ce8-1310-4520-8bd2-e7d6b563ce68",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.6,
+        53.15
+      ],
+      "end": [
+        103.699999,
+        53.25
+      ]
+    },
+    {
+      "id": "ca3a5cb3-af86-4a00-a774-05b63b306be7",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.20000100000000032,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.399999,
+        53.15
+      ],
+      "end": [
+        103.6,
+        53.15
+      ]
+    },
+    {
+      "id": "d1e815f4-1ebb-4d3b-9ba4-e75e75a285a2",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.10000099999999179,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.199999,
+        53.05
+      ],
+      "end": [
+        103.3,
+        53.05
+      ]
+    },
+    {
+      "id": "d54f5f22-25ad-4fb1-b28c-16261cabf641",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.09999899999999684,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.8,
+        52.85
+      ],
+      "end": [
+        102.899999,
+        52.85
+      ]
+    },
+    {
+      "id": "d82d5a27-5360-472c-8d3c-c970705e2505",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.14142135624438762,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.1,
+        52.949999
+      ],
+      "end": [
+        103.199999,
+        53.05
+      ]
+    },
+    {
+      "id": "e83192a7-459b-4399-8a08-24f3259191cb",
+      "net": "USB_VBUS_IN",
+      "layer": 34,
+      "length_mm": 0.14142206334585364,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.0,
+        52.449999
+      ],
+      "end": [
+        102.1,
+        52.55
+      ]
+    },
+    {
+      "id": "03a92706-9501-4792-abee-8b9322225a47",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14141994202375271,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.824999,
+        54.35
+      ],
+      "end": [
+        102.725,
+        54.449999
+      ]
+    },
+    {
+      "id": "09d5695f-3655-4a56-b4bc-039e3a4fec9f",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.225,
+        54.65
+      ],
+      "end": [
+        102.125,
+        54.65
+      ]
+    },
+    {
+      "id": "0bce63e6-f951-4dc5-87de-43630ab08fea",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142206334586369,
+      "before_mm": 0.25,
+      "after_mm": 0.3,
+      "start": [
+        104.899999,
+        54.35
+      ],
+      "end": [
+        105.0,
+        54.25
+      ]
+    },
+    {
+      "id": "0d07ef0c-937d-469c-8262-7e89208717a3",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142206334586369,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.125,
+        54.65
+      ],
+      "end": [
+        102.024999,
+        54.75
+      ]
+    },
+    {
+      "id": "0e0438c0-2e6a-4baa-8031-a79dfa15d2db",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142277045087534,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.625,
+        54.449999
+      ],
+      "end": [
+        102.524999,
+        54.55
+      ]
+    },
+    {
+      "id": "116bbfa1-8bd6-4de9-98ae-a5fc18c2a51f",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142206334585364,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.725,
+        53.949999
+      ],
+      "end": [
+        103.625,
+        54.05
+      ]
+    },
+    {
+      "id": "191e23a8-3855-41d3-97dd-5477191178fb",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142206334585364,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.925,
+        54.75
+      ],
+      "end": [
+        101.824999,
+        54.85
+      ]
+    },
+    {
+      "id": "19a47c93-5358-44cd-806f-45e13a7b3b74",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 2.900000999999989,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        107.225,
+        53.65
+      ],
+      "end": [
+        104.324999,
+        53.65
+      ]
+    },
+    {
+      "id": "230ec00d-f49a-4fec-ad78-9e7b4b1b7a5d",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999899999999684,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.024999,
+        54.75
+      ],
+      "end": [
+        101.925,
+        54.75
+      ]
+    },
+    {
+      "id": "250bdbfe-85a3-4093-91f3-348ae44183c6",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.19999999999998863,
+      "before_mm": 0.25,
+      "after_mm": 0.3,
+      "start": [
+        104.699999,
+        54.35
+      ],
+      "end": [
+        104.899999,
+        54.35
+      ]
+    },
+    {
+      "id": "287f680f-eaf4-45da-86db-8e723d3f1055",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999900000001105,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.824999,
+        54.85
+      ],
+      "end": [
+        101.725,
+        54.85
+      ]
+    },
+    {
+      "id": "2b2aad74-2061-480a-b580-6aff693f8a96",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        106.5,
+        54.25
+      ],
+      "end": [
+        106.6,
+        54.35
+      ]
+    },
+    {
+      "id": "2dd1dd47-1fc4-4d13-a059-9a4535fb29f2",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.19999999999998863,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.524999,
+        54.55
+      ],
+      "end": [
+        102.324999,
+        54.55
+      ]
+    },
+    {
+      "id": "38eb1a3b-c7a8-4024-bdea-cb6115d20a16",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.100001000000006,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.625,
+        54.949999
+      ],
+      "end": [
+        101.524999,
+        54.949999
+      ]
+    },
+    {
+      "id": "48fbc113-f135-4e61-83a8-b6cda0d5b945",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142206334585364,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.425,
+        54.05
+      ],
+      "end": [
+        103.324999,
+        54.15
+      ]
+    },
+    {
+      "id": "50a4c5c9-8eb4-4395-8158-10c991b35d91",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142064913229485,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.024999,
+        54.25
+      ],
+      "end": [
+        102.925,
+        54.35
+      ]
+    },
+    {
+      "id": "50f6ac6b-3ef6-4857-8788-252d7c0a20f0",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.225,
+        54.15
+      ],
+      "end": [
+        103.125,
+        54.25
+      ]
+    },
+    {
+      "id": "5ea19392-180e-4f18-83a0-f0f6ae503765",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.725,
+        54.449999
+      ],
+      "end": [
+        102.625,
+        54.449999
+      ]
+    },
+    {
+      "id": "68750906-3eb3-49f5-a279-d08e2a93e242",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.324999,
+        54.55
+      ],
+      "end": [
+        102.225,
+        54.65
+      ]
+    },
+    {
+      "id": "782d5d42-1ab6-4121-ad19-f44dc74bf21a",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.10000099999999179,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.925,
+        54.35
+      ],
+      "end": [
+        102.824999,
+        54.35
+      ]
+    },
+    {
+      "id": "7f1b5e94-76b0-4a5e-a20a-497b99cdbaf6",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142206334586369,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.125,
+        53.75
+      ],
+      "end": [
+        104.024999,
+        53.85
+      ]
+    },
+    {
+      "id": "8b75a298-b10a-43b9-a68b-5b9d3e638f07",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142135624437252,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.925,
+        53.85
+      ],
+      "end": [
+        103.824999,
+        53.949999
+      ]
+    },
+    {
+      "id": "a55a329d-146f-499e-9077-e8997971e47a",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142135624437757,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.524999,
+        54.949999
+      ],
+      "end": [
+        101.425,
+        55.05
+      ]
+    },
+    {
+      "id": "a6d0ecd3-f0bb-4757-a9a6-9d7b288d66ba",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.6000009999999918,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.425,
+        55.05
+      ],
+      "end": [
+        100.824999,
+        55.05
+      ]
+    },
+    {
+      "id": "c0db4c32-f9dc-4640-8d30-e4c01f9ba918",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.225,
+        53.75
+      ],
+      "end": [
+        104.125,
+        53.75
+      ]
+    },
+    {
+      "id": "c32192f3-d5cc-410e-97b2-a0ec22b090b2",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.324999,
+        53.65
+      ],
+      "end": [
+        104.225,
+        53.75
+      ]
+    },
+    {
+      "id": "c514b549-796a-41a7-a7b3-929d11f68c50",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999899999999684,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.024999,
+        53.85
+      ],
+      "end": [
+        103.925,
+        53.85
+      ]
+    },
+    {
+      "id": "d1898f01-c01b-429d-8e18-a563d25fe206",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999900000001105,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.824999,
+        53.949999
+      ],
+      "end": [
+        103.725,
+        53.949999
+      ]
+    },
+    {
+      "id": "d3afb84c-e23a-4f63-ac13-429551b280ae",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.100001000000006,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.125,
+        54.25
+      ],
+      "end": [
+        103.024999,
+        54.25
+      ]
+    },
+    {
+      "id": "d4e5e58d-dccf-4a35-857f-ed761ee478bc",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.14142064913228983,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        101.725,
+        54.85
+      ],
+      "end": [
+        101.625,
+        54.949999
+      ]
+    },
+    {
+      "id": "e21ce72f-85f6-49cd-9250-6e1f9207babb",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.625,
+        54.05
+      ],
+      "end": [
+        103.425,
+        54.05
+      ]
+    },
+    {
+      "id": "edfa0c14-27f8-4d11-a6f7-fe068ecabbcf",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 0.09999900000001105,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        103.324999,
+        54.15
+      ],
+      "end": [
+        103.225,
+        54.15
+      ]
+    },
+    {
+      "id": "1682243f-883f-42e6-98b7-5f1839d1e0bb",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 1.7999999999999972,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        98.962499,
+        57.65
+      ],
+      "end": [
+        98.962499,
+        55.85
+      ]
+    },
+    {
+      "id": "1b7d3d2c-06a4-4c00-9e9e-617f5e8cfc6f",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.11180250444870153,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        99.324999,
+        57.95
+      ],
+      "end": [
+        99.225,
+        58.0
+      ]
+    },
+    {
+      "id": "31c22386-02df-46ce-9233-1ec27fb896ae",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.5656847178429086,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        99.824999,
+        57.55
+      ],
+      "end": [
+        99.425,
+        57.95
+      ]
+    },
+    {
+      "id": "438aea5b-dc13-4cba-81d2-b36581bf42ab",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 1.0,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.625,
+        51.449999
+      ],
+      "end": [
+        104.625,
+        52.449999
+      ]
+    },
+    {
+      "id": "85e22f92-3df0-4c76-a0c3-66662c0178b4",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.0910001373735221,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        104.600001,
+        51.3625
+      ],
+      "end": [
+        104.625,
+        51.449999
+      ]
+    },
+    {
+      "id": "87a88c25-6489-4ff7-a265-34a844a9cc86",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.10000099999999179,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        99.425,
+        57.95
+      ],
+      "end": [
+        99.324999,
+        57.95
+      ]
+    },
+    {
+      "id": "b5579225-af61-4ab4-ac90-de05fe135b81",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        99.1625,
+        57.95
+      ],
+      "end": [
+        99.1625,
+        57.85
+      ]
+    },
+    {
+      "id": "c21bf3bc-5f48-4065-a098-74697f9dbc09",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.7000000000000028,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        95.8625,
+        51.75
+      ],
+      "end": [
+        95.1625,
+        51.75
+      ]
+    },
+    {
+      "id": "edde44b5-5b7c-400a-a9d6-9a6243dba514",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.08003905296790884,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        99.225,
+        58.0
+      ],
+      "end": [
+        99.1625,
+        57.95
+      ]
+    },
+    {
+      "id": "f0cb7399-576d-4807-9209-8500c1a99401",
+      "net": "USB_VBUS_SOFT",
+      "layer": 3,
+      "length_mm": 0.2828434195822863,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        99.1625,
+        57.85
+      ],
+      "end": [
+        98.962499,
+        57.65
+      ]
+    },
+    {
+      "id": "23b33d3d-9517-4869-aea7-257939c3a3ae",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 2.1213203435596424,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.125,
+        55.95
+      ],
+      "end": [
+        100.625,
+        57.45
+      ]
+    },
+    {
+      "id": "2fabfafd-a4a4-4803-b32a-443fe0a97e44",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.100001000000006,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.625,
+        57.45
+      ],
+      "end": [
+        100.524999,
+        57.45
+      ]
+    },
+    {
+      "id": "4de65643-78ae-41a5-8f72-81faf12bd4d4",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 3.252690486351417,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        98.962499,
+        55.85
+      ],
+      "end": [
+        96.6625,
+        53.55
+      ]
+    },
+    {
+      "id": "4df4a5c9-4938-4e8f-b9c6-ee06e456b5cf",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.14142064913228983,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.524999,
+        57.45
+      ],
+      "end": [
+        100.425,
+        57.55
+      ]
+    },
+    {
+      "id": "531804e3-b0c2-4ce6-8842-68b0ba528f79",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.1000009999999989,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        96.6625,
+        53.55
+      ],
+      "end": [
+        96.6625,
+        53.449999
+      ]
+    },
+    {
+      "id": "a29e203a-aba6-4a90-b356-6c5acf7f7efc",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        102.225,
+        55.95
+      ],
+      "end": [
+        102.125,
+        55.95
+      ]
+    },
+    {
+      "id": "acdb1d86-e748-4634-bb39-cc4b21f005f9",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.6000009999999918,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        100.425,
+        57.55
+      ],
+      "end": [
+        99.824999,
+        57.55
+      ]
+    },
+    {
+      "id": "dbf537cd-6cad-443a-a436-e96b35489900",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.8999999999999986,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        95.8625,
+        52.65
+      ],
+      "end": [
+        95.8625,
+        51.75
+      ]
+    },
+    {
+      "id": "efa47162-ba42-4cff-8e10-e683abff93da",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 1.1313701427919136,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        96.6625,
+        53.449999
+      ],
+      "end": [
+        95.8625,
+        52.65
+      ]
+    },
+    {
+      "id": "f2ea9043-2221-4d71-ac50-8424069acd73",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 3.252690486351417,
+      "before_mm": 0.25,
+      "after_mm": 0.3,
+      "start": [
+        104.524999,
+        53.65
+      ],
+      "end": [
+        102.225,
+        55.95
+      ]
+    },
+    {
+      "id": "f9dbe5b4-a9c3-4c6e-a955-954ccc1f4b3a",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 1.0,
+      "before_mm": 0.25,
+      "after_mm": 0.3,
+      "start": [
+        104.625,
+        52.449999
+      ],
+      "end": [
+        104.625,
+        53.449999
+      ]
+    }
+  ],
+  "retained_necks": [
+    {
+      "id": "227bdef9-0f7a-4d68-ab9b-6c5e3a233771",
+      "net": "USB_VBUS_IN",
+      "layer": 5,
+      "length_mm": 1.5,
+      "before_mm": 0.25,
+      "after_mm": 0.25,
+      "start": [
+        105.0,
+        54.25
+      ],
+      "end": [
+        106.5,
+        54.25
+      ]
+    },
+    {
+      "id": "09270438-1dd4-458f-b2e2-9a02f72f47e9",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.25,
+      "after_mm": 0.25,
+      "start": [
+        104.524999,
+        53.55
+      ],
+      "end": [
+        104.524999,
+        53.65
+      ]
+    },
+    {
+      "id": "8fe5666f-570d-4787-a3b9-0499cf528228",
+      "net": "USB_VBUS_SOFT",
+      "layer": 34,
+      "length_mm": 0.14142277045087534,
+      "before_mm": 0.25,
+      "after_mm": 0.25,
+      "start": [
+        104.625,
+        53.449999
+      ],
+      "end": [
+        104.524999,
+        53.55
+      ]
+    }
+  ],
+  "status": "candidate pending native DRC and voltage-drop assessment"
+}

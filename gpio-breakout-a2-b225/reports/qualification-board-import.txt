@@ -1,0 +1,371 @@
+Footprint of TP5 changed: board footprint 'TestPoint_Pad_1.5x1.5mm', netlist footprint 'TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Footprint of TP4 changed: board footprint 'TestPoint_Pad_1.5x1.5mm', netlist footprint 'TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Footprint of H2 changed: board footprint 'MountingHole_2.7mm_M2.5', netlist footprint 'MountingHole:MountingHole_2.7mm_M2.5'.
+Footprint of H1 changed: board footprint 'MountingHole_2.7mm_M2.5', netlist footprint 'MountingHole:MountingHole_2.7mm_M2.5'.
+Footprint of F1 changed: board footprint 'Fuse_1206_3216Metric', netlist footprint 'Fuse:Fuse_1206_3216Metric'.
+Footprint of J2 changed: board footprint 'PinHeader_2x20_P2.54mm_Vertical', netlist footprint 'Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Processing symbol 'J1:VAIO_CM5:Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm'.
+Added J1 (footprint 'VAIO_CM5:Samtec_ZF5S-40-01-T-WT_1x40_P0.50mm').
+Changed REF** reference designator to J1.
+Updated J1 symbol association from  to /bce3a937-678e-4698-a995-6d4162a63202.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'gpio_breakout.kicad_sch'.
+Connected J1 pin 8 to GND.
+Connected J1 pin 11 to +3V3_FFC.
+Connected J1 pin 13 to GPIO23.
+Connected J1 pin 16 to GPIO2.
+Connected J1 pin 22 to GPIO5.
+Connected J1 pin 31 to GPIO13.
+Connected J1 pin 32 to GPIO14.
+Connected J1 pin 3 to USB_VBUS.
+Connected J1 pin 19 to ID_SD.
+Connected J1 pin 38 to GPIO19.
+Connected J1 pin 28 to GPIO10.
+Connected J1 pin 33 to GPIO15.
+Connected J1 pin 14 to GPIO24.
+Connected J1 pin 29 to GPIO11.
+Connected J1 pin 5 to GND.
+Connected J1 pin 9 to +5V_FFC.
+Connected J1 pin 26 to GPIO9.
+Connected J1 pin 35 to GPIO16.
+Connected J1 pin 6 to USB_D_N.
+Connected J1 pin 36 to GPIO17.
+Connected J1 pin 4 to USB_VBUS.
+Connected J1 pin 24 to GPIO7.
+Connected J1 pin 12 to GND.
+Connected J1 pin 39 to GPIO20.
+Connected J1 pin 25 to GPIO8.
+Connected J1 pin 30 to GPIO12.
+Connected J1 pin 34 to GND.
+Connected J1 pin 27 to GND.
+Connected J1 pin 10 to +5V_FFC.
+Connected J1 pin 1 to USB_VBUS.
+Connected J1 pin 23 to GPIO6.
+Connected J1 pin 18 to GND.
+Connected J1 pin 20 to GND.
+Connected J1 pin 40 to GPIO21.
+Connected J1 pin 17 to GPIO3.
+Connected J1 pin 37 to GPIO18.
+Connected J1 pin 15 to ID_SC.
+Connected J1 pin 2 to USB_VBUS.
+Connected J1 pin 7 to USB_D_P.
+Connected J1 pin 21 to GPIO4.
+Updated J1 unit metadata.
+Processing symbol 'J3:USB_A2:USB_C_Receptacle_Molex_105450-0101'.
+Add net unconnected-(J3-RX2--PadA10).
+Connected J3 pin A10 to unconnected-(J3-RX2--PadA10).
+Add net unconnected-(J3-TX2+-PadB2).
+Connected J3 pin B2 to unconnected-(J3-TX2+-PadB2).
+Add net unconnected-(J3-RX1+-PadB11).
+Connected J3 pin B11 to unconnected-(J3-RX1+-PadB11).
+Add net unconnected-(J3-RX1--PadB10).
+Connected J3 pin B10 to unconnected-(J3-RX1--PadB10).
+Add net unconnected-(J3-SBU2-PadB8).
+Connected J3 pin B8 to unconnected-(J3-SBU2-PadB8).
+Add net unconnected-(J3-TX2--PadB3).
+Connected J3 pin B3 to unconnected-(J3-TX2--PadB3).
+Add net unconnected-(J3-TX1+-PadA2).
+Connected J3 pin A2 to unconnected-(J3-TX1+-PadA2).
+Add net unconnected-(J3-SBU1-PadA8).
+Connected J3 pin A8 to unconnected-(J3-SBU1-PadA8).
+Add net unconnected-(J3-TX1--PadA3).
+Connected J3 pin A3 to unconnected-(J3-TX1--PadA3).
+Add net unconnected-(J3-RX2+-PadA11).
+Connected J3 pin A11 to unconnected-(J3-RX2+-PadA11).
+Updated J3 unit metadata.
+Processing symbol 'TP5:TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Updated TP5 sheetname to '/'.
+Updated TP5 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated TP5 footprint filters to 'Pin* Test*'.
+Removed TP5 'exclude from BOM' fabrication attribute.
+Removed TP5 'exclude from position files' fabrication attribute.
+Updated TP5 unit metadata.
+Added TP5 'Do not place' fabrication attribute.
+Processing symbol 'TP4:TestPoint:TestPoint_Pad_1.5x1.5mm'.
+Updated TP4 sheetname to '/'.
+Updated TP4 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated TP4 footprint filters to 'Pin* Test*'.
+Removed TP4 'exclude from BOM' fabrication attribute.
+Removed TP4 'exclude from position files' fabrication attribute.
+Updated TP4 unit metadata.
+Added TP4 'Do not place' fabrication attribute.
+Processing symbol 'RN1:Resistor_SMD:R_Array_Convex_4x0603'.
+Added RN1 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to RN1.
+Changed RN1 value from R_Array_Convex_4x0603 to 0R x4 (DPI source option).
+Updated RN1 symbol association from  to /5a6c6d38-a886-4a64-b169-bdab4e4d138c.
+Updated RN1 fields.
+Updated RN1 sheetname to '/'.
+Updated RN1 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated RN1 footprint filters to 'DIP* SOIC* R*Array*Concave* R*Array*Convex*'.
+Add net GPIO2_PI.
+Connected RN1 pin 1 to GPIO2_PI.
+Connected RN1 pin 6 to GPIO4.
+Add net GPIO14_PI.
+Connected RN1 pin 4 to GPIO14_PI.
+Add net GPIO3_PI.
+Connected RN1 pin 2 to GPIO3_PI.
+Connected RN1 pin 5 to GPIO14.
+Add net GPIO4_PI.
+Connected RN1 pin 3 to GPIO4_PI.
+Connected RN1 pin 7 to GPIO3.
+Connected RN1 pin 8 to GPIO2.
+Updated RN1 unit metadata.
+Processing symbol 'RN6:Resistor_SMD:R_Array_Convex_4x0603'.
+Added RN6 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to RN6.
+Changed RN6 value from R_Array_Convex_4x0603 to 0R x4 (DPI source option).
+Updated RN6 symbol association from  to /53f096ab-baaf-4c72-bae0-8afdcb78adef.
+Updated RN6 fields.
+Updated RN6 sheetname to '/'.
+Updated RN6 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated RN6 footprint filters to 'DIP* SOIC* R*Array*Concave* R*Array*Convex*'.
+Connected RN6 pin 7 to GPIO16.
+Connected RN6 pin 5 to GPIO21.
+Connected RN6 pin 6 to GPIO20.
+Add net GPIO19_PI.
+Connected RN6 pin 1 to GPIO19_PI.
+Add net GPIO21_PI.
+Connected RN6 pin 4 to GPIO21_PI.
+Connected RN6 pin 8 to GPIO19.
+Add net GPIO16_PI.
+Connected RN6 pin 2 to GPIO16_PI.
+Add net GPIO20_PI.
+Connected RN6 pin 3 to GPIO20_PI.
+Updated RN6 unit metadata.
+Processing symbol 'RN5:Resistor_SMD:R_Array_Convex_4x0603'.
+Added RN5 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to RN5.
+Changed RN5 value from R_Array_Convex_4x0603 to 0R x4 (DPI source option).
+Updated RN5 symbol association from  to /19285ce1-1013-4825-9b81-03b6f755d5fc.
+Updated RN5 fields.
+Updated RN5 sheetname to '/'.
+Updated RN5 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated RN5 footprint filters to 'DIP* SOIC* R*Array*Concave* R*Array*Convex*'.
+Add net GPIO12_PI.
+Connected RN5 pin 3 to GPIO12_PI.
+Connected RN5 pin 8 to GPIO5.
+Add net GPIO6_PI.
+Connected RN5 pin 2 to GPIO6_PI.
+Add net GPIO5_PI.
+Connected RN5 pin 1 to GPIO5_PI.
+Add net GPIO13_PI.
+Connected RN5 pin 4 to GPIO13_PI.
+Connected RN5 pin 7 to GPIO6.
+Connected RN5 pin 6 to GPIO12.
+Connected RN5 pin 5 to GPIO13.
+Updated RN5 unit metadata.
+Processing symbol 'RN4:Resistor_SMD:R_Array_Convex_4x0603'.
+Added RN4 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to RN4.
+Changed RN4 value from R_Array_Convex_4x0603 to 0R x4 (DPI source option).
+Updated RN4 symbol association from  to /38aed8a5-ebef-4d79-a48a-80f2561a116b.
+Updated RN4 fields.
+Updated RN4 sheetname to '/'.
+Updated RN4 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated RN4 footprint filters to 'DIP* SOIC* R*Array*Concave* R*Array*Convex*'.
+Connected RN4 pin 7 to ID_SD.
+Add net unconnected-(RN4-R4.1-Pad4).
+Connected RN4 pin 4 to unconnected-(RN4-R4.1-Pad4).
+Connected RN4 pin 6 to ID_SC.
+Connected RN4 pin 8 to GPIO7.
+Add net ID_SD_PI.
+Connected RN4 pin 2 to ID_SD_PI.
+Add net GPIO7_PI.
+Connected RN4 pin 1 to GPIO7_PI.
+Add net unconnected-(RN4-R4.2-Pad5).
+Connected RN4 pin 5 to unconnected-(RN4-R4.2-Pad5).
+Add net ID_SC_PI.
+Connected RN4 pin 3 to ID_SC_PI.
+Updated RN4 unit metadata.
+Processing symbol 'RN3:Resistor_SMD:R_Array_Convex_4x0603'.
+Added RN3 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to RN3.
+Changed RN3 value from R_Array_Convex_4x0603 to 0R x4 (DPI source option).
+Updated RN3 symbol association from  to /86a34738-e6b4-469e-a27b-4db6cd38ad91.
+Updated RN3 fields.
+Updated RN3 sheetname to '/'.
+Updated RN3 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated RN3 footprint filters to 'DIP* SOIC* R*Array*Concave* R*Array*Convex*'.
+Add net GPIO9_PI.
+Connected RN3 pin 2 to GPIO9_PI.
+Connected RN3 pin 6 to GPIO11.
+Connected RN3 pin 8 to GPIO10.
+Add net GPIO8_PI.
+Connected RN3 pin 4 to GPIO8_PI.
+Connected RN3 pin 7 to GPIO9.
+Connected RN3 pin 5 to GPIO8.
+Add net GPIO10_PI.
+Connected RN3 pin 1 to GPIO10_PI.
+Add net GPIO11_PI.
+Connected RN3 pin 3 to GPIO11_PI.
+Updated RN3 unit metadata.
+Processing symbol 'RN2:Resistor_SMD:R_Array_Convex_4x0603'.
+Added RN2 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to RN2.
+Changed RN2 value from R_Array_Convex_4x0603 to 0R x4 (DPI source option).
+Updated RN2 symbol association from  to /3b60e327-1630-4ef1-9fa9-51bc1895405c.
+Updated RN2 fields.
+Updated RN2 sheetname to '/'.
+Updated RN2 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated RN2 footprint filters to 'DIP* SOIC* R*Array*Concave* R*Array*Convex*'.
+Add net unconnected-(RN2-R4.2-Pad5).
+Connected RN2 pin 5 to unconnected-(RN2-R4.2-Pad5).
+Add net unconnected-(RN2-R4.1-Pad4).
+Connected RN2 pin 4 to unconnected-(RN2-R4.1-Pad4).
+Add net GPIO15_PI.
+Connected RN2 pin 1 to GPIO15_PI.
+Add net GPIO18_PI.
+Connected RN2 pin 3 to GPIO18_PI.
+Connected RN2 pin 8 to GPIO15.
+Add net GPIO17_PI.
+Connected RN2 pin 2 to GPIO17_PI.
+Connected RN2 pin 7 to GPIO17.
+Connected RN2 pin 6 to GPIO18.
+Updated RN2 unit metadata.
+Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Updated R1 unit metadata.
+Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Updated R2 unit metadata.
+Processing symbol 'U3:Package_TO_SOT_SMD:Texas_DRT-3'.
+Updated U3 unit metadata.
+Processing symbol 'U2:Package_TO_SOT_SMD:Texas_DRT-3'.
+Updated U2 unit metadata.
+Processing symbol 'U1:Package_TO_SOT_SMD:SOT-363_SC-70-6'.
+Add net unconnected-(U1-NC-Pad4).
+Connected U1 pin 4 to unconnected-(U1-NC-Pad4).
+Add net USB_VBUS_SOFT.
+Reconnected U1 pin 1 from USB_VBUS_IN to USB_VBUS_SOFT.
+Updated U1 unit metadata.
+Processing symbol 'U4:Package_TO_SOT_SMD:SOT-23-6'.
+Added U4 (footprint 'Package_TO_SOT_SMD:SOT-23-6').
+Changed REF** reference designator to U4.
+Changed U4 value from SOT-23-6 to TPS22918DBVR.
+Updated U4 symbol association from  to /6cd75ed3-1972-49b0-aa57-af89c5ab0f26.
+Updated U4 fields.
+Updated U4 sheetname to '/'.
+Updated U4 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated U4 footprint filters to 'SOT?23*'.
+Connected U4 pin 6 to USB_VBUS_SOFT.
+Connected U4 pin 3 to USB_VBUS_IN.
+Connected U4 pin 1 to USB_VBUS_IN.
+Connected U4 pin 2 to GND.
+Add net USB_SLEW_CT.
+Connected U4 pin 4 to USB_SLEW_CT.
+Add net unconnected-(U4-QOD-Pad5).
+Connected U4 pin 5 to unconnected-(U4-QOD-Pad5).
+Updated U4 unit metadata.
+Processing symbol 'H2:MountingHole:MountingHole_2.7mm_M2.5'.
+Updated H2 sheetname to '/'.
+Updated H2 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated H2 footprint filters to 'MountingHole*'.
+Removed H2 'exclude from BOM' fabrication attribute.
+Removed H2 'exclude from position files' fabrication attribute.
+Updated H2 unit metadata.
+Added H2 'Do not place' fabrication attribute.
+Processing symbol 'H1:MountingHole:MountingHole_2.7mm_M2.5'.
+Updated H1 sheetname to '/'.
+Updated H1 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated H1 footprint filters to 'MountingHole*'.
+Removed H1 'exclude from BOM' fabrication attribute.
+Removed H1 'exclude from position files' fabrication attribute.
+Updated H1 unit metadata.
+Added H1 'Do not place' fabrication attribute.
+Processing symbol 'JP5:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Added JP5 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Changed REF** reference designator to JP5.
+Changed JP5 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to 3V3 LINK OPEN.
+Updated JP5 symbol association from  to /4d53d781-d6b8-4f01-bee1-940bcfd00d2d.
+Updated JP5 fields.
+Updated JP5 sheetname to '/'.
+Updated JP5 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated JP5 footprint filters to 'SolderJumper*Open*'.
+Removed JP5 'exclude from BOM' fabrication attribute.
+Removed JP5 'exclude from position files' fabrication attribute.
+Connected JP5 pin 1 to +3V3.
+Connected JP5 pin 2 to +3V3_FFC.
+Updated JP5 unit metadata.
+Processing symbol 'JP4:Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm'.
+Added JP4 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Changed REF** reference designator to JP4.
+Changed JP4 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to 5V LINK OPEN.
+Updated JP4 symbol association from  to /d2b7bf2a-c0d2-44a1-8c45-c9f673e09ba7.
+Updated JP4 fields.
+Updated JP4 sheetname to '/'.
+Updated JP4 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated JP4 footprint filters to 'SolderJumper*Open*'.
+Removed JP4 'exclude from BOM' fabrication attribute.
+Removed JP4 'exclude from position files' fabrication attribute.
+Connected JP4 pin 2 to +5V_LNK.
+Connected JP4 pin 1 to +5V.
+Updated JP4 unit metadata.
+Processing symbol 'F2:Fuse:Fuse_1206_3216Metric'.
+Updated F2 unit metadata.
+Processing symbol 'F1:Fuse:Fuse_1206_3216Metric'.
+Updated F1 fields.
+Updated F1 sheetname to '/'.
+Updated F1 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated F1 footprint filters to '*polyfuse* *PTC*'.
+Updated F1 unit metadata.
+Added F1 'Do not place' fabrication attribute.
+Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Updated J2 fields.
+Updated J2 sheetname to '/'.
+Updated J2 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated J2 footprint filters to 'Connector*:*_2x??_*'.
+Reconnected J2 pin 27 from ID_SD to ID_SD_PI.
+Reconnected J2 pin 7 from GPIO4 to GPIO4_PI.
+Reconnected J2 pin 5 from GPIO3 to GPIO3_PI.
+Reconnected J2 pin 19 from GPIO10 to GPIO10_PI.
+Reconnected J2 pin 10 from GPIO15 to GPIO15_PI.
+Reconnected J2 pin 12 from GPIO18 to GPIO18_PI.
+Reconnected J2 pin 33 from GPIO13 to GPIO13_PI.
+Reconnected J2 pin 36 from GPIO16 to GPIO16_PI.
+Reconnected J2 pin 26 from GPIO7 to GPIO7_PI.
+Reconnected J2 pin 11 from GPIO17 to GPIO17_PI.
+Reconnected J2 pin 23 from GPIO11 to GPIO11_PI.
+Reconnected J2 pin 35 from GPIO19 to GPIO19_PI.
+Reconnected J2 pin 32 from GPIO12 to GPIO12_PI.
+Reconnected J2 pin 24 from GPIO8 to GPIO8_PI.
+Reconnected J2 pin 8 from GPIO14 to GPIO14_PI.
+Reconnected J2 pin 31 from GPIO6 to GPIO6_PI.
+Reconnected J2 pin 29 from GPIO5 to GPIO5_PI.
+Reconnected J2 pin 28 from ID_SC to ID_SC_PI.
+Reconnected J2 pin 38 from GPIO20 to GPIO20_PI.
+Reconnected J2 pin 40 from GPIO21 to GPIO21_PI.
+Reconnected J2 pin 21 from GPIO9 to GPIO9_PI.
+Reconnected J2 pin 3 from GPIO2 to GPIO2_PI.
+Updated J2 unit metadata.
+Added J2 'Do not place' fabrication attribute.
+Processing symbol 'C4:Capacitor_SMD:C_0603_1608Metric'.
+Added C4 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C4.
+Changed C4 value from C_0603_1608Metric to 1u 16V X7R.
+Updated C4 symbol association from  to /53cf3d93-b003-48a3-a0d0-384bbab2fb89.
+Updated C4 fields.
+Updated C4 sheetname to '/'.
+Updated C4 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated C4 footprint filters to 'C_*'.
+Connected C4 pin 1 to USB_VBUS_SOFT.
+Connected C4 pin 2 to GND.
+Updated C4 unit metadata.
+Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
+Added C3 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C3.
+Changed C3 value from C_0603_1608Metric to 10n 50V C0G 5%.
+Updated C3 symbol association from  to /98d5ce06-b1e8-4d22-aa76-26fe4e5db4f2.
+Updated C3 fields.
+Updated C3 sheetname to '/'.
+Updated C3 sheetfile to 'gpio_breakout.kicad_sch'.
+Updated C3 footprint filters to 'C_*'.
+Connected C3 pin 1 to USB_SLEW_CT.
+Connected C3 pin 2 to GND.
+Updated C3 unit metadata.
+Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Updated C2 unit metadata.
+Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Updated C1 unit metadata.
+
+
+Total warnings: 0, errors: 0.

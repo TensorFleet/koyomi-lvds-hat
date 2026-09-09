@@ -1,0 +1,538 @@
+{
+  "created": "2026-09-09T02:17:54.419+00:00",
+  "run_id": "20260909T082142-4e01c546",
+  "revision": "gpio-a2-qualification-fixes",
+  "scope": "GPIO sources, reports, tools and native previews; no fabrication release or private repository inventory.",
+  "artifacts": [
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/Molex_1054500101_official.stp",
+      "sha256": "c70f02e35f4d3711f1b93e4e19d07a87fd4d6e9f06c242bb5558372dcba5b0ad",
+      "bytes": 586951
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/README.md",
+      "sha256": "daca99bcb5848a5d41d63d85d3cb2516d4aa93e8d48b3567a3ca8cd8d499d473",
+      "bytes": 910
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/ZF5S-40-01-nominal-envelope.wrl",
+      "sha256": "dac3c4146c83988ca89b61487ab3ac79a8c95181309af4dc37b3d83d45cd9282",
+      "bytes": 280
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/qualification/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "bytes": 43450
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/qualification/Fuse.3dshapes/Fuse_1206_3216Metric.step",
+      "sha256": "5e6dcbe286696143d35a8ea37d91eef4b54ff3d1bd7c2c2b4dedda83d3f8e203",
+      "bytes": 40429
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/qualification/GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/qualification/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "bytes": 99639
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/qualification/README.md",
+      "sha256": "327d0d6fe769121420149eb1c92cd947b6b02563e33f1a0d4e60fad14c60ad9d",
+      "bytes": 535
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/qualification/Resistor_SMD.3dshapes/R_Array_Convex_4x0603.step",
+      "sha256": "bec072c4d44e4c5ff693e18ede4078c7e66e7a670d53b00a20edd2c0aecdf3c2",
+      "bytes": 369661
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/standard/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "bytes": 43450
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/standard/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "bytes": 40618
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/standard/SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4",
+      "bytes": 101545
+    },
+    {
+      "path": "gpio-breakout-a2-b225/3dmodels/standard/Texas_DRT-3.step",
+      "sha256": "826a53de4a90e738d560e4a906235ba95541b3da40b62f22d8f9e30fd9f39744",
+      "bytes": 49485
+    },
+    {
+      "path": "gpio-breakout-a2-b225/GPIO_Qualification.kicad_sym",
+      "sha256": "ff9f6c9c27bccb8a959a74e5a761b23c8799d03471eda05f42faeb30a7a703fd",
+      "bytes": 3245
+    },
+    {
+      "path": "gpio-breakout-a2-b225/README.md",
+      "sha256": "188696afd842d29fcb48d4f055653df3b542de5f5c4fa389cb4e8a09f8e954de",
+      "bytes": 5755
+    },
+    {
+      "path": "gpio-breakout-a2-b225/fp-lib-table",
+      "sha256": "98ab69d44d8798ec87b766955bc53855f2715f79d764e106d316c66803643753",
+      "bytes": 279
+    },
+    {
+      "path": "gpio-breakout-a2-b225/gpio_breakout.kicad_pcb",
+      "sha256": "fc25e04aed25fc0094d64c32bc30104b626fe1165ffbb7e90a8c57916ff2e60d",
+      "bytes": 967886
+    },
+    {
+      "path": "gpio-breakout-a2-b225/gpio_breakout.kicad_pro",
+      "sha256": "ba3ad0e9e37a6c10782241c2a79f29ca523689d6359ba645a2425f74d677ebf3",
+      "bytes": 22057
+    },
+    {
+      "path": "gpio-breakout-a2-b225/gpio_breakout.kicad_sch",
+      "sha256": "318696ff14d9f45b238c8337d1508b61577e4c56837971118e5ead9886f4fc65",
+      "bytes": 264559
+    },
+    {
+      "path": "gpio-breakout-a2-b225/interface-pinout.csv",
+      "sha256": "7cddc296eecf027d9cdcb6d3f970d32e5ad7bbc64ed16b8c3744586bb874d222",
+      "bytes": 1336
+    },
+    {
+      "path": "gpio-breakout-a2-b225/renders/qualification-fixes-right.png",
+      "sha256": "04af318523c9701063c6cb115be9083a29dc0230969ada661f731cdd030b8760",
+      "bytes": 31652
+    },
+    {
+      "path": "gpio-breakout-a2-b225/renders/qualification-fixes-top.png",
+      "sha256": "0e24e7ed67419becf2088d22de6ff5b9cc7ed8361005d1fb1b01a27f4c44be8f",
+      "bytes": 197662
+    },
+    {
+      "path": "gpio-breakout-a2-b225/renders/schematic/gpio_breakout.svg",
+      "sha256": "21ac89ed13ea8c97afc6ef0f03d6b4c418531f7df4a0548de2e6140d20d87c6b",
+      "bytes": 1547599
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/bench-qualification-plan.md",
+      "sha256": "efb2865bc35a073e3bbc582a931062dc338da21b3c6f0c9195bb1316f6f0cf4b",
+      "bytes": 3828
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/c1-paste-current.json",
+      "sha256": "c999000edfc7fd3b1191f8677b960adb2515180e7a3cbd80893689c8516f5740",
+      "bytes": 807
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/c1-preflight-reference.json",
+      "sha256": "733a89cbf447625b7f6f93b58fc782df8aa9a45aecb3d5d0da9cea218a47c9d9",
+      "bytes": 875
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/dpi-qualification.json",
+      "sha256": "96040ac282f23c7047f1db02b5045190460389c4673611911c983a4873f9e343",
+      "bytes": 7556
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/interface-audit.json",
+      "sha256": "320bc9cfae81d25dfc751c579d4ad03de8c48ccb90f5da7f819ae90d989a4bfe",
+      "bytes": 6204
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/power-path-qualification.json",
+      "sha256": "411b678e544d024162c70cfff2799cf14130edc139fd604b5ebb7ec6522da072",
+      "bytes": 5581
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-board-import.txt",
+      "sha256": "0835ba098915e14d9fc541df019e89bba7667ecc84c3aa23a217add48614e584",
+      "bytes": 15880
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-fixes-drc.json",
+      "sha256": "ca511c8908598b1833401ee1d0c8c8f96148743a37c83e0914c3b3bc73d78e1a",
+      "bytes": 7878
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-fixes-erc.json",
+      "sha256": "8f2eff40cf33a25b212e0db7f54fa58a025788a62c155ec22af28f93e4040289",
+      "bytes": 19181
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-fixes-preservation.json",
+      "sha256": "7806b131f061a05bb68c032b3eaa0c568f2e937ca40a4f7f8d10b9f31c400cf7",
+      "bytes": 1092
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-fixes-verification.json",
+      "sha256": "fc2a8b81d549a033f7c9cd7a5f96d3332180f58c41b6a1ca46c11aaf8e1bbeac",
+      "bytes": 1335
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-fixes.md",
+      "sha256": "cf764d0a3337904a33b6c86a7c3575f260f2f53f4b5e69e9b8cde723d19726be",
+      "bytes": 7975
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-interface.json",
+      "sha256": "249fc480967155a8d36b2a5e0a7f7db15b5d116ed9f8ab3d90a5110265d2995f",
+      "bytes": 1766
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-native-snapshot.json",
+      "sha256": "c098d7c14647687ae037ac743ea2d7e5ce609af183d0b0697be3de8086be1bb1",
+      "bytes": 2234500
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-netlist.xml",
+      "sha256": "1974c6f90990175f72d739aa141cabfbfcd086604a0670b4234b3ddb1eb9fd25",
+      "bytes": 79281
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-placement.json",
+      "sha256": "2b844292ec88bdc8978561ba748ec2eff27262e8312a9221e058ba3a40c12eb2",
+      "bytes": 23448
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-route-pass.json",
+      "sha256": "412792868384d1476025645c94ab313515516ccbf37de4260f380d7d9ea0bff2",
+      "bytes": 93967
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-schematic-layout.json",
+      "sha256": "989a634bccb27e672f9f4442dba41cb16d0f9a370584a54ffefed60689d08f98",
+      "bytes": 1140
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/qualification-updated-netlist.xml",
+      "sha256": "bf9743553f218239e175f78876e69398a3a3d76a5a8e804513b22292af10ca2e",
+      "bytes": 78199
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/stackup-and-qualification.md",
+      "sha256": "6e4ebb81ce1276646bcf784b73517e16d9b954f3545acc60e893138d298a032d",
+      "bytes": 8208
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/startup-routing.json",
+      "sha256": "b0ce8c853c32cf14b96a384fe54a0fd96757d803a2c2357ee7e606efe8868ec3",
+      "bytes": 10044
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/startup-width-qualification.json",
+      "sha256": "8403dc94df0138bd47832d71a33fb5257f75ccced71560b3eca9bdcf68427d9c",
+      "bytes": 26291
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/usb2-path-audit.json",
+      "sha256": "dc528c82119adf1c18722a3ced1ad510551f7e0cffcd0d6ee5d9515625d00231",
+      "bytes": 17200
+    },
+    {
+      "path": "gpio-breakout-a2-b225/reports/usb2-short-joins.json",
+      "sha256": "c5077a6455129e81d616719e1a74004a9cb269ab88504d1438b16b36da74e047",
+      "bytes": 1475
+    },
+    {
+      "path": "gpio-breakout-a2-b225/sym-lib-table",
+      "sha256": "f38405c8e12d5e95ec7f4c8ddcb6e6dadf491c328db09c79bc790f801d2cdc9a",
+      "bytes": 344
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/add_qualification_circuit_ipc.py",
+      "sha256": "c1603b8794c08b657ac3256922503a151182b98928ecc78369d39210950f7184",
+      "bytes": 4615
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/add_usb2_schematic_ipc.py",
+      "sha256": "6fd85b675250c8acd5a9c3457516246c69a01f680a06d3760e03a1a6b16911a1",
+      "bytes": 3049
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/align_usb2_schematic_labels_ipc.py",
+      "sha256": "f989a8ff9f1fcc7983eb3f420a46debbbccd99cda855a03b3efcb0809484c9a5",
+      "bytes": 682
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/assets/R_Pack04-native-template.json",
+      "sha256": "3f35d0328197fc0f636f3ad2fdfa3f64198bc485da0d8967f2ba0fac653bd209",
+      "bytes": 28782
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/attach_envelope_ipc.py",
+      "sha256": "7f14d2e5ccfe8ce554620e52332575ac81012bb6cd1357ddb2401a68c13f9268",
+      "bytes": 767
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/attach_usb2_standard_models_ipc.py",
+      "sha256": "6de5a10a4380dda95c212c5d5ef0e87920461bbcde0d7c823146ade0a77ac1e3",
+      "bytes": 1738
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/audit_interface.py",
+      "sha256": "4f9d820a66af3413d0705585c085d3dbf5851a2b4b92de760dfc769f534c2936",
+      "bytes": 2866
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/audit_qualification_preservation_ipc.py",
+      "sha256": "068bd197e47d27be6e78ac0329834632215a1d070bb507fcb25f95d9bbe47798",
+      "bytes": 2101
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/audit_usb2_paths_ipc.py",
+      "sha256": "b7f5ef75128a0541f630f25bb117a8a6c1fdf018f3a6bba871e448e518ddfe2d",
+      "bytes": 6463
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/audit_usb2_preservation_ipc.py",
+      "sha256": "b6c098a4c0c9b01b5b3c69ff7f56859e39c67450c7bc401982c5d52acf6fec2a",
+      "bytes": 1795
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/build_samtec_library_native.py",
+      "sha256": "03057dc6dd17422f906f1680cb336984ab9e299a454d944f6c072c1d8601577a",
+      "bytes": 3843
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/clear_startup_courtyards_ipc.py",
+      "sha256": "5cb4d8fe491f221440fdfe09146662d11dbb851acf7ac4bdd85a38933a5e6f3a",
+      "bytes": 1231
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/close_remaining_ipc.py",
+      "sha256": "97d1988bb56b997ed110005cf82fb2552111c4494d193942d35b1add463ce897",
+      "bytes": 1401
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/close_usb2_ipc.py",
+      "sha256": "38e2da5da672a7f57de3a72a026fd4e24dbceeb0e19cb2682c6bfea580310b5f",
+      "bytes": 1836
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/complete_stackup_materials_ipc.py",
+      "sha256": "ceedaa4d1fe1e35b85aac7d3cd04780a3e27b7d10c99d3a7ca1ea20085cb1699",
+      "bytes": 846
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/export_qualification_symbol_library.py",
+      "sha256": "e45912a9af630502615a52b9b012a5a0998a27e001c12316888c7bd8ac1b8551",
+      "bytes": 1402
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/finish_addon_ipc.py",
+      "sha256": "0ffaa48f7b58f7c82e92b846b7fcbda2f6552b820ab4d209a8003d6d29911f4f",
+      "bytes": 1690
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/finish_qualification_board_ipc.py",
+      "sha256": "62d3d62a36bd802095e42513f61a824c7ff817f59647b9cb9dd9e2f66369d74f",
+      "bytes": 1895
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/finish_qualification_schematic_ipc.py",
+      "sha256": "20512e432161cb99bda302e9b835461bd1a28b5e1d8d3e6c6dced0e43d3c7795",
+      "bytes": 4135
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/finish_usb2_board_ipc.py",
+      "sha256": "3d24fda4dcfe808cfe495d6dfd373f6b33a59902f2ed7c8880684610190831dd",
+      "bytes": 2746
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/finish_usb2_returns_ipc.py",
+      "sha256": "a6ff1310e976fa1bb6a4ab9f80362cecdedca3982d48bacb88e995f899f25c48",
+      "bytes": 1740
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/finish_usb2_schematic_ipc.py",
+      "sha256": "108f20370d62566d2816abce4501add6684c13e6aa17e1f24e97e49afd86f568",
+      "bytes": 1220
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/import_qualification_circuit_ipc.py",
+      "sha256": "82e5656abceb61c80606fb9e55249813522ac0ce00b481c39fc75df4b37ce556",
+      "bytes": 2129
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/import_usb2_board_ipc.py",
+      "sha256": "c20a272633eec5c37f5ed2c482392780b50ae91a40eabc132c2aa06bad64651f",
+      "bytes": 3239
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/inspect_escape_ipc.py",
+      "sha256": "5c5c793a7201190583f6388c55fc3bc8f65a0b0427aaa0071e2d5c7af7a212aa",
+      "bytes": 519
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/inspect_usb2_ipc.py",
+      "sha256": "25cb721eb05aadc4633d81e164be45fd45eea10517c7b177f173aeefe1e792db",
+      "bytes": 587
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/inspect_usb2_symbol_graphics_ipc.py",
+      "sha256": "be42361c6856d69f649288ec3ec9d2d37f39c00efdb1986833bfb5d0ca99c032",
+      "bytes": 442
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/label_board_ipc.py",
+      "sha256": "ad7c77d4a9841c03a9b3658601ee76d82501bf9f0378cd3944adff03c07891cd",
+      "bytes": 600
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/native_astar.py",
+      "sha256": "987a60442a72c6b3251dd94203c57a424c28f27ae9a9d861a2687f70443bf95b",
+      "bytes": 16739
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/qualification_design.py",
+      "sha256": "4b5091cc1ded160dda69265a191106b63cc98fbc605cd2892e8530924a2582ac",
+      "bytes": 978
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/qualification_snapshot_ipc.py",
+      "sha256": "bcc08769bf19b8a71e0e6d4e019d89c71016994c0e21eb439aa151fffe562352",
+      "bytes": 948
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/qualify_dpi_geometry.py",
+      "sha256": "67cf79e97186eed76064bc047edd50f8d51eb070ebb7f15717c0e117ea8a3618",
+      "bytes": 2485
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/qualify_interface_snapshot.py",
+      "sha256": "efb8bc27b552ed94a5a7076757302caca51291c066070d0ba84fa0de66699a3c",
+      "bytes": 3667
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/qualify_power_paths.py",
+      "sha256": "dc7c2ea775eba086419f7f3248cc96e5fce299f4e6a0f36968e196eee430735b",
+      "bytes": 4842
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/qualify_stackup_ipc.py",
+      "sha256": "6929110dd538a70aa20f5a7f4164f77b0a5c6852f971fdba18b63c3303f6c7bf",
+      "bytes": 4823
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/remove_unused_vias_ipc.py",
+      "sha256": "07cb902e6406512343e704f1258b01dd7afee6d14f89056b90ad3570f04cf453",
+      "bytes": 491
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/repair_escape_ipc.py",
+      "sha256": "4516eaf54b16d42d9e3cc64351cb900ccc91f37ec12e39e6590ed2a4d42e1d90",
+      "bytes": 1506
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/repair_j1_paste_ipc.py",
+      "sha256": "7a5cca25f932912e9c04ff32ac15c7ca3483c8581e0cab6ee3b2e3a1a836a271",
+      "bytes": 3712
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/repair_qualification_placement_ipc.py",
+      "sha256": "d396663c4d4239c6908a740a265a4ed08fcec5517eeb673a094d99bc1b23bff0",
+      "bytes": 2368
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/repair_usb2_clearances_ipc.py",
+      "sha256": "68beee45ff5df58730b07e6d47098e496d79c3659ffa6e4282d17618eea49950",
+      "bytes": 1597
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/repair_usb2_symbol_graphics_ipc.py",
+      "sha256": "f647a4a388c2188dfa21ced75ca3901bcb7509850d01adc5bdfe05602a8f794f",
+      "bytes": 2896
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/restore_usb2_baseline_footprints_ipc.py",
+      "sha256": "24f6626e2d005e00d57ff417e47fbffb701c6f38be5bbbfa4cb42412b17d821c",
+      "bytes": 1030
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/review_manufacturing_findings_ipc.py",
+      "sha256": "c180e0b9e7d0422d76e6555c8857f74a1834197cb4eda941f1c16a916e7833d9",
+      "bytes": 1559
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/route_addon_ipc.py",
+      "sha256": "2c416236094466d957710f49785b70ab205d88e5c1c42131d32d72077ccdeb49",
+      "bytes": 3960
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/route_qualification_ipc.py",
+      "sha256": "276377b7a4af245522a037a6251915f43c2188c0c3b756211b09fe120ffa674b",
+      "bytes": 4096
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/route_startup_cleanup_ipc.py",
+      "sha256": "5f6e9c0a3b345ee7642cda7b35dc348778e1c8f11cc85e5b69835fe3207fa4f8",
+      "bytes": 1724
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/route_usb2_impedance_pair_ipc.py",
+      "sha256": "b7c45270e049142e9ecdad201a7ead81a033fd98c8fe23f27d319326ae34f57a",
+      "bytes": 1556
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/route_usb2_ipc.py",
+      "sha256": "da02df491bd726dd956ae702b569aab10ac3f2c6857988be245de0468dff5b72",
+      "bytes": 4803
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/route_usb2_vbus_reference_safe_ipc.py",
+      "sha256": "0d8a0e868442e64051f2c835fc806793da4b0110b22b36a629942445815b3dc5",
+      "bytes": 1836
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/set_qualification_parts_ipc.py",
+      "sha256": "468d943fc5e8b0a2c7a7d221c016395353b7bc0578ac497e7e60cf642768e871",
+      "bytes": 1464
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/shorten_usb2_contact_joins_ipc.py",
+      "sha256": "23ec384d0cd0387db39bf42855744aa5291b110c988646833659265ca0e26e55",
+      "bytes": 1426
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/summarize_qualification_evidence.py",
+      "sha256": "dba382f60733dbcbb0c4af35a27dfbbbeb8affa7ae26f763f846730bcdccc405",
+      "bytes": 3309
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/tidy_usb2_fanout_ipc.py",
+      "sha256": "f28b2038419778add4258bda9741de323d42a3000bcf1cb4e52313571fcaddbb",
+      "bytes": 1009
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/update_addon_ipc.py",
+      "sha256": "78f40fb010266f5a6e57eeb41631872edf1ccca970860ae322a160debb3b29e4",
+      "bytes": 8508
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/usb2_interface.py",
+      "sha256": "20aec0529a9ed1fa679cc0148624078f7588b178e65f7412db2460ce7ea61949",
+      "bytes": 1861
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/usb2_probe_ipc.py",
+      "sha256": "44a7fb5920f1662cd8087ec5b3c40635a3d23c80ba753ebec1b91d0a3e71401f",
+      "bytes": 1118
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/widen_power_qualification_ipc.py",
+      "sha256": "482182f03de9df67dd4c58e9428fd38eca61906b4c4c2e0ac3eb938321a7dcd4",
+      "bytes": 1948
+    },
+    {
+      "path": "gpio-breakout-a2-b225/tools/widen_startup_power_ipc.py",
+      "sha256": "80f4ddc4f6c09fc7911382c59f41f314723da32b9bdcf1cae8dbce4e37df26cd",
+      "bytes": 1896
+    }
+  ]
+}

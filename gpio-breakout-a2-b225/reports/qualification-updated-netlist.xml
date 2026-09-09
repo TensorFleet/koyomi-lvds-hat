@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/private/tmp/gpio-addon-b225/gpio-breakout-a2-b225/gpio_breakout.kicad_sch</source>
-    <date>2026-09-09T09:08:39</date>
+    <date>2026-09-09T08:32:13</date>
     <tool>Eeschema 10.99.0-3619-g0ef48b972f</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -79,15 +79,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="LCSC">C76599</field>
-        <field name="MPN">C1608C0G1H103JT000N</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="" part="C_2" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C76599"/>
-      <property name="MPN" value="C1608C0G1H103JT000N"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -500,15 +496,13 @@
       <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
       <description>4 resistor network, parallel topology</description>
       <fields>
-        <field name="LCSC">C1952</field>
-        <field name="MPN">4D03WGJ0000T5E</field>
+        <field name="LCSC">C425204</field>
         <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
         <field name="Datasheet"/>
         <field name="Description">4 resistor network, parallel topology</field>
       </fields>
       <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
-      <property name="LCSC" value="C1952"/>
-      <property name="MPN" value="4D03WGJ0000T5E"/>
+      <property name="LCSC" value="C425204"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="R network parallel topology isolated"/>
@@ -535,15 +529,13 @@
       <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
       <description>4 resistor network, parallel topology</description>
       <fields>
-        <field name="LCSC">C1952</field>
-        <field name="MPN">4D03WGJ0000T5E</field>
+        <field name="LCSC">C425204</field>
         <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
         <field name="Datasheet"/>
         <field name="Description">4 resistor network, parallel topology</field>
       </fields>
       <libsource lib="" part="R_Pack04_1" description="4 resistor network, parallel topology"/>
-      <property name="LCSC" value="C1952"/>
-      <property name="MPN" value="4D03WGJ0000T5E"/>
+      <property name="LCSC" value="C425204"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="R network parallel topology isolated"/>
@@ -570,15 +562,13 @@
       <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
       <description>4 resistor network, parallel topology</description>
       <fields>
-        <field name="LCSC">C1952</field>
-        <field name="MPN">4D03WGJ0000T5E</field>
+        <field name="LCSC">C425204</field>
         <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
         <field name="Datasheet"/>
         <field name="Description">4 resistor network, parallel topology</field>
       </fields>
       <libsource lib="" part="R_Pack04_2" description="4 resistor network, parallel topology"/>
-      <property name="LCSC" value="C1952"/>
-      <property name="MPN" value="4D03WGJ0000T5E"/>
+      <property name="LCSC" value="C425204"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="R network parallel topology isolated"/>
@@ -605,15 +595,13 @@
       <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
       <description>4 resistor network, parallel topology</description>
       <fields>
-        <field name="LCSC">C1952</field>
-        <field name="MPN">4D03WGJ0000T5E</field>
+        <field name="LCSC">C425204</field>
         <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
         <field name="Datasheet"/>
         <field name="Description">4 resistor network, parallel topology</field>
       </fields>
       <libsource lib="" part="R_Pack04_3" description="4 resistor network, parallel topology"/>
-      <property name="LCSC" value="C1952"/>
-      <property name="MPN" value="4D03WGJ0000T5E"/>
+      <property name="LCSC" value="C425204"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="R network parallel topology isolated"/>
@@ -640,15 +628,13 @@
       <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
       <description>4 resistor network, parallel topology</description>
       <fields>
-        <field name="LCSC">C1952</field>
-        <field name="MPN">4D03WGJ0000T5E</field>
+        <field name="LCSC">C425204</field>
         <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
         <field name="Datasheet"/>
         <field name="Description">4 resistor network, parallel topology</field>
       </fields>
       <libsource lib="" part="R_Pack04_4" description="4 resistor network, parallel topology"/>
-      <property name="LCSC" value="C1952"/>
-      <property name="MPN" value="4D03WGJ0000T5E"/>
+      <property name="LCSC" value="C425204"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="R network parallel topology isolated"/>
@@ -675,15 +661,13 @@
       <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
       <description>4 resistor network, parallel topology</description>
       <fields>
-        <field name="LCSC">C1952</field>
-        <field name="MPN">4D03WGJ0000T5E</field>
+        <field name="LCSC">C425204</field>
         <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
         <field name="Datasheet"/>
         <field name="Description">4 resistor network, parallel topology</field>
       </fields>
       <libsource lib="" part="R_Pack04_5" description="4 resistor network, parallel topology"/>
-      <property name="LCSC" value="C1952"/>
-      <property name="MPN" value="4D03WGJ0000T5E"/>
+      <property name="LCSC" value="C425204"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="R network parallel topology isolated"/>
@@ -841,15 +825,11 @@
       <datasheet>https://www.ti.com/lit/ds/symlink/tps22918.pdf</datasheet>
       <description>TPS22918 adjustable slew load switch, TI SLVSD76C pin table</description>
       <fields>
-        <field name="LCSC">C131941</field>
-        <field name="MPN">TPS22918DBVR</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps22918.pdf</field>
         <field name="Description">TPS22918 adjustable slew load switch, TI SLVSD76C pin table</field>
       </fields>
       <libsource lib="GPIO_Qualification" part="TPS22918DBV" description="TPS22918 adjustable slew load switch, TI SLVSD76C pin table"/>
-      <property name="LCSC" value="C131941"/>
-      <property name="MPN" value="TPS22918DBVR"/>
       <property name="Sheetname" value="gpio_breakout"/>
       <property name="Sheetfile" value="gpio_breakout.kicad_sch"/>
       <property name="ki_keywords" value="Texas Instruments"/>
@@ -1472,9 +1452,6 @@
     </library>
     <library logical="Device">
       <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
-    </library>
-    <library logical="GPIO_Qualification">
-      <uri>${KIPRJMOD}/GPIO_Qualification.kicad_sym</uri>
     </library>
     <library logical="Jumper">
       <uri>${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym</uri>
