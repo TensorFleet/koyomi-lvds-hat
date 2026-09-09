@@ -1,0 +1,4971 @@
+{
+  "before_sha256": "2c6f072db4b9506c57360b61d9fab2e97b7c9d0a572a46d01939f28a8e6b862c",
+  "after_sha256": "774aff4e3159156f8cd7f61904b6edf234c6d199369c33c3d8960b2dd12b9c4e",
+  "target_mm": 0.5,
+  "clearance_screen_mm": 0.205,
+  "widened": [
+    {
+      "id": "0a12dd79-5f60-4107-a273-5ea6ebc18c40",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 1.0300000000000011,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        105.83,
+        60.0
+      ],
+      "end": [
+        104.8,
+        60.0
+      ]
+    },
+    {
+      "id": "1532586e-3db1-428a-8f0c-5dfe463387e8",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        102.9,
+        56.55
+      ],
+      "end": [
+        103.0,
+        56.65
+      ]
+    },
+    {
+      "id": "16723cdf-8bd5-4cb8-895e-a1f5b7badd15",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.5,
+        57.75
+      ],
+      "end": [
+        103.5,
+        57.85
+      ]
+    },
+    {
+      "id": "23f2fb08-1c13-442f-af90-6696b72aab40",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.8999999999999986,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        105.0,
+        63.0
+      ],
+      "end": [
+        105.0,
+        63.9
+      ]
+    },
+    {
+      "id": "24b71fff-8f63-4357-b784-9567b8d8827d",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.19999999999999574,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.8,
+        63.9
+      ],
+      "end": [
+        104.8,
+        63.7
+      ]
+    },
+    {
+      "id": "2ce42cf5-1462-4201-8a4e-2c3f4f2db028",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.4,
+        57.55
+      ],
+      "end": [
+        103.4,
+        57.65
+      ]
+    },
+    {
+      "id": "3683992a-60d0-44f2-af8b-134ced4139cb",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.7071067811865476,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.8,
+        60.0
+      ],
+      "end": [
+        104.3,
+        59.5
+      ]
+    },
+    {
+      "id": "4666ceaf-f732-4ed6-8f8b-18ca5f9dee81",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        105.0,
+        63.9
+      ],
+      "end": [
+        104.8,
+        63.9
+      ]
+    },
+    {
+      "id": "4d147764-98fc-4cf6-b175-4c71cac193c1",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.4,
+        57.65
+      ],
+      "end": [
+        103.5,
+        57.75
+      ]
+    },
+    {
+      "id": "4f64d0f3-790a-43b3-90dc-835b87f0b840",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.4200000000000017,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        107.13,
+        60.25
+      ],
+      "end": [
+        107.55,
+        60.25
+      ]
+    },
+    {
+      "id": "55b58f24-e442-4d25-8b83-1a8da33013e0",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.2,
+        57.05
+      ],
+      "end": [
+        103.2,
+        57.15
+      ]
+    },
+    {
+      "id": "575e5a72-bf8d-4ef3-bf0a-550c61e84984",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.6,
+        57.95
+      ],
+      "end": [
+        103.6,
+        58.05
+      ]
+    },
+    {
+      "id": "6096689a-f62c-47d8-b21b-00da4a272fc9",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.3535533905932738,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.75,
+        62.75
+      ],
+      "end": [
+        109.0,
+        63.0
+      ]
+    },
+    {
+      "id": "6acd8d4e-78be-4078-9085-b498c975511d",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.8,
+        58.55
+      ],
+      "end": [
+        103.9,
+        58.65
+      ]
+    },
+    {
+      "id": "6c8ed5d9-cda1-44f3-91c3-7c4c66bb7f24",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.9,
+        58.65
+      ],
+      "end": [
+        103.9,
+        58.75
+      ]
+    },
+    {
+      "id": "735af642-cdf0-426a-bc25-5c7df3810d56",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 4.149999999999999,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        102.9,
+        52.4
+      ],
+      "end": [
+        102.9,
+        56.55
+      ]
+    },
+    {
+      "id": "80cce9f5-7c9d-4c58-bbc4-ef4f90a04f45",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.3,
+        57.25
+      ],
+      "end": [
+        103.3,
+        57.45
+      ]
+    },
+    {
+      "id": "83bbcbc5-c3bd-4687-ba83-0c42aec7d39a",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.1414213562373115,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.3,
+        57.45
+      ],
+      "end": [
+        103.4,
+        57.55
+      ]
+    },
+    {
+      "id": "9a8c9cfb-3066-4d0d-b94e-15bdfa71de73",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.0,
+        56.75
+      ],
+      "end": [
+        103.1,
+        56.85
+      ]
+    },
+    {
+      "id": "9ab9babe-cbb6-4dc4-b94c-e695d44150cb",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.1,
+        56.85
+      ],
+      "end": [
+        103.1,
+        56.95
+      ]
+    },
+    {
+      "id": "b2549de7-b10d-4fa6-863b-ab6be01afa0b",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.0,
+        56.65
+      ],
+      "end": [
+        103.0,
+        56.75
+      ]
+    },
+    {
+      "id": "b9f3b8d8-e2c4-4342-894c-d1853418e973",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.1414213562373115,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.1,
+        56.95
+      ],
+      "end": [
+        103.2,
+        57.05
+      ]
+    },
+    {
+      "id": "cd04ce92-69ac-4fed-a062-d948abe3730d",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 1.6200000000000045,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        107.13,
+        62.75
+      ],
+      "end": [
+        108.75,
+        62.75
+      ]
+    },
+    {
+      "id": "d2f1bf1d-3e4b-4167-b954-77ce140ed421",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.5,
+        57.85
+      ],
+      "end": [
+        103.6,
+        57.95
+      ]
+    },
+    {
+      "id": "d5c3f9c9-158b-47f2-aa11-2cd94e75a578",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.19999999999999574,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.8,
+        58.35
+      ],
+      "end": [
+        103.8,
+        58.55
+      ]
+    },
+    {
+      "id": "d6126df0-5ec9-4755-ae62-d081af7ac152",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.5999999999999943,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.9,
+        58.9
+      ],
+      "end": [
+        109.5,
+        58.9
+      ]
+    },
+    {
+      "id": "e376b319-a91e-4555-b6d1-d0675b7baaa9",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.8299999999999983,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        105.83,
+        63.0
+      ],
+      "end": [
+        105.0,
+        63.0
+      ]
+    },
+    {
+      "id": "e3e84e02-7e7d-4fbc-9423-41ac29b4b252",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.7,
+        58.25
+      ],
+      "end": [
+        103.8,
+        58.35
+      ]
+    },
+    {
+      "id": "ef2fe8af-3ac1-4fa8-8e33-e4c068be397b",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.7,
+        58.15
+      ],
+      "end": [
+        103.7,
+        58.25
+      ]
+    },
+    {
+      "id": "f2762f88-a28e-4e55-8258-fff15aa0266f",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.6,
+        58.05
+      ],
+      "end": [
+        103.7,
+        58.15
+      ]
+    },
+    {
+      "id": "fcb1ed1c-0986-490b-a308-df99f9c2b570",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.2,
+        57.15
+      ],
+      "end": [
+        103.3,
+        57.25
+      ]
+    },
+    {
+      "id": "00a4d193-b231-402f-9677-a8910d3f3e71",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.2,
+        59.35
+      ],
+      "end": [
+        104.1,
+        59.25
+      ]
+    },
+    {
+      "id": "148bf315-5615-41a3-bd9c-6e06fa6619bd",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.5,
+        63.2
+      ],
+      "end": [
+        108.6,
+        63.2
+      ]
+    },
+    {
+      "id": "18d29218-1f55-4e17-ada3-6c7d48ff38bd",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.8999999999999986,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        102.3,
+        59.85
+      ],
+      "end": [
+        102.3,
+        60.75
+      ]
+    },
+    {
+      "id": "20b0bf3c-a6d5-4cfe-ba6c-a02ecfcbfec9",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.19999999999998863,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        103.9,
+        63.75
+      ],
+      "end": [
+        104.1,
+        63.75
+      ]
+    },
+    {
+      "id": "2740248b-d58f-4e31-bc5b-881d6d48845a",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.11180339887498313,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.3,
+        59.5
+      ],
+      "end": [
+        104.2,
+        59.55
+      ]
+    },
+    {
+      "id": "2cbe7ca0-53a7-449f-b333-aa42fbbb4d56",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.565685424949246,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.3,
+        63.05
+      ],
+      "end": [
+        102.7,
+        63.45
+      ]
+    },
+    {
+      "id": "30f9bc66-cd7e-4d19-ad76-31861bb08751",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.10000000000000853,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.7,
+        59.45
+      ],
+      "end": [
+        102.6,
+        59.45
+      ]
+    },
+    {
+      "id": "3889c194-5f44-41cb-b668-d153e829c47e",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        107.5,
+        63.7
+      ],
+      "end": [
+        107.6,
+        63.6
+      ]
+    },
+    {
+      "id": "39439c69-4a51-4846-b9a3-eedd21c58bf8",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.0,
+        58.85
+      ],
+      "end": [
+        103.9,
+        58.75
+      ]
+    },
+    {
+      "id": "410c80a5-dc56-4e2b-9bb0-1dc7d0bce469",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 1.7000000000000028,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        110.4,
+        61.75
+      ],
+      "end": [
+        110.4,
+        60.05
+      ]
+    },
+    {
+      "id": "418efa7e-c339-49e9-a73b-f072421ac469",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.2,
+        59.45
+      ],
+      "end": [
+        104.2,
+        59.35
+      ]
+    },
+    {
+      "id": "4517ebb0-c192-4252-bb1d-313d55a2ebc1",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.282842712474618,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        103.7,
+        59.55
+      ],
+      "end": [
+        103.5,
+        59.35
+      ]
+    },
+    {
+      "id": "4ce85a5d-3d5d-4fd9-8861-a49300d51a61",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.1118033988749863,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        109.6,
+        58.95
+      ],
+      "end": [
+        109.5,
+        58.9
+      ]
+    },
+    {
+      "id": "5198af5e-a42a-46fb-bab7-e7e21347e980",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        109.9,
+        62.15
+      ],
+      "end": [
+        110.0,
+        62.15
+      ]
+    },
+    {
+      "id": "532fcfe4-a64a-4376-a172-4f8f36d5c85d",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.8,
+        59.35
+      ],
+      "end": [
+        102.7,
+        59.45
+      ]
+    },
+    {
+      "id": "534cf1b0-bf83-4b97-948e-f9d6b600a453",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.18027756377319512,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.7,
+        63.85
+      ],
+      "end": [
+        104.8,
+        63.7
+      ]
+    },
+    {
+      "id": "5e3de2bf-b501-4111-b510-20a3540a4743",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 2.700000000000003,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.8,
+        63.7
+      ],
+      "end": [
+        107.5,
+        63.7
+      ]
+    },
+    {
+      "id": "5fc24081-5975-4661-936a-42cc87662396",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.7000000000000028,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        103.5,
+        59.35
+      ],
+      "end": [
+        102.8,
+        59.35
+      ]
+    },
+    {
+      "id": "604e3fa8-a1f3-4871-a755-de5b64d9f853",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.565685424949241,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        110.0,
+        62.15
+      ],
+      "end": [
+        110.4,
+        61.75
+      ]
+    },
+    {
+      "id": "639a4723-3790-4726-963e-67c439ed1a65",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.4,
+        59.65
+      ],
+      "end": [
+        102.4,
+        59.75
+      ]
+    },
+    {
+      "id": "790cab40-d2cd-43b3-a94b-d3f2923f8a47",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.11180339887498313,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.3,
+        59.5
+      ],
+      "end": [
+        104.2,
+        59.45
+      ]
+    },
+    {
+      "id": "7c81bb7a-02ab-4f9b-b5b7-49bbc8eea461",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.4242640687119295,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.0,
+        63.6
+      ],
+      "end": [
+        108.3,
+        63.3
+      ]
+    },
+    {
+      "id": "8bf9501f-ad42-4c72-8f6d-0dddd66fa05f",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.1,
+        59.25
+      ],
+      "end": [
+        104.1,
+        59.15
+      ]
+    },
+    {
+      "id": "8cd974bd-6f5e-42b1-821e-3eba654a94a7",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623730145,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.4,
+        63.3
+      ],
+      "end": [
+        108.5,
+        63.2
+      ]
+    },
+    {
+      "id": "8ea62fc9-6790-42a3-930c-9e531abb453e",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        104.1,
+        63.75
+      ],
+      "end": [
+        104.2,
+        63.85
+      ]
+    },
+    {
+      "id": "944c933f-3f4e-4ea0-8010-c591df7c11a6",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.4000000000000057,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        107.6,
+        63.6
+      ],
+      "end": [
+        108.0,
+        63.6
+      ]
+    },
+    {
+      "id": "99acd3f0-ee37-4d0d-9a4a-0f0e662a41c0",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.42426406871193456,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        103.6,
+        63.45
+      ],
+      "end": [
+        103.9,
+        63.75
+      ]
+    },
+    {
+      "id": "9b23b744-0474-4003-b9d7-b1acdaf44c2c",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.28284271247460796,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        102.6,
+        59.45
+      ],
+      "end": [
+        102.4,
+        59.65
+      ]
+    },
+    {
+      "id": "a25f7322-b3f4-49c2-b300-f5fcd5112a8e",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.1,
+        59.15
+      ],
+      "end": [
+        104.0,
+        59.05
+      ]
+    },
+    {
+      "id": "a30cf3db-4216-4b46-b14c-d8ee25028c4f",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        109.7,
+        59.35
+      ],
+      "end": [
+        109.7,
+        59.25
+      ]
+    },
+    {
+      "id": "b1d3f532-d51e-4bdf-a6a3-83b52c4cba7c",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.5,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        102.3,
+        62.55
+      ],
+      "end": [
+        102.3,
+        63.05
+      ]
+    },
+    {
+      "id": "b1ea2c63-91ef-4db2-8259-804c0f6d15b8",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.282842712474618,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.5,
+        62.35
+      ],
+      "end": [
+        102.3,
+        62.55
+      ]
+    },
+    {
+      "id": "be5a9d54-bf35-4dbe-89cf-8215bbfefcfa",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        109.7,
+        59.25
+      ],
+      "end": [
+        109.6,
+        59.15
+      ]
+    },
+    {
+      "id": "c0b9c5d9-8381-4b22-b493-7799d42b5dda",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.5,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        104.2,
+        63.85
+      ],
+      "end": [
+        104.7,
+        63.85
+      ]
+    },
+    {
+      "id": "c11a5622-ee80-42fa-b9c1-8b2f623a0ac4",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 1.237941840314,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        109.0,
+        63.0
+      ],
+      "end": [
+        109.9,
+        62.15
+      ]
+    },
+    {
+      "id": "c588f880-6083-4860-8f5e-1819a14a5175",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.6,
+        63.2
+      ],
+      "end": [
+        108.7,
+        63.1
+      ]
+    },
+    {
+      "id": "c644f3df-1660-4bec-8886-8646f6b47b37",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.19999999999999574,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        109.6,
+        59.15
+      ],
+      "end": [
+        109.6,
+        58.95
+      ]
+    },
+    {
+      "id": "c6527890-0698-4e32-ad45-3ed1a1e6f47d",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.10000000000000853,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.3,
+        63.3
+      ],
+      "end": [
+        108.4,
+        63.3
+      ]
+    },
+    {
+      "id": "c652a37c-5cac-4241-927d-1213e51886c7",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.4,
+        59.75
+      ],
+      "end": [
+        102.3,
+        59.85
+      ]
+    },
+    {
+      "id": "c93016e5-c0cb-4a8f-b241-a353277a09ea",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.9899494936611656,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        110.4,
+        60.05
+      ],
+      "end": [
+        109.7,
+        59.35
+      ]
+    },
+    {
+      "id": "d22d5f23-8ca0-421b-95ed-f917e75beffe",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.8999999999999915,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        102.7,
+        63.45
+      ],
+      "end": [
+        103.6,
+        63.45
+      ]
+    },
+    {
+      "id": "e0f19591-903b-48e5-98cd-7df43893f282",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.9,
+        63.1
+      ],
+      "end": [
+        109.0,
+        63.0
+      ]
+    },
+    {
+      "id": "eb45ac82-f9e8-40c2-aaa3-36447ec23110",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        108.7,
+        63.1
+      ],
+      "end": [
+        108.9,
+        63.1
+      ]
+    },
+    {
+      "id": "ed6eeff3-e685-47b8-8475-9d02a35d3f0a",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.19999999999999574,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.0,
+        59.05
+      ],
+      "end": [
+        104.0,
+        58.85
+      ]
+    },
+    {
+      "id": "f19c939c-634b-4cca-aa66-e40b663cae11",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.5,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        104.2,
+        59.55
+      ],
+      "end": [
+        103.7,
+        59.55
+      ]
+    },
+    {
+      "id": "f67a93df-9327-4647-a33c-c13bdc1855e1",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 1.3999999999999986,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        102.5,
+        60.95
+      ],
+      "end": [
+        102.5,
+        62.35
+      ]
+    },
+    {
+      "id": "f85a0317-6261-43a9-a075-9551ef918553",
+      "net": "USB_VBUS_RAW",
+      "layer": 34,
+      "length_mm": 0.282842712474623,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        102.3,
+        60.75
+      ],
+      "end": [
+        102.5,
+        60.95
+      ]
+    },
+    {
+      "id": "0bd27c0a-924f-4d7a-ae39-147c63cee049",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.05,
+        55.65
+      ],
+      "end": [
+        89.95,
+        55.55
+      ]
+    },
+    {
+      "id": "248c3cdb-9866-4d6e-82d5-dba9f9c75659",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 1.79605122421383,
+      "before_mm": 0.25,
+      "after_mm": 0.4,
+      "start": [
+        92.75,
+        55.23
+      ],
+      "end": [
+        94.02,
+        56.5
+      ]
+    },
+    {
+      "id": "266f5fd9-6abb-4d1d-b71d-afe24e431b74",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.7071067811865476,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.725,
+        57.5
+      ],
+      "end": [
+        95.225,
+        58.0
+      ]
+    },
+    {
+      "id": "27ae1c28-60ce-4f13-9058-793174a72993",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.7049999999999983,
+      "before_mm": 0.25,
+      "after_mm": 0.5,
+      "start": [
+        94.02,
+        56.5
+      ],
+      "end": [
+        94.725,
+        56.5
+      ]
+    },
+    {
+      "id": "2cbf57ff-3618-4bf6-bb90-278d6d53e302",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.10000000000000853,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.95,
+        55.55
+      ],
+      "end": [
+        89.85,
+        55.55
+      ]
+    },
+    {
+      "id": "314fdd56-e3f0-42e2-ae4c-865c2607edd4",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.10000000000000853,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.65,
+        55.85
+      ],
+      "end": [
+        90.55,
+        55.85
+      ]
+    },
+    {
+      "id": "32f04116-c7bd-403b-965b-b828d907045a",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        91.25,
+        56.15
+      ],
+      "end": [
+        91.15,
+        56.15
+      ]
+    },
+    {
+      "id": "3722c831-1649-4947-95e8-4ce4ea331ad6",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.10000000000000853,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.15,
+        55.65
+      ],
+      "end": [
+        90.05,
+        55.65
+      ]
+    },
+    {
+      "id": "3d6af61f-7d5f-4972-9c59-1fd29cda85e4",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.09013878188658869,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.725,
+        56.5
+      ],
+      "end": [
+        94.65,
+        56.55
+      ]
+    },
+    {
+      "id": "3ffec0d4-8150-4238-9d70-91a843f77a9a",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623730145,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        92.05,
+        56.55
+      ],
+      "end": [
+        91.95,
+        56.45
+      ]
+    },
+    {
+      "id": "402f9d1b-2a22-4b0b-a275-15a9025b3e9c",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.15620499351813294,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        89.35,
+        55.35
+      ],
+      "end": [
+        89.25,
+        55.23
+      ]
+    },
+    {
+      "id": "40a15076-b9b4-4d6a-a120-5b2d3c4731cf",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.16007732506822245,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        96.962499,
+        51.85
+      ],
+      "end": [
+        96.8375,
+        51.75
+      ]
+    },
+    {
+      "id": "49c59e08-e479-4f0f-b906-fdeecc4b234f",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.2999989999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.1625,
+        53.05
+      ],
+      "end": [
+        95.462499,
+        53.05
+      ]
+    },
+    {
+      "id": "4ada10a4-88f8-4c8c-b11a-9569ccbf7173",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.85,
+        55.95
+      ],
+      "end": [
+        90.75,
+        55.95
+      ]
+    },
+    {
+      "id": "5066f07d-686a-4ede-b02d-0189a132daae",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.600001000000006,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        97.5625,
+        51.85
+      ],
+      "end": [
+        96.962499,
+        51.85
+      ]
+    },
+    {
+      "id": "670079cf-0f6f-4097-bcd8-d8e3b823191c",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.75,
+        55.95
+      ],
+      "end": [
+        90.65,
+        55.85
+      ]
+    },
+    {
+      "id": "6828f276-0dfd-4421-9daf-7d56d61a0911",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.10000099999999179,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.762499,
+        53.35
+      ],
+      "end": [
+        95.8625,
+        53.35
+      ]
+    },
+    {
+      "id": "89b4a6f8-4705-44fb-909d-8c0b3928e6a9",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.55,
+        55.85
+      ],
+      "end": [
+        90.45,
+        55.75
+      ]
+    },
+    {
+      "id": "8f39426c-8ddb-4638-8158-1e38d68da76d",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.3999999999999986,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.824999,
+        53.75
+      ],
+      "end": [
+        94.824999,
+        53.35
+      ]
+    },
+    {
+      "id": "90951272-f1fc-4838-9bab-d2f0348c2bdc",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 1.0,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.725,
+        56.5
+      ],
+      "end": [
+        94.725,
+        57.5
+      ]
+    },
+    {
+      "id": "a36153fa-b36f-447a-ba26-34845286cb2b",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        91.15,
+        56.15
+      ],
+      "end": [
+        91.05,
+        56.05
+      ]
+    },
+    {
+      "id": "a5fc37b6-16a5-4914-8955-6519f43c547b",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623730648,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.25,
+        55.75
+      ],
+      "end": [
+        90.15,
+        55.65
+      ]
+    },
+    {
+      "id": "ad638f9f-a469-408b-a256-bab59ce043ed",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.725,
+        53.85
+      ],
+      "end": [
+        94.824999,
+        53.75
+      ]
+    },
+    {
+      "id": "b99879d1-10d8-4d56-bfb7-eb78bdbc1277",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 2.0,
+      "before_mm": 0.25,
+      "after_mm": 0.4,
+      "start": [
+        90.75,
+        55.23
+      ],
+      "end": [
+        92.75,
+        55.23
+      ]
+    },
+    {
+      "id": "ba3f40a9-9e14-4bbf-a288-b1b4b4436ef4",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623730145,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.85,
+        55.55
+      ],
+      "end": [
+        89.75,
+        55.45
+      ]
+    },
+    {
+      "id": "baa6cf3e-5e68-4989-8844-099868ab72ff",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.1414213562373115,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.95,
+        56.05
+      ],
+      "end": [
+        90.85,
+        55.95
+      ]
+    },
+    {
+      "id": "c057c6f6-038e-4f6c-a37a-846092037398",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.42426406871193956,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.462499,
+        53.05
+      ],
+      "end": [
+        95.762499,
+        53.35
+      ]
+    },
+    {
+      "id": "c4d9545b-9b95-43a6-a69d-115668e5de28",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 2.6499999999999986,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.725,
+        56.5
+      ],
+      "end": [
+        94.725,
+        53.85
+      ]
+    },
+    {
+      "id": "c90a92f6-a898-4b49-b476-71ffe01c0a1d",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.4000000000000057,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        91.95,
+        56.45
+      ],
+      "end": [
+        91.55,
+        56.45
+      ]
+    },
+    {
+      "id": "d7d65506-4e46-4323-8451-04d7bb028a8f",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.4515605441145131,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.824999,
+        53.35
+      ],
+      "end": [
+        95.1625,
+        53.05
+      ]
+    },
+    {
+      "id": "dfd7c86b-111f-4dc7-8e88-0893cfae27a3",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        89.55,
+        55.35
+      ],
+      "end": [
+        89.35,
+        55.35
+      ]
+    },
+    {
+      "id": "ec7cc796-a8f6-4245-b236-135436b2797a",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 2.6000000000000085,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.65,
+        56.55
+      ],
+      "end": [
+        92.05,
+        56.55
+      ]
+    },
+    {
+      "id": "ec8a6b35-74c1-4414-998d-dfd13e82ede0",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.45,
+        55.75
+      ],
+      "end": [
+        90.25,
+        55.75
+      ]
+    },
+    {
+      "id": "eff64192-5e76-4d5b-8cdd-dc8891731675",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142135623731653,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.65,
+        55.45
+      ],
+      "end": [
+        89.55,
+        55.35
+      ]
+    },
+    {
+      "id": "f2ac4058-613e-4b86-b7c6-5996fc660857",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.75,
+        55.45
+      ],
+      "end": [
+        89.65,
+        55.45
+      ]
+    },
+    {
+      "id": "f7266193-2dba-46c6-b065-27f3d85cb8e7",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.4242640687119295,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        91.55,
+        56.45
+      ],
+      "end": [
+        91.25,
+        56.15
+      ]
+    },
+    {
+      "id": "fe90805c-3c6a-46dc-af34-32d65f57e7ff",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        91.05,
+        56.05
+      ],
+      "end": [
+        90.95,
+        56.05
+      ]
+    },
+    {
+      "id": "09d36b08-2656-4aea-bee8-7a6c54071a9f",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.2121327414639252,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        54.25,
+        58.0
+      ],
+      "end": [
+        54.1,
+        57.849999
+      ]
+    },
+    {
+      "id": "0ade5655-b3ee-4933-81ea-6a660da523d1",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.14999999999999858,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.8,
+        63.099999
+      ],
+      "end": [
+        53.8,
+        62.949999
+      ]
+    },
+    {
+      "id": "1d7bdfb9-e0ce-484b-92f4-f0b4fe645144",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.14999999999999858,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        54.4,
+        58.0
+      ],
+      "end": [
+        54.25,
+        58.0
+      ]
+    },
+    {
+      "id": "31ad425d-a676-404d-bf47-ce87978250b0",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.15811483169203758,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.3,
+        64.0
+      ],
+      "end": [
+        53.35,
+        63.849999
+      ]
+    },
+    {
+      "id": "48c792ba-0c10-4b36-9e83-ca0bc96df37f",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.2999989999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.35,
+        63.849999
+      ],
+      "end": [
+        53.35,
+        63.55
+      ]
+    },
+    {
+      "id": "6c42a87c-b3a2-488b-9fc8-1767a1e42bdf",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.21213203435596226,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        54.55,
+        60.099999
+      ],
+      "end": [
+        54.4,
+        59.949999
+      ]
+    },
+    {
+      "id": "773a174a-a8b4-4be6-85c5-b53c5c358c3b",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.636396810175064,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.35,
+        63.55
+      ],
+      "end": [
+        53.8,
+        63.099999
+      ]
+    },
+    {
+      "id": "7ca7aa58-4bcd-4954-946a-bb81ff019e72",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.15000100000000316,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        54.1,
+        57.849999
+      ],
+      "end": [
+        53.949999,
+        57.849999
+      ]
+    },
+    {
+      "id": "7d8c328f-7243-40dc-9ac5-d77f1b8aded3",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.24999940000128293,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.5,
+        57.699999
+      ],
+      "end": [
+        53.3,
+        57.55
+      ]
+    },
+    {
+      "id": "96914213-c88d-4f2c-9f4f-664d8866add2",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 1.9499989999999983,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        54.4,
+        59.949999
+      ],
+      "end": [
+        54.4,
+        58.0
+      ]
+    },
+    {
+      "id": "a259fe81-d71b-45fe-bd4c-83f909d0ab6b",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 2.1000000000000014,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        54.55,
+        62.199999
+      ],
+      "end": [
+        54.55,
+        60.099999
+      ]
+    },
+    {
+      "id": "bca2e880-1cfe-44c6-9899-bea26d3bce7b",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 1.0606601717798212,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        53.8,
+        62.949999
+      ],
+      "end": [
+        54.55,
+        62.199999
+      ]
+    },
+    {
+      "id": "ed23e884-0335-46a9-9089-8e1bdae2c8ae",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.21213132725036135,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.949999,
+        57.849999
+      ],
+      "end": [
+        53.8,
+        57.699999
+      ]
+    },
+    {
+      "id": "ff875d97-fbd6-49a7-8934-d9db6c042f8e",
+      "net": "+5V_LNK",
+      "layer": 3,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.8,
+        57.699999
+      ],
+      "end": [
+        53.5,
+        57.699999
+      ]
+    },
+    {
+      "id": "0708a63c-bbd2-4f62-8cb6-2e87036b65f5",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 1.7000000000000028,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.2,
+        65.5
+      ],
+      "end": [
+        90.2,
+        67.2
+      ]
+    },
+    {
+      "id": "20c9da91-cf43-4968-a571-2e8b911957ce",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 0.970000000000006,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.25,
+        55.23
+      ],
+      "end": [
+        86.25,
+        56.2
+      ]
+    },
+    {
+      "id": "272511ad-bbed-4a03-98bc-8e77389e246f",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 0.970000000000006,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.75,
+        55.23
+      ],
+      "end": [
+        86.75,
+        56.2
+      ]
+    },
+    {
+      "id": "3e7e9d7a-9614-497e-ba2d-1d3a59725428",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 9.818986709431885,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.25,
+        56.2
+      ],
+      "end": [
+        89.4,
+        65.5
+      ]
+    },
+    {
+      "id": "4055d4f6-bd69-48d7-97c0-91d9667e2830",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 0.9192381084360074,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.3,
+        61.2
+      ],
+      "end": [
+        53.949999,
+        60.55
+      ]
+    },
+    {
+      "id": "fb26a09a-b297-45dd-b917-800a495c875c",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 0.7000000000000028,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.4,
+        65.5
+      ],
+      "end": [
+        89.4,
+        66.2
+      ]
+    },
+    {
+      "id": "02dd37fe-9a01-4205-aa4a-3a6848060acf",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.6363961030678968,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.55,
+        66.5
+      ],
+      "end": [
+        90.0,
+        66.95
+      ]
+    },
+    {
+      "id": "189b1448-89a3-4cdc-bebf-f095e7a86f24",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.0,
+        66.95
+      ],
+      "end": [
+        90.0,
+        67.1
+      ]
+    },
+    {
+      "id": "1d118476-56ff-46f0-b76c-38ef3e18d7ac",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000099999998895,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        84.699999,
+        64.15
+      ],
+      "end": [
+        84.85,
+        64.15
+      ]
+    },
+    {
+      "id": "1ebeb203-0873-42a3-b58a-8f9f3e2344ae",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        88.6,
+        65.95
+      ],
+      "end": [
+        88.75,
+        65.95
+      ]
+    },
+    {
+      "id": "258ec518-9e50-4237-9de0-28eb6a4f1231",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213274146392017,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        87.4,
+        65.349999
+      ],
+      "end": [
+        87.55,
+        65.5
+      ]
+    },
+    {
+      "id": "2617cd63-5302-4456-a740-e6b327a156b0",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213203435596226,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.5,
+        64.9
+      ],
+      "end": [
+        86.65,
+        65.05
+      ]
+    },
+    {
+      "id": "2dd3969f-9ea1-40a0-85b2-77676710f415",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213132725036135,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        87.1,
+        65.2
+      ],
+      "end": [
+        87.25,
+        65.349999
+      ]
+    },
+    {
+      "id": "3abcada6-fdc1-408b-884f-32e65176a3fe",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213203436066624,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        85.449999,
+        64.45
+      ],
+      "end": [
+        85.6,
+        64.599999
+      ]
+    },
+    {
+      "id": "3bf85fbc-688c-4b3b-9266-a82fa30403bd",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.1499990000000082,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        85.3,
+        64.45
+      ],
+      "end": [
+        85.449999,
+        64.45
+      ]
+    },
+    {
+      "id": "42370a5f-0de9-4001-b5de-53df5d0a818d",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121313272503714,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        86.8,
+        65.05
+      ],
+      "end": [
+        86.949999,
+        65.2
+      ]
+    },
+    {
+      "id": "45587187-c63c-4b93-8289-5ce517669448",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.35,
+        64.9
+      ],
+      "end": [
+        86.5,
+        64.9
+      ]
+    },
+    {
+      "id": "48185045-67e9-4419-86fb-73e9f6145a56",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213132725036637,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        83.5,
+        63.55
+      ],
+      "end": [
+        83.65,
+        63.699999
+      ]
+    },
+    {
+      "id": "4f9bf437-ef17-4ca0-8120-5554bd7d2634",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 12.899999999999999,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.949999,
+        60.55
+      ],
+      "end": [
+        66.849999,
+        60.55
+      ]
+    },
+    {
+      "id": "50969182-ccf2-41b6-80d2-0bd12d4152d9",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        85.0,
+        64.3
+      ],
+      "end": [
+        85.15,
+        64.3
+      ]
+    },
+    {
+      "id": "5212fe9d-f0a1-4094-a0a4-f034861ed596",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213274146392017,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.199999,
+        64.75
+      ],
+      "end": [
+        86.35,
+        64.9
+      ]
+    },
+    {
+      "id": "5c1e4d2d-c0dc-4dad-ac42-1c6e6b5cae31",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        83.65,
+        63.699999
+      ],
+      "end": [
+        83.8,
+        63.699999
+      ]
+    },
+    {
+      "id": "5cef5ed9-6389-4fbc-958e-8bb23449eeb6",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121320343559522,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        88.15,
+        65.65
+      ],
+      "end": [
+        88.3,
+        65.8
+      ]
+    },
+    {
+      "id": "640caf9d-0132-4de6-94a1-595e35771c61",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000099999998895,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        83.949999,
+        63.849999
+      ],
+      "end": [
+        84.1,
+        63.849999
+      ]
+    },
+    {
+      "id": "72852b00-876f-4da4-a8de-105de006834f",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213203435596226,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        84.85,
+        64.15
+      ],
+      "end": [
+        85.0,
+        64.3
+      ]
+    },
+    {
+      "id": "73e81f94-df56-4137-bc37-29aa5306f027",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.1499990000000082,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        88.3,
+        65.8
+      ],
+      "end": [
+        88.449999,
+        65.8
+      ]
+    },
+    {
+      "id": "7980f554-0eb2-4f68-8843-0f20ed60c645",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213132725036637,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        83.8,
+        63.699999
+      ],
+      "end": [
+        83.949999,
+        63.849999
+      ]
+    },
+    {
+      "id": "7d689df6-b41c-4ea4-b1d8-5ee57ac4b4f1",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        85.6,
+        64.599999
+      ],
+      "end": [
+        85.75,
+        64.599999
+      ]
+    },
+    {
+      "id": "7da6417b-4b97-4325-b685-e4d2759e4387",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 4.242641394226124,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        66.849999,
+        60.55
+      ],
+      "end": [
+        69.85,
+        63.55
+      ]
+    },
+    {
+      "id": "7e2221f6-a823-4f54-b783-6b97a7d5d24d",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121320343559723,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        87.85,
+        65.5
+      ],
+      "end": [
+        88.0,
+        65.65
+      ]
+    },
+    {
+      "id": "7fd00c6f-44ff-442d-8205-9a77f7be0077",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        84.25,
+        64.0
+      ],
+      "end": [
+        84.55,
+        64.0
+      ]
+    },
+    {
+      "id": "8f05e1b2-71e9-44bb-9d00-6527d2fc8ec8",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213274146392017,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        88.449999,
+        65.8
+      ],
+      "end": [
+        88.6,
+        65.95
+      ]
+    },
+    {
+      "id": "8fab4f65-58ce-4e2e-84ef-04efd5cd95e2",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.55,
+        66.35
+      ],
+      "end": [
+        89.55,
+        66.5
+      ]
+    },
+    {
+      "id": "97af7059-68ee-4eea-ae59-1dbc6825d938",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213132725036135,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        88.75,
+        65.95
+      ],
+      "end": [
+        88.9,
+        66.099999
+      ]
+    },
+    {
+      "id": "99d7f3cd-7d38-47d1-aaf4-1618334d0e15",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2999989999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        88.9,
+        66.099999
+      ],
+      "end": [
+        89.199999,
+        66.099999
+      ]
+    },
+    {
+      "id": "a295e7f5-d615-435c-bc24-1e90d12104c7",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2999989999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        85.9,
+        64.75
+      ],
+      "end": [
+        86.199999,
+        64.75
+      ]
+    },
+    {
+      "id": "aeede377-2cf3-412b-aba6-7737118a1848",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        86.65,
+        65.05
+      ],
+      "end": [
+        86.8,
+        65.05
+      ]
+    },
+    {
+      "id": "be2cbcfe-bb2b-490f-9c46-1d367abe19d6",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121320343559522,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        89.4,
+        66.2
+      ],
+      "end": [
+        89.55,
+        66.35
+      ]
+    },
+    {
+      "id": "c0beec0a-a0dc-4e0c-bc1e-d9996cfec616",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121327414639302,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        85.75,
+        64.599999
+      ],
+      "end": [
+        85.9,
+        64.75
+      ]
+    },
+    {
+      "id": "cdff5ecb-e309-4e33-9e56-9b2ae8e28df9",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121313272503714,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        84.55,
+        64.0
+      ],
+      "end": [
+        84.699999,
+        64.15
+      ]
+    },
+    {
+      "id": "db129931-6253-492b-a85f-2162854a6eb7",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.21213203435596226,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        85.15,
+        64.3
+      ],
+      "end": [
+        85.3,
+        64.45
+      ]
+    },
+    {
+      "id": "dddc429a-8634-48eb-bd2a-dcc82e19441c",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000099999998895,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        86.949999,
+        65.2
+      ],
+      "end": [
+        87.1,
+        65.2
+      ]
+    },
+    {
+      "id": "de85e58d-c82b-4c8a-8271-f01b25465656",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.22360813939121565,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        89.199999,
+        66.099999
+      ],
+      "end": [
+        89.4,
+        66.2
+      ]
+    },
+    {
+      "id": "e02c2b15-bf66-46cc-a05a-e693088c4168",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.22360679774998532,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.0,
+        67.1
+      ],
+      "end": [
+        90.2,
+        67.2
+      ]
+    },
+    {
+      "id": "e5c2f713-5565-44b9-bf23-e0f09d5c65e7",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 13.650000000000006,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        69.85,
+        63.55
+      ],
+      "end": [
+        83.5,
+        63.55
+      ]
+    },
+    {
+      "id": "ec3e93e2-0674-45e8-8282-452784543a8e",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        87.25,
+        65.349999
+      ],
+      "end": [
+        87.4,
+        65.349999
+      ]
+    },
+    {
+      "id": "ed548530-8d95-4575-8b48-f0039edc9f9f",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        88.0,
+        65.65
+      ],
+      "end": [
+        88.15,
+        65.65
+      ]
+    },
+    {
+      "id": "ed6ea69a-2576-4841-963d-abdf386a9a5b",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.2121327414639302,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        84.1,
+        63.849999
+      ],
+      "end": [
+        84.25,
+        64.0
+      ]
+    },
+    {
+      "id": "ee927d4b-e847-439e-9c85-6ed035f52900",
+      "net": "+5V_FFC",
+      "layer": 5,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        87.55,
+        65.5
+      ],
+      "end": [
+        87.85,
+        65.5
+      ]
+    },
+    {
+      "id": "15592250-3cf3-4a69-8d7e-5bef194ec4e3",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        100.024999,
+        52.65
+      ],
+      "end": [
+        100.024999,
+        52.55
+      ]
+    },
+    {
+      "id": "1dfb90f9-0598-4763-ab66-ad3938510248",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        98.824999,
+        55.35
+      ],
+      "end": [
+        98.824999,
+        55.25
+      ]
+    },
+    {
+      "id": "2d20a515-ed6c-4571-ae77-9ad1dfc7d4ac",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142135624437757,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        98.925,
+        55.05
+      ],
+      "end": [
+        99.024999,
+        54.949999
+      ]
+    },
+    {
+      "id": "3456e036-9c99-4239-b340-af967e23294f",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.599999000000011,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.262499,
+        52.25
+      ],
+      "end": [
+        98.6625,
+        52.25
+      ]
+    },
+    {
+      "id": "38f8be34-a9fc-4e45-8d50-8170430801fc",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.09999899999999684,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.225,
+        54.449999
+      ],
+      "end": [
+        99.225,
+        54.35
+      ]
+    },
+    {
+      "id": "50bc16ce-1fad-47a1-8773-4bab3df94ecd",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14630934693996844,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        100.1,
+        52.4
+      ],
+      "end": [
+        99.962499,
+        52.449999
+      ]
+    },
+    {
+      "id": "524a8bbb-f20e-4405-8f33-2eb6719c72e3",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142206334586369,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.024999,
+        54.85
+      ],
+      "end": [
+        99.125,
+        54.75
+      ]
+    },
+    {
+      "id": "657bc563-96b3-4529-af04-c39e671f59f4",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        98.725,
+        55.45
+      ],
+      "end": [
+        98.824999,
+        55.35
+      ]
+    },
+    {
+      "id": "67c4d547-83ae-4beb-a33c-cc8a737e99fd",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.28284200536871246,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.462499,
+        52.449999
+      ],
+      "end": [
+        99.262499,
+        52.25
+      ]
+    },
+    {
+      "id": "714bcced-5f38-45b6-98b5-b049d7768ed5",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.8999999999999986,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.324999,
+        54.25
+      ],
+      "end": [
+        99.324999,
+        53.35
+      ]
+    },
+    {
+      "id": "714ff35c-a347-41ca-8938-a5e7d0d66b9a",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.09999899999999684,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.024999,
+        54.949999
+      ],
+      "end": [
+        99.024999,
+        54.85
+      ]
+    },
+    {
+      "id": "776305e6-8923-41e3-b208-a81c1fc2c5ce",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        98.725,
+        55.55
+      ],
+      "end": [
+        98.725,
+        55.45
+      ]
+    },
+    {
+      "id": "7b8ad9bf-919a-4c68-bfbe-8835f011846c",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.225,
+        54.35
+      ],
+      "end": [
+        99.324999,
+        54.25
+      ]
+    },
+    {
+      "id": "7deb6f6b-c4d3-4fe6-bae9-b94e9ae17aac",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142206334585364,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.125,
+        54.55
+      ],
+      "end": [
+        99.225,
+        54.449999
+      ]
+    },
+    {
+      "id": "89c10b66-4482-4f8b-84a5-9a1ad7323a14",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.5,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.962499,
+        52.449999
+      ],
+      "end": [
+        99.462499,
+        52.449999
+      ]
+    },
+    {
+      "id": "91506096-c789-494a-bf02-a6f417d4bbac",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142206334586369,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.5625,
+        51.55
+      ],
+      "end": [
+        95.462499,
+        51.65
+      ]
+    },
+    {
+      "id": "a694bae0-1e34-4ce2-9a34-321e50785f1f",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.10000000000000142,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        98.925,
+        55.15
+      ],
+      "end": [
+        98.925,
+        55.05
+      ]
+    },
+    {
+      "id": "a6a191b9-8c6c-4de0-9a67-0a37c25ece97",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.9899494936611605,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.324999,
+        53.35
+      ],
+      "end": [
+        100.024999,
+        52.65
+      ]
+    },
+    {
+      "id": "ca88f22b-ca3b-465d-b3be-72df57ab4a0f",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.09999999999999432,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.6625,
+        51.55
+      ],
+      "end": [
+        95.5625,
+        51.55
+      ]
+    },
+    {
+      "id": "cfc9fc82-2312-42a1-a4c8-b8169fd484c7",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.10000099999999179,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.8625,
+        51.449999
+      ],
+      "end": [
+        95.762499,
+        51.449999
+      ]
+    },
+    {
+      "id": "d0fb65f9-cfe8-4ffc-85e2-f290909db15b",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142064913230493,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.262499,
+        51.65
+      ],
+      "end": [
+        95.1625,
+        51.75
+      ]
+    },
+    {
+      "id": "d3ec34c0-04f0-49b4-91dc-c576dfcbf493",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.16770554552846373,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        100.024999,
+        52.55
+      ],
+      "end": [
+        100.1,
+        52.4
+      ]
+    },
+    {
+      "id": "d43809e2-4323-4d48-b7aa-130e73a093b2",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142135624438762,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.762499,
+        51.449999
+      ],
+      "end": [
+        95.6625,
+        51.55
+      ]
+    },
+    {
+      "id": "d956043b-2b9c-459f-9d9e-8902376b4ef4",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.14142206334585364,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        98.824999,
+        55.25
+      ],
+      "end": [
+        98.925,
+        55.15
+      ]
+    },
+    {
+      "id": "da24d76d-7d4f-4827-b8ca-617327079c6a",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.20000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        99.125,
+        54.75
+      ],
+      "end": [
+        99.125,
+        54.55
+      ]
+    },
+    {
+      "id": "f5442458-c4c6-44d1-b9f9-8a00113dd4ca",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.19999999999998863,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        95.462499,
+        51.65
+      ],
+      "end": [
+        95.262499,
+        51.65
+      ]
+    },
+    {
+      "id": "ff3e5fa4-9555-4b23-bb40-9c280b627ddd",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.6726812023536874,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        98.225,
+        56.0
+      ],
+      "end": [
+        98.725,
+        55.55
+      ]
+    },
+    {
+      "id": "b5bcb9b5-7f71-4c2a-a9d1-09da3cedef84",
+      "net": "+3V3",
+      "layer": 3,
+      "length_mm": 0.7800000000000011,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        110.22,
+        76.6
+      ],
+      "end": [
+        111.0,
+        76.6
+      ]
+    },
+    {
+      "id": "e628fe07-1c46-4745-9d8d-acd37e56ce23",
+      "net": "+3V3",
+      "layer": 3,
+      "length_mm": 5.05593710403917,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.3,
+        67.65
+      ],
+      "end": [
+        56.9,
+        71.2
+      ]
+    },
+    {
+      "id": "10131ee8-46e5-4339-8ef6-a503f7a0ac7b",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.2121320343559723,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        76.3,
+        70.75
+      ],
+      "end": [
+        76.45,
+        70.9
+      ]
+    },
+    {
+      "id": "171cb87b-f36c-48b3-a9a3-28d62b9b8cb7",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 5.727564927611031,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        90.27,
+        72.55
+      ],
+      "end": [
+        94.32,
+        76.6
+      ]
+    },
+    {
+      "id": "1afb51cc-4044-43b8-8b16-8bc49f5dbd65",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 16.049999999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        59.05,
+        70.0
+      ],
+      "end": [
+        75.1,
+        70.0
+      ]
+    },
+    {
+      "id": "2012acb3-584c-4a5b-aeeb-eeb0c73bfbed",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.5,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.9,
+        71.2
+      ],
+      "end": [
+        57.4,
+        71.2
+      ]
+    },
+    {
+      "id": "23d01403-2fea-480c-93d4-893abe5af72f",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 9.149999999999991,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        81.12,
+        72.55
+      ],
+      "end": [
+        90.27,
+        72.55
+      ]
+    },
+    {
+      "id": "26585565-ee25-4875-9301-8a56aba15917",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.21213203435596226,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        76.6,
+        70.9
+      ],
+      "end": [
+        76.75,
+        71.05
+      ]
+    },
+    {
+      "id": "34ad5c82-4d2e-4883-907e-2e252a40d831",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        76.15,
+        70.75
+      ],
+      "end": [
+        76.3,
+        70.75
+      ]
+    },
+    {
+      "id": "396be5bb-2dcd-48bb-8e88-c4ad3b7a7de5",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.30000100000000174,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        57.849999,
+        70.75
+      ],
+      "end": [
+        58.15,
+        70.75
+      ]
+    },
+    {
+      "id": "3c0b9f7a-5ea8-435b-b876-8ac5d8013fdc",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        76.45,
+        70.9
+      ],
+      "end": [
+        76.6,
+        70.9
+      ]
+    },
+    {
+      "id": "4d0c378d-942e-4f71-8670-5a0e01a694f1",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.14999999999999858,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        58.75,
+        70.15
+      ],
+      "end": [
+        58.9,
+        70.15
+      ]
+    },
+    {
+      "id": "4d3a37df-acbf-4f36-bc8e-9b01adb708e7",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        76.75,
+        71.05
+      ],
+      "end": [
+        77.05,
+        71.05
+      ]
+    },
+    {
+      "id": "523fa36b-b8c9-458a-9368-a9157b64f8b8",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        75.25,
+        70.15
+      ],
+      "end": [
+        75.4,
+        70.15
+      ]
+    },
+    {
+      "id": "560457fc-0390-4f2d-8cd4-7beb87f09bb0",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.6363961030678766,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        75.4,
+        70.15
+      ],
+      "end": [
+        75.85,
+        70.6
+      ]
+    },
+    {
+      "id": "5c162c9c-7efd-4c51-8891-01fb529fd717",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.2121320343559723,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        75.1,
+        70.0
+      ],
+      "end": [
+        75.25,
+        70.15
+      ]
+    },
+    {
+      "id": "619367b8-ada9-48a2-82e7-da5a76225323",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        75.85,
+        70.6
+      ],
+      "end": [
+        76.0,
+        70.6
+      ]
+    },
+    {
+      "id": "771c57c7-a830-458f-9a5e-8b9c336915e3",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.45000000000000284,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        77.22,
+        71.2
+      ],
+      "end": [
+        77.67,
+        71.2
+      ]
+    },
+    {
+      "id": "7c3b3cc1-f4f4-4696-a64e-0ac403bb267d",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.6363961030678968,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        77.67,
+        71.2
+      ],
+      "end": [
+        78.12,
+        71.65
+      ]
+    },
+    {
+      "id": "91486980-b327-471c-aaaa-27305cc25f45",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.22671568097509773,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        77.05,
+        71.05
+      ],
+      "end": [
+        77.22,
+        71.2
+      ]
+    },
+    {
+      "id": "9cf0df78-53da-4af8-9d54-adf2b3cd961c",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 15.900000000000006,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        94.32,
+        76.6
+      ],
+      "end": [
+        110.22,
+        76.6
+      ]
+    },
+    {
+      "id": "a3985fd9-5893-4cc6-8855-11c7ab6dac89",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.6363953959615052,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        57.4,
+        71.2
+      ],
+      "end": [
+        57.849999,
+        70.75
+      ]
+    },
+    {
+      "id": "a81df540-f8ee-4a23-a187-3c7a87574faa",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        78.12,
+        71.65
+      ],
+      "end": [
+        78.42,
+        71.65
+      ]
+    },
+    {
+      "id": "cd733897-a3dc-4719-a11f-b498dbb42cde",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.2121320343559723,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        76.0,
+        70.6
+      ],
+      "end": [
+        76.15,
+        70.75
+      ]
+    },
+    {
+      "id": "cfef505f-31e9-4c21-8083-7f7164caa642",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.6363961030678867,
+      "before_mm": 0.2,
+      "after_mm": 0.4,
+      "start": [
+        78.42,
+        71.65
+      ],
+      "end": [
+        78.87,
+        72.1
+      ]
+    },
+    {
+      "id": "ddb3ee33-94a5-4a0d-abb2-2dfcb73eeabf",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.848528137423854,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        58.15,
+        70.75
+      ],
+      "end": [
+        58.75,
+        70.15
+      ]
+    },
+    {
+      "id": "fe97f865-4c1a-4d50-b63b-debe405f331d",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.21213203435596728,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        58.9,
+        70.15
+      ],
+      "end": [
+        59.05,
+        70.0
+      ]
+    },
+    {
+      "id": "066a5847-9ab5-4eb2-b9cf-ac16d048ec77",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 10.25,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.3,
+        66.349999
+      ],
+      "end": [
+        63.55,
+        66.349999
+      ]
+    },
+    {
+      "id": "181dc2eb-b011-4469-9073-6450ee73ab70",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.15000100000000316,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.0,
+        65.899999
+      ],
+      "end": [
+        88.0,
+        66.05
+      ]
+    },
+    {
+      "id": "2a1f21e7-9cfa-46bf-8ebc-c501fd6d2c9b",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.30000099999999463,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        87.85,
+        65.449999
+      ],
+      "end": [
+        87.85,
+        65.75
+      ]
+    },
+    {
+      "id": "46820d06-b641-4513-a674-076741fa4cb8",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.970000000000006,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        85.75,
+        55.23
+      ],
+      "end": [
+        85.75,
+        56.2
+      ]
+    },
+    {
+      "id": "5d325691-3178-4c31-9f09-9c29cb19628d",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 1.7000000000000028,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.6,
+        65.5
+      ],
+      "end": [
+        88.6,
+        67.2
+      ]
+    },
+    {
+      "id": "5f244548-1597-4cd5-9a0b-ae37bfe021da",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.2121320343606763,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        87.699999,
+        65.3
+      ],
+      "end": [
+        87.85,
+        65.449999
+      ]
+    },
+    {
+      "id": "5f5be2ec-19c3-41d5-ba0a-8f68e8956417",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.42426336160573436,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        87.25,
+        64.55
+      ],
+      "end": [
+        87.55,
+        64.849999
+      ]
+    },
+    {
+      "id": "6c9f0bfe-3990-426f-9b42-017a596f2977",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.21213062014240344,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        87.55,
+        65.0
+      ],
+      "end": [
+        87.699999,
+        65.149999
+      ]
+    },
+    {
+      "id": "73a58638-53f8-40b9-abbc-fbaa93811a18",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.21213274146392017,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.15,
+        66.349999
+      ],
+      "end": [
+        88.3,
+        66.5
+      ]
+    },
+    {
+      "id": "9cf78fb7-7b92-4677-a9e9-e0b65d831354",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.15000100000000316,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        87.699999,
+        65.149999
+      ],
+      "end": [
+        87.699999,
+        65.3
+      ]
+    },
+    {
+      "id": "a5b79128-42e9-42a3-99de-919cceb641e7",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.15000100000000316,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        87.55,
+        64.849999
+      ],
+      "end": [
+        87.55,
+        65.0
+      ]
+    },
+    {
+      "id": "a8278eeb-24b3-49d3-a809-a145c6430ad0",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.15,
+        66.199999
+      ],
+      "end": [
+        88.15,
+        66.349999
+      ]
+    },
+    {
+      "id": "ef76b134-13c2-4656-b94b-b4f1d7471f33",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.21213132725036135,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        87.85,
+        65.75
+      ],
+      "end": [
+        88.0,
+        65.899999
+      ]
+    },
+    {
+      "id": "f700195a-121e-4c5b-92db-05e89c667391",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.900000999999996,
+      "before_mm": 0.2,
+      "after_mm": 0.3,
+      "start": [
+        87.25,
+        63.649999
+      ],
+      "end": [
+        87.25,
+        64.55
+      ]
+    },
+    {
+      "id": "f7a1853a-e771-43d4-94d6-d040f9f1d02d",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 0.2121313272503714,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.0,
+        66.05
+      ],
+      "end": [
+        88.15,
+        66.199999
+      ]
+    },
+    {
+      "id": "0f68075e-8984-40a5-b516-c26b6fcc6f28",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 0.75,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        68.35,
+        64.849999
+      ],
+      "end": [
+        69.1,
+        64.849999
+      ]
+    },
+    {
+      "id": "58f18e74-b964-488b-b846-67c8d45d5538",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 2.3999999999999915,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        65.2,
+        65.599999
+      ],
+      "end": [
+        67.6,
+        65.599999
+      ]
+    },
+    {
+      "id": "63a75e8c-25e0-4def-ab7a-930d979fcf72",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 1.0606601717798212,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        67.6,
+        65.599999
+      ],
+      "end": [
+        68.35,
+        64.849999
+      ]
+    },
+    {
+      "id": "64cd8c31-7a15-46e2-8642-66cc0827c644",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 1.6970562748477132,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        69.1,
+        64.849999
+      ],
+      "end": [
+        70.3,
+        63.649999
+      ]
+    },
+    {
+      "id": "f2eeb1ec-363c-4356-99eb-80f9a2220c05",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 16.950000000000003,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        70.3,
+        63.649999
+      ],
+      "end": [
+        87.25,
+        63.649999
+      ]
+    },
+    {
+      "id": "12995dc1-05a4-4f44-a00f-398247dc7d9a",
+      "net": "+3V3_FFC",
+      "layer": 5,
+      "length_mm": 0.149998999999994,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.3,
+        66.5
+      ],
+      "end": [
+        88.3,
+        66.649999
+      ]
+    },
+    {
+      "id": "1707a0ec-e6d9-4cd0-bfab-3933b091c178",
+      "net": "+3V3_FFC",
+      "layer": 5,
+      "length_mm": 0.21213203436068634,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        88.3,
+        66.649999
+      ],
+      "end": [
+        88.449999,
+        66.8
+      ]
+    },
+    {
+      "id": "5baa9cbd-7954-46ac-8db2-344cdeac6319",
+      "net": "+3V3_FFC",
+      "layer": 5,
+      "length_mm": 0.2999989999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        88.449999,
+        66.8
+      ],
+      "end": [
+        88.449999,
+        67.099999
+      ]
+    },
+    {
+      "id": "ae41be0b-5315-493d-bb0d-40d5463d7f47",
+      "net": "+3V3_FFC",
+      "layer": 5,
+      "length_mm": 0.1802789505238975,
+      "before_mm": 0.2,
+      "after_mm": 0.45,
+      "start": [
+        88.449999,
+        67.099999
+      ],
+      "end": [
+        88.6,
+        67.2
+      ]
+    },
+    {
+      "id": "08689ceb-8562-4e6d-aa9d-5b43250e6196",
+      "net": "+5V",
+      "layer": 3,
+      "length_mm": 0.20615528128087993,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.3,
+        58.85
+      ],
+      "end": [
+        53.35,
+        59.05
+      ]
+    },
+    {
+      "id": "bc25fa04-a82c-41a7-8011-87e15468f173",
+      "net": "+5V",
+      "layer": 3,
+      "length_mm": 1.0499989999999997,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.35,
+        59.05
+      ],
+      "end": [
+        53.35,
+        60.099999
+      ]
+    },
+    {
+      "id": "045b3e9d-c4e3-4dec-9aa0-16bd617add1c",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213132725036637,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.3,
+        65.05
+      ],
+      "end": [
+        55.449999,
+        65.2
+      ]
+    },
+    {
+      "id": "10bcea0a-fcb4-4f53-aded-f8b0706a90f3",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435596728,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.15,
+        64.75
+      ],
+      "end": [
+        55.3,
+        64.9
+      ]
+    },
+    {
+      "id": "1159b06a-a6ab-4745-82f1-582074f9680c",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.65,
+        67.9
+      ],
+      "end": [
+        56.65,
+        68.05
+      ]
+    },
+    {
+      "id": "2782fe1a-af5d-439f-a073-aba8b38c39b5",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.30000100000000884,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.199999,
+        66.849999
+      ],
+      "end": [
+        56.199999,
+        67.15
+      ]
+    },
+    {
+      "id": "29111d3a-5b09-4f3c-a6fb-119c1f03ebff",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435596728,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.65,
+        68.05
+      ],
+      "end": [
+        56.8,
+        68.2
+      ]
+    },
+    {
+      "id": "30e2ae1e-ba94-4a9f-9b08-5c44c8583089",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.18867962264112995,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.8,
+        68.5
+      ],
+      "end": [
+        56.9,
+        68.66
+      ]
+    },
+    {
+      "id": "3223317d-f178-4b42-ba5d-e28555e30c00",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.6,
+        65.65
+      ],
+      "end": [
+        55.6,
+        65.8
+      ]
+    },
+    {
+      "id": "36bee97a-1751-497e-903a-e61db88cc104",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.149998999999994,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.75,
+        65.95
+      ],
+      "end": [
+        55.75,
+        66.099999
+      ]
+    },
+    {
+      "id": "3dad9fa4-058f-4f41-a612-ef68e421f6b3",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000100000000316,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.15,
+        64.599999
+      ],
+      "end": [
+        55.15,
+        64.75
+      ]
+    },
+    {
+      "id": "4eb2119a-8175-4ae8-868c-1e4c96cb4160",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.449999,
+        65.2
+      ],
+      "end": [
+        55.449999,
+        65.5
+      ]
+    },
+    {
+      "id": "4fd20747-0406-4a64-a600-959dce5ea5da",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435596728,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.6,
+        65.8
+      ],
+      "end": [
+        55.75,
+        65.95
+      ]
+    },
+    {
+      "id": "5c5fadf1-5bd8-4e6f-80bb-9e47747999a0",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.3,
+        64.9
+      ],
+      "end": [
+        55.3,
+        65.05
+      ]
+    },
+    {
+      "id": "68509740-85b7-4e2c-9f08-2b087e2abb0c",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 1.6970548606341491,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        53.5,
+        62.5
+      ],
+      "end": [
+        54.699999,
+        63.699999
+      ]
+    },
+    {
+      "id": "70ccc64d-b247-40df-9a5c-870e6d25b50a",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.2121334485695311,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        54.699999,
+        63.849999
+      ],
+      "end": [
+        54.85,
+        64.0
+      ]
+    },
+    {
+      "id": "730dc0f8-96b8-4ee6-b062-b930f95a7af9",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213062014239842,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.05,
+        66.7
+      ],
+      "end": [
+        56.199999,
+        66.849999
+      ]
+    },
+    {
+      "id": "78ec04d6-ad93-482a-8cfa-c2d0fdcd97e8",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213274146392017,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.199999,
+        67.15
+      ],
+      "end": [
+        56.35,
+        67.3
+      ]
+    },
+    {
+      "id": "7fdd60ab-8cd0-4811-956a-e4b8eaf22c1d",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        54.85,
+        64.0
+      ],
+      "end": [
+        54.85,
+        64.15
+      ]
+    },
+    {
+      "id": "88eb937e-76c0-4cee-89c4-106f53282fcc",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.0,
+        64.3
+      ],
+      "end": [
+        55.0,
+        64.45
+      ]
+    },
+    {
+      "id": "8ce40ed3-b38d-44d3-8c49-9adffa5e26b3",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 2.539999999999999,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.9,
+        68.66
+      ],
+      "end": [
+        59.44,
+        68.66
+      ]
+    },
+    {
+      "id": "8edb54dd-aa60-4307-97e0-366ae9a0ee5f",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.2121327414639302,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.449999,
+        65.5
+      ],
+      "end": [
+        55.6,
+        65.65
+      ]
+    },
+    {
+      "id": "9967b1da-a3b6-4e1c-9877-1d572423aad0",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.75,
+      "before_mm": 0.2,
+      "after_mm": 0.25,
+      "start": [
+        53.35,
+        60.099999
+      ],
+      "end": [
+        53.35,
+        60.849999
+      ]
+    },
+    {
+      "id": "9dce4e0d-574d-4e90-8358-e83d701b562c",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435595723,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        54.85,
+        64.15
+      ],
+      "end": [
+        55.0,
+        64.3
+      ]
+    },
+    {
+      "id": "9f94478a-670e-4917-9055-f6d4bb302691",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.29999999999999716,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.8,
+        68.2
+      ],
+      "end": [
+        56.8,
+        68.5
+      ]
+    },
+    {
+      "id": "b7271f06-4750-475e-83cd-8e2cc83f8162",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.2121327414639252,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        53.35,
+        60.849999
+      ],
+      "end": [
+        53.5,
+        61.0
+      ]
+    },
+    {
+      "id": "c32968d2-4503-4fcb-88ae-2ac5fe8c4a48",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435596728,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.5,
+        67.75
+      ],
+      "end": [
+        56.65,
+        67.9
+      ]
+    },
+    {
+      "id": "c845428b-0876-4d27-be98-7652e6fcf94e",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.14999999999999858,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        54.699999,
+        63.699999
+      ],
+      "end": [
+        54.699999,
+        63.849999
+      ]
+    },
+    {
+      "id": "d4686a51-69a6-48f2-8bed-3395086cc751",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.9,
+        66.25
+      ],
+      "end": [
+        55.9,
+        66.4
+      ]
+    },
+    {
+      "id": "de040d05-c94b-4823-90d5-aa3d6b31a129",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.2121327414639252,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.75,
+        66.099999
+      ],
+      "end": [
+        55.9,
+        66.25
+      ]
+    },
+    {
+      "id": "dff62fd7-b52f-427e-b54d-d0fe4209cd3e",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435595723,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.35,
+        67.45
+      ],
+      "end": [
+        56.5,
+        67.6
+      ]
+    },
+    {
+      "id": "e0d977e5-290b-4331-a800-48e6c9ac1091",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 1.5,
+      "before_mm": 0.2,
+      "after_mm": 0.35,
+      "start": [
+        53.5,
+        61.0
+      ],
+      "end": [
+        53.5,
+        62.5
+      ]
+    },
+    {
+      "id": "ed5bf2fc-1067-45e7-b3c0-9cc99a18dfee",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.5,
+        67.6
+      ],
+      "end": [
+        56.5,
+        67.75
+      ]
+    },
+    {
+      "id": "f0634e6d-3074-4817-a61f-a737bb02b0f5",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.05,
+        66.55
+      ],
+      "end": [
+        56.05,
+        66.7
+      ]
+    },
+    {
+      "id": "f7d532c0-9ad7-4432-9409-f67d8ba94190",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.15000000000000568,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        56.35,
+        67.3
+      ],
+      "end": [
+        56.35,
+        67.45
+      ]
+    },
+    {
+      "id": "fa9c4d6a-5f3e-446d-8236-2061dad5d6e5",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213132725035633,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.0,
+        64.45
+      ],
+      "end": [
+        55.15,
+        64.599999
+      ]
+    },
+    {
+      "id": "fca9df5c-737b-4001-9623-53e5a84512b7",
+      "net": "+5V",
+      "layer": 34,
+      "length_mm": 0.21213203435595723,
+      "before_mm": 0.2,
+      "after_mm": 0.5,
+      "start": [
+        55.9,
+        66.4
+      ],
+      "end": [
+        56.05,
+        66.55
+      ]
+    }
+  ],
+  "retained_necks": [
+    {
+      "id": "f62c0b33-1094-42c8-a62f-f3aae0af178a",
+      "net": "USB_VBUS_RAW",
+      "layer": 3,
+      "length_mm": 1.9091883092036854,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        107.55,
+        60.25
+      ],
+      "end": [
+        108.9,
+        58.9
+      ]
+    },
+    {
+      "id": "24e6a0ab-e067-407b-81be-6bc7ee3a6ab4",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.282842712474618,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        95.8625,
+        53.35
+      ],
+      "end": [
+        96.0625,
+        53.55
+      ]
+    },
+    {
+      "id": "876c969a-3570-435b-aee3-ae7c452effad",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 1.5,
+      "before_mm": 0.25,
+      "after_mm": 0.25,
+      "start": [
+        89.25,
+        55.23
+      ],
+      "end": [
+        90.75,
+        55.23
+      ]
+    },
+    {
+      "id": "a24a8fb8-7964-4300-a06f-32c573650c13",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 1.5999999999999943,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        96.0625,
+        53.55
+      ],
+      "end": [
+        97.6625,
+        53.55
+      ]
+    },
+    {
+      "id": "b9248fc1-a2f5-402e-9807-24a3cb8d89e6",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 1.600000999999999,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        97.6625,
+        53.55
+      ],
+      "end": [
+        97.6625,
+        51.949999
+      ]
+    },
+    {
+      "id": "f9417bd7-3f22-477e-b4b3-f76e36d7bc97",
+      "net": "USB_VBUS",
+      "layer": 3,
+      "length_mm": 0.14142064913228983,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        97.6625,
+        51.949999
+      ],
+      "end": [
+        97.5625,
+        51.85
+      ]
+    },
+    {
+      "id": "8326c0a0-ecb2-449f-87cf-1a85b6945063",
+      "net": "+5V_FFC",
+      "layer": 3,
+      "length_mm": 9.919299370419262,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        86.75,
+        56.2
+      ],
+      "end": [
+        90.2,
+        65.5
+      ]
+    },
+    {
+      "id": "1abe896b-130a-447d-8fad-f9d2484570a6",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 1.4142135623730951,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        98.6625,
+        52.25
+      ],
+      "end": [
+        97.6625,
+        51.25
+      ]
+    },
+    {
+      "id": "6e9fa56a-0484-4408-9f0c-c4572b7b0ecc",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 0.2828420053687225,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        96.0625,
+        51.25
+      ],
+      "end": [
+        95.8625,
+        51.449999
+      ]
+    },
+    {
+      "id": "ea1c5500-9539-4cdf-88e0-9f7ee146efaf",
+      "net": "USB_VBUS_IN",
+      "layer": 3,
+      "length_mm": 1.5999999999999943,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        97.6625,
+        51.25
+      ],
+      "end": [
+        96.0625,
+        51.25
+      ]
+    },
+    {
+      "id": "0708ea11-4f0a-48d8-a92a-90eb4122f1a0",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.42426406871193456,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        79.02,
+        72.1
+      ],
+      "end": [
+        79.32,
+        72.4
+      ]
+    },
+    {
+      "id": "57c13579-aa8d-4dee-88e0-98c6299b9105",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.14999999999999147,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        78.87,
+        72.1
+      ],
+      "end": [
+        79.02,
+        72.1
+      ]
+    },
+    {
+      "id": "a1d71293-9936-4970-91ad-1ebccdffa1a0",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 0.21213203435596226,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        80.97,
+        72.4
+      ],
+      "end": [
+        81.12,
+        72.55
+      ]
+    },
+    {
+      "id": "ff5be65c-f72e-47f3-a062-c0c95ddba5c3",
+      "net": "+3V3",
+      "layer": 34,
+      "length_mm": 1.6500000000000057,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        79.32,
+        72.4
+      ],
+      "end": [
+        80.97,
+        72.4
+      ]
+    },
+    {
+      "id": "c410d369-b43f-49c3-8a9c-57cd7ed39ed3",
+      "net": "+3V3_FFC",
+      "layer": 3,
+      "length_mm": 9.72689570212408,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        85.75,
+        56.2
+      ],
+      "end": [
+        88.6,
+        65.5
+      ]
+    },
+    {
+      "id": "85305279-cc42-452e-a4a9-638b7413aae4",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 0.9000000000000057,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        63.55,
+        66.349999
+      ],
+      "end": [
+        64.45,
+        66.349999
+      ]
+    },
+    {
+      "id": "adcfad5c-5396-4955-b5c0-3bb97437e064",
+      "net": "+3V3_FFC",
+      "layer": 34,
+      "length_mm": 1.0606601717798212,
+      "before_mm": 0.2,
+      "after_mm": 0.2,
+      "start": [
+        64.45,
+        66.349999
+      ],
+      "end": [
+        65.2,
+        65.599999
+      ]
+    }
+  ],
+  "status": "candidate pending native DRC and voltage-drop assessment"
+}

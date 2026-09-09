@@ -1,2 +1,4 @@
 (sym_lib_table (version 7)
- (lib (name "Combined_A2")(type "KiCad")(uri "${KIPRJMOD}/Combined_A2.kicad_sym")(options "")(descr "B2.25 numbered LCD interface source")))
+ (lib (name "Combined_A2")(type "KiCad")(uri "${KIPRJMOD}/Combined_A2.kicad_sym")(options "")(descr "B2.25 numbered LCD interface source"))
+ (lib (name "GPIO_Qualification") (type "KiCad") (uri "${KIPRJMOD}/GPIO_Qualification.kicad_sym") (options "") (descr "TPS22918 from the verified native circuit definition"))
+)

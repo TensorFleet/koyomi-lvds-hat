@@ -1,0 +1,74 @@
+[
+  {
+    "reference": "RN3",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      487.68,
+      259.079999
+    ]
+  },
+  {
+    "reference": "U4",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      269.24,
+      330.2
+    ]
+  },
+  {
+    "reference": "C3",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      307.34,
+      350.52
+    ]
+  },
+  {
+    "reference": "RN1",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      355.6,
+      259.079999
+    ]
+  },
+  {
+    "reference": "RN4",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      355.6,
+      330.2
+    ]
+  },
+  {
+    "reference": "RN2",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      421.64,
+      259.079999
+    ]
+  },
+  {
+    "reference": "RN6",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      487.68,
+      330.2
+    ]
+  },
+  {
+    "reference": "RN5",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      421.64,
+      330.2
+    ]
+  },
+  {
+    "reference": "C4",
+    "graphics_centered_locally": true,
+    "position_mm": [
+      269.24,
+      350.52
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "board_sha256": "1bbc9a6f8cb5cf28cb54341c03c1d5cdff20cfe000a83fd909f164c52de66f84",
+  "library_sha256": "3c8e1e5aa232564704d7cee5cfa507cb686f45278387a1192545d22ed244e476",
+  "total_paste_area_mm2": 33.17759999999999,
+  "native_geometry_errors": 0,
+  "native_opens": 0,
+  "native_parity_findings": 0,
+  "dangling_tracks": 0,
+  "dangling_vias": 0,
+  "silkscreen_violations": 0,
+  "warnings_by_type": {
+    "lib_footprint_mismatch": 55,
+    "lib_footprint_issues": 1
+  },
+  "fabrication_output_generated": false,
+  "manufacturing_release": false,
+  "source_report_sha256": "7d03a1bb678895b75a5c0707c93eadbf1ad184221fd2833a2b7c2f01d84123fb",
+  "source_report": "C1 reports/paste-junction-preflight/verification.json at commit 00c6e73d",
+  "method": "Read existing C1 preflight; fresh connector-only native capture independently confirms 42 paste pads and same board hash."
+}

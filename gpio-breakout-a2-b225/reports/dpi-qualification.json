@@ -1,0 +1,332 @@
+{
+  "source_board_sha256": "fc25e04aed25fc0094d64c32bc30104b626fe1165ffbb7e90a8c57916ff2e60d",
+  "driven_lines_checked": 22,
+  "paths": [
+    {
+      "net": "ID_SD",
+      "physical_pi_pin": "27",
+      "FFC_pin": "19",
+      "series_element": [
+        "RN4",
+        "2",
+        "7"
+      ],
+      "source_to_resistor_mm": 3.4118399121285323,
+      "resistor_to_FFC_mm": 25.47032374777297,
+      "source_vias": 1,
+      "output_vias": 3
+    },
+    {
+      "net": "ID_SC",
+      "physical_pi_pin": "28",
+      "FFC_pin": "15",
+      "series_element": [
+        "RN4",
+        "3",
+        "6"
+      ],
+      "source_to_resistor_mm": 6.261034976438443,
+      "resistor_to_FFC_mm": 22.98214165069345,
+      "source_vias": 1,
+      "output_vias": 0
+    },
+    {
+      "net": "GPIO2",
+      "physical_pi_pin": "3",
+      "FFC_pin": "16",
+      "series_element": [
+        "RN1",
+        "1",
+        "8"
+      ],
+      "source_to_resistor_mm": 5.778683258110588,
+      "resistor_to_FFC_mm": 43.51549531022569,
+      "source_vias": 1,
+      "output_vias": 3
+    },
+    {
+      "net": "GPIO3",
+      "physical_pi_pin": "5",
+      "FFC_pin": "17",
+      "series_element": [
+        "RN1",
+        "2",
+        "7"
+      ],
+      "source_to_resistor_mm": 3.0818918889133196,
+      "resistor_to_FFC_mm": 47.593455786620105,
+      "source_vias": 1,
+      "output_vias": 3
+    },
+    {
+      "net": "GPIO4",
+      "physical_pi_pin": "7",
+      "FFC_pin": "21",
+      "series_element": [
+        "RN1",
+        "3",
+        "6"
+      ],
+      "source_to_resistor_mm": 4.977744591989229,
+      "resistor_to_FFC_mm": 37.86973944641057,
+      "source_vias": 1,
+      "output_vias": 3
+    },
+    {
+      "net": "GPIO5",
+      "physical_pi_pin": "29",
+      "FFC_pin": "22",
+      "series_element": [
+        "RN5",
+        "1",
+        "8"
+      ],
+      "source_to_resistor_mm": 6.614689485353608,
+      "resistor_to_FFC_mm": 36.546061093267525,
+      "source_vias": 2,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO6",
+      "physical_pi_pin": "31",
+      "FFC_pin": "23",
+      "series_element": [
+        "RN5",
+        "2",
+        "7"
+      ],
+      "source_to_resistor_mm": 3.4798989873223354,
+      "resistor_to_FFC_mm": 37.599687567782006,
+      "source_vias": 1,
+      "output_vias": 3
+    },
+    {
+      "net": "GPIO7",
+      "physical_pi_pin": "26",
+      "FFC_pin": "24",
+      "series_element": [
+        "RN4",
+        "1",
+        "8"
+      ],
+      "source_to_resistor_mm": 8.255360876241355,
+      "resistor_to_FFC_mm": 35.977109567924025,
+      "source_vias": 2,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO8",
+      "physical_pi_pin": "24",
+      "FFC_pin": "25",
+      "series_element": [
+        "RN3",
+        "4",
+        "5"
+      ],
+      "source_to_resistor_mm": 10.871844605885798,
+      "resistor_to_FFC_mm": 22.300061538285217,
+      "source_vias": 1,
+      "output_vias": 0
+    },
+    {
+      "net": "GPIO9",
+      "physical_pi_pin": "21",
+      "FFC_pin": "26",
+      "series_element": [
+        "RN3",
+        "2",
+        "7"
+      ],
+      "source_to_resistor_mm": 3.514213562373079,
+      "resistor_to_FFC_mm": 23.576253371974197,
+      "source_vias": 1,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO10",
+      "physical_pi_pin": "19",
+      "FFC_pin": "28",
+      "series_element": [
+        "RN3",
+        "1",
+        "8"
+      ],
+      "source_to_resistor_mm": 6.449000605042196,
+      "resistor_to_FFC_mm": 27.323588727427325,
+      "source_vias": 2,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO11",
+      "physical_pi_pin": "23",
+      "FFC_pin": "29",
+      "series_element": [
+        "RN3",
+        "3",
+        "6"
+      ],
+      "source_to_resistor_mm": 4.481430129806215,
+      "resistor_to_FFC_mm": 26.388493057065524,
+      "source_vias": 2,
+      "output_vias": 0
+    },
+    {
+      "net": "GPIO12",
+      "physical_pi_pin": "32",
+      "FFC_pin": "30",
+      "series_element": [
+        "RN5",
+        "3",
+        "6"
+      ],
+      "source_to_resistor_mm": 8.202642101337133,
+      "resistor_to_FFC_mm": 51.521874331230514,
+      "source_vias": 1,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO13",
+      "physical_pi_pin": "33",
+      "FFC_pin": "31",
+      "series_element": [
+        "RN5",
+        "4",
+        "5"
+      ],
+      "source_to_resistor_mm": 4.222628643657553,
+      "resistor_to_FFC_mm": 50.828175779641334,
+      "source_vias": 1,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO14",
+      "physical_pi_pin": "8",
+      "FFC_pin": "32",
+      "series_element": [
+        "RN1",
+        "4",
+        "5"
+      ],
+      "source_to_resistor_mm": 7.997528491432409,
+      "resistor_to_FFC_mm": 29.222296696583115,
+      "source_vias": 1,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO15",
+      "physical_pi_pin": "10",
+      "FFC_pin": "33",
+      "series_element": [
+        "RN2",
+        "1",
+        "8"
+      ],
+      "source_to_resistor_mm": 7.340633171643264,
+      "resistor_to_FFC_mm": 21.894643515757682,
+      "source_vias": 2,
+      "output_vias": 0
+    },
+    {
+      "net": "GPIO16",
+      "physical_pi_pin": "36",
+      "FFC_pin": "35",
+      "series_element": [
+        "RN6",
+        "2",
+        "7"
+      ],
+      "source_to_resistor_mm": 8.359647771137283,
+      "resistor_to_FFC_mm": 56.494626370867174,
+      "source_vias": 2,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO17",
+      "physical_pi_pin": "11",
+      "FFC_pin": "36",
+      "series_element": [
+        "RN2",
+        "2",
+        "7"
+      ],
+      "source_to_resistor_mm": 3.0656854249527714,
+      "resistor_to_FFC_mm": 23.176042207463972,
+      "source_vias": 1,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO18",
+      "physical_pi_pin": "12",
+      "FFC_pin": "37",
+      "series_element": [
+        "RN2",
+        "3",
+        "6"
+      ],
+      "source_to_resistor_mm": 6.317632331833039,
+      "resistor_to_FFC_mm": 24.61068078529898,
+      "source_vias": 1,
+      "output_vias": 0
+    },
+    {
+      "net": "GPIO19",
+      "physical_pi_pin": "35",
+      "FFC_pin": "38",
+      "series_element": [
+        "RN6",
+        "1",
+        "8"
+      ],
+      "source_to_resistor_mm": 5.608898186976256,
+      "resistor_to_FFC_mm": 62.71299247409613,
+      "source_vias": 1,
+      "output_vias": 2
+    },
+    {
+      "net": "GPIO20",
+      "physical_pi_pin": "38",
+      "FFC_pin": "39",
+      "series_element": [
+        "RN6",
+        "3",
+        "6"
+      ],
+      "source_to_resistor_mm": 6.685298752264487,
+      "resistor_to_FFC_mm": 58.457734427807246,
+      "source_vias": 1,
+      "output_vias": 3
+    },
+    {
+      "net": "GPIO21",
+      "physical_pi_pin": "40",
+      "FFC_pin": "40",
+      "series_element": [
+        "RN6",
+        "4",
+        "5"
+      ],
+      "source_to_resistor_mm": 7.633338562899136,
+      "resistor_to_FFC_mm": 64.39022678751363,
+      "source_vias": 1,
+      "output_vias": 4
+    }
+  ],
+  "source_series_components_present": true,
+  "all_22_conductors_connected_through_exactly_one_isolated_element": true,
+  "unused_array_pads_unconnected": 4,
+  "fitted_value": "0 ohm provisions; nonzero fitted values require source/receiver timing qualification",
+  "timing_status": "NOT MEASURED",
+  "required_inputs": [
+    "Pi model and GPIO drive settings",
+    "LCD/receiver mode and pixel clock",
+    "Actual catalog cable arrangement"
+  ],
+  "source_length_range_mm": [
+    3.0656854249527714,
+    10.871844605885798
+  ],
+  "total_planar_range_mm": [
+    26.241727632416744,
+    72.02356535041277
+  ]
+}

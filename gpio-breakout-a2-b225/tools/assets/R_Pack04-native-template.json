@@ -1,0 +1,1157 @@
+{
+  "id": {
+    "value": "5a6c6d38-a886-4a64-b169-bdab4e4d138c"
+  },
+  "path": {
+    "path": [
+      {
+        "value": "99255c93-d462-57a7-84d8-8a7e16fc8b43"
+      }
+    ]
+  },
+  "position": {
+    "xNm": "355600000",
+    "yNm": "259080000"
+  },
+  "transform": {
+    "orientation": "SSO_0",
+    "mirrorY": true
+  },
+  "locked": "LS_UNLOCKED",
+  "definition": {
+    "id": {
+      "libraryNickname": "Device",
+      "entryName": "R_Pack04"
+    },
+    "referenceField": {
+      "name": "Reference",
+      "text": {
+        "position": {
+          "xNm": "-7620000"
+        },
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {
+            "valueDegrees": 90.0
+          },
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        },
+        "text": "RN"
+      },
+      "visible": true,
+      "allowAutoPlace": true
+    },
+    "valueField": {
+      "name": "Value",
+      "text": {
+        "position": {
+          "xNm": "5080000"
+        },
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {
+            "valueDegrees": 90.0
+          },
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        },
+        "text": "R_Pack04"
+      },
+      "visible": true,
+      "allowAutoPlace": true
+    },
+    "footprintField": {
+      "name": "Footprint",
+      "text": {
+        "position": {
+          "xNm": "6985000"
+        },
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {
+            "valueDegrees": 90.0
+          },
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        }
+      },
+      "allowAutoPlace": true
+    },
+    "datasheetField": {
+      "name": "Datasheet",
+      "text": {
+        "position": {},
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {},
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        }
+      },
+      "allowAutoPlace": true
+    },
+    "descriptionField": {
+      "name": "Description",
+      "text": {
+        "position": {},
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {},
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        },
+        "text": "4 resistor network, parallel topology"
+      },
+      "allowAutoPlace": true
+    },
+    "items": [
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {
+                  "valueNm": "254000"
+                },
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_FILLED_WITH_BACKGROUND_BODY_COLOR"
+              }
+            },
+            "rectangle": {
+              "topLeft": {
+                "xNm": "-5080000",
+                "yNm": "2413000"
+              },
+              "bottomRight": {
+                "xNm": "5080000",
+                "yNm": "-2413000"
+              },
+              "cornerRadius": {}
+            }
+          },
+          "id": {
+            "value": "606009b7-c6fb-42ec-8e8b-fb5be83240c6"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {
+                  "valueNm": "254000"
+                },
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "rectangle": {
+              "topLeft": {
+                "xNm": "-4445000",
+                "yNm": "-1905000"
+              },
+              "bottomRight": {
+                "xNm": "-3175000",
+                "yNm": "1905000"
+              },
+              "cornerRadius": {}
+            }
+          },
+          "id": {
+            "value": "b11f1b4e-9445-4908-ad14-0a4b158810ee"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "-3810000",
+                          "yNm": "-1905000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "-3810000",
+                          "yNm": "-2540000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "ade929b3-e1e7-446b-94c6-e408507e4742"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "-3810000",
+                          "yNm": "2540000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "-3810000",
+                          "yNm": "1905000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "74c3af7e-a8e1-499e-9b45-5856ffcfbf30"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {
+                  "valueNm": "254000"
+                },
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "rectangle": {
+              "topLeft": {
+                "xNm": "-1905000",
+                "yNm": "-1905000"
+              },
+              "bottomRight": {
+                "xNm": "-635000",
+                "yNm": "1905000"
+              },
+              "cornerRadius": {}
+            }
+          },
+          "id": {
+            "value": "d63829a2-35bf-4103-8e04-019caac0f98e"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "-1270000",
+                          "yNm": "-1905000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "-1270000",
+                          "yNm": "-2540000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "c1a0a3a7-def2-42fb-b629-4951d67a42a0"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "-1270000",
+                          "yNm": "2540000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "-1270000",
+                          "yNm": "1905000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "77814eae-cec4-45af-abd2-1d0a3009417d"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {
+                  "valueNm": "254000"
+                },
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "rectangle": {
+              "topLeft": {
+                "xNm": "635000",
+                "yNm": "-1905000"
+              },
+              "bottomRight": {
+                "xNm": "1905000",
+                "yNm": "1905000"
+              },
+              "cornerRadius": {}
+            }
+          },
+          "id": {
+            "value": "9d96c7cc-a875-4800-b947-e5c79be3f0c4"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "1270000",
+                          "yNm": "-1905000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "1270000",
+                          "yNm": "-2540000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "59d3f0a4-0405-4bc5-8f2f-bfe9860a4563"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "1270000",
+                          "yNm": "2540000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "1270000",
+                          "yNm": "1905000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "20c414f4-643f-48b6-bf0c-ac6233257573"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {
+                  "valueNm": "254000"
+                },
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "rectangle": {
+              "topLeft": {
+                "xNm": "3175000",
+                "yNm": "-1905000"
+              },
+              "bottomRight": {
+                "xNm": "4445000",
+                "yNm": "1905000"
+              },
+              "cornerRadius": {}
+            }
+          },
+          "id": {
+            "value": "4cdf2b12-f0f3-436a-891c-2a690d7630fc"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "3810000",
+                          "yNm": "-1905000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "3810000",
+                          "yNm": "-2540000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "73346f27-e67d-43a4-8223-8b5cca390326"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicGraphicShape",
+          "shape": {
+            "attributes": {
+              "stroke": {
+                "width": {},
+                "style": "SLS_DEFAULT"
+              },
+              "fill": {
+                "fillType": "GFT_UNFILLED"
+              }
+            },
+            "polygon": {
+              "polygons": [
+                {
+                  "outline": {
+                    "nodes": [
+                      {
+                        "point": {
+                          "xNm": "3810000",
+                          "yNm": "2540000"
+                        }
+                      },
+                      {
+                        "point": {
+                          "xNm": "3810000",
+                          "yNm": "1905000"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "id": {
+            "value": "c18cbbeb-0b17-41be-9ca5-bc4748304911"
+          },
+          "locked": "LS_UNLOCKED"
+        },
+        "unit": {},
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "3ccf8d32-5dab-4d68-b2a8-19b6a4604b91"
+          },
+          "name": "R1.2",
+          "number": "8",
+          "position": {
+            "xNm": "360680000",
+            "yNm": "254000000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_DOWN",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "55bc587d-ac59-4e76-9644-f005cf788f19"
+          },
+          "name": "R2.2",
+          "number": "7",
+          "position": {
+            "xNm": "358140000",
+            "yNm": "254000000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_DOWN",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "6fb675d5-80e5-4864-8043-c8ca479dddaf"
+          },
+          "name": "R4.2",
+          "number": "5",
+          "position": {
+            "xNm": "353060000",
+            "yNm": "254000000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_DOWN",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "babe29a1-16a2-4237-a703-2b34ca4bb8ab"
+          },
+          "name": "R3.2",
+          "number": "6",
+          "position": {
+            "xNm": "355600000",
+            "yNm": "254000000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_DOWN",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "c9fe5b50-df2a-45bc-bd2f-a3b732656be2"
+          },
+          "name": "R1.1",
+          "number": "1",
+          "position": {
+            "xNm": "360680000",
+            "yNm": "264160000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_UP",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "d4911290-f0cb-4375-9b28-e90537992d47"
+          },
+          "name": "R2.1",
+          "number": "2",
+          "position": {
+            "xNm": "358140000",
+            "yNm": "264160000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_UP",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "e1528dd4-8b18-4d4e-b4f1-ee3ed628749f"
+          },
+          "name": "R4.1",
+          "number": "4",
+          "position": {
+            "xNm": "353060000",
+            "yNm": "264160000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_UP",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      },
+      {
+        "item": {
+          "@type": "type.googleapis.com/kiapi.schematic.types.SchematicPin",
+          "id": {
+            "value": "e631b93e-733d-482b-a382-39073ff2614c"
+          },
+          "name": "R3.1",
+          "number": "3",
+          "position": {
+            "xNm": "355600000",
+            "yNm": "264160000"
+          },
+          "length": {
+            "valueNm": "2540000"
+          },
+          "orientation": "SPO_UP",
+          "electricalType": "EPT_PASSIVE",
+          "shape": "SPS_LINE",
+          "visible": true,
+          "nameTextSize": {
+            "valueNm": "1270000"
+          },
+          "numberTextSize": {
+            "valueNm": "1270000"
+          }
+        },
+        "unit": {
+          "unit": 1
+        },
+        "bodyStyle": {
+          "style": 1
+        }
+      }
+    ],
+    "unitCount": 1,
+    "bodyStyle": [
+      {
+        "name": "?"
+      }
+    ],
+    "keywords": "R network parallel topology isolated",
+    "footprintFilters": [
+      "DIP*",
+      "SOIC*",
+      "R*Array*Concave*",
+      "R*Array*Convex*"
+    ],
+    "pinMaps": {},
+    "jumpers": {}
+  },
+  "referenceField": {
+    "name": "Reference",
+    "text": {
+      "position": {
+        "xNm": "373600000",
+        "yNm": "255270000"
+      },
+      "attributes": {
+        "horizontalAlignment": "HA_RIGHT",
+        "verticalAlignment": "VA_CENTER",
+        "angle": {},
+        "lineSpacing": 1.0,
+        "strokeWidth": {},
+        "visible": true,
+        "multiline": true,
+        "size": {
+          "xNm": "900000",
+          "yNm": "900000"
+        }
+      },
+      "text": "RN1"
+    },
+    "visible": true,
+    "allowAutoPlace": true
+  },
+  "valueField": {
+    "name": "Value",
+    "text": {
+      "position": {
+        "xNm": "373600000",
+        "yNm": "259080000"
+      },
+      "attributes": {
+        "horizontalAlignment": "HA_RIGHT",
+        "verticalAlignment": "VA_CENTER",
+        "angle": {},
+        "lineSpacing": 1.0,
+        "strokeWidth": {},
+        "visible": true,
+        "multiline": true,
+        "size": {
+          "xNm": "900000",
+          "yNm": "900000"
+        }
+      },
+      "text": "0R x4 (DPI source option)"
+    },
+    "visible": true,
+    "allowAutoPlace": true
+  },
+  "footprintField": {
+    "name": "Footprint",
+    "text": {
+      "position": {
+        "xNm": "362585000",
+        "yNm": "259080000"
+      },
+      "attributes": {
+        "horizontalAlignment": "HA_CENTER",
+        "verticalAlignment": "VA_CENTER",
+        "angle": {
+          "valueDegrees": 90.0
+        },
+        "lineSpacing": 1.0,
+        "strokeWidth": {},
+        "visible": true,
+        "multiline": true,
+        "size": {
+          "xNm": "1270000",
+          "yNm": "1270000"
+        }
+      },
+      "text": "Resistor_SMD:R_Array_Convex_4x0603"
+    },
+    "allowAutoPlace": true
+  },
+  "datasheetField": {
+    "name": "Datasheet",
+    "text": {
+      "position": {
+        "xNm": "355600000",
+        "yNm": "259080000"
+      },
+      "attributes": {
+        "horizontalAlignment": "HA_CENTER",
+        "verticalAlignment": "VA_CENTER",
+        "angle": {},
+        "lineSpacing": 1.0,
+        "strokeWidth": {},
+        "visible": true,
+        "multiline": true,
+        "size": {
+          "xNm": "1270000",
+          "yNm": "1270000"
+        }
+      }
+    },
+    "allowAutoPlace": true
+  },
+  "descriptionField": {
+    "name": "Description",
+    "text": {
+      "position": {
+        "xNm": "355600000",
+        "yNm": "259080000"
+      },
+      "attributes": {
+        "horizontalAlignment": "HA_CENTER",
+        "verticalAlignment": "VA_CENTER",
+        "angle": {},
+        "lineSpacing": 1.0,
+        "strokeWidth": {},
+        "visible": true,
+        "multiline": true,
+        "size": {
+          "xNm": "1270000",
+          "yNm": "1270000"
+        }
+      },
+      "text": "4 resistor network, parallel topology"
+    },
+    "allowAutoPlace": true
+  },
+  "attributes": {},
+  "unit": {
+    "unit": 1
+  },
+  "showPinNumbers": true,
+  "pinNameOffset": {},
+  "userFields": [
+    {
+      "name": "LCSC",
+      "text": {
+        "position": {
+          "xNm": "45720000",
+          "yNm": "393700000"
+        },
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {},
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        },
+        "text": "C1952"
+      }
+    },
+    {
+      "name": "MPN",
+      "text": {
+        "position": {
+          "xNm": "45720000",
+          "yNm": "393700000"
+        },
+        "attributes": {
+          "horizontalAlignment": "HA_CENTER",
+          "verticalAlignment": "VA_CENTER",
+          "angle": {},
+          "lineSpacing": 1.0,
+          "strokeWidth": {},
+          "visible": true,
+          "multiline": true,
+          "size": {
+            "xNm": "1270000",
+            "yNm": "1270000"
+          }
+        },
+        "text": "4D03WGJ0000T5E"
+      }
+    }
+  ],
+  "passthrough": "SPM_DEFAULT",
+  "variants": {}
+}

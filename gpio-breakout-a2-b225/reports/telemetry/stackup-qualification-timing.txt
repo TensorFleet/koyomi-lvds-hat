@@ -1,0 +1,36 @@
+   10.727 s  widen-power-paths
+    8.387 s  gui-stackup-edit-save
+    6.902 s  gui-editor-selection-retries
+    5.594 s  gui-open-gpio-board
+    5.154 s  stackup-preservation-pinned-runtime
+    4.130 s  qualification-top-render
+    3.243 s  saved-stackup-copper-comparison
+    3.219 s  restore-jumper-native-thermal-settings
+    3.179 s  pinned-qualification-drc
+    3.159 s  qualified-stackup-preservation
+    3.069 s  restore-jumper-thermal-wrapper-retry
+    2.799 s  stackup-mask-material-native
+    2.763 s  pinned-qualification-erc
+    2.632 s  current-c1-native-interface
+    1.981 s  widened-power-drc
+    1.914 s  dpi-topology-qualification
+    1.616 s  qualification-geometry-snapshot
+    1.599 s  final-usb-channel-geometry
+    1.554 s  final-native-snapshot
+    1.317 s  gui-physical-panel-and-saved-close
+    1.052 s  qualification-usb-side-render
+    0.777 s  independent-interface-qualification
+    0.541 s  qualification-final-erc
+    0.436 s  qualification-final-drc
+    0.367 s  stackup-preservation-with-verified-format-normalization
+    0.353 s  qualification-schematic-netlist
+    0.083 s  c1-peer-source-binding
+    0.067 s  qualification-fabrication-gate
+    0.048 s  power-voltage-drop-qualification
+    0.048 s  c1-peer-current-interface-binding
+    0.039 s  archive-final-fabrication-gate
+   78.749 s  measured phases
+ 1946.874 s  intent-to-finish
+ 1868.125 s  unmeasured coordination/analysis
+identified: 2026-09-08T19:03:49.694+00:00
+finished:   2026-09-08T19:36:16.668+00:00

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": {
+    "stackup_unchanged": true,
+    "unique_27_references": true,
+    "original_geometry_U2": true,
+    "original_geometry_J3": true,
+    "original_geometry_C2": true,
+    "original_geometry_F1": true,
+    "original_geometry_F2": true,
+    "original_geometry_R1": true,
+    "original_geometry_JP5": true,
+    "original_geometry_TP4": true,
+    "original_geometry_U1": true,
+    "original_geometry_JP4": true,
+    "original_geometry_H2": true,
+    "original_geometry_R2": true,
+    "original_geometry_J1": true,
+    "original_geometry_U3": true,
+    "original_geometry_J2": true,
+    "original_geometry_H1": true,
+    "original_geometry_TP5": true,
+    "connector_model_J1": true,
+    "connector_model_J3": true,
+    "all_unrelated_copper_preserved": true,
+    "new_parts_exact": true
+  },
+  "unrelated_tracks_checked": 406,
+  "baseline_sha256": "6df373e8b229327e0325547ae18f7e711fa34f61f5d1cccadf840d49595d9113",
+  "board_sha256": "fc25e04aed25fc0094d64c32bc30104b626fe1165ffbb7e90a8c57916ff2e60d",
+  "original_C1_position_changed_for_startup_layout": true
+}

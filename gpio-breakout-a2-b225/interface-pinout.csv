@@ -1,8 +1,8 @@
 ffc_pin,signal,pi_physical_pins,power_path
-1,USB_VBUS,,USB cable / F2 / LM66100
-2,USB_VBUS,,USB cable / F2 / LM66100
-3,USB_VBUS,,USB cable / F2 / LM66100
-4,USB_VBUS,,USB cable / F2 / LM66100
+1,USB_VBUS,,USB cable / F2 / TPS22918 / LM66100
+2,USB_VBUS,,USB cable / F2 / TPS22918 / LM66100
+3,USB_VBUS,,USB cable / F2 / TPS22918 / LM66100
+4,USB_VBUS,,USB cable / F2 / TPS22918 / LM66100
 5,GND,6/9/14/20/25/30/34/39,direct
 6,USB_D_N,,USB cable / ESD
 7,USB_D_P,,USB cable / ESD
@@ -13,29 +13,29 @@ ffc_pin,signal,pi_physical_pins,power_path
 12,GND,6/9/14/20/25/30/34/39,direct
 13,GPIO23,16,direct
 14,GPIO24,18,direct
-15,ID_SC,28,direct
-16,GPIO2,3,direct
-17,GPIO3,5,direct
+15,ID_SC,28,source array (0R)
+16,GPIO2,3,source array (0R)
+17,GPIO3,5,source array (0R)
 18,GND,6/9/14/20/25/30/34/39,direct
-19,ID_SD,27,direct
+19,ID_SD,27,source array (0R)
 20,GND,6/9/14/20/25/30/34/39,direct
-21,GPIO4,7,direct
-22,GPIO5,29,direct
-23,GPIO6,31,direct
-24,GPIO7,26,direct
-25,GPIO8,24,direct
-26,GPIO9,21,direct
+21,GPIO4,7,source array (0R)
+22,GPIO5,29,source array (0R)
+23,GPIO6,31,source array (0R)
+24,GPIO7,26,source array (0R)
+25,GPIO8,24,source array (0R)
+26,GPIO9,21,source array (0R)
 27,GND,6/9/14/20/25/30/34/39,direct
-28,GPIO10,19,direct
-29,GPIO11,23,direct
-30,GPIO12,32,direct
-31,GPIO13,33,direct
-32,GPIO14,8,direct
-33,GPIO15,10,direct
+28,GPIO10,19,source array (0R)
+29,GPIO11,23,source array (0R)
+30,GPIO12,32,source array (0R)
+31,GPIO13,33,source array (0R)
+32,GPIO14,8,source array (0R)
+33,GPIO15,10,source array (0R)
 34,GND,6/9/14/20/25/30/34/39,direct
-35,GPIO16,36,direct
-36,GPIO17,11,direct
-37,GPIO18,12,direct
-38,GPIO19,35,direct
-39,GPIO20,38,direct
-40,GPIO21,40,direct
+35,GPIO16,36,source array (0R)
+36,GPIO17,11,source array (0R)
+37,GPIO18,12,source array (0R)
+38,GPIO19,35,source array (0R)
+39,GPIO20,38,source array (0R)
+40,GPIO21,40,source array (0R)

@@ -1,5 +1,5 @@
 """Native endpoint path geometry; does not claim USB impedance/compliance qualification."""
-import json,math,heapq
+import json,math,heapq,hashlib
 from google.protobuf.json_format import MessageToDict
 from update_addon_ipc import session,D
 
@@ -13,7 +13,7 @@ def inside(p,pts):
   if ((a[1]>p[1])!=(b[1]>p[1])) and p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0]:c=not c
  return c
 with session(D/'gpio_breakout.kicad_pcb') as k:
- b=k.get_board();fps={f.reference_field.text.value:f for f in b.get_footprints()};groundvias=[xy(v.position) for v in b.get_vias() if v.net.name=='GND'];out={'stackup':MessageToDict(b.get_stackup().proto,preserving_proto_field_name=True),'paths':[],'data_vias':[],'qualification':'Saved native stack is still generic0.48/0.48/0.48mm dielectric. JLC04161H-7628 is a future process-reference choice; physical stackup update pending. Coplanar ground is interrupted at breakouts/bends; narrow contact joins remain. Uniform impedance, USB enumeration/current and assembled-link signal integrity are not qualified.'}
+ b=k.get_board();fps={f.reference_field.text.value:f for f in b.get_footprints()};groundvias=[xy(v.position) for v in b.get_vias() if v.net.name=='GND'];out={'stackup':MessageToDict(b.get_stackup().proto,preserving_proto_field_name=True),'paths':[],'data_vias':[],'board_sha256':hashlib.sha256((D/'gpio_breakout.kicad_pcb').read_bytes()).hexdigest(),'qualification':'Saved native stack now matches JLC04161H-7628 copper and dielectrics. Coplanar ground is interrupted at breakouts/bends; narrow contact joins remain. This geometry screen does not qualify uniform impedance, USB enumeration/current or assembled-link signal integrity.'}
  for name,ffc,a_pin,b_pin in [('USB_D_P','7','A6','B6'),('USB_D_N','6','A7','B7')]:
   ts=[t for t in b.get_tracks() if t.net.name==name];vs=[v for v in b.get_vias() if v.net.name==name];nodes=set();pads={}
   for f in fps.values():
@@ -71,4 +71,13 @@ with session(D/'gpio_breakout.kicad_pcb') as k:
  out['reference_samples_by_routing_layer']=samples;out['main_pair_coplanar_ground_samples']=coplanar
  for row in ('A','B'):
   pair=[p for p in out['paths'] if p['to'][1].startswith(row)];out[row+'_contact_pair']={'planar_skew_mm':abs(pair[0]['planar_length_mm']-pair[1]['planar_length_mm']),'via_parity':pair[0]['used_through_vias']==pair[1]['used_through_vias']}
+ # Measure branch from the actual common junction, rather than subtracting A/B path lengths.
+ out['contact_branches']=[]
+ for name in ('USB_D_P','USB_D_N'):
+  a,c=[p for p in out['paths'] if p['net']==name]
+  common=0
+  while common<min(len(a['path']),len(c['path'])) and a['path'][common]==c['path'][common]:common+=1
+  for p in (a,c):
+   branch=p['path'][common-1:];length=sum(math.dist(u[:2],v[:2]) for u,v in zip(branch,branch[1:]) if u[2]==v[2])
+   out['contact_branches'].append({'net':name,'contact':p['to'][1],'junction':branch[0],'planar_stub_mm':length,'path':branch,'through_vias':p['used_through_vias']})
  (D/'reports/usb2-path-audit.json').write_text(json.dumps(out,indent=2)+'\n');print({k:v for k,v in out.items() if k not in ['stackup','paths']});print([(p['to'],p['planar_length_mm'],p['used_through_vias']) for p in out['paths']])
